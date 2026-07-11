@@ -1,0 +1,49 @@
+id: jmc
+name: Java Mission Control
+description: JVM production-time profiling and diagnostics tool
+version: "9.1.2"
+category: java-tool
+homepage: https://github.com/openjdk/jmc
+license: UPL-1.0
+
+requires: [jdk]
+
+sources:
+  - url: "https://github.com/adoptium/jmc-build/releases/download/{version}/org.openjdk.jmc-{version}-linux.gtk.x86_64.tar.gz"
+    file: "jmc-{version}.tar.gz"
+    sha256: "3085244b8f32bbd0646c8109a9f65f7089497e07e1d6bbc62f64da942d27d748"
+    size: 99339234
+    update:
+      type: github
+      repo: adoptium/jmc-build
+      asset: "org.openjdk\\.jmc-.*-linux\\.gtk\\.x86_64\\.tar\\.gz$"
+  # The tarball ships only a low-res icon.xpm launcher icon. Vendor the JMC
+  # project's 128px branding PNG (UPL-1.0, same license) for a crisp desktop
+  # icon. Pinned by sha256 so installs don't depend on the raw URL staying put.
+  - url: "https://raw.githubusercontent.com/openjdk/jmc/master/application/org.openjdk.jmc.rcp.application/icons/mission_control_128.png"
+    file: "jmc.png"
+    sha256: "a5092d8d5f6cd6323d7e5fd307854cf16297fcbd181088af47f3fa0d3c82e778"
+    size: 33720
+
+prepare:
+  - "tar xf jmc-{version}.tar.gz --strip-components=1 -C {pkg}"
+  - "cp jmc.png {pkg}/jmc.png"
+
+bin:
+  - name: jmc
+    path: "{app}/jmc"
+
+icons:
+  - { src: "{app}/jmc.png", name: "jmc", size: "128x128" }
+
+desktop:
+  - id: jmc.desktop
+    name: Java Mission Control
+    genericName: Java Profiler
+    comment: JVM production-time profiling and diagnostics tool
+    exec: "jmc"
+    icon: jmc
+    type: Application
+    startupWMClass: JDK Mission Control
+    categories: [Development, Profiling, Java]
+    keywords: [jmc, java, profiler]
