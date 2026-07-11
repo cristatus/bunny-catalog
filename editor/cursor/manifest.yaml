@@ -1,0 +1,60 @@
+id: cursor
+name: Cursor
+description: The AI Code Editor (VS Code fork by Anysphere)
+version: "3.9.16-1782544577"
+category: editor
+homepage: https://cursor.com/
+license: LicenseRef-Cursor-EULA
+sources:
+    - url: "https://downloads.cursor.com/aptrepo/pool/stable/c/cu/cursor_3.9.16_amd64.deb"
+      file: "cursor-{version}.deb"
+      sha256: "465eb8ad2d27d3db4904dbe979fc49bc01e4f1eae2ee53f4a72c836fb455359f"
+      size: 199610908
+      update:
+        type: debian
+        root: https://downloads.cursor.com/aptrepo
+        dist: stable
+        component: main
+        package-name: cursor
+prepare:
+    - "ar x cursor-{version}.deb"
+    - "tar xf data.tar.xz"
+    - "mv usr/share/cursor/* {pkg}/"
+    - "cp usr/share/pixmaps/co.anysphere.cursor.png {pkg}/cursor.png"
+    - "mkdir -p {pkg}/shell-completions/bash {pkg}/shell-completions/zsh"
+    - "cp usr/share/bash-completion/completions/cursor {pkg}/shell-completions/bash/"
+    - "cp usr/share/zsh/vendor-completions/_cursor {pkg}/shell-completions/zsh/"
+bin:
+    - name: cursor
+      path: "{app}/cursor"
+icons:
+    - {src: "{app}/cursor.png", name: "cursor", size: "128x128"}
+desktop:
+    - id: cursor.desktop
+      name: Cursor
+      genericName: Text Editor
+      comment: The AI Code Editor
+      exec: "cursor %F"
+      icon: cursor
+      type: Application
+      startupWMClass: Cursor
+      categories: [TextEditor, Development, IDE]
+      mimeType: [application/x-cursor-workspace]
+      keywords: [cursor, ai, code, editor]
+      actions:
+        - {id: new-empty-window, name: "New Empty Window", exec: "cursor --new-window"}
+    - id: cursor-url-handler.desktop
+      name: Cursor - URL Handler
+      genericName: Text Editor
+      comment: The AI Code Editor
+      exec: "cursor --open-url %U"
+      icon: cursor
+      type: Application
+      noDisplay: true
+      startupNotify: true
+      categories: [Utility, TextEditor, Development, IDE]
+      mimeType: [x-scheme-handler/cursor]
+      keywords: [cursor]
+completions:
+    bash: "{app}/shell-completions/bash/cursor"
+    zsh: "{app}/shell-completions/zsh/_cursor"
