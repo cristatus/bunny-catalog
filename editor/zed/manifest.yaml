@@ -1,0 +1,39 @@
+id: zed
+name: Zed
+description: High-performance, multiplayer code editor
+version: "1.9.0"
+category: editor
+homepage: https://zed.dev/
+license: GPL-3.0-or-later
+sources:
+    - url: "https://github.com/zed-industries/zed/releases/download/v{version}/zed-linux-x86_64.tar.gz"
+      file: "zed-{version}.tar.gz"
+      sha256: "39e553ce3a00feeb78eab63a5cb7237cb460f3c9596b1b19052ceb7b9e8ec4dd"
+      size: 151551357
+      update:
+        type: github
+        repo: zed-industries/zed
+        asset: "zed-linux-x86_64\\.tar\\.gz$"
+        tag-pattern: "v([0-9.]+)"
+prepare:
+    - "tar xf zed-{version}.tar.gz --strip-components=1 -C {pkg}"
+    - "cp {pkg}/share/icons/hicolor/512x512/apps/zed.png {pkg}/zed.png"
+bin:
+    - {name: zed, path: "{app}/bin/zed"}
+icons:
+    - {src: "{app}/zed.png", name: "zed", size: "512x512"}
+desktop:
+    - id: zed.desktop
+      name: Zed
+      genericName: Text Editor
+      comment: A high-performance, multiplayer code editor.
+      exec: "zed %U"
+      icon: zed
+      type: Application
+      startupNotify: true
+      startupWMClass: dev.zed.Zed
+      categories: [Utility, TextEditor, Development, IDE]
+      mimeType: [text/plain, application/x-zerosize, x-scheme-handler/zed]
+      keywords: [zed, editor]
+      actions:
+        - {id: new-workspace, name: "Open a new workspace", exec: "zed --new %U"}
