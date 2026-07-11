@@ -12,7 +12,7 @@ We curate:
 
 - **JVM ecosystem.** JDK distros (Temurin, Corretto, GraalVM, Liberica, OpenJ9), build tools (Maven, Gradle, sbt, Ant, JBang), language compilers (Kotlin, Scala), profilers (JMC, VisualVM, async-profiler).
 - **JavaScript runtimes.** Node LTS lines, Bun, Deno. The `node-*` manifests bundle Corepack so `pnpm` and `yarn` come for free; we don't ship them as separate packages.
-- **Editors and IDEs that target the above.** IntelliJ IDEA (and the JetBrains family), Eclipse, VS Code, Cursor, Zed.
+- **Editors and IDEs that target the above.** JetBrains IDEs (via the Toolbox app), Eclipse, VS Code, Cursor, Zed.
 - **General-purpose CLI tools that show up in nearly every dev workflow.** ripgrep, fd, bat, fzf, jq, gh, lazygit, delta, eza.
 
 We do **not** accept:
@@ -33,7 +33,7 @@ PRs outside this scope will be politely closed with a pointer to fork.
 ├── index.json                   # Top-level catalog index (id → category, name, version)
 ├── cli/{id}/manifest.yaml       # ripgrep, fd, jq, gh, ...
 ├── editor/{id}/manifest.yaml    # VS Code, Cursor, Zed, ...
-├── ide/{id}/manifest.yaml       # IntelliJ IDEA, Eclipse
+├── ide/{id}/manifest.yaml       # JetBrains Toolbox, Eclipse
 ├── java-tool/{id}/manifest.yaml # Maven, Gradle, JMC, VisualVM
 └── sdk/{id}/manifest.yaml       # JDKs, Node, Bun, Deno, GraalVM
 ```
@@ -65,9 +65,8 @@ sources:
     file: jdk.tar.gz
     sha256: "..."
     update:
-      type: github
-      repo: adoptium/temurin21-binaries
-      asset: "OpenJDK21U-jdk_x64_linux_hotspot.*\\.tar\\.gz$"
+      type: foojay
+      distribution: temurin
 
 prepare:
   - "tar xf jdk.tar.gz -C {pkg} --strip-components=1"
@@ -86,16 +85,17 @@ env:
 Key fields:
 
 - `provides:` — the capability slot. Multiple packages can `provides: jdk` (Temurin, Corretto, GraalVM); `bunny use` and `.bunny-version` operate on the capability.
-- `sources[*].update` — per-source update backend (`github`, `html`, `json`, `debian`, `aur`). Drives the auto-update cron. `sources[0]` is primary; bumping it bumps `version:`.
+- `requires:` — capabilities this package needs at install + run time. A bare capability (`jdk`) needs any provider; a constraint (`jdk>=17`) needs a provider of at least that major. Satisfied providers' `env:` is merged into this package's launch.
+- `sources[*].update` — per-source update backend (`github`, `html`, `json`, `foojay`, `debian`, `aur`). Drives the auto-update cron. `sources[0]` is primary; bumping it bumps `version:`. JDKs use `foojay` with a `distribution:` (e.g. `temurin`, `corretto`, `zulu`, `graalvm_community`).
 - `prepare:` — install-time shell commands run inside an `--unshare-all` bwrap with writable views of `{src}` (download cache) and `{pkg}` (staging dir).
 - `bin:` — what shows up in `~/.bunny/bin/` after install. `args:` injects launcher flags, `path:` is the absolute binary path inside the install.
 - `env:` — env vars set when this package's binary runs; consumed by tools whose data dir is configurable via env (Maven, Gradle, Node).
-- `binds:` — `host → bunny` filesystem overlays applied via `bwrap --bind` for apps that hardcode their data paths (Zed, JetBrains). Engages only when present; otherwise direct exec.
+- `toolchains:` — `gradle` or `maven`; bunny generates JDK-toolchain config (gradle.properties / toolchains.xml) for this build tool from the installed JDKs.
 
 ### Formatting conventions
 
 - 2-space indent.
-- An empty line between top-level keys (sources, prepare, bin, env, binds, dirs, desktop, icons, completions).
+- An empty line between top-level keys (sources, prepare, bin, env, dirs, desktop, icons, completions).
 - Inline-style `{ key: value }` for small homogeneous lists (bin entries, icon entries); block style for multi-line content.
 - Quote version strings to keep YAML from interpreting `1.0` as a float.
 
