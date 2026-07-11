@@ -1,0 +1,30 @@
+id: maven
+name: Apache Maven
+description: Build automation and project management tool for Java projects
+version: "3.9.16"
+category: java-tool
+homepage: https://maven.apache.org/
+license: Apache-2.0
+requires: [jdk]
+toolchains: maven
+sources:
+    - url: "https://dlcdn.apache.org/maven/maven-3/{version}/binaries/apache-maven-{version}-bin.tar.gz"
+      file: "maven-{version}.tar.gz"
+      sha512: "831a8591fe20c8243b1dbe7d71e3244f31d1665b0804b2e825e38cbbe5ce0cafb8338851f90780735568773e0a6cd07bbec107cda0b896b008b861075358b6f6"
+      size: 9278065
+      update:
+        type: html
+        url: "https://dlcdn.apache.org/maven/maven-3/"
+        version-pattern: 'href="([0-9.]+)/"'
+prepare:
+    - "tar xf maven-{version}.tar.gz --strip-components=1 -C {pkg}"
+bin:
+    - {name: mvn, path: "{app}/bin/mvn"}
+env:
+    # Redirect Maven's local repository (~/.m2/repository by default) into the
+    # per-app data dir so 'mvn install' doesn't pollute $HOME. MAVEN_ARGS lands
+    # before user-supplied flags so a project that explicitly overrides
+    # -Dmaven.repo.local still wins.
+    MAVEN_ARGS: "-Dmaven.repo.local={data}/repository --toolchains {data}/toolchains.xml"
+dirs:
+    - "{data}/repository"
