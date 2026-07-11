@@ -1,0 +1,27 @@
+id: bat
+name: bat
+description: A cat clone with syntax highlighting and Git integration
+version: "0.26.1"
+category: cli
+homepage: https://github.com/sharkdp/bat
+license: Apache-2.0 OR MIT
+
+sources:
+  - url: "https://github.com/sharkdp/bat/releases/download/v{version}/bat-v{version}-x86_64-unknown-linux-musl.tar.gz"
+    sha256: "0dcd8ac79732c0d5b136f11f4ee00e581440e16a44eab5b3105b611bbf2cf191"
+    size: 3584928
+    update:
+      type: github
+      repo: sharkdp/bat
+      asset: "bat-v.*-x86_64-unknown-linux-musl\\.tar\\.gz$"
+
+prepare:
+  - "tar xf bat-v{version}-x86_64-unknown-linux-musl.tar.gz --strip-components=1 -C {pkg}"
+
+bin:
+  - { name: bat, path: "{app}/bat" }
+
+completions:
+  bash: "{app}/autocomplete/bat.bash"
+  zsh: "{app}/autocomplete/bat.zsh"
+  fish: "{app}/autocomplete/bat.fish"
