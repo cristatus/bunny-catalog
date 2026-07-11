@@ -108,6 +108,12 @@
       "name": "JBang",
       "version": "0.139.3"
     },
+    "jbr-21": {
+      "category": "sdk",
+      "description": "JetBrains' OpenJDK 21 fork with per-monitor HiDPI scaling and Swing/AWT rendering fixes",
+      "name": "JetBrains Runtime 21",
+      "version": "21.0.11"
+    },
     "jdk-11": {
       "category": "sdk",
       "description": "Production-ready OpenJDK 11 LTS distribution from Adoptium",
