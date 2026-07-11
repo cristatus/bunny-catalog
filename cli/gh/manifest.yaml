@@ -1,0 +1,25 @@
+id: gh
+name: GitHub CLI
+description: GitHub's official command-line tool for repos, PRs, issues, and more
+version: "2.96.0"
+category: cli
+homepage: https://github.com/cli/cli
+license: MIT
+sources:
+    - url: "https://github.com/cli/cli/releases/download/v{version}/gh_{version}_linux_amd64.tar.gz"
+      file: "gh-{version}.tar.gz"
+      sha256: "83d5c2ccad5498f58bf6368acb1ab32588cf43ab3a4b1c301bf36328b1c8bd60"
+      size: 14652560
+      update:
+        type: github
+        repo: cli/cli
+        asset: "gh_.*_linux_amd64\\.tar\\.gz$"
+        tag-pattern: "v([0-9.]+)"
+prepare:
+    - "tar xf gh-{version}.tar.gz --strip-components=1 -C {pkg}"
+bin:
+    - {name: gh, path: "{app}/bin/gh"}
+completions:
+    bash: "{app}/share/bash-completion/completions/gh"
+    zsh: "{app}/share/zsh/site-functions/_gh"
+    fish: "{app}/share/fish/vendor_completions.d/gh.fish"
