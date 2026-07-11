@@ -1,0 +1,23 @@
+id: kotlin
+name: Kotlin
+description: The Kotlin command-line compiler (kotlinc) and runner
+version: "2.4.0"
+category: java-tool
+homepage: https://kotlinlang.org/
+license: Apache-2.0
+requires: [jdk]
+sources:
+    - url: "https://github.com/JetBrains/kotlin/releases/download/v{version}/kotlin-compiler-{version}.zip"
+      file: "kotlin-compiler-{version}.zip"
+      sha256: "ba1b9e6eb6ddc3275079224f2e9ea4a2b02eef7d59ce2d38404f04b22613c20a"
+      update:
+        type: github
+        repo: JetBrains/kotlin
+        asset: "kotlin-compiler-[0-9.]+\\.zip$"
+        tag-pattern: "v([0-9.]+)"
+prepare:
+    - "unzip -q kotlin-compiler-{version}.zip"
+    - "mv kotlinc/* {pkg}/"
+bin:
+    - {name: kotlin, path: "{app}/bin/kotlin"}
+    - {name: kotlinc, path: "{app}/bin/kotlinc"}
