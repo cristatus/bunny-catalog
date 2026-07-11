@@ -1,0 +1,29 @@
+id: zulu-21
+name: Azul Zulu JDK 21
+description: Azul's free, TCK-tested build of OpenJDK 21 LTS
+version: "21.0.11+10"
+category: sdk
+homepage: https://www.azul.com/downloads/?package=jdk
+license: GPL-2.0-with-classpath-exception
+provides: jdk
+sources:
+    - url: "https://cdn.azul.com/zulu/bin/zulu21.50.15-ca-jdk21.0.11-linux_x64.tar.gz"
+      file: "zulu-jdk-{version}.tar.gz"
+      sha256: "80ee7f26b29d04da5c4b53742c53e915673b8cca8183bd6d3ae734f00a249a7d"
+      update:
+        type: foojay
+        distribution: zulu
+prepare:
+    - "tar xf zulu-jdk-{version}.tar.gz --strip-components=1 -C {pkg}"
+bin:
+    - {name: java, path: "{app}/bin/java"}
+    - {name: javac, path: "{app}/bin/javac"}
+    - {name: jar, path: "{app}/bin/jar"}
+    - {name: javadoc, path: "{app}/bin/javadoc"}
+    - {name: jshell, path: "{app}/bin/jshell"}
+    - {name: jlink, path: "{app}/bin/jlink"}
+    - {name: jpackage, path: "{app}/bin/jpackage"}
+    - {name: jdeps, path: "{app}/bin/jdeps"}
+    - {name: keytool, path: "{app}/bin/keytool"}
+env:
+    JAVA_HOME: "{app}"
