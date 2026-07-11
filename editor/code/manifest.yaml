@@ -1,0 +1,58 @@
+id: code
+name: Visual Studio Code
+description: Code editor from Microsoft
+version: "1.127.0"
+category: editor
+homepage: https://code.visualstudio.com/
+license: MIT
+sources:
+    - url: "https://update.code.visualstudio.com/{version}/linux-x64/stable"
+      file: "code-{version}.tar.gz"
+      sha256: "e06fb36791c9baf7495d4b7dc0f5aaa8254e7d1a60a5ee43e6c7debc05c962b5"
+      size: 290175745
+      update:
+        type: json
+        url: "https://update.code.visualstudio.com/api/update/linux-x64/stable/latest"
+        version-query: productVersion
+        url-query: url
+        hash-query: sha256hash
+prepare:
+    - "tar xf code-{version}.tar.gz --strip-components=1 -C {pkg}"
+    - "cp {pkg}/resources/app/resources/linux/code.png {pkg}/code.png"
+    - "mkdir -p {pkg}/shell-completions/bash {pkg}/shell-completions/zsh"
+    - "cp {pkg}/resources/completions/bash/code {pkg}/shell-completions/bash/"
+    - "cp {pkg}/resources/completions/zsh/_code {pkg}/shell-completions/zsh/"
+bin:
+    - name: code
+      path: "{app}/bin/code"
+icons:
+    - {src: "{app}/code.png", name: "code", size: "128x128"}
+desktop:
+    - id: code.desktop
+      name: Visual Studio Code
+      genericName: Text Editor
+      comment: Code Editing. Redefined.
+      exec: "code %F"
+      icon: code
+      type: Application
+      startupWMClass: Code
+      categories: [TextEditor, Development, IDE]
+      mimeType: [application/x-code-workspace]
+      keywords: [vscode, editor]
+      actions:
+        - {id: new-empty-window, name: "New Empty Window", exec: "code --new-window"}
+    - id: code-url-handler.desktop
+      name: Visual Studio Code - URL Handler
+      genericName: Text Editor
+      comment: Code Editing. Redefined.
+      exec: "code --open-url %U"
+      icon: code
+      type: Application
+      noDisplay: true
+      startupNotify: true
+      categories: [Utility, TextEditor, Development, IDE]
+      mimeType: [x-scheme-handler/vscode]
+      keywords: [vscode]
+completions:
+    bash: "{app}/shell-completions/bash/code"
+    zsh: "{app}/shell-completions/zsh/_code"
