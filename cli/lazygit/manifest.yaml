@@ -1,0 +1,20 @@
+id: lazygit
+name: lazygit
+description: A simple terminal UI for git commands
+version: "0.63.0"
+category: cli
+homepage: https://github.com/jesseduffield/lazygit
+license: MIT
+sources:
+    - url: "https://github.com/jesseduffield/lazygit/releases/download/v{version}/lazygit_{version}_Linux_x86_64.tar.gz"
+      file: "lazygit-{version}.tar.gz"
+      sha256: "cf5cfa3e116d7775f3600a51ec1d9ce7ba554a08b9566c7c2da83cb0023efabf"
+      size: 6867011
+      update:
+        type: github
+        repo: jesseduffield/lazygit
+        asset: "lazygit_.*_Linux_x86_64\\.tar\\.gz$"
+prepare:
+    - "tar xf lazygit-{version}.tar.gz -C {pkg} lazygit"
+bin:
+    - {name: lazygit, path: "{app}/lazygit"}
