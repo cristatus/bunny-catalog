@@ -1,0 +1,228 @@
+{
+  "packages": {
+    "bat": {
+      "category": "cli",
+      "description": "A cat clone with syntax highlighting and Git integration",
+      "name": "bat",
+      "version": "0.26.1"
+    },
+    "bun": {
+      "category": "sdk",
+      "description": "Fast all-in-one JavaScript runtime, bundler, test runner, and package manager",
+      "name": "Bun",
+      "version": "1.3.14"
+    },
+    "code": {
+      "category": "editor",
+      "description": "Code editor from Microsoft",
+      "name": "Visual Studio Code",
+      "version": "1.127.0"
+    },
+    "corretto-21": {
+      "category": "sdk",
+      "description": "Amazon's no-cost, production-ready distribution of OpenJDK 21 LTS",
+      "name": "Amazon Corretto JDK 21",
+      "version": "21.0.11"
+    },
+    "cursor": {
+      "category": "editor",
+      "description": "The AI Code Editor (VS Code fork by Anysphere)",
+      "name": "Cursor",
+      "version": "3.9.16-1782544577"
+    },
+    "delta": {
+      "category": "cli",
+      "description": "Syntax-highlighting pager for git, diff, and grep output",
+      "name": "delta",
+      "version": "0.19.2"
+    },
+    "deno": {
+      "category": "sdk",
+      "description": "Secure runtime for JavaScript and TypeScript with built-in tooling",
+      "name": "Deno",
+      "version": "2.9.1"
+    },
+    "eclipse": {
+      "category": "ide",
+      "description": "The essential tools for Java developers — IDE, Git, Maven, Gradle, XML Editor",
+      "name": "Eclipse IDE for Java Developers",
+      "version": "2026-06"
+    },
+    "eza": {
+      "category": "cli",
+      "description": "A modern, maintained replacement for ls",
+      "name": "eza",
+      "version": "0.23.4"
+    },
+    "fd": {
+      "category": "cli",
+      "description": "Simple, fast, user-friendly alternative to find",
+      "name": "fd",
+      "version": "10.4.2"
+    },
+    "fzf": {
+      "category": "cli",
+      "description": "A command-line fuzzy finder",
+      "name": "fzf",
+      "version": "0.73.1"
+    },
+    "gh": {
+      "category": "cli",
+      "description": "GitHub's official command-line tool for repos, PRs, issues, and more",
+      "name": "GitHub CLI",
+      "version": "2.96.0"
+    },
+    "glab": {
+      "category": "cli",
+      "description": "GitLab's official command-line tool for repos, merge requests, issues, and CI/CD pipelines",
+      "name": "GitLab CLI",
+      "version": "1.106.0"
+    },
+    "graalvm-21": {
+      "category": "sdk",
+      "description": "GraalVM Community Edition with JDK 21 and native-image",
+      "name": "GraalVM Community 21",
+      "version": "21.0.2"
+    },
+    "graalvm-25": {
+      "category": "sdk",
+      "description": "GraalVM Community Edition with JDK 25 and native-image",
+      "name": "GraalVM Community 25",
+      "version": "25.0.2"
+    },
+    "gradle": {
+      "category": "java-tool",
+      "description": "Build automation tool with Groovy/Kotlin DSL for Java, Android, and more",
+      "name": "Gradle",
+      "version": "9.6.1"
+    },
+    "helidon": {
+      "category": "java-tool",
+      "description": "Command-line tool for creating and developing Helidon applications",
+      "name": "Helidon CLI",
+      "version": "3.0.6"
+    },
+    "jbang": {
+      "category": "java-tool",
+      "description": "Run Java (and JVM) source files as scripts — no build setup",
+      "name": "JBang",
+      "version": "0.139.3"
+    },
+    "jdk-11": {
+      "category": "sdk",
+      "description": "Production-ready OpenJDK 11 LTS distribution from Adoptium",
+      "name": "Eclipse Temurin JDK 11",
+      "version": "11.0.31+11"
+    },
+    "jdk-21": {
+      "category": "sdk",
+      "description": "Production-ready OpenJDK 21 LTS distribution from Adoptium",
+      "name": "Eclipse Temurin JDK 21",
+      "version": "21.0.11+10"
+    },
+    "jdk-25": {
+      "category": "sdk",
+      "description": "Production-ready OpenJDK 25 LTS distribution from Adoptium",
+      "name": "Eclipse Temurin JDK 25",
+      "version": "25.0.3+9"
+    },
+    "jdk-8": {
+      "category": "sdk",
+      "description": "Production-ready OpenJDK 8 LTS distribution from Adoptium",
+      "name": "Eclipse Temurin JDK 8",
+      "version": "8.0.492+9"
+    },
+    "jetbrains-toolbox": {
+      "category": "ide",
+      "description": "Install, update, and roll back JetBrains IDEs (IntelliJ IDEA, PyCharm, …) from one app",
+      "name": "JetBrains Toolbox",
+      "version": "3.6.1.85592"
+    },
+    "jmc": {
+      "category": "java-tool",
+      "description": "JVM production-time profiling and diagnostics tool",
+      "name": "Java Mission Control",
+      "version": "9.1.2"
+    },
+    "jq": {
+      "category": "cli",
+      "description": "Command-line JSON processor",
+      "name": "jq",
+      "version": "1.8.2"
+    },
+    "kotlin": {
+      "category": "java-tool",
+      "description": "The Kotlin command-line compiler (kotlinc) and runner",
+      "name": "Kotlin",
+      "version": "2.4.0"
+    },
+    "lazygit": {
+      "category": "cli",
+      "description": "A simple terminal UI for git commands",
+      "name": "lazygit",
+      "version": "0.63.0"
+    },
+    "maven": {
+      "category": "java-tool",
+      "description": "Build automation and project management tool for Java projects",
+      "name": "Apache Maven",
+      "version": "3.9.16"
+    },
+    "micronaut": {
+      "category": "java-tool",
+      "description": "The `mn` command-line tool for creating Micronaut applications",
+      "name": "Micronaut CLI",
+      "version": "5.0.3"
+    },
+    "node-22": {
+      "category": "sdk",
+      "description": "JavaScript runtime built on V8 (Maintenance LTS — Jod)",
+      "name": "Node.js 22 LTS",
+      "version": "22.23.1"
+    },
+    "node-24": {
+      "category": "sdk",
+      "description": "JavaScript runtime built on V8 (Active LTS — Krypton)",
+      "name": "Node.js 24 LTS",
+      "version": "24.18.0"
+    },
+    "quarkus": {
+      "category": "java-tool",
+      "description": "Command-line tool for creating and managing Quarkus projects",
+      "name": "Quarkus CLI",
+      "version": "3.37.1"
+    },
+    "ripgrep": {
+      "category": "cli",
+      "description": "Fast recursive grep alternative written in Rust",
+      "name": "ripgrep",
+      "version": "15.1.0"
+    },
+    "spring-boot": {
+      "category": "java-tool",
+      "description": "Command-line tool for quickly prototyping with Spring Boot",
+      "name": "Spring Boot CLI",
+      "version": "4.1.0"
+    },
+    "visualvm": {
+      "category": "java-tool",
+      "description": "All-in-one Java troubleshooting tool — monitoring, profiling, heap dumps",
+      "name": "VisualVM",
+      "version": "2.2.1"
+    },
+    "zed": {
+      "category": "editor",
+      "description": "High-performance, multiplayer code editor",
+      "name": "Zed",
+      "version": "1.9.0"
+    },
+    "zulu-21": {
+      "category": "sdk",
+      "description": "Azul's free, TCK-tested build of OpenJDK 21 LTS",
+      "name": "Azul Zulu JDK 21",
+      "version": "21.0.11+10"
+    }
+  },
+  "updated": "2026-07-04T14:21:25Z",
+  "version": 1
+}
