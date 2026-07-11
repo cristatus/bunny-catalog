@@ -1,0 +1,27 @@
+id: ripgrep
+name: ripgrep
+description: Fast recursive grep alternative written in Rust
+version: "15.1.0"
+category: cli
+homepage: https://github.com/BurntSushi/ripgrep
+license: Unlicense OR MIT
+
+sources:
+  - url: "https://github.com/BurntSushi/ripgrep/releases/download/{version}/ripgrep-{version}-x86_64-unknown-linux-musl.tar.gz"
+    sha256: "1c9297be4a084eea7ecaedf93eb03d058d6faae29bbc57ecdaf5063921491599"
+    size: 2263077
+    update:
+      type: github
+      repo: BurntSushi/ripgrep
+      asset: "ripgrep-.*-x86_64-unknown-linux-musl\\.tar\\.gz$"
+
+prepare:
+  - "tar xf ripgrep-{version}-x86_64-unknown-linux-musl.tar.gz --strip-components=1 -C {pkg}"
+
+bin:
+  - { name: rg, path: "{app}/rg" }
+
+completions:
+  bash: "{app}/complete/rg.bash"
+  zsh: "{app}/complete/_rg"
+  fish: "{app}/complete/rg.fish"
