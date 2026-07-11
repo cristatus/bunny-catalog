@@ -1,0 +1,24 @@
+id: eza
+name: eza
+description: A modern, maintained replacement for ls
+version: "0.23.4"
+category: cli
+homepage: https://github.com/eza-community/eza
+license: MIT
+
+sources:
+  - url: "https://github.com/eza-community/eza/releases/download/v{version}/eza_x86_64-unknown-linux-musl.tar.gz"
+    file: "eza-{version}.tar.gz"
+    sha256: "d231bb3ee33b08c76279b5888845dceb7034d055c42bb9be46dbe0dae39394df"
+    size: 1221082
+    update:
+      type: github
+      repo: eza-community/eza
+      asset: "eza_x86_64-unknown-linux-musl\\.tar\\.gz$"
+      tag-pattern: "v([0-9.]+)"
+
+prepare:
+  - "tar xf eza-{version}.tar.gz -C {pkg}"
+
+bin:
+  - { name: eza, path: "{app}/eza" }
