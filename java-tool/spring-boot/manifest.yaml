@@ -1,0 +1,21 @@
+id: spring-boot
+name: Spring Boot CLI
+description: Command-line tool for quickly prototyping with Spring Boot
+version: "4.1.0"
+category: java-tool
+homepage: https://spring.io/projects/spring-boot
+license: Apache-2.0
+requires: [jdk]
+sources:
+    - url: "https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-cli/{version}/spring-boot-cli-{version}-bin.zip"
+      file: "spring-boot-cli-{version}.zip"
+      sha256: "289aa297e14fc86be199533955d2c3babd4a1a12f3b7cfb2c9985a08d08f336b"
+      update:
+        type: html
+        url: "https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-cli/maven-metadata.xml"
+        version-pattern: "<release>([0-9.]+)</release>"
+prepare:
+    - "unzip -q spring-boot-cli-{version}.zip"
+    - "mv spring-{version}/* {pkg}/"
+bin:
+    - {name: spring, path: "{app}/bin/spring"}
