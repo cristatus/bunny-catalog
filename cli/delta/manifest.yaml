@@ -1,0 +1,24 @@
+id: delta
+name: delta
+description: Syntax-highlighting pager for git, diff, and grep output
+version: "0.19.2"
+category: cli
+homepage: https://github.com/dandavison/delta
+license: MIT
+
+sources:
+  - url: "https://github.com/dandavison/delta/releases/download/{version}/delta-{version}-x86_64-unknown-linux-musl.tar.gz"
+    file: "delta-{version}.tar.gz"
+    sha256: "f1ea01ca7728ce3462debc359f39dfc7cbbc1a63224b71fefabf92042864aa1b"
+    size: 3403232
+    update:
+      type: github
+      repo: dandavison/delta
+      asset: "delta-.*-x86_64-unknown-linux-musl\\.tar\\.gz$"
+      tag-pattern: "([0-9.]+)"
+
+prepare:
+  - "tar xf delta-{version}.tar.gz --strip-components=1 -C {pkg}"
+
+bin:
+  - { name: delta, path: "{app}/delta" }
