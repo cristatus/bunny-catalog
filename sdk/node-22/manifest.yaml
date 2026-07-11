@@ -1,0 +1,54 @@
+id: node-22
+name: Node.js 22 LTS
+description: JavaScript runtime built on V8 (Maintenance LTS — Jod)
+version: "22.23.1"
+category: sdk
+homepage: https://nodejs.org/
+license: MIT
+provides: node
+sources:
+    - url: "https://nodejs.org/dist/v{version}/node-v{version}-linux-x64.tar.xz"
+      file: "node-{version}.tar.xz"
+      sha256: "9749e988f437343b7fa832c69ded82a312e41a03116d766797ac14f6f9eee578"
+      size: 31068444
+      update:
+        type: json
+        url: "https://nodejs.org/dist/index.json"
+        tag-query: "$[?(@.lts=='Jod')].version"
+        tag-pattern: "v(22\\.[0-9.]+)"
+        url-template: "https://nodejs.org/dist/{tag}/node-{tag}-linux-x64.tar.xz"
+        hash-url: "https://nodejs.org/dist/{tag}/SHASUMS256.txt"
+prepare:
+    - "tar xf node-{version}.tar.xz --strip-components=1 -C {pkg}"
+    # Invoke node directly so corepack's `#!/usr/bin/env node` shebang doesn't
+    # need to find node on PATH inside the install-time sandbox.
+    - "{pkg}/bin/node {pkg}/bin/corepack enable --install-directory {pkg}/bin pnpm yarn"
+bin:
+    - {name: node, path: "{app}/bin/node"}
+    - {name: npm, path: "{app}/bin/npm"}
+    - {name: npx, path: "{app}/bin/npx"}
+    - {name: corepack, path: "{app}/bin/corepack"}
+    - {name: pnpm, path: "{app}/bin/pnpm"}
+    - {name: pnpx, path: "{app}/bin/pnpx"}
+    - {name: yarn, path: "{app}/bin/yarn"}
+    - {name: yarnpkg, path: "{app}/bin/yarnpkg"}
+env:
+    NPM_CONFIG_PREFIX: "{data}/npm-global"
+    NPM_CONFIG_CACHE: "{data}/npm-cache"
+    COREPACK_HOME: "{data}/corepack"
+    PNPM_HOME: "{data}/pnpm-global"
+    PNPM_STORE_DIR: "{data}/pnpm-cache"
+    PNPM_STATE_DIR: "{data}/pnpm-state"
+    YARN_CACHE_FOLDER: "{data}/yarn/cache"
+    YARN_GLOBAL_FOLDER: "{data}/yarn/global"
+global-bins:
+    - "{data}/npm-global/bin"
+    - "{data}/pnpm-global"
+dirs:
+    - "{data}/npm-global"
+    - "{data}/npm-cache"
+    - "{data}/corepack"
+    - "{data}/pnpm-global"
+    - "{data}/pnpm-cache"
+    - "{data}/pnpm-state"
+    - "{data}/yarn"
