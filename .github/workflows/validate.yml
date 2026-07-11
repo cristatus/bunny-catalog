@@ -1,0 +1,45 @@
+name: Validate catalog
+
+on:
+  pull_request:
+    paths:
+      - '**/manifest.yaml'
+      - 'index.json'
+      - '.github/workflows/validate.yml'
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-go@v6
+        with:
+          go-version: stable
+
+      - name: Install bunny
+        run: |
+          go install github.com/cristatus/bunny/cmd/bunny@main
+          echo "$(go env GOPATH)/bin" >> "$GITHUB_PATH"
+
+      - name: Parse every manifest via bunny list
+        run: |
+          export BUNNY_HOME="$RUNNER_TEMP/bunny-home"
+          mkdir -p "$BUNNY_HOME"
+          ln -s "$GITHUB_WORKSPACE" "$BUNNY_HOME/catalog"
+          bunny list
+
+      - name: Cross-check index.json against on-disk manifests
+        run: |
+          set -euo pipefail
+          jq -r '.packages | keys[]' index.json | sort > /tmp/index-ids
+          find . -mindepth 3 -maxdepth 3 -name manifest.yaml -printf '%h\n' \
+            | xargs -I{} basename {} \
+            | sort > /tmp/disk-ids
+          if ! diff -u /tmp/index-ids /tmp/disk-ids; then
+            echo "::error::index.json and on-disk manifests are out of sync (see diff above)"
+            exit 1
+          fi
