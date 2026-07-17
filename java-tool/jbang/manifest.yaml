@@ -1,7 +1,7 @@
 id: jbang
 name: JBang
 description: Run Java (and JVM) source files as scripts — no build setup
-version: "0.139.3"
+version: "0.141.0"
 category: java-tool
 homepage: https://www.jbang.dev/
 license: MIT
@@ -9,7 +9,7 @@ requires: [jdk]
 sources:
     - url: "https://github.com/jbangdev/jbang/releases/download/v{version}/jbang-{version}.zip"
       file: "jbang-{version}.zip"
-      sha256: "6ff8d2f387583a8b1b1eb7839826a5e0a227c7cf1550e3bd85e0beb4838ca3ef"
+      sha256: "be34e7416227dac8b98c79e07d80488d73b3e131272a616e0754a7d496133fc0"
       update:
         type: github
         repo: jbangdev/jbang
