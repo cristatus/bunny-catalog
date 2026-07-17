@@ -16,7 +16,7 @@
       "category": "editor",
       "description": "Code editor from Microsoft",
       "name": "Visual Studio Code",
-      "version": "1.127.0"
+      "version": "1.129.0"
     },
     "corretto-21": {
       "category": "sdk",
@@ -28,7 +28,7 @@
       "category": "editor",
       "description": "The AI Code Editor (VS Code fork by Anysphere)",
       "name": "Cursor",
-      "version": "3.9.16-1782544577"
+      "version": "3.12.10-1784174163"
     },
     "delta": {
       "category": "cli",
@@ -40,7 +40,7 @@
       "category": "sdk",
       "description": "Secure runtime for JavaScript and TypeScript with built-in tooling",
       "name": "Deno",
-      "version": "2.9.1"
+      "version": "2.9.3"
     },
     "eclipse": {
       "category": "ide",
@@ -52,7 +52,7 @@
       "category": "cli",
       "description": "A modern, maintained replacement for ls",
       "name": "eza",
-      "version": "0.23.4"
+      "version": "0.23.5"
     },
     "fd": {
       "category": "cli",
@@ -64,7 +64,7 @@
       "category": "cli",
       "description": "A command-line fuzzy finder",
       "name": "fzf",
-      "version": "0.73.1"
+      "version": "0.74.0"
     },
     "gh": {
       "category": "cli",
@@ -76,7 +76,7 @@
       "category": "cli",
       "description": "GitLab's official command-line tool for repos, merge requests, issues, and CI/CD pipelines",
       "name": "GitLab CLI",
-      "version": "1.106.0"
+      "version": "1.108.0"
     },
     "graalvm-21": {
       "category": "sdk",
@@ -106,19 +106,19 @@
       "category": "java-tool",
       "description": "Run Java (and JVM) source files as scripts — no build setup",
       "name": "JBang",
-      "version": "0.139.3"
+      "version": "0.141.0"
     },
     "jbr-21": {
       "category": "sdk",
       "description": "JetBrains' OpenJDK 21 fork with per-monitor HiDPI scaling and Swing/AWT rendering fixes",
       "name": "JetBrains Runtime 21",
-      "version": "21.0.11"
+      "version": "21.0.11+1163116"
     },
     "jbr-25": {
       "category": "sdk",
       "description": "JetBrains' OpenJDK 25 fork with per-monitor HiDPI scaling and Swing/AWT rendering fixes",
       "name": "JetBrains Runtime 25",
-      "version": "25.0.3"
+      "version": "25.0.3+329124"
     },
     "jdk-11": {
       "category": "sdk",
@@ -148,7 +148,7 @@
       "category": "ide",
       "description": "Install, update, and roll back JetBrains IDEs (IntelliJ IDEA, PyCharm, …) from one app",
       "name": "JetBrains Toolbox",
-      "version": "3.6.1.85592"
+      "version": "3.6.2.85969"
     },
     "jmc": {
       "category": "java-tool",
@@ -166,13 +166,13 @@
       "category": "java-tool",
       "description": "The Kotlin command-line compiler (kotlinc) and runner",
       "name": "Kotlin",
-      "version": "2.4.0"
+      "version": "2.4.10"
     },
     "lazygit": {
       "category": "cli",
       "description": "A simple terminal UI for git commands",
       "name": "lazygit",
-      "version": "0.63.0"
+      "version": "0.63.1"
     },
     "maven": {
       "category": "java-tool",
@@ -184,7 +184,7 @@
       "category": "java-tool",
       "description": "The `mn` command-line tool for creating Micronaut applications",
       "name": "Micronaut CLI",
-      "version": "5.0.3"
+      "version": "5.0.5"
     },
     "node-22": {
       "category": "sdk",
@@ -202,13 +202,13 @@
       "category": "java-tool",
       "description": "Command-line tool for creating and managing Quarkus projects",
       "name": "Quarkus CLI",
-      "version": "3.37.1"
+      "version": "3.37.3"
     },
     "ripgrep": {
       "category": "cli",
       "description": "Fast recursive grep alternative written in Rust",
       "name": "ripgrep",
-      "version": "15.1.0"
+      "version": "15.2.0"
     },
     "spring-boot": {
       "category": "java-tool",
@@ -226,7 +226,7 @@
       "category": "editor",
       "description": "High-performance, multiplayer code editor",
       "name": "Zed",
-      "version": "1.9.0"
+      "version": "1.11.3"
     },
     "zulu-21": {
       "category": "sdk",
@@ -235,6 +235,6 @@
       "version": "21.0.11+10"
     }
   },
-  "updated": "2026-07-04T14:21:25Z",
+  "updated": "2026-07-17T08:08:17Z",
   "version": 1
 }

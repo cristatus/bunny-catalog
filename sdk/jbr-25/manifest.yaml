@@ -1,7 +1,7 @@
 id: jbr-25
 name: JetBrains Runtime 25
 description: JetBrains' OpenJDK 25 fork with per-monitor HiDPI scaling and Swing/AWT rendering fixes
-version: "25.0.3"
+version: "25.0.3+329124"
 category: sdk
 homepage: https://github.com/JetBrains/JetBrainsRuntime
 license: GPL-2.0-with-classpath-exception
