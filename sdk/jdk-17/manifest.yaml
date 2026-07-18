@@ -1,0 +1,35 @@
+id: jdk-17
+name: Eclipse Temurin JDK 17
+description: Production-ready OpenJDK 17 LTS distribution from Adoptium
+version: "17.0.19+10"
+category: sdk
+homepage: https://adoptium.net/
+license: GPL-2.0-with-classpath-exception
+
+provides: jdk
+
+sources:
+  - url: "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.19%2B10/OpenJDK17U-jdk_x64_linux_hotspot_17.0.19_10.tar.gz"
+    file: "temurin-jdk-{version}.tar.gz"
+    sha256: "d8afc263758141a66e0e3aafc321e783f7016696f4eaea067d340a269037d331"
+    size: 193335385
+    update:
+      type: foojay
+      distribution: temurin
+
+prepare:
+  - "tar xf temurin-jdk-{version}.tar.gz --strip-components=1 -C {pkg}"
+
+bin:
+  - { name: java, path: "{app}/bin/java" }
+  - { name: javac, path: "{app}/bin/javac" }
+  - { name: jar, path: "{app}/bin/jar" }
+  - { name: javadoc, path: "{app}/bin/javadoc" }
+  - { name: jshell, path: "{app}/bin/jshell" }
+  - { name: jlink, path: "{app}/bin/jlink" }
+  - { name: jpackage, path: "{app}/bin/jpackage" }
+  - { name: jdeps, path: "{app}/bin/jdeps" }
+  - { name: keytool, path: "{app}/bin/keytool" }
+
+env:
+  JAVA_HOME: "{app}"

@@ -1,0 +1,36 @@
+id: zulu-25
+name: Azul Zulu JDK 25
+description: Azul's free, TCK-tested build of OpenJDK 25 LTS
+version: "25.0.3+9"
+category: sdk
+homepage: https://www.azul.com/downloads/?package=jdk
+license: GPL-2.0-with-classpath-exception
+
+provides: jdk
+
+sources:
+  - url: "https://cdn.azul.com/zulu/bin/zulu25.34.17-ca-jdk25.0.3-linux_x64.tar.gz"
+    file: "zulu-jdk-{version}.tar.gz"
+    sha256: "3a93235f4e5b313232647916219e91dc5cca0b9835c9b52a404ba58c43571697"
+    size: 232838818
+    update:
+      type: foojay
+      distribution: zulu
+
+prepare:
+  - "tar xf zulu-jdk-{version}.tar.gz --strip-components=1 -C {pkg}"
+
+bin:
+  - { name: java, path: "{app}/bin/java" }
+  - { name: javac, path: "{app}/bin/javac" }
+  - { name: jar, path: "{app}/bin/jar" }
+  - { name: javadoc, path: "{app}/bin/javadoc" }
+  - { name: jshell, path: "{app}/bin/jshell" }
+  - { name: jlink, path: "{app}/bin/jlink" }
+  - { name: jpackage, path: "{app}/bin/jpackage" }
+  - { name: jdeps, path: "{app}/bin/jdeps" }
+  - { name: keytool, path: "{app}/bin/keytool" }
+
+env:
+  JAVA_HOME: "{app}"
+

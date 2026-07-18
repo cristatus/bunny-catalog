@@ -13,6 +13,7 @@ sources:
       update:
         type: foojay
         distribution: corretto
+        hash-url: "https://corretto.aws/downloads/latest_sha256/amazon-corretto-{major}-x64-linux-jdk.tar.gz"
 prepare:
     - "tar xf corretto-jdk-{version}.tar.gz --strip-components=1 -C {pkg}"
 bin:

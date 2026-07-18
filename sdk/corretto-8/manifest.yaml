@@ -1,0 +1,34 @@
+id: corretto-8
+name: Amazon Corretto JDK 8
+description: Amazon's no-cost, production-ready distribution of OpenJDK 8 LTS
+version: "8.0.492"
+category: sdk
+homepage: https://aws.amazon.com/corretto/
+license: GPL-2.0-with-classpath-exception
+
+provides: jdk
+
+sources:
+  - url: "https://corretto.aws/downloads/resources/8.492.09.2/amazon-corretto-8.492.09.2-linux-x64.tar.gz"
+    file: "corretto-jdk-{version}.tar.gz"
+    sha256: "b9a74845d1171eabd1482b43a759164efd529cf8317d7edc4484688b459c3a88"
+    size: 118627309
+    update:
+      type: foojay
+      distribution: corretto
+      hash-url: "https://corretto.aws/downloads/latest_sha256/amazon-corretto-{major}-x64-linux-jdk.tar.gz"
+
+prepare:
+  - "tar xf corretto-jdk-{version}.tar.gz --strip-components=1 -C {pkg}"
+
+bin:
+  - { name: java, path: "{app}/bin/java" }
+  - { name: javac, path: "{app}/bin/javac" }
+  - { name: jar, path: "{app}/bin/jar" }
+  - { name: javadoc, path: "{app}/bin/javadoc" }
+  - { name: jdeps, path: "{app}/bin/jdeps" }
+  - { name: keytool, path: "{app}/bin/keytool" }
+
+env:
+  JAVA_HOME: "{app}"
+

@@ -18,11 +18,35 @@
       "name": "Visual Studio Code",
       "version": "1.129.1"
     },
+    "corretto-11": {
+      "category": "sdk",
+      "description": "Amazon's no-cost, production-ready distribution of OpenJDK 11 LTS",
+      "name": "Amazon Corretto JDK 11",
+      "version": "11.0.31"
+    },
+    "corretto-17": {
+      "category": "sdk",
+      "description": "Amazon's no-cost, production-ready distribution of OpenJDK 17 LTS",
+      "name": "Amazon Corretto JDK 17",
+      "version": "17.0.19"
+    },
     "corretto-21": {
       "category": "sdk",
       "description": "Amazon's no-cost, production-ready distribution of OpenJDK 21 LTS",
       "name": "Amazon Corretto JDK 21",
       "version": "21.0.11"
+    },
+    "corretto-25": {
+      "category": "sdk",
+      "description": "Amazon's no-cost, production-ready distribution of OpenJDK 25 LTS",
+      "name": "Amazon Corretto JDK 25",
+      "version": "25.0.3"
+    },
+    "corretto-8": {
+      "category": "sdk",
+      "description": "Amazon's no-cost, production-ready distribution of OpenJDK 8 LTS",
+      "name": "Amazon Corretto JDK 8",
+      "version": "8.0.492"
     },
     "cursor": {
       "category": "editor",
@@ -120,6 +144,12 @@
       "name": "Eclipse Temurin JDK 11",
       "version": "11.0.31+11"
     },
+    "jdk-17": {
+      "category": "sdk",
+      "description": "Production-ready OpenJDK 17 LTS distribution from Adoptium",
+      "name": "Eclipse Temurin JDK 17",
+      "version": "17.0.19+10"
+    },
     "jdk-21": {
       "category": "sdk",
       "description": "Production-ready OpenJDK 21 LTS distribution from Adoptium",
@@ -168,6 +198,36 @@
       "name": "lazygit",
       "version": "0.63.1"
     },
+    "liberica-11": {
+      "category": "sdk",
+      "description": "Production-ready OpenJDK 11 LTS distribution from BellSoft",
+      "name": "BellSoft Liberica JDK 11",
+      "version": "11.0.31+11"
+    },
+    "liberica-17": {
+      "category": "sdk",
+      "description": "Production-ready OpenJDK 17 LTS distribution from BellSoft",
+      "name": "BellSoft Liberica JDK 17",
+      "version": "17.0.19+11"
+    },
+    "liberica-21": {
+      "category": "sdk",
+      "description": "Production-ready OpenJDK 21 LTS distribution from BellSoft",
+      "name": "BellSoft Liberica JDK 21",
+      "version": "21.0.11+11"
+    },
+    "liberica-25": {
+      "category": "sdk",
+      "description": "Production-ready OpenJDK 25 LTS distribution from BellSoft",
+      "name": "BellSoft Liberica JDK 25",
+      "version": "25.0.3+11"
+    },
+    "liberica-8": {
+      "category": "sdk",
+      "description": "Production-ready OpenJDK 8 LTS distribution from BellSoft",
+      "name": "BellSoft Liberica JDK 8",
+      "version": "8.0.492+9"
+    },
     "maven": {
       "category": "java-tool",
       "description": "Build automation and project management tool for Java projects",
@@ -204,6 +264,36 @@
       "name": "ripgrep",
       "version": "15.2.0"
     },
+    "semeru-11": {
+      "category": "sdk",
+      "description": "OpenJDK 11 LTS distribution from IBM with the Eclipse OpenJ9 JVM",
+      "name": "IBM Semeru Runtime Open Edition 11",
+      "version": "11.0.31"
+    },
+    "semeru-17": {
+      "category": "sdk",
+      "description": "OpenJDK 17 LTS distribution from IBM with the Eclipse OpenJ9 JVM",
+      "name": "IBM Semeru Runtime Open Edition 17",
+      "version": "17.0.19"
+    },
+    "semeru-21": {
+      "category": "sdk",
+      "description": "OpenJDK 21 LTS distribution from IBM with the Eclipse OpenJ9 JVM",
+      "name": "IBM Semeru Runtime Open Edition 21",
+      "version": "21.0.11"
+    },
+    "semeru-25": {
+      "category": "sdk",
+      "description": "OpenJDK 25 LTS distribution from IBM with the Eclipse OpenJ9 JVM",
+      "name": "IBM Semeru Runtime Open Edition 25",
+      "version": "25.0.3"
+    },
+    "semeru-8": {
+      "category": "sdk",
+      "description": "OpenJDK 8 LTS distribution from IBM with the Eclipse OpenJ9 JVM",
+      "name": "IBM Semeru Runtime Open Edition 8",
+      "version": "8u482-b08.1"
+    },
     "spring-boot": {
       "category": "java-tool",
       "description": "Command-line tool for quickly prototyping with Spring Boot",
@@ -222,13 +312,37 @@
       "name": "Zed",
       "version": "1.11.3"
     },
+    "zulu-11": {
+      "category": "sdk",
+      "description": "Azul's free, TCK-tested build of OpenJDK 11 LTS",
+      "name": "Azul Zulu JDK 11",
+      "version": "11.0.31+11"
+    },
+    "zulu-17": {
+      "category": "sdk",
+      "description": "Azul's free, TCK-tested build of OpenJDK 17 LTS",
+      "name": "Azul Zulu JDK 17",
+      "version": "17.0.19+10"
+    },
     "zulu-21": {
       "category": "sdk",
       "description": "Azul's free, TCK-tested build of OpenJDK 21 LTS",
       "name": "Azul Zulu JDK 21",
       "version": "21.0.11+10"
+    },
+    "zulu-25": {
+      "category": "sdk",
+      "description": "Azul's free, TCK-tested build of OpenJDK 25 LTS",
+      "name": "Azul Zulu JDK 25",
+      "version": "25.0.3+9"
+    },
+    "zulu-8": {
+      "category": "sdk",
+      "description": "Azul's free, TCK-tested build of OpenJDK 8 LTS",
+      "name": "Azul Zulu JDK 8",
+      "version": "8.0.492+9"
     }
   },
-  "updated": "2026-07-18T13:22:42Z",
+  "updated": "2026-07-18T13:53:56Z",
   "version": 1
 }
