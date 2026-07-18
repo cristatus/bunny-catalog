@@ -16,7 +16,7 @@
       "category": "editor",
       "description": "Code editor from Microsoft",
       "name": "Visual Studio Code",
-      "version": "1.129.0"
+      "version": "1.129.1"
     },
     "corretto-21": {
       "category": "sdk",
@@ -28,7 +28,7 @@
       "category": "editor",
       "description": "The AI Code Editor (VS Code fork by Anysphere)",
       "name": "Cursor",
-      "version": "3.12.10-1784174163"
+      "version": "3.12.17-1784259156"
     },
     "delta": {
       "category": "cli",
@@ -64,7 +64,7 @@
       "category": "cli",
       "description": "A command-line fuzzy finder",
       "name": "fzf",
-      "version": "0.74.0"
+      "version": "0.74.1"
     },
     "gh": {
       "category": "cli",
@@ -229,6 +229,6 @@
       "version": "21.0.11+10"
     }
   },
-  "updated": "2026-07-18T12:58:49Z",
+  "updated": "2026-07-18T13:22:42Z",
   "version": 1
 }
