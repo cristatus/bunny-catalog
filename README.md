@@ -11,7 +11,8 @@ This catalog is **deliberately bounded** to the Java and Node developer workstat
 We curate:
 
 - **JVM ecosystem.** JDK distros (Temurin, Corretto, GraalVM, Liberica, OpenJ9), build tools (Maven, Maven Daemon, Gradle, sbt, Ant, JBang), language compilers (Kotlin, Scala), and diagnostics tools (JMC, VisualVM, async-profiler, Arthas).
-- **JavaScript runtimes.** Node LTS lines, Bun, Deno, plus pnpm's standalone executable. Yarn remains available through Corepack on Node releases that bundle it.
+- **JavaScript runtimes.** Node LTS lines, Bun, and Deno.
+- **Node ecosystem tools.** pnpm's standalone executable. Yarn remains available through Corepack on Node releases that bundle it.
 - **Editors and IDEs that target the above.** JetBrains IDEs (via the Toolbox app), Eclipse, VS Code, Cursor, Zed.
 - **General-purpose CLI tools that show up in nearly every dev workflow.** ripgrep, fd, bat, fzf, jq, yq, gh, lazygit, delta, eza, ShellCheck, shfmt.
 
@@ -30,15 +31,16 @@ PRs outside this scope will be politely closed with a pointer to fork.
 
 ```
 .
-├── index.json                   # Top-level catalog index (id → category, name, version)
+├── index.json                   # Top-level catalog index (summary metadata per id)
 ├── cli/{id}/manifest.yaml       # ripgrep, fd, jq, gh, ...
 ├── editor/{id}/manifest.yaml    # VS Code, Cursor, Zed, ...
 ├── ide/{id}/manifest.yaml       # JetBrains Toolbox, Eclipse
 ├── java-tool/{id}/manifest.yaml # Maven, Gradle, JMC, VisualVM
+├── node-tool/{id}/manifest.yaml # pnpm and other standalone Node ecosystem tools
 └── sdk/{id}/manifest.yaml       # JDKs, Node, Bun, Deno, GraalVM
 ```
 
-`index.json` is the entry point — bunny fetches it first to learn what packages exist and where to find their manifests.
+`index.json` is the entry point — bunny fetches it first to learn what packages exist and where to find their manifests. Keep `provides` and `requires` in each summary when the manifest declares them; capability-aware list, search, completion, and reverse-dependency views use this metadata without fetching every manifest.
 
 ## Adding a package
 

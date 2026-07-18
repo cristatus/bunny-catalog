@@ -4,18 +4,27 @@
       "category": "java-tool",
       "description": "Java build tool for declarative, task-based build scripts",
       "name": "Apache Ant",
+      "requires": [
+        "jdk"
+      ],
       "version": "1.10.17"
     },
     "arthas": {
       "category": "java-tool",
       "description": "Interactive diagnostics and troubleshooting tool for live Java applications",
       "name": "Arthas",
+      "requires": [
+        "jdk"
+      ],
       "version": "4.3.1"
     },
     "async-profiler": {
       "category": "java-tool",
       "description": "Low-overhead sampling profiler for Java using AsyncGetCallTrace and perf_events",
       "name": "async-profiler",
+      "requires": [
+        "jdk"
+      ],
       "version": "4.4"
     },
     "bat": {
@@ -40,30 +49,35 @@
       "category": "sdk",
       "description": "Amazon's no-cost, production-ready distribution of OpenJDK 11 LTS",
       "name": "Amazon Corretto JDK 11",
+      "provides": "jdk",
       "version": "11.0.31"
     },
     "corretto-17": {
       "category": "sdk",
       "description": "Amazon's no-cost, production-ready distribution of OpenJDK 17 LTS",
       "name": "Amazon Corretto JDK 17",
+      "provides": "jdk",
       "version": "17.0.19"
     },
     "corretto-21": {
       "category": "sdk",
       "description": "Amazon's no-cost, production-ready distribution of OpenJDK 21 LTS",
       "name": "Amazon Corretto JDK 21",
+      "provides": "jdk",
       "version": "21.0.11"
     },
     "corretto-25": {
       "category": "sdk",
       "description": "Amazon's no-cost, production-ready distribution of OpenJDK 25 LTS",
       "name": "Amazon Corretto JDK 25",
+      "provides": "jdk",
       "version": "25.0.3"
     },
     "corretto-8": {
       "category": "sdk",
       "description": "Amazon's no-cost, production-ready distribution of OpenJDK 8 LTS",
       "name": "Amazon Corretto JDK 8",
+      "provides": "jdk",
       "version": "8.0.492"
     },
     "cursor": {
@@ -88,6 +102,9 @@
       "category": "ide",
       "description": "The essential tools for Java developers — IDE, Git, Maven, Gradle, XML Editor",
       "name": "Eclipse IDE for Java Developers",
+      "requires": [
+        "jdk"
+      ],
       "version": "2026-06"
     },
     "eza": {
@@ -124,66 +141,81 @@
       "category": "sdk",
       "description": "GraalVM Community Edition with JDK 21 and native-image",
       "name": "GraalVM Community 21",
+      "provides": "jdk",
       "version": "21.0.2"
     },
     "graalvm-25": {
       "category": "sdk",
       "description": "GraalVM Community Edition with JDK 25 and native-image",
       "name": "GraalVM Community 25",
+      "provides": "jdk",
       "version": "25.0.2"
     },
     "gradle": {
       "category": "java-tool",
       "description": "Build automation tool with Groovy/Kotlin DSL for Java, Android, and more",
       "name": "Gradle",
+      "requires": [
+        "jdk>=17"
+      ],
       "version": "9.6.1"
     },
     "jbang": {
       "category": "java-tool",
       "description": "Run Java (and JVM) source files as scripts — no build setup",
       "name": "JBang",
+      "requires": [
+        "jdk"
+      ],
       "version": "0.141.0"
     },
     "jbr-21": {
       "category": "sdk",
       "description": "JetBrains' OpenJDK 21 fork with per-monitor HiDPI scaling and Swing/AWT rendering fixes",
       "name": "JetBrains Runtime 21",
+      "provides": "jdk",
       "version": "21.0.11+1163116"
     },
     "jbr-25": {
       "category": "sdk",
       "description": "JetBrains' OpenJDK 25 fork with per-monitor HiDPI scaling and Swing/AWT rendering fixes",
       "name": "JetBrains Runtime 25",
+      "provides": "jdk",
       "version": "25.0.3+329124"
     },
     "jdk-11": {
       "category": "sdk",
       "description": "Production-ready OpenJDK 11 LTS distribution from Adoptium",
       "name": "Eclipse Temurin JDK 11",
+      "provides": "jdk",
       "version": "11.0.31+11"
     },
     "jdk-17": {
       "category": "sdk",
       "description": "Production-ready OpenJDK 17 LTS distribution from Adoptium",
       "name": "Eclipse Temurin JDK 17",
+      "provides": "jdk",
       "version": "17.0.19+10"
     },
     "jdk-21": {
       "category": "sdk",
       "description": "Production-ready OpenJDK 21 LTS distribution from Adoptium",
       "name": "Eclipse Temurin JDK 21",
+      "provides": "jdk",
       "version": "21.0.11+10"
     },
     "jdk-25": {
       "category": "sdk",
       "description": "Production-ready OpenJDK 25 LTS distribution from Adoptium",
       "name": "Eclipse Temurin JDK 25",
+      "provides": "jdk",
       "version": "25.0.3+9"
     },
     "jdk-8": {
       "category": "sdk",
       "description": "Production-ready OpenJDK 8 LTS distribution from Adoptium",
       "name": "Eclipse Temurin JDK 8",
+      "provides": "jdk",
       "version": "8.0.492+9"
     },
     "jetbrains-toolbox": {
@@ -196,6 +228,9 @@
       "category": "java-tool",
       "description": "JVM production-time profiling and diagnostics tool",
       "name": "Java Mission Control",
+      "requires": [
+        "jdk"
+      ],
       "version": "9.1.2"
     },
     "jq": {
@@ -208,6 +243,9 @@
       "category": "java-tool",
       "description": "The Kotlin command-line compiler (kotlinc) and runner",
       "name": "Kotlin",
+      "requires": [
+        "jdk"
+      ],
       "version": "2.4.10"
     },
     "lazygit": {
@@ -220,64 +258,80 @@
       "category": "sdk",
       "description": "Production-ready OpenJDK 11 LTS distribution from BellSoft",
       "name": "BellSoft Liberica JDK 11",
+      "provides": "jdk",
       "version": "11.0.31+11"
     },
     "liberica-17": {
       "category": "sdk",
       "description": "Production-ready OpenJDK 17 LTS distribution from BellSoft",
       "name": "BellSoft Liberica JDK 17",
+      "provides": "jdk",
       "version": "17.0.19+11"
     },
     "liberica-21": {
       "category": "sdk",
       "description": "Production-ready OpenJDK 21 LTS distribution from BellSoft",
       "name": "BellSoft Liberica JDK 21",
+      "provides": "jdk",
       "version": "21.0.11+11"
     },
     "liberica-25": {
       "category": "sdk",
       "description": "Production-ready OpenJDK 25 LTS distribution from BellSoft",
       "name": "BellSoft Liberica JDK 25",
+      "provides": "jdk",
       "version": "25.0.3+11"
     },
     "liberica-8": {
       "category": "sdk",
       "description": "Production-ready OpenJDK 8 LTS distribution from BellSoft",
       "name": "BellSoft Liberica JDK 8",
+      "provides": "jdk",
       "version": "8.0.492+9"
     },
     "maven": {
       "category": "java-tool",
       "description": "Build automation and project management tool for Java projects",
       "name": "Apache Maven",
+      "requires": [
+        "jdk"
+      ],
       "version": "3.9.16"
     },
     "micronaut": {
       "category": "java-tool",
       "description": "The `mn` command-line tool for creating Micronaut applications",
       "name": "Micronaut CLI",
+      "requires": [
+        "jdk>=25"
+      ],
       "version": "5.0.5"
     },
     "mvnd": {
       "category": "java-tool",
       "description": "Fast Maven build client backed by long-lived daemon processes",
       "name": "Maven Daemon",
+      "requires": [
+        "jdk>=17"
+      ],
       "version": "1.0.6"
     },
     "node-22": {
       "category": "sdk",
       "description": "JavaScript runtime built on V8 (Maintenance LTS — Jod)",
       "name": "Node.js 22 LTS",
+      "provides": "node",
       "version": "22.23.1"
     },
     "node-24": {
       "category": "sdk",
       "description": "JavaScript runtime built on V8 (Active LTS — Krypton)",
       "name": "Node.js 24 LTS",
+      "provides": "node",
       "version": "24.18.0"
     },
     "pnpm": {
-      "category": "sdk",
+      "category": "node-tool",
       "description": "Fast, disk-efficient package manager for JavaScript projects",
       "name": "pnpm",
       "version": "11.15.0"
@@ -286,6 +340,9 @@
       "category": "java-tool",
       "description": "Command-line tool for creating and managing Quarkus projects",
       "name": "Quarkus CLI",
+      "requires": [
+        "jdk"
+      ],
       "version": "3.37.3"
     },
     "ripgrep": {
@@ -298,42 +355,53 @@
       "category": "java-tool",
       "description": "Interactive build tool for Scala and Java projects",
       "name": "sbt",
+      "requires": [
+        "jdk>=17"
+      ],
       "version": "2.0.3"
     },
     "scala": {
       "category": "java-tool",
       "description": "Scala 3 compiler, runner, and documentation generator",
       "name": "Scala 3",
+      "requires": [
+        "jdk"
+      ],
       "version": "3.3.8"
     },
     "semeru-11": {
       "category": "sdk",
       "description": "OpenJDK 11 LTS distribution from IBM with the Eclipse OpenJ9 JVM",
       "name": "IBM Semeru Runtime Open Edition 11",
+      "provides": "jdk",
       "version": "11.0.31"
     },
     "semeru-17": {
       "category": "sdk",
       "description": "OpenJDK 17 LTS distribution from IBM with the Eclipse OpenJ9 JVM",
       "name": "IBM Semeru Runtime Open Edition 17",
+      "provides": "jdk",
       "version": "17.0.19"
     },
     "semeru-21": {
       "category": "sdk",
       "description": "OpenJDK 21 LTS distribution from IBM with the Eclipse OpenJ9 JVM",
       "name": "IBM Semeru Runtime Open Edition 21",
+      "provides": "jdk",
       "version": "21.0.11"
     },
     "semeru-25": {
       "category": "sdk",
       "description": "OpenJDK 25 LTS distribution from IBM with the Eclipse OpenJ9 JVM",
       "name": "IBM Semeru Runtime Open Edition 25",
+      "provides": "jdk",
       "version": "25.0.3"
     },
     "semeru-8": {
       "category": "sdk",
       "description": "OpenJDK 8 LTS distribution from IBM with the Eclipse OpenJ9 JVM",
       "name": "IBM Semeru Runtime Open Edition 8",
+      "provides": "jdk",
       "version": "8u482-b08.1"
     },
     "shellcheck": {
@@ -352,12 +420,18 @@
       "category": "java-tool",
       "description": "Command-line tool for quickly prototyping with Spring Boot",
       "name": "Spring Boot CLI",
+      "requires": [
+        "jdk"
+      ],
       "version": "4.1.0"
     },
     "visualvm": {
       "category": "java-tool",
       "description": "All-in-one Java troubleshooting tool — monitoring, profiling, heap dumps",
       "name": "VisualVM",
+      "requires": [
+        "jdk"
+      ],
       "version": "2.2.1"
     },
     "yq": {
@@ -376,33 +450,38 @@
       "category": "sdk",
       "description": "Azul's free, TCK-tested build of OpenJDK 11 LTS",
       "name": "Azul Zulu JDK 11",
+      "provides": "jdk",
       "version": "11.0.31+11"
     },
     "zulu-17": {
       "category": "sdk",
       "description": "Azul's free, TCK-tested build of OpenJDK 17 LTS",
       "name": "Azul Zulu JDK 17",
+      "provides": "jdk",
       "version": "17.0.19+10"
     },
     "zulu-21": {
       "category": "sdk",
       "description": "Azul's free, TCK-tested build of OpenJDK 21 LTS",
       "name": "Azul Zulu JDK 21",
+      "provides": "jdk",
       "version": "21.0.11+10"
     },
     "zulu-25": {
       "category": "sdk",
       "description": "Azul's free, TCK-tested build of OpenJDK 25 LTS",
       "name": "Azul Zulu JDK 25",
+      "provides": "jdk",
       "version": "25.0.3+9"
     },
     "zulu-8": {
       "category": "sdk",
       "description": "Azul's free, TCK-tested build of OpenJDK 8 LTS",
       "name": "Azul Zulu JDK 8",
+      "provides": "jdk",
       "version": "8.0.492+9"
     }
   },
-  "updated": "2026-07-18T14:25:00Z",
+  "updated": "2026-07-18T14:16:33Z",
   "version": 1
 }

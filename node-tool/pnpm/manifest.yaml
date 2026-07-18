@@ -2,7 +2,7 @@ id: pnpm
 name: pnpm
 description: Fast, disk-efficient package manager for JavaScript projects
 version: "11.15.0"
-category: sdk
+category: node-tool
 homepage: https://pnpm.io/
 license: MIT
 
