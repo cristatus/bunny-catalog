@@ -87,6 +87,7 @@ Key fields:
 - `provides:` — the capability slot. Multiple packages can `provides: jdk` (Temurin, Corretto, GraalVM); `bunny use` and `.bunny-version` operate on the capability.
 - `requires:` — capabilities this package needs at install + run time. A bare capability (`jdk`) needs any provider; a constraint (`jdk>=17`) needs a provider of at least that major. Satisfied providers' `env:` is merged into this package's launch.
 - `sources[*].update` — per-source update backend (`github`, `html`, `json`, `foojay`, `debian`, `aur`). Drives the auto-update cron. `sources[0]` is primary; bumping it bumps `version:`. JDKs use `foojay` with a `distribution:` (e.g. `temurin`, `corretto`, `zulu`, `graalvm_community`).
+- `sources[*].update.hash-url` — an upstream checksum document. For nonstandard documents, `hash-pattern` is a regular expression whose first capture group must be a SHA-256 or SHA-512 digest.
 - `prepare:` — install-time shell commands run inside an `--unshare-all` bwrap with writable views of `{src}` (download cache) and `{pkg}` (staging dir).
 - `bin:` — what shows up in `~/.bunny/bin/` after install. `args:` injects launcher flags, `path:` is the absolute binary path inside the install.
 - `env:` — env vars set when this package's binary runs; consumed by tools whose data dir is configurable via env (Maven, Gradle, Node).

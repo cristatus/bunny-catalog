@@ -6,14 +6,15 @@ category: cli
 homepage: https://github.com/jesseduffield/lazygit
 license: MIT
 sources:
-    - url: "https://github.com/jesseduffield/lazygit/releases/download/v{version}/lazygit_{version}_Linux_x86_64.tar.gz"
+    - url: "https://github.com/jesseduffield/lazygit/releases/download/v{version}/lazygit_{version}_linux_x86_64.tar.gz"
       file: "lazygit-{version}.tar.gz"
       sha256: "8e033bc78c8e192dee9510e951f6c9e154289b7198d22c924ed1d0a951b0dac1"
       size: 6868239
       update:
         type: github
         repo: jesseduffield/lazygit
-        asset: "lazygit_.*_Linux_x86_64\\.tar\\.gz$"
+        asset: "lazygit_.*_linux_x86_64\\.tar\\.gz$"
+        hash-url: "https://github.com/jesseduffield/lazygit/releases/download/v{version}/checksums.txt"
 prepare:
     - "tar xf lazygit-{version}.tar.gz -C {pkg} lazygit"
 bin:

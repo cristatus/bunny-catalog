@@ -96,12 +96,6 @@
       "name": "Gradle",
       "version": "9.6.1"
     },
-    "helidon": {
-      "category": "java-tool",
-      "description": "Command-line tool for creating and developing Helidon applications",
-      "name": "Helidon CLI",
-      "version": "3.0.6"
-    },
     "jbang": {
       "category": "java-tool",
       "description": "Run Java (and JVM) source files as scripts — no build setup",
@@ -235,6 +229,6 @@
       "version": "21.0.11+10"
     }
   },
-  "updated": "2026-07-17T08:08:17Z",
+  "updated": "2026-07-18T12:58:49Z",
   "version": 1
 }
