@@ -1,0 +1,24 @@
+id: shellcheck
+name: ShellCheck
+description: Static analysis tool for shell scripts
+version: "0.11.0"
+category: cli
+homepage: https://www.shellcheck.net/
+license: GPL-3.0
+
+sources:
+  - url: "https://github.com/koalaman/shellcheck/releases/download/v{version}/shellcheck-v{version}.linux.x86_64.tar.gz"
+    file: "shellcheck-{version}.tar.gz"
+    sha256: "b7af85e41cc99489dcc21d66c6d5f3685138f06d34651e6d34b42ec6d54fe6f6"
+    size: 3773312
+    update:
+      type: github
+      repo: koalaman/shellcheck
+      asset: "^shellcheck-v{version}\\.linux\\.x86_64\\.tar\\.gz$"
+      tag-pattern: "^v([0-9.]+)$"
+
+prepare:
+  - "tar xf shellcheck-{version}.tar.gz --strip-components=1 -C {pkg}"
+
+bin:
+  - { name: shellcheck, path: "{app}/shellcheck" }

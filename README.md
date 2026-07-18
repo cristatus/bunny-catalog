@@ -10,10 +10,10 @@ This catalog is **deliberately bounded** to the Java and Node developer workstat
 
 We curate:
 
-- **JVM ecosystem.** JDK distros (Temurin, Corretto, GraalVM, Liberica, OpenJ9), build tools (Maven, Gradle, sbt, Ant, JBang), language compilers (Kotlin, Scala), profilers (JMC, VisualVM, async-profiler).
-- **JavaScript runtimes.** Node LTS lines, Bun, Deno. The `node-*` manifests bundle Corepack so `pnpm` and `yarn` come for free; we don't ship them as separate packages.
+- **JVM ecosystem.** JDK distros (Temurin, Corretto, GraalVM, Liberica, OpenJ9), build tools (Maven, Maven Daemon, Gradle, sbt, Ant, JBang), language compilers (Kotlin, Scala), and diagnostics tools (JMC, VisualVM, async-profiler, Arthas).
+- **JavaScript runtimes.** Node LTS lines, Bun, Deno, plus pnpm's standalone executable. Yarn remains available through Corepack on Node releases that bundle it.
 - **Editors and IDEs that target the above.** JetBrains IDEs (via the Toolbox app), Eclipse, VS Code, Cursor, Zed.
-- **General-purpose CLI tools that show up in nearly every dev workflow.** ripgrep, fd, bat, fzf, jq, gh, lazygit, delta, eza.
+- **General-purpose CLI tools that show up in nearly every dev workflow.** ripgrep, fd, bat, fzf, jq, yq, gh, lazygit, delta, eza, ShellCheck, shfmt.
 
 We do **not** accept:
 

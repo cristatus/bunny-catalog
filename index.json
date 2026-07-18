@@ -1,5 +1,23 @@
 {
   "packages": {
+    "ant": {
+      "category": "java-tool",
+      "description": "Java build tool for declarative, task-based build scripts",
+      "name": "Apache Ant",
+      "version": "1.10.17"
+    },
+    "arthas": {
+      "category": "java-tool",
+      "description": "Interactive diagnostics and troubleshooting tool for live Java applications",
+      "name": "Arthas",
+      "version": "4.3.1"
+    },
+    "async-profiler": {
+      "category": "java-tool",
+      "description": "Low-overhead sampling profiler for Java using AsyncGetCallTrace and perf_events",
+      "name": "async-profiler",
+      "version": "4.4"
+    },
     "bat": {
       "category": "cli",
       "description": "A cat clone with syntax highlighting and Git integration",
@@ -240,6 +258,12 @@
       "name": "Micronaut CLI",
       "version": "5.0.5"
     },
+    "mvnd": {
+      "category": "java-tool",
+      "description": "Fast Maven build client backed by long-lived daemon processes",
+      "name": "Maven Daemon",
+      "version": "1.0.6"
+    },
     "node-22": {
       "category": "sdk",
       "description": "JavaScript runtime built on V8 (Maintenance LTS — Jod)",
@@ -252,6 +276,12 @@
       "name": "Node.js 24 LTS",
       "version": "24.18.0"
     },
+    "pnpm": {
+      "category": "sdk",
+      "description": "Fast, disk-efficient package manager for JavaScript projects",
+      "name": "pnpm",
+      "version": "11.15.0"
+    },
     "quarkus": {
       "category": "java-tool",
       "description": "Command-line tool for creating and managing Quarkus projects",
@@ -263,6 +293,18 @@
       "description": "Fast recursive grep alternative written in Rust",
       "name": "ripgrep",
       "version": "15.2.0"
+    },
+    "sbt": {
+      "category": "java-tool",
+      "description": "Interactive build tool for Scala and Java projects",
+      "name": "sbt",
+      "version": "2.0.3"
+    },
+    "scala": {
+      "category": "java-tool",
+      "description": "Scala 3 compiler, runner, and documentation generator",
+      "name": "Scala 3",
+      "version": "3.3.8"
     },
     "semeru-11": {
       "category": "sdk",
@@ -294,6 +336,18 @@
       "name": "IBM Semeru Runtime Open Edition 8",
       "version": "8u482-b08.1"
     },
+    "shellcheck": {
+      "category": "cli",
+      "description": "Static analysis tool for shell scripts",
+      "name": "ShellCheck",
+      "version": "0.11.0"
+    },
+    "shfmt": {
+      "category": "cli",
+      "description": "Formatter and parser for shell programs",
+      "name": "shfmt",
+      "version": "3.13.1"
+    },
     "spring-boot": {
       "category": "java-tool",
       "description": "Command-line tool for quickly prototyping with Spring Boot",
@@ -305,6 +359,12 @@
       "description": "All-in-one Java troubleshooting tool — monitoring, profiling, heap dumps",
       "name": "VisualVM",
       "version": "2.2.1"
+    },
+    "yq": {
+      "category": "cli",
+      "description": "Portable command-line YAML, JSON, XML, CSV, TOML, and properties processor",
+      "name": "yq",
+      "version": "4.53.3"
     },
     "zed": {
       "category": "editor",
@@ -343,6 +403,6 @@
       "version": "8.0.492+9"
     }
   },
-  "updated": "2026-07-18T13:53:56Z",
+  "updated": "2026-07-18T14:25:00Z",
   "version": 1
 }

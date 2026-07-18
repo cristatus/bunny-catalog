@@ -1,0 +1,38 @@
+id: mvnd
+name: Maven Daemon
+description: Fast Maven build client backed by long-lived daemon processes
+version: "1.0.6"
+category: java-tool
+homepage: https://github.com/apache/maven-mvnd
+license: Apache-2.0
+
+requires: ["jdk>=17"]
+toolchains: maven
+
+sources:
+  - url: "https://github.com/apache/maven-mvnd/releases/download/{version}/maven-mvnd-{version}-linux-amd64.tar.gz"
+    file: "mvnd-{version}.tar.gz"
+    sha256: "88fd474fd3f21b33ec1e6a75950f6abbe493d63a5e2b429475f5230b3ee6cb24"
+    size: 24295403
+    update:
+      type: github
+      repo: apache/maven-mvnd
+      asset: "^maven-mvnd-{version}-linux-amd64\\.tar\\.gz$"
+      tag-pattern: "^([0-9.]+)$"
+
+prepare:
+  - "tar xf mvnd-{version}.tar.gz --strip-components=1 -C {pkg}"
+
+bin:
+  - { name: mvnd, path: "{app}/bin/mvnd" }
+
+env:
+  MAVEN_ARGS: "-Dmaven.repo.local={data}/repository --toolchains {data}/toolchains.xml"
+  MVND_OPTS: "-Dmvnd.daemonStorage={data}/daemon"
+
+dirs:
+  - "{data}/repository"
+  - "{data}/daemon"
+
+completions:
+  bash: "{app}/bin/mvnd-bash-completion.bash"

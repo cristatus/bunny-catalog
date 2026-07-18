@@ -1,0 +1,27 @@
+id: arthas
+name: Arthas
+description: Interactive diagnostics and troubleshooting tool for live Java applications
+version: "4.3.1"
+category: java-tool
+homepage: https://arthas.aliyun.com/
+license: Apache-2.0
+
+requires: [jdk]
+
+sources:
+  - url: "https://github.com/alibaba/arthas/releases/download/arthas-all-{version}/arthas-bin.zip"
+    file: "arthas-{version}.zip"
+    sha256: "fce150a0213b28881ee2a99cd242a95e8173017211f5f8310499583b344d32a5"
+    size: 17072938
+    update:
+      type: github
+      repo: alibaba/arthas
+      asset: "^arthas-bin\\.zip$"
+      tag-pattern: "^arthas-all-([0-9.]+)$"
+
+prepare:
+  - "unzip -q arthas-{version}.zip -d {pkg}"
+  - "chmod +x {pkg}/as.sh"
+
+bin:
+  - { name: arthas, path: "{app}/as.sh" }

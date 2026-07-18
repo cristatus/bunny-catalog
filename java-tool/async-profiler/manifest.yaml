@@ -1,0 +1,27 @@
+id: async-profiler
+name: async-profiler
+description: Low-overhead sampling profiler for Java using AsyncGetCallTrace and perf_events
+version: "4.4"
+category: java-tool
+homepage: https://github.com/async-profiler/async-profiler
+license: Apache-2.0
+
+requires: [jdk]
+
+sources:
+  - url: "https://github.com/async-profiler/async-profiler/releases/download/v{version}/async-profiler-{version}-linux-x64.tar.gz"
+    file: "async-profiler-{version}.tar.gz"
+    sha256: "1233f26fc95753e75ce32733bbcaf8f0bedc2c098b0e798af87935b08a63b24e"
+    size: 442304
+    update:
+      type: github
+      repo: async-profiler/async-profiler
+      asset: "^async-profiler-{version}-linux-x64\\.tar\\.gz$"
+      tag-pattern: "^v([0-9.]+)$"
+
+prepare:
+  - "tar xf async-profiler-{version}.tar.gz --strip-components=1 -C {pkg}"
+
+bin:
+  - { name: asprof, path: "{app}/bin/asprof" }
+  - { name: jfrconv, path: "{app}/bin/jfrconv" }
