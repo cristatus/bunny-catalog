@@ -1,35 +1,29 @@
 id: pnpm
 name: pnpm
 description: Fast, disk-efficient package manager for JavaScript projects
-version: "11.15.0"
+version: "11.15.1"
 category: node-tool
 homepage: https://pnpm.io/
 license: MIT
-
 sources:
-  - url: "https://github.com/pnpm/pnpm/releases/download/v{version}/pnpm-linux-x64.tar.gz"
-    file: "pnpm-{version}.tar.gz"
-    sha256: "f9fb813541b04a9c63f0b87d4116794b24ecf6c61f1c0757f3f32b03bb3b55b3"
-    size: 50966706
-    update:
-      type: github
-      repo: pnpm/pnpm
-      asset: "^pnpm-linux-x64\\.tar\\.gz$"
-      tag-pattern: "^v([0-9.]+)$"
-
+    - url: "https://github.com/pnpm/pnpm/releases/download/v{version}/pnpm-linux-x64.tar.gz"
+      file: "pnpm-{version}.tar.gz"
+      sha256: "0c1373b6390f6b89ff8b896d3647c9826577ddc49173a2f732da69b36569f9e0"
+      size: 50967777
+      update:
+        type: github
+        repo: pnpm/pnpm
+        asset: "^pnpm-linux-x64\\.tar\\.gz$"
+        tag-pattern: "^v([0-9.]+)$"
 prepare:
-  - "tar xf pnpm-{version}.tar.gz -C {pkg}"
-
+    - "tar xf pnpm-{version}.tar.gz -C {pkg}"
 bin:
-  - { name: pnpm, path: "{app}/pnpm" }
-
+    - {name: pnpm, path: "{app}/pnpm"}
 env:
-  PNPM_HOME: "{data}/bin"
-  npm_config_store_dir: "{data}/store"
-
+    PNPM_HOME: "{data}/bin"
+    npm_config_store_dir: "{data}/store"
 dirs:
-  - "{data}/bin"
-  - "{data}/store"
-
+    - "{data}/bin"
+    - "{data}/store"
 global-bins:
-  - "{data}/bin"
+    - "{data}/bin"
