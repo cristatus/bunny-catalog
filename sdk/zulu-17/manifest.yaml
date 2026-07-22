@@ -1,36 +1,30 @@
 id: zulu-17
 name: Azul Zulu JDK 17
 description: Azul's free, TCK-tested build of OpenJDK 17 LTS
-version: "17.0.19+10"
+version: "17.0.20+8"
 category: sdk
 homepage: https://www.azul.com/downloads/?package=jdk
 license: GPL-2.0-with-classpath-exception
-
 provides: jdk
-
 sources:
-  - url: "https://cdn.azul.com/zulu/bin/zulu17.66.19-ca-jdk17.0.19-linux_x64.tar.gz"
-    file: "zulu-jdk-{version}.tar.gz"
-    sha256: "ad319aabe659c18fa63fadb446026a7c7f5260f02a6159f51195735d20e7aa1c"
-    size: 199217683
-    update:
-      type: foojay
-      distribution: zulu
-
+    - url: "https://cdn.azul.com/zulu/bin/zulu17.68.17-ca-jdk17.0.20-linux_x64.tar.gz"
+      file: "zulu-jdk-{version}.tar.gz"
+      sha256: "32c5efedf69f4a95635ea2923f6a6ee90ce6ca83df0bd43ba55dd662d5af429a"
+      size: 198138085
+      update:
+        type: foojay
+        distribution: zulu
 prepare:
-  - "tar xf zulu-jdk-{version}.tar.gz --strip-components=1 -C {pkg}"
-
+    - "tar xf zulu-jdk-{version}.tar.gz --strip-components=1 -C {pkg}"
 bin:
-  - { name: java, path: "{app}/bin/java" }
-  - { name: javac, path: "{app}/bin/javac" }
-  - { name: jar, path: "{app}/bin/jar" }
-  - { name: javadoc, path: "{app}/bin/javadoc" }
-  - { name: jshell, path: "{app}/bin/jshell" }
-  - { name: jlink, path: "{app}/bin/jlink" }
-  - { name: jpackage, path: "{app}/bin/jpackage" }
-  - { name: jdeps, path: "{app}/bin/jdeps" }
-  - { name: keytool, path: "{app}/bin/keytool" }
-
+    - {name: java, path: "{app}/bin/java"}
+    - {name: javac, path: "{app}/bin/javac"}
+    - {name: jar, path: "{app}/bin/jar"}
+    - {name: javadoc, path: "{app}/bin/javadoc"}
+    - {name: jshell, path: "{app}/bin/jshell"}
+    - {name: jlink, path: "{app}/bin/jlink"}
+    - {name: jpackage, path: "{app}/bin/jpackage"}
+    - {name: jdeps, path: "{app}/bin/jdeps"}
+    - {name: keytool, path: "{app}/bin/keytool"}
 env:
-  JAVA_HOME: "{app}"
-
+    JAVA_HOME: "{app}"

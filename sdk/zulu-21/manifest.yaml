@@ -1,15 +1,15 @@
 id: zulu-21
 name: Azul Zulu JDK 21
 description: Azul's free, TCK-tested build of OpenJDK 21 LTS
-version: "21.0.11+10"
+version: "21.0.12+8"
 category: sdk
 homepage: https://www.azul.com/downloads/?package=jdk
 license: GPL-2.0-with-classpath-exception
 provides: jdk
 sources:
-    - url: "https://cdn.azul.com/zulu/bin/zulu21.50.15-ca-jdk21.0.11-linux_x64.tar.gz"
+    - url: "https://cdn.azul.com/zulu/bin/zulu21.52.15-ca-jdk21.0.12-linux_x64.tar.gz"
       file: "zulu-jdk-{version}.tar.gz"
-      sha256: "80ee7f26b29d04da5c4b53742c53e915673b8cca8183bd6d3ae734f00a249a7d"
+      sha256: "b1a9df12e798770d1b2db43b402a80f1e6080cff6d5d1d1fbe5c768fb4225f6a"
       update:
         type: foojay
         distribution: zulu
