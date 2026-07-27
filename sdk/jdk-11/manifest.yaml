@@ -1,34 +1,29 @@
 id: jdk-11
 name: Eclipse Temurin JDK 11
 description: Production-ready OpenJDK 11 LTS distribution from Adoptium
-version: "11.0.31+11"
+version: "11.0.32+9"
 category: sdk
 homepage: https://adoptium.net/
 license: GPL-2.0-with-classpath-exception
-
 provides: jdk
-
 sources:
-  - url: "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.31%2B11/OpenJDK11U-jdk_x64_linux_hotspot_11.0.31_11.tar.gz"
-    file: "temurin-jdk-{version}.tar.gz"
-    sha256: "1e9de64586b519c0a981319489257cabedd9457599f3823424a87c3158fbe939"
-    size: 195644280
-    update:
-      type: foojay
-      distribution: temurin
-
+    - url: "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.32%2B9/OpenJDK11U-jdk_x64_linux_hotspot_11.0.32_9.tar.gz"
+      file: "temurin-jdk-{version}.tar.gz"
+      sha256: "5906e0339e9322a688b2375eaf40666e00a16e008b0067b0a9f9e4b6c5033720"
+      size: 195674809
+      update:
+        type: foojay
+        distribution: temurin
 prepare:
-  - "tar xf temurin-jdk-{version}.tar.gz --strip-components=1 -C {pkg}"
-
+    - "tar xf temurin-jdk-{version}.tar.gz --strip-components=1 -C {pkg}"
 bin:
-  - { name: java,    path: "{app}/bin/java" }
-  - { name: javac,   path: "{app}/bin/javac" }
-  - { name: jar,     path: "{app}/bin/jar" }
-  - { name: javadoc, path: "{app}/bin/javadoc" }
-  - { name: jshell,  path: "{app}/bin/jshell" }
-  - { name: jlink,   path: "{app}/bin/jlink" }
-  - { name: jdeps,   path: "{app}/bin/jdeps" }
-  - { name: keytool, path: "{app}/bin/keytool" }
-
+    - {name: java, path: "{app}/bin/java"}
+    - {name: javac, path: "{app}/bin/javac"}
+    - {name: jar, path: "{app}/bin/jar"}
+    - {name: javadoc, path: "{app}/bin/javadoc"}
+    - {name: jshell, path: "{app}/bin/jshell"}
+    - {name: jlink, path: "{app}/bin/jlink"}
+    - {name: jdeps, path: "{app}/bin/jdeps"}
+    - {name: keytool, path: "{app}/bin/keytool"}
 env:
-  JAVA_HOME: "{app}"
+    JAVA_HOME: "{app}"

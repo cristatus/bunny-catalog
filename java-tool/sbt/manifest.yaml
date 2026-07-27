@@ -1,37 +1,31 @@
 id: sbt
 name: sbt
 description: Interactive build tool for Scala and Java projects
-version: "2.0.3"
+version: "2.0.4"
 category: java-tool
 homepage: https://www.scala-sbt.org/
 license: Apache-2.0
-
 requires: ["jdk>=17"]
-
 sources:
-  - url: "https://github.com/sbt/sbt/releases/download/v{version}/sbt-{version}.tgz"
-    file: "sbt-{version}.tgz"
-    sha256: "b2cd0ac3a494734dbf10d80cad5c40ddd558cba4e0fa93c542835f806596f9a3"
-    size: 57515654
-    update:
-      type: github
-      repo: sbt/sbt
-      asset: "^sbt-{version}\\.tgz$"
-      tag-pattern: "^v([0-9.]+)$"
-
+    - url: "https://github.com/sbt/sbt/releases/download/v{version}/sbt-{version}.tgz"
+      file: "sbt-{version}.tgz"
+      sha256: "13253ee7a8b19f60f8c6dc100249619df19ed8869f8be783ab8d206aedfdc366"
+      size: 57656202
+      update:
+        type: github
+        repo: sbt/sbt
+        asset: "^sbt-{version}\\.tgz$"
+        tag-pattern: "^v([0-9.]+)$"
 prepare:
-  - "tar xf sbt-{version}.tgz --strip-components=1 -C {pkg}"
-
+    - "tar xf sbt-{version}.tgz --strip-components=1 -C {pkg}"
 bin:
-  - { name: sbt, path: "{app}/bin/sbt" }
-  - { name: sbtn, path: "{app}/bin/sbtn-x86_64-pc-linux" }
-
+    - {name: sbt, path: "{app}/bin/sbt"}
+    - {name: sbtn, path: "{app}/bin/sbtn-x86_64-pc-linux"}
 env:
-  SBT_OPTS: "-Dsbt.global.base={data}/sbt -Dsbt.boot.directory={data}/boot -Dsbt.ivy.home={data}/ivy"
-  COURSIER_CACHE: "{data}/coursier"
-
+    SBT_OPTS: "-Dsbt.global.base={data}/sbt -Dsbt.boot.directory={data}/boot -Dsbt.ivy.home={data}/ivy"
+    COURSIER_CACHE: "{data}/coursier"
 dirs:
-  - "{data}/sbt"
-  - "{data}/boot"
-  - "{data}/ivy"
-  - "{data}/coursier"
+    - "{data}/sbt"
+    - "{data}/boot"
+    - "{data}/ivy"
+    - "{data}/coursier"
