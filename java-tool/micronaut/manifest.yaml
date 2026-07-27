@@ -1,7 +1,7 @@
 id: micronaut
 name: Micronaut CLI
 description: The `mn` command-line tool for creating Micronaut applications
-version: "5.0.5"
+version: "5.0.6"
 category: java-tool
 homepage: https://micronaut.io/
 license: Apache-2.0
@@ -9,7 +9,7 @@ requires: ["jdk>=25"]
 sources:
     - url: "https://github.com/micronaut-projects/micronaut-starter/releases/download/v{version}/micronaut-cli-{version}.zip"
       file: "micronaut-cli-{version}.zip"
-      sha256: "83e0754c34f6330fdb632b9ffff927f540c7ea5fad2788bf3d426acc5af1e3f0"
+      sha256: "51db5d2d29aac8e88d1239d7b83b0372d09d1a00ad514b92bfd345f3d2f3ff8f"
       update:
         type: github
         repo: micronaut-projects/micronaut-starter

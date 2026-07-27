@@ -43,7 +43,7 @@
       "category": "editor",
       "description": "Code editor from Microsoft",
       "name": "Visual Studio Code",
-      "version": "1.129.1"
+      "version": "1.130.0"
     },
     "corretto-11": {
       "category": "sdk",
@@ -84,7 +84,7 @@
       "category": "editor",
       "description": "The AI Code Editor (VS Code fork by Anysphere)",
       "name": "Cursor",
-      "version": "3.12.17-1784259156"
+      "version": "3.13.10-1784845467"
     },
     "delta": {
       "category": "cli",
@@ -96,7 +96,7 @@
       "category": "sdk",
       "description": "Secure runtime for JavaScript and TypeScript with built-in tooling",
       "name": "Deno",
-      "version": "2.9.3"
+      "version": "2.9.4"
     },
     "eclipse": {
       "category": "ide",
@@ -149,7 +149,7 @@
       "description": "GraalVM Community Edition with JDK 25 and native-image",
       "name": "GraalVM Community 25",
       "provides": "jdk",
-      "version": "25.0.2"
+      "version": "25.1.3"
     },
     "gradle": {
       "category": "java-tool",
@@ -188,21 +188,21 @@
       "description": "Production-ready OpenJDK 11 LTS distribution from Adoptium",
       "name": "Eclipse Temurin JDK 11",
       "provides": "jdk",
-      "version": "11.0.31+11"
+      "version": "11.0.32+9"
     },
     "jdk-17": {
       "category": "sdk",
       "description": "Production-ready OpenJDK 17 LTS distribution from Adoptium",
       "name": "Eclipse Temurin JDK 17",
       "provides": "jdk",
-      "version": "17.0.19+10"
+      "version": "17.0.20+8"
     },
     "jdk-21": {
       "category": "sdk",
       "description": "Production-ready OpenJDK 21 LTS distribution from Adoptium",
       "name": "Eclipse Temurin JDK 21",
       "provides": "jdk",
-      "version": "21.0.11+10"
+      "version": "21.0.12+8"
     },
     "jdk-25": {
       "category": "sdk",
@@ -259,35 +259,35 @@
       "description": "Production-ready OpenJDK 11 LTS distribution from BellSoft",
       "name": "BellSoft Liberica JDK 11",
       "provides": "jdk",
-      "version": "11.0.31+11"
+      "version": "11.0.32+11"
     },
     "liberica-17": {
       "category": "sdk",
       "description": "Production-ready OpenJDK 17 LTS distribution from BellSoft",
       "name": "BellSoft Liberica JDK 17",
       "provides": "jdk",
-      "version": "17.0.19+11"
+      "version": "17.0.20+10"
     },
     "liberica-21": {
       "category": "sdk",
       "description": "Production-ready OpenJDK 21 LTS distribution from BellSoft",
       "name": "BellSoft Liberica JDK 21",
       "provides": "jdk",
-      "version": "21.0.11+11"
+      "version": "21.0.12+10"
     },
     "liberica-25": {
       "category": "sdk",
       "description": "Production-ready OpenJDK 25 LTS distribution from BellSoft",
       "name": "BellSoft Liberica JDK 25",
       "provides": "jdk",
-      "version": "25.0.3+11"
+      "version": "25.0.4+9"
     },
     "liberica-8": {
       "category": "sdk",
       "description": "Production-ready OpenJDK 8 LTS distribution from BellSoft",
       "name": "BellSoft Liberica JDK 8",
       "provides": "jdk",
-      "version": "8.0.492+9"
+      "version": "8.0.502+9"
     },
     "maven": {
       "category": "java-tool",
@@ -305,7 +305,7 @@
       "requires": [
         "jdk\u003e=25"
       ],
-      "version": "5.0.5"
+      "version": "5.0.6"
     },
     "mvnd": {
       "category": "java-tool",
@@ -334,7 +334,7 @@
       "category": "node-tool",
       "description": "Fast, disk-efficient package manager for JavaScript projects",
       "name": "pnpm",
-      "version": "11.15.1"
+      "version": "11.17.0"
     },
     "quarkus": {
       "category": "java-tool",
@@ -343,7 +343,7 @@
       "requires": [
         "jdk"
       ],
-      "version": "3.37.3"
+      "version": "3.37.4"
     },
     "ripgrep": {
       "category": "cli",
@@ -358,7 +358,7 @@
       "requires": [
         "jdk\u003e=17"
       ],
-      "version": "2.0.3"
+      "version": "2.0.4"
     },
     "scala": {
       "category": "java-tool",
@@ -444,7 +444,7 @@
       "category": "editor",
       "description": "High-performance, multiplayer code editor",
       "name": "Zed",
-      "version": "1.11.3"
+      "version": "1.12.0"
     },
     "zulu-11": {
       "category": "sdk",
@@ -482,6 +482,6 @@
       "version": "8.0.502+7"
     }
   },
-  "updated": "2026-07-22T11:40:59Z",
+  "updated": "2026-07-27T02:41:23Z",
   "version": 1
 }

@@ -1,36 +1,30 @@
 id: liberica-25
 name: BellSoft Liberica JDK 25
 description: Production-ready OpenJDK 25 LTS distribution from BellSoft
-version: "25.0.3+11"
+version: "25.0.4+9"
 category: sdk
 homepage: https://bell-sw.com/libericajdk/
 license: GPL-2.0-with-classpath-exception
-
 provides: jdk
-
 sources:
-  - url: "https://github.com/bell-sw/Liberica/releases/download/25.0.3+11/bellsoft-jdk25.0.3+11-linux-amd64.tar.gz"
-    file: "liberica-jdk-{version}.tar.gz"
-    sha256: "cbcd7f05f199b808a8a759bb55d1539ee6052c33970807ebe15d4b7baf120154"
-    size: 259966993
-    update:
-      type: foojay
-      distribution: liberica
-
+    - url: "https://github.com/bell-sw/Liberica/releases/download/25.0.4+9/bellsoft-jdk25.0.4+9-linux-amd64.tar.gz"
+      file: "liberica-jdk-{version}.tar.gz"
+      sha256: "657aa61a017d1bf19aa38d2baa42d29b5609a35e58443c7c20bd64fd68f46a3f"
+      size: 260091630
+      update:
+        type: foojay
+        distribution: liberica
 prepare:
-  - "tar xf liberica-jdk-{version}.tar.gz --strip-components=1 -C {pkg}"
-
+    - "tar xf liberica-jdk-{version}.tar.gz --strip-components=1 -C {pkg}"
 bin:
-  - { name: java, path: "{app}/bin/java" }
-  - { name: javac, path: "{app}/bin/javac" }
-  - { name: jar, path: "{app}/bin/jar" }
-  - { name: javadoc, path: "{app}/bin/javadoc" }
-  - { name: jshell, path: "{app}/bin/jshell" }
-  - { name: jlink, path: "{app}/bin/jlink" }
-  - { name: jpackage, path: "{app}/bin/jpackage" }
-  - { name: jdeps, path: "{app}/bin/jdeps" }
-  - { name: keytool, path: "{app}/bin/keytool" }
-
+    - {name: java, path: "{app}/bin/java"}
+    - {name: javac, path: "{app}/bin/javac"}
+    - {name: jar, path: "{app}/bin/jar"}
+    - {name: javadoc, path: "{app}/bin/javadoc"}
+    - {name: jshell, path: "{app}/bin/jshell"}
+    - {name: jlink, path: "{app}/bin/jlink"}
+    - {name: jpackage, path: "{app}/bin/jpackage"}
+    - {name: jdeps, path: "{app}/bin/jdeps"}
+    - {name: keytool, path: "{app}/bin/keytool"}
 env:
-  JAVA_HOME: "{app}"
-
+    JAVA_HOME: "{app}"
