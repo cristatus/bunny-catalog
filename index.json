@@ -43,7 +43,7 @@
       "category": "editor",
       "description": "Code editor from Microsoft",
       "name": "Visual Studio Code",
-      "version": "1.130.0"
+      "version": "1.131.0"
     },
     "corretto-11": {
       "category": "sdk",
@@ -84,7 +84,7 @@
       "category": "editor",
       "description": "The AI Code Editor (VS Code fork by Anysphere)",
       "name": "Cursor",
-      "version": "3.13.10-1784845467"
+      "version": "3.14.7-1785396290"
     },
     "delta": {
       "category": "cli",
@@ -123,19 +123,19 @@
       "category": "cli",
       "description": "A command-line fuzzy finder",
       "name": "fzf",
-      "version": "0.74.1"
+      "version": "0.74.2"
     },
     "gh": {
       "category": "cli",
       "description": "GitHub's official command-line tool for repos, PRs, issues, and more",
       "name": "GitHub CLI",
-      "version": "2.96.0"
+      "version": "2.97.0"
     },
     "glab": {
       "category": "cli",
       "description": "GitLab's official command-line tool for repos, merge requests, issues, and CI/CD pipelines",
       "name": "GitLab CLI",
-      "version": "1.109.0"
+      "version": "1.111.0"
     },
     "graalvm-21": {
       "category": "sdk",
@@ -149,7 +149,7 @@
       "description": "GraalVM Community Edition with JDK 25 and native-image",
       "name": "GraalVM Community 25",
       "provides": "jdk",
-      "version": "25.1.3"
+      "version": "25.2.4"
     },
     "gradle": {
       "category": "java-tool",
@@ -209,20 +209,20 @@
       "description": "Production-ready OpenJDK 25 LTS distribution from Adoptium",
       "name": "Eclipse Temurin JDK 25",
       "provides": "jdk",
-      "version": "25.0.3+9"
+      "version": "25.0.4+7"
     },
     "jdk-8": {
       "category": "sdk",
       "description": "Production-ready OpenJDK 8 LTS distribution from Adoptium",
       "name": "Eclipse Temurin JDK 8",
       "provides": "jdk",
-      "version": "8.0.492+9"
+      "version": "8.0.502+7"
     },
     "jetbrains-toolbox": {
       "category": "ide",
       "description": "Install, update, and roll back JetBrains IDEs (IntelliJ IDEA, PyCharm, …) from one app",
       "name": "JetBrains Toolbox",
-      "version": "3.6.2.85969"
+      "version": "3.6.3.86383"
     },
     "jmc": {
       "category": "java-tool",
@@ -305,7 +305,7 @@
       "requires": [
         "jdk\u003e=25"
       ],
-      "version": "5.0.6"
+      "version": "5.1.0"
     },
     "mvnd": {
       "category": "java-tool",
@@ -321,20 +321,20 @@
       "description": "JavaScript runtime built on V8 (Maintenance LTS — Jod)",
       "name": "Node.js 22 LTS",
       "provides": "node",
-      "version": "22.23.1"
+      "version": "22.23.2"
     },
     "node-24": {
       "category": "sdk",
       "description": "JavaScript runtime built on V8 (Active LTS — Krypton)",
       "name": "Node.js 24 LTS",
       "provides": "node",
-      "version": "24.18.0"
+      "version": "24.18.1"
     },
     "pnpm": {
       "category": "node-tool",
       "description": "Fast, disk-efficient package manager for JavaScript projects",
       "name": "pnpm",
-      "version": "11.17.0"
+      "version": "11.18.0"
     },
     "quarkus": {
       "category": "java-tool",
@@ -343,7 +343,7 @@
       "requires": [
         "jdk"
       ],
-      "version": "3.37.4"
+      "version": "3.38.0"
     },
     "ripgrep": {
       "category": "cli",
@@ -374,28 +374,28 @@
       "description": "OpenJDK 11 LTS distribution from IBM with the Eclipse OpenJ9 JVM",
       "name": "IBM Semeru Runtime Open Edition 11",
       "provides": "jdk",
-      "version": "11.0.31"
+      "version": "11.0.32"
     },
     "semeru-17": {
       "category": "sdk",
       "description": "OpenJDK 17 LTS distribution from IBM with the Eclipse OpenJ9 JVM",
       "name": "IBM Semeru Runtime Open Edition 17",
       "provides": "jdk",
-      "version": "17.0.19"
+      "version": "17.0.20"
     },
     "semeru-21": {
       "category": "sdk",
       "description": "OpenJDK 21 LTS distribution from IBM with the Eclipse OpenJ9 JVM",
       "name": "IBM Semeru Runtime Open Edition 21",
       "provides": "jdk",
-      "version": "21.0.11"
+      "version": "21.0.12"
     },
     "semeru-25": {
       "category": "sdk",
       "description": "OpenJDK 25 LTS distribution from IBM with the Eclipse OpenJ9 JVM",
       "name": "IBM Semeru Runtime Open Edition 25",
       "provides": "jdk",
-      "version": "25.0.3"
+      "version": "25.0.4"
     },
     "semeru-8": {
       "category": "sdk",
@@ -444,7 +444,7 @@
       "category": "editor",
       "description": "High-performance, multiplayer code editor",
       "name": "Zed",
-      "version": "1.12.0"
+      "version": "1.13.1"
     },
     "zulu-11": {
       "category": "sdk",
@@ -482,6 +482,6 @@
       "version": "8.0.502+7"
     }
   },
-  "updated": "2026-07-27T02:41:23Z",
+  "updated": "2026-08-01T10:14:59Z",
   "version": 1
 }

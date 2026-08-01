@@ -1,37 +1,31 @@
 id: semeru-11
 name: IBM Semeru Runtime Open Edition 11
 description: OpenJDK 11 LTS distribution from IBM with the Eclipse OpenJ9 JVM
-version: "11.0.31"
+version: "11.0.32"
 category: sdk
 homepage: https://developer.ibm.com/languages/java/semeru-runtimes/
 license: GPL-2.0-with-classpath-exception
-
 provides: jdk
-
 sources:
-  - url: "https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.31.0/ibm-semeru-open-jdk_x64_linux_11.0.31.0.tar.gz"
-    file: "semeru-jdk-{version}.tar.gz"
-    sha256: "615399de57929ce021014d9292a5525291c17dfb10dd68d524232900b92ac49a"
-    size: 221187500
-    update:
-      type: github
-      repo: ibmruntimes/semeru11-binaries
-      asset: '^ibm-semeru-open-jdk_x64_linux_.*\.tar\.gz$'
-      tag-pattern: '^jdk-([0-9]+\.[0-9]+\.[0-9]+)\.0$'
-
+    - url: "https://github.com/ibmruntimes/semeru11-binaries/releases/download/jdk-11.0.32.0/ibm-semeru-open-jdk_x64_linux_11.0.32.0.tar.gz"
+      file: "semeru-jdk-{version}.tar.gz"
+      sha256: "5ed6f3aa7bb73821bd27241787d9e20d888ee8444a9d169256491b99e284c27a"
+      size: 221439015
+      update:
+        type: github
+        repo: ibmruntimes/semeru11-binaries
+        asset: '^ibm-semeru-open-jdk_x64_linux_.*\.tar\.gz$'
+        tag-pattern: '^jdk-([0-9]+\.[0-9]+\.[0-9]+)\.0$'
 prepare:
-  - "tar xf semeru-jdk-{version}.tar.gz --strip-components=1 -C {pkg}"
-
+    - "tar xf semeru-jdk-{version}.tar.gz --strip-components=1 -C {pkg}"
 bin:
-  - { name: java, path: "{app}/bin/java" }
-  - { name: javac, path: "{app}/bin/javac" }
-  - { name: jar, path: "{app}/bin/jar" }
-  - { name: javadoc, path: "{app}/bin/javadoc" }
-  - { name: jshell, path: "{app}/bin/jshell" }
-  - { name: jlink, path: "{app}/bin/jlink" }
-  - { name: jdeps, path: "{app}/bin/jdeps" }
-  - { name: keytool, path: "{app}/bin/keytool" }
-
+    - {name: java, path: "{app}/bin/java"}
+    - {name: javac, path: "{app}/bin/javac"}
+    - {name: jar, path: "{app}/bin/jar"}
+    - {name: javadoc, path: "{app}/bin/javadoc"}
+    - {name: jshell, path: "{app}/bin/jshell"}
+    - {name: jlink, path: "{app}/bin/jlink"}
+    - {name: jdeps, path: "{app}/bin/jdeps"}
+    - {name: keytool, path: "{app}/bin/keytool"}
 env:
-  JAVA_HOME: "{app}"
-
+    JAVA_HOME: "{app}"

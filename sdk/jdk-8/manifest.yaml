@@ -1,16 +1,16 @@
 id: jdk-8
 name: Eclipse Temurin JDK 8
 description: Production-ready OpenJDK 8 LTS distribution from Adoptium
-version: "8.0.492+9"
+version: "8.0.502+7"
 category: sdk
 homepage: https://adoptium.net/
 license: GPL-2.0-with-classpath-exception
 provides: jdk
 sources:
-    - url: "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u492-b09/OpenJDK8U-jdk_x64_linux_hotspot_8u492b09.tar.gz"
+    - url: "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u502-b07/OpenJDK8U-jdk_x64_linux_hotspot_8u502b07.tar.gz"
       file: "temurin-jdk-{version}.tar.gz"
-      sha256: "da257f161d7f8c6ca5b0e5d9e4090f65ac28c5e398072e68b8ae87988b1d1a2e"
-      size: 103553239
+      sha256: "b8f5440f64f50193c01f67dacba55c9660caffe13b908baf6bd1955f4dd4c3ea"
+      size: 103536381
       update:
         type: foojay
         distribution: temurin

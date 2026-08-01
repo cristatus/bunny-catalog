@@ -20,10 +20,10 @@ sources:
     # formatting out of the box. Tracks gjf releases independently of Eclipse
     # via its own update block; the trailing --add-exports lines in
     # eclipse.ini are gjf's runtime requirement on Java 16+.
-    - url: "https://github.com/google/google-java-format/releases/download/v1.35.0/google-java-format-eclipse-plugin-1.35.0.jar"
+    - url: "https://github.com/google/google-java-format/releases/download/v1.36.1/google-java-format-eclipse-plugin-1.36.1.jar"
       file: "gjf-eclipse-plugin.jar"
-      sha256: "14e9d7c72cf0c638fcf019adc34f0c9d550708f1b8c2390a6407eeae8b0719f8"
-      size: 2995354
+      sha256: "0c1488c754ea18dfe87235d177bc03ae00afebc97c17c56a9be24913288ec292"
+      size: 3033162
       update:
         type: github
         repo: google/google-java-format

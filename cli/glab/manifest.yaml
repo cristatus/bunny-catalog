@@ -1,15 +1,15 @@
 id: glab
 name: GitLab CLI
 description: GitLab's official command-line tool for repos, merge requests, issues, and CI/CD pipelines
-version: "1.109.0"
+version: "1.111.0"
 category: cli
 homepage: https://gitlab.com/gitlab-org/cli
 license: MIT
 sources:
     - url: "https://gitlab.com/gitlab-org/cli/-/releases/v{version}/downloads/glab_{version}_linux_amd64.tar.gz"
       file: "glab-{version}.tar.gz"
-      sha256: "67b4a8557727a058f44e0839babdcf214ea6f6f829062cf0bae02f7b25814e5d"
-      size: 18086705
+      sha256: "d3aa186428ce6668455e2e35184c6f60b013840d759c7ea4cf02bac68d2a1827"
+      size: 18103216
       update:
         type: json
         url: "https://gitlab.com/api/v4/projects/gitlab-org%2Fcli/releases?per_page=1"
