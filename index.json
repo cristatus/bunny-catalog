@@ -156,7 +156,7 @@
       "description": "Build automation tool with Groovy/Kotlin DSL for Java, Android, and more",
       "name": "Gradle",
       "requires": [
-        "jdk\u003e=17"
+        "jdk>=17"
       ],
       "version": "9.6.1"
     },
@@ -303,7 +303,7 @@
       "description": "The `mn` command-line tool for creating Micronaut applications",
       "name": "Micronaut CLI",
       "requires": [
-        "jdk\u003e=25"
+        "jdk>=25"
       ],
       "version": "5.1.0"
     },
@@ -312,9 +312,18 @@
       "description": "Fast Maven build client backed by long-lived daemon processes",
       "name": "Maven Daemon",
       "requires": [
-        "jdk\u003e=17"
+        "jdk>=17"
       ],
       "version": "1.0.6"
+    },
+    "netbeans": {
+      "category": "ide",
+      "description": "Open-source IDE for Java and other languages from the Apache Software Foundation",
+      "name": "Apache NetBeans",
+      "requires": [
+        "jdk>=21"
+      ],
+      "version": "30"
     },
     "node-22": {
       "category": "sdk",
@@ -356,7 +365,7 @@
       "description": "Interactive build tool for Scala and Java projects",
       "name": "sbt",
       "requires": [
-        "jdk\u003e=17"
+        "jdk>=17"
       ],
       "version": "2.0.4"
     },
