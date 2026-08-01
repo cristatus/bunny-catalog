@@ -22,7 +22,8 @@ jobs:
 
       - name: Install bunny
         run: |
-          GOPROXY=direct go install github.com/cristatus/bunny/cmd/bunny@main
+          git clone --depth=1 --branch main https://github.com/cristatus/bunny.git "$RUNNER_TEMP/bunny"
+          (cd "$RUNNER_TEMP/bunny" && go install ./cmd/bunny)
           echo "$(go env GOPATH)/bin" >> "$GITHUB_PATH"
 
       - name: Validate catalog via bunny
