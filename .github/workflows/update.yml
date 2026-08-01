@@ -20,7 +20,7 @@ jobs:
 
       - name: Install bunny
         run: |
-          go install github.com/cristatus/bunny/cmd/bunny@main
+          GOPROXY=direct go install github.com/cristatus/bunny/cmd/bunny@main
           echo "$(go env GOPATH)/bin" >> "$GITHUB_PATH"
 
       - name: Run 'bunny dev update'
