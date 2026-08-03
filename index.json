@@ -453,7 +453,7 @@
       "category": "editor",
       "description": "High-performance, multiplayer code editor",
       "name": "Zed",
-      "version": "1.13.1"
+      "version": "1.13.2"
     },
     "zulu-11": {
       "category": "sdk",
@@ -491,6 +491,6 @@
       "version": "8.0.502+7"
     }
   },
-  "updated": "2026-08-01T10:14:59Z",
+  "updated": "2026-08-03T02:51:38Z",
   "version": 1
 }
