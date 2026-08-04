@@ -337,13 +337,13 @@
       "description": "JavaScript runtime built on V8 (Active LTS — Krypton)",
       "name": "Node.js 24 LTS",
       "provides": "node",
-      "version": "24.18.1"
+      "version": "24.19.0"
     },
     "pnpm": {
       "category": "node-tool",
       "description": "Fast, disk-efficient package manager for JavaScript projects",
       "name": "pnpm",
-      "version": "11.18.0"
+      "version": "11.20.0"
     },
     "quarkus": {
       "category": "java-tool",
@@ -367,7 +367,7 @@
       "requires": [
         "jdk>=17"
       ],
-      "version": "2.0.4"
+      "version": "2.0.5"
     },
     "scala": {
       "category": "java-tool",
@@ -491,6 +491,6 @@
       "version": "8.0.502+7"
     }
   },
-  "updated": "2026-08-03T02:51:38Z",
+  "updated": "2026-08-04T02:35:15Z",
   "version": 1
 }
