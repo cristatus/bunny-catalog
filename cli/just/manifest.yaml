@@ -1,0 +1,23 @@
+id: just
+name: just
+description: A handy command runner, a simpler alternative to make
+version: "1.58.0"
+category: cli
+homepage: https://just.systems/
+license: CC0-1.0
+sources:
+    - url: "https://github.com/casey/just/releases/download/{version}/just-{version}-x86_64-unknown-linux-musl.tar.gz"
+      sha256: "4a5cc2f53e6f0f8c59092a6cc38291eb729d46a7dd95d3ae582008881b84931d"
+      size: 2529009
+      update:
+        type: github
+        repo: casey/just
+        asset: "just-.*-x86_64-unknown-linux-musl\\.tar\\.gz$"
+prepare:
+    - "tar xf just-{version}-x86_64-unknown-linux-musl.tar.gz -C {pkg}"
+bin:
+    - {name: just, path: "{app}/just"}
+completions:
+    bash: "{app}/completions/just.bash"
+    zsh: "{app}/completions/just.zsh"
+    fish: "{app}/completions/just.fish"

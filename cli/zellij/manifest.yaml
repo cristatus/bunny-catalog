@@ -1,0 +1,19 @@
+id: zellij
+name: zellij
+description: Terminal workspace and multiplexer with batteries included
+version: "0.44.3"
+category: cli
+homepage: https://zellij.dev/
+license: MIT
+sources:
+    - url: "https://github.com/zellij-org/zellij/releases/download/v{version}/zellij-x86_64-unknown-linux-musl.tar.gz"
+      sha256: "0f7c346788627f506c0a28296517768633cff24fc822a739f8264b640ecad751"
+      size: 18260479
+      update:
+        type: github
+        repo: zellij-org/zellij
+        asset: "^zellij-x86_64-unknown-linux-musl\\.tar\\.gz$"
+prepare:
+    - "tar xf zellij-x86_64-unknown-linux-musl.tar.gz -C {pkg}"
+bin:
+    - {name: zellij, path: "{app}/zellij"}

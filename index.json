@@ -27,11 +27,29 @@
       ],
       "version": "4.5"
     },
+    "atuin": {
+      "category": "cli",
+      "description": "Magical shell history — sync, search, and stats across machines",
+      "name": "atuin",
+      "version": "18.19.0"
+    },
     "bat": {
       "category": "cli",
       "description": "A cat clone with syntax highlighting and Git integration",
       "name": "bat",
       "version": "0.26.1"
+    },
+    "bottom": {
+      "category": "cli",
+      "description": "Cross-platform graphical process/system monitor, a top/htop alternative",
+      "name": "bottom",
+      "version": "0.14.7"
+    },
+    "broot": {
+      "category": "cli",
+      "description": "Interactive tree view, fuzzy search, and file navigator",
+      "name": "broot",
+      "version": "1.58.0"
     },
     "bun": {
       "category": "sdk",
@@ -98,6 +116,24 @@
       "name": "Deno",
       "version": "2.9.4"
     },
+    "difftastic": {
+      "category": "cli",
+      "description": "A structural diff that understands syntax",
+      "name": "difftastic",
+      "version": "0.69.0"
+    },
+    "duf": {
+      "category": "cli",
+      "description": "Disk Usage/Free Utility, a better df alternative",
+      "name": "duf",
+      "version": "0.9.1"
+    },
+    "dust": {
+      "category": "cli",
+      "description": "A more intuitive version of du in Rust",
+      "name": "dust",
+      "version": "1.2.4"
+    },
     "eclipse": {
       "category": "ide",
       "description": "The essential tools for Java developers — IDE, Git, Maven, Gradle, XML Editor",
@@ -159,6 +195,12 @@
         "jdk>=17"
       ],
       "version": "9.6.1"
+    },
+    "hyperfine": {
+      "category": "cli",
+      "description": "A command-line benchmarking tool",
+      "name": "hyperfine",
+      "version": "1.20.0"
     },
     "jbang": {
       "category": "java-tool",
@@ -238,6 +280,12 @@
       "description": "Command-line JSON processor",
       "name": "jq",
       "version": "1.8.2"
+    },
+    "just": {
+      "category": "cli",
+      "description": "A handy command runner, a simpler alternative to make",
+      "name": "just",
+      "version": "1.58.0"
     },
     "kotlin": {
       "category": "java-tool",
@@ -351,6 +399,12 @@
       "name": "pnpm",
       "version": "11.20.0"
     },
+    "procs": {
+      "category": "cli",
+      "description": "A modern replacement for ps",
+      "name": "procs",
+      "version": "0.14.12"
+    },
     "quarkus": {
       "category": "java-tool",
       "description": "Command-line tool for creating and managing Quarkus projects",
@@ -383,6 +437,12 @@
         "jdk"
       ],
       "version": "3.3.8"
+    },
+    "sd": {
+      "category": "cli",
+      "description": "Intuitive find & replace, a sed alternative",
+      "name": "sd",
+      "version": "1.1.0"
     },
     "semeru-11": {
       "category": "sdk",
@@ -440,6 +500,18 @@
       ],
       "version": "4.1.0"
     },
+    "starship": {
+      "category": "cli",
+      "description": "Minimal, fast, customizable prompt for any shell",
+      "name": "starship",
+      "version": "1.26.0"
+    },
+    "tealdeer": {
+      "category": "cli",
+      "description": "A very fast implementation of tldr in Rust",
+      "name": "tealdeer",
+      "version": "1.8.1"
+    },
     "visualvm": {
       "category": "java-tool",
       "description": "All-in-one Java troubleshooting tool — monitoring, profiling, heap dumps",
@@ -460,6 +532,18 @@
       "description": "High-performance, multiplayer code editor",
       "name": "Zed",
       "version": "1.13.2"
+    },
+    "zellij": {
+      "category": "cli",
+      "description": "Terminal workspace and multiplexer with batteries included",
+      "name": "zellij",
+      "version": "0.44.3"
+    },
+    "zoxide": {
+      "category": "cli",
+      "description": "A smarter cd that learns your habits",
+      "name": "zoxide",
+      "version": "0.10.0"
     },
     "zulu-11": {
       "category": "sdk",
