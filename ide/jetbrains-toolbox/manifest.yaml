@@ -1,15 +1,15 @@
 id: jetbrains-toolbox
 name: JetBrains Toolbox
 description: Install, update, and roll back JetBrains IDEs (IntelliJ IDEA, PyCharm, …) from one app
-version: "3.6.3.86383"
+version: "3.6.4.86641"
 category: ide
 homepage: https://www.jetbrains.com/toolbox-app/
 license: LicenseRef-JetBrains-Toolbox-EULA
 sources:
     - url: "https://download.jetbrains.com/toolbox/jetbrains-toolbox-{version}.tar.gz"
       file: "jetbrains-toolbox-{version}.tar.gz"
-      sha256: "88ca27074bf264d3c32851b2e8639917ad1bb1e0c14e40092372433e0203c391"
-      size: 170290717
+      sha256: "da979f13a3accd1486df8cdde97a65c55608522d2dcf5da7f1326ce943bc17ed"
+      size: 170380638
       update:
         type: json
         url: "https://data.services.jetbrains.com/products/releases?code=TBA&latest=true&type=release"
