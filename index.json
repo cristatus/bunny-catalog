@@ -61,7 +61,7 @@
       "category": "editor",
       "description": "Code editor from Microsoft",
       "name": "Visual Studio Code",
-      "version": "1.131.0"
+      "version": "1.132.0"
     },
     "corretto-11": {
       "category": "sdk",
@@ -102,7 +102,7 @@
       "category": "editor",
       "description": "The AI Code Editor (VS Code fork by Anysphere)",
       "name": "Cursor",
-      "version": "3.14.7-1785396290"
+      "version": "3.14.27-1785819549"
     },
     "delta": {
       "category": "cli",
@@ -531,7 +531,7 @@
       "category": "editor",
       "description": "High-performance, multiplayer code editor",
       "name": "Zed",
-      "version": "1.13.2"
+      "version": "1.14.2"
     },
     "zellij": {
       "category": "cli",
@@ -581,6 +581,6 @@
       "version": "8.0.502+7"
     }
   },
-  "updated": "2026-08-05T06:42:27Z",
+  "updated": "2026-08-06T02:36:45Z",
   "version": 1
 }
