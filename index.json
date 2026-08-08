@@ -102,7 +102,7 @@
       "category": "editor",
       "description": "The AI Code Editor (VS Code fork by Anysphere)",
       "name": "Cursor",
-      "version": "3.14.27-1785819549"
+      "version": "3.15.6-1785983008"
     },
     "delta": {
       "category": "cli",
@@ -120,7 +120,7 @@
       "category": "cli",
       "description": "A structural diff that understands syntax",
       "name": "difftastic",
-      "version": "0.69.0"
+      "version": "0.70.0"
     },
     "duf": {
       "category": "cli",
@@ -427,7 +427,7 @@
       "requires": [
         "jdk>=17"
       ],
-      "version": "2.0.5"
+      "version": "2.0.6"
     },
     "scala": {
       "category": "java-tool",
@@ -581,6 +581,6 @@
       "version": "8.0.502+7"
     }
   },
-  "updated": "2026-08-07T02:41:47Z",
+  "updated": "2026-08-08T01:42:05Z",
   "version": 1
 }
