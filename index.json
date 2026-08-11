@@ -377,7 +377,7 @@
       "requires": [
         "jdk>=21"
       ],
-      "version": "30"
+      "version": "31"
     },
     "node-22": {
       "category": "sdk",
@@ -581,6 +581,6 @@
       "version": "8.0.502+7"
     }
   },
-  "updated": "2026-08-10T01:50:54Z",
+  "updated": "2026-08-11T01:47:21Z",
   "version": 1
 }
