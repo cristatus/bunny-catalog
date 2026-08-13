@@ -16,7 +16,7 @@
       "requires": [
         "jdk"
       ],
-      "version": "4.3.2"
+      "version": "4.3.3"
     },
     "async-profiler": {
       "category": "java-tool",
@@ -61,7 +61,7 @@
       "category": "editor",
       "description": "Code editor from Microsoft",
       "name": "Visual Studio Code",
-      "version": "1.132.1"
+      "version": "1.133.0"
     },
     "corretto-11": {
       "category": "sdk",
@@ -300,7 +300,7 @@
       "category": "cli",
       "description": "A simple terminal UI for git commands",
       "name": "lazygit",
-      "version": "0.64.0"
+      "version": "0.64.1"
     },
     "liberica-11": {
       "category": "sdk",
@@ -531,7 +531,7 @@
       "category": "editor",
       "description": "High-performance, multiplayer code editor",
       "name": "Zed",
-      "version": "1.14.2"
+      "version": "1.15.0"
     },
     "zellij": {
       "category": "cli",
@@ -581,6 +581,6 @@
       "version": "8.0.502+7"
     }
   },
-  "updated": "2026-08-12T01:59:35Z",
+  "updated": "2026-08-13T02:01:46Z",
   "version": 1
 }
