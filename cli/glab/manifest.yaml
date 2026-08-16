@@ -3,6 +3,7 @@ name: GitLab CLI
 description: GitLab's official command-line tool for repos, merge requests, issues, and CI/CD pipelines
 version: "1.113.0"
 category: cli
+kind: cli
 homepage: https://gitlab.com/gitlab-org/cli
 license: MIT
 sources:

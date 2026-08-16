@@ -3,6 +3,7 @@ name: ShellCheck
 description: Static analysis tool for shell scripts
 version: "0.11.0"
 category: cli
+kind: cli
 homepage: https://www.shellcheck.net/
 license: GPL-3.0
 

@@ -3,6 +3,7 @@ name: Visual Studio Code
 description: Code editor from Microsoft
 version: "1.133.0"
 category: editor
+kind: app
 homepage: https://code.visualstudio.com/
 license: MIT
 sources:

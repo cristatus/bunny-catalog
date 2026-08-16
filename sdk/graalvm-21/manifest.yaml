@@ -3,6 +3,7 @@ name: GraalVM Community 21
 description: GraalVM Community Edition with JDK 21 and native-image
 version: "21.0.2"
 category: sdk
+kind: sdk
 homepage: https://www.graalvm.org/
 license: GPL-2.0-with-classpath-exception
 

@@ -3,6 +3,7 @@ name: dust
 description: A more intuitive version of du in Rust
 version: "1.2.4"
 category: cli
+kind: cli
 homepage: https://github.com/bootandy/dust
 license: Apache-2.0
 sources:

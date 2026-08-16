@@ -3,6 +3,7 @@ name: IBM Semeru Runtime Open Edition 11
 description: OpenJDK 11 LTS distribution from IBM with the Eclipse OpenJ9 JVM
 version: "11.0.32"
 category: sdk
+kind: sdk
 homepage: https://developer.ibm.com/languages/java/semeru-runtimes/
 license: GPL-2.0-with-classpath-exception
 provides: jdk

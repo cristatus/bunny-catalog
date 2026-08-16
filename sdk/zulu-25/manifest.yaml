@@ -3,6 +3,7 @@ name: Azul Zulu JDK 25
 description: Azul's free, TCK-tested build of OpenJDK 25 LTS
 version: "25.0.4+7"
 category: sdk
+kind: sdk
 homepage: https://www.azul.com/downloads/?package=jdk
 license: GPL-2.0-with-classpath-exception
 provides: jdk

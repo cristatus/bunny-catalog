@@ -3,6 +3,7 @@ name: GitHub CLI
 description: GitHub's official command-line tool for repos, PRs, issues, and more
 version: "2.97.0"
 category: cli
+kind: cli
 homepage: https://github.com/cli/cli
 license: MIT
 sources:

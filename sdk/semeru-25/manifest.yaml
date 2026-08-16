@@ -3,6 +3,7 @@ name: IBM Semeru Runtime Open Edition 25
 description: OpenJDK 25 LTS distribution from IBM with the Eclipse OpenJ9 JVM
 version: "25.0.4"
 category: sdk
+kind: sdk
 homepage: https://developer.ibm.com/languages/java/semeru-runtimes/
 license: GPL-2.0-with-classpath-exception
 provides: jdk

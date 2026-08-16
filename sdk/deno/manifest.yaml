@@ -3,6 +3,7 @@ name: Deno
 description: Secure runtime for JavaScript and TypeScript with built-in tooling
 version: "2.9.5"
 category: sdk
+kind: sdk
 homepage: https://deno.com/
 license: MIT
 sources:

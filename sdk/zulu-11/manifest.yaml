@@ -3,6 +3,7 @@ name: Azul Zulu JDK 11
 description: Azul's free, TCK-tested build of OpenJDK 11 LTS
 version: "11.0.32+9"
 category: sdk
+kind: sdk
 homepage: https://www.azul.com/downloads/?package=jdk
 license: GPL-2.0-with-classpath-exception
 provides: jdk

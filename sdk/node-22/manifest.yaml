@@ -3,6 +3,7 @@ name: Node.js 22 LTS
 description: JavaScript runtime built on V8 (Maintenance LTS — Jod)
 version: "22.23.2"
 category: sdk
+kind: sdk
 homepage: https://nodejs.org/
 license: MIT
 provides: node

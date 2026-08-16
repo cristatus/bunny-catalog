@@ -3,6 +3,7 @@ name: IBM Semeru Runtime Open Edition 8
 description: OpenJDK 8 LTS distribution from IBM with the Eclipse OpenJ9 JVM
 version: "8u482-b08.1"
 category: sdk
+kind: sdk
 homepage: https://developer.ibm.com/languages/java/semeru-runtimes/
 license: GPL-2.0-with-classpath-exception
 

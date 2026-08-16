@@ -3,6 +3,7 @@ name: BellSoft Liberica JDK 17
 description: Production-ready OpenJDK 17 LTS distribution from BellSoft
 version: "17.0.20+10"
 category: sdk
+kind: sdk
 homepage: https://bell-sw.com/libericajdk/
 license: GPL-2.0-with-classpath-exception
 provides: jdk

@@ -3,6 +3,7 @@ name: delta
 description: Syntax-highlighting pager for git, diff, and grep output
 version: "0.19.2"
 category: cli
+kind: cli
 homepage: https://github.com/dandavison/delta
 license: MIT
 

@@ -3,6 +3,7 @@ name: Apache NetBeans
 description: Open-source IDE for Java and other languages from the Apache Software Foundation
 version: "31"
 category: ide
+kind: app
 homepage: https://netbeans.apache.org/
 license: Apache-2.0
 requires: [jdk>=21]

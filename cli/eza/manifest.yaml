@@ -3,6 +3,7 @@ name: eza
 description: A modern, maintained replacement for ls
 version: "0.23.5"
 category: cli
+kind: cli
 homepage: https://github.com/eza-community/eza
 license: MIT
 sources:

@@ -3,6 +3,7 @@ name: Arthas
 description: Interactive diagnostics and troubleshooting tool for live Java applications
 version: "4.3.3"
 category: java-tool
+kind: sdk
 homepage: https://arthas.aliyun.com/
 license: Apache-2.0
 requires: [jdk]

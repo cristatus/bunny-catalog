@@ -3,6 +3,7 @@ name: duf
 description: Disk Usage/Free Utility, a better df alternative
 version: "0.9.1"
 category: cli
+kind: cli
 homepage: https://github.com/muesli/duf
 license: MIT
 sources:

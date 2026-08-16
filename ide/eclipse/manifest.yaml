@@ -3,6 +3,7 @@ name: Eclipse IDE for Java Developers
 description: The essential tools for Java developers — IDE, Git, Maven, Gradle, XML Editor
 version: "2026-06"
 category: ide
+kind: app
 homepage: https://www.eclipse.org/
 license: EPL-2.0
 requires: [jdk]

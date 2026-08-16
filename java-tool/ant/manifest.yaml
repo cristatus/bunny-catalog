@@ -3,6 +3,7 @@ name: Apache Ant
 description: Java build tool for declarative, task-based build scripts
 version: "1.10.17"
 category: java-tool
+kind: sdk
 homepage: https://ant.apache.org/
 license: Apache-2.0
 

@@ -3,6 +3,7 @@ name: fd
 description: Simple, fast, user-friendly alternative to find
 version: "10.4.2"
 category: cli
+kind: cli
 homepage: https://github.com/sharkdp/fd
 license: Apache-2.0 OR MIT
 

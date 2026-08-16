@@ -3,6 +3,7 @@ name: zoxide
 description: A smarter cd that learns your habits
 version: "0.10.0"
 category: cli
+kind: cli
 homepage: https://github.com/ajeetdsouza/zoxide
 license: MIT
 sources:

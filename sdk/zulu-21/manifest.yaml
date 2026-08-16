@@ -3,6 +3,7 @@ name: Azul Zulu JDK 21
 description: Azul's free, TCK-tested build of OpenJDK 21 LTS
 version: "21.0.12+8"
 category: sdk
+kind: sdk
 homepage: https://www.azul.com/downloads/?package=jdk
 license: GPL-2.0-with-classpath-exception
 provides: jdk

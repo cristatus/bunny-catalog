@@ -3,6 +3,7 @@ name: ripgrep
 description: Fast recursive grep alternative written in Rust
 version: "15.2.0"
 category: cli
+kind: cli
 homepage: https://github.com/BurntSushi/ripgrep
 license: Unlicense OR MIT
 sources:

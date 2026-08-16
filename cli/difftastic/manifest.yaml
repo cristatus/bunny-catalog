@@ -3,6 +3,7 @@ name: difftastic
 description: A structural diff that understands syntax
 version: "0.70.0"
 category: cli
+kind: cli
 homepage: https://difftastic.wilfred.me.uk/
 license: MIT
 sources:

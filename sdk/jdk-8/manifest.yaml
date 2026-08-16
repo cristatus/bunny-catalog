@@ -3,6 +3,7 @@ name: Eclipse Temurin JDK 8
 description: Production-ready OpenJDK 8 LTS distribution from Adoptium
 version: "8.0.502+7"
 category: sdk
+kind: sdk
 homepage: https://adoptium.net/
 license: GPL-2.0-with-classpath-exception
 provides: jdk

@@ -3,6 +3,7 @@ name: broot
 description: Interactive tree view, fuzzy search, and file navigator
 version: "1.58.0"
 category: cli
+kind: cli
 homepage: https://dystroy.org/broot/
 license: MIT
 sources:

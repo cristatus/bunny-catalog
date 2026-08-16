@@ -3,6 +3,7 @@ name: starship
 description: Minimal, fast, customizable prompt for any shell
 version: "1.26.0"
 category: cli
+kind: cli
 homepage: https://starship.rs/
 license: ISC
 sources:

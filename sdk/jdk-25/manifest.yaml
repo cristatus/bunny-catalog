@@ -3,6 +3,7 @@ name: Eclipse Temurin JDK 25
 description: Production-ready OpenJDK 25 LTS distribution from Adoptium
 version: "25.0.4+7"
 category: sdk
+kind: sdk
 homepage: https://adoptium.net/
 license: GPL-2.0-with-classpath-exception
 provides: jdk

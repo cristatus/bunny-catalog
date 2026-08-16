@@ -3,6 +3,7 @@ name: hyperfine
 description: A command-line benchmarking tool
 version: "1.20.0"
 category: cli
+kind: cli
 homepage: https://github.com/sharkdp/hyperfine
 license: Apache-2.0 OR MIT
 sources:

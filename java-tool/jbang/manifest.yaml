@@ -3,6 +3,7 @@ name: JBang
 description: Run Java (and JVM) source files as scripts — no build setup
 version: "0.141.0"
 category: java-tool
+kind: sdk
 homepage: https://www.jbang.dev/
 license: MIT
 requires: [jdk]

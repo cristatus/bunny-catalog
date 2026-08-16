@@ -3,6 +3,7 @@ name: Amazon Corretto JDK 21
 description: Amazon's no-cost, production-ready distribution of OpenJDK 21 LTS
 version: "21.0.12"
 category: sdk
+kind: sdk
 homepage: https://aws.amazon.com/corretto/
 license: GPL-2.0-with-classpath-exception
 provides: jdk

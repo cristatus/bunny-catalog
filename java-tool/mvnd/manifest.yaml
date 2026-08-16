@@ -3,6 +3,7 @@ name: Maven Daemon
 description: Fast Maven build client backed by long-lived daemon processes
 version: "1.0.6"
 category: java-tool
+kind: sdk
 homepage: https://github.com/apache/maven-mvnd
 license: Apache-2.0
 

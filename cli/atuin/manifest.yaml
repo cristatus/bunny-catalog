@@ -3,6 +3,7 @@ name: atuin
 description: Magical shell history — sync, search, and stats across machines
 version: "18.19.0"
 category: cli
+kind: cli
 homepage: https://atuin.sh/
 license: MIT
 sources:

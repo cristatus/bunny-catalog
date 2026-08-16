@@ -3,6 +3,7 @@ name: Kotlin
 description: The Kotlin command-line compiler (kotlinc) and runner
 version: "2.4.10"
 category: java-tool
+kind: sdk
 homepage: https://kotlinlang.org/
 license: Apache-2.0
 requires: [jdk]

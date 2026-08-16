@@ -3,6 +3,7 @@ name: Eclipse Temurin JDK 21
 description: Production-ready OpenJDK 21 LTS distribution from Adoptium
 version: "21.0.12+8"
 category: sdk
+kind: sdk
 homepage: https://adoptium.net/
 license: GPL-2.0-with-classpath-exception
 provides: jdk

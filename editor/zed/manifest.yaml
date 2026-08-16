@@ -3,6 +3,7 @@ name: Zed
 description: High-performance, multiplayer code editor
 version: "1.15.0"
 category: editor
+kind: app
 homepage: https://zed.dev/
 license: GPL-3.0-or-later
 sources:

@@ -3,6 +3,7 @@ name: Azul Zulu JDK 8
 description: Azul's free, TCK-tested build of OpenJDK 8 LTS
 version: "8.0.502+7"
 category: sdk
+kind: sdk
 homepage: https://www.azul.com/downloads/?package=jdk
 license: GPL-2.0-with-classpath-exception
 provides: jdk

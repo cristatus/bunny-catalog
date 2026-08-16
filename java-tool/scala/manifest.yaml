@@ -3,6 +3,7 @@ name: Scala 3
 description: Scala 3 compiler, runner, and documentation generator
 version: "3.3.8"
 category: java-tool
+kind: sdk
 homepage: https://www.scala-lang.org/
 license: Apache-2.0
 

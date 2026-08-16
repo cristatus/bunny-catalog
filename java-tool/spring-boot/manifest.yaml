@@ -3,6 +3,7 @@ name: Spring Boot CLI
 description: Command-line tool for quickly prototyping with Spring Boot
 version: "4.1.0"
 category: java-tool
+kind: sdk
 homepage: https://spring.io/projects/spring-boot
 license: Apache-2.0
 requires: [jdk]

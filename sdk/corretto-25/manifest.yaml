@@ -3,6 +3,7 @@ name: Amazon Corretto JDK 25
 description: Amazon's no-cost, production-ready distribution of OpenJDK 25 LTS
 version: "25.0.4"
 category: sdk
+kind: sdk
 homepage: https://aws.amazon.com/corretto/
 license: GPL-2.0-with-classpath-exception
 provides: jdk

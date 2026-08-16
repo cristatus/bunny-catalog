@@ -3,6 +3,7 @@ name: Amazon Corretto JDK 11
 description: Amazon's no-cost, production-ready distribution of OpenJDK 11 LTS
 version: "11.0.32"
 category: sdk
+kind: sdk
 homepage: https://aws.amazon.com/corretto/
 license: GPL-2.0-with-classpath-exception
 provides: jdk

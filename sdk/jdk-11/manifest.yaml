@@ -3,6 +3,7 @@ name: Eclipse Temurin JDK 11
 description: Production-ready OpenJDK 11 LTS distribution from Adoptium
 version: "11.0.32+9"
 category: sdk
+kind: sdk
 homepage: https://adoptium.net/
 license: GPL-2.0-with-classpath-exception
 provides: jdk

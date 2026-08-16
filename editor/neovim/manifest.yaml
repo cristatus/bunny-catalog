@@ -3,6 +3,7 @@ name: Neovim
 description: Hyperextensible Vim-based text editor
 version: "0.12.4"
 category: editor
+kind: app
 homepage: https://neovim.io/
 license: Apache-2.0
 sources:

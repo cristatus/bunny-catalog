@@ -3,6 +3,7 @@ name: BellSoft Liberica JDK 25
 description: Production-ready OpenJDK 25 LTS distribution from BellSoft
 version: "25.0.4+9"
 category: sdk
+kind: sdk
 homepage: https://bell-sw.com/libericajdk/
 license: GPL-2.0-with-classpath-exception
 provides: jdk

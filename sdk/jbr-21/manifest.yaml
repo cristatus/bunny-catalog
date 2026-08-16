@@ -3,6 +3,7 @@ name: JetBrains Runtime 21
 description: JetBrains' OpenJDK 21 fork with per-monitor HiDPI scaling and Swing/AWT rendering fixes
 version: "21.0.11+1163116"
 category: sdk
+kind: sdk
 homepage: https://github.com/JetBrains/JetBrainsRuntime
 license: GPL-2.0-with-classpath-exception
 provides: jdk

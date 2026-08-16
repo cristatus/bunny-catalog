@@ -3,6 +3,7 @@ name: tealdeer
 description: A very fast implementation of tldr in Rust
 version: "1.8.1"
 category: cli
+kind: cli
 homepage: https://github.com/tealdeer-rs/tealdeer
 license: MIT OR Apache-2.0
 sources:

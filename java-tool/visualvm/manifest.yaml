@@ -3,6 +3,7 @@ name: VisualVM
 description: All-in-one Java troubleshooting tool — monitoring, profiling, heap dumps
 version: "2.2.1"
 category: java-tool
+kind: app
 homepage: https://visualvm.github.io/
 license: GPL-2.0-with-classpath-exception
 

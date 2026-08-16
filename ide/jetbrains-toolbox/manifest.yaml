@@ -3,6 +3,7 @@ name: JetBrains Toolbox
 description: Install, update, and roll back JetBrains IDEs (IntelliJ IDEA, PyCharm, …) from one app
 version: "3.6.4.86641"
 category: ide
+kind: app
 homepage: https://www.jetbrains.com/toolbox-app/
 license: LicenseRef-JetBrains-Toolbox-EULA
 sources:

@@ -3,6 +3,7 @@ name: IBM Semeru Runtime Open Edition 17
 description: OpenJDK 17 LTS distribution from IBM with the Eclipse OpenJ9 JVM
 version: "17.0.20"
 category: sdk
+kind: sdk
 homepage: https://developer.ibm.com/languages/java/semeru-runtimes/
 license: GPL-2.0-with-classpath-exception
 provides: jdk

@@ -3,6 +3,7 @@ name: GraalVM Community 25
 description: GraalVM Community Edition with JDK 25 and native-image
 version: "25.2.4"
 category: sdk
+kind: sdk
 homepage: https://www.graalvm.org/
 license: GPL-2.0-with-classpath-exception
 provides: jdk

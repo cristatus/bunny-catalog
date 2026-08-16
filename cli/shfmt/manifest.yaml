@@ -3,6 +3,7 @@ name: shfmt
 description: Formatter and parser for shell programs
 version: "3.13.1"
 category: cli
+kind: cli
 homepage: https://github.com/mvdan/sh
 license: BSD-3-Clause
 

@@ -3,6 +3,7 @@ name: Azul Zulu JDK 17
 description: Azul's free, TCK-tested build of OpenJDK 17 LTS
 version: "17.0.20+8"
 category: sdk
+kind: sdk
 homepage: https://www.azul.com/downloads/?package=jdk
 license: GPL-2.0-with-classpath-exception
 provides: jdk

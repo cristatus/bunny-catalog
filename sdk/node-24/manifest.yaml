@@ -3,6 +3,7 @@ name: Node.js 24 LTS
 description: JavaScript runtime built on V8 (Active LTS — Krypton)
 version: "24.19.0"
 category: sdk
+kind: sdk
 homepage: https://nodejs.org/
 license: MIT
 provides: node

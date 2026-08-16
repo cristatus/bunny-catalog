@@ -3,6 +3,7 @@ name: just
 description: A handy command runner, a simpler alternative to make
 version: "1.58.0"
 category: cli
+kind: cli
 homepage: https://just.systems/
 license: CC0-1.0
 sources:

@@ -3,6 +3,7 @@ name: Quarkus CLI
 description: Command-line tool for creating and managing Quarkus projects
 version: "3.38.1"
 category: java-tool
+kind: sdk
 homepage: https://quarkus.io/
 license: Apache-2.0
 requires: [jdk]

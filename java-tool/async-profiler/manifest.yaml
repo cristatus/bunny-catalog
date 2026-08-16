@@ -3,6 +3,7 @@ name: async-profiler
 description: Low-overhead sampling profiler for Java using AsyncGetCallTrace and perf_events
 version: "4.5"
 category: java-tool
+kind: sdk
 homepage: https://github.com/async-profiler/async-profiler
 license: Apache-2.0
 requires: [jdk]

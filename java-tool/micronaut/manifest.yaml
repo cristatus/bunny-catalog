@@ -3,6 +3,7 @@ name: Micronaut CLI
 description: The `mn` command-line tool for creating Micronaut applications
 version: "5.1.0"
 category: java-tool
+kind: sdk
 homepage: https://micronaut.io/
 license: Apache-2.0
 requires: ["jdk>=25"]

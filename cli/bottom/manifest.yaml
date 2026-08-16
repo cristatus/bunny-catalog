@@ -3,6 +3,7 @@ name: bottom
 description: Cross-platform graphical process/system monitor, a top/htop alternative
 version: "0.14.7"
 category: cli
+kind: cli
 homepage: https://github.com/ClementTsang/bottom
 license: MIT
 sources:

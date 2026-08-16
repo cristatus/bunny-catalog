@@ -3,6 +3,7 @@ name: Amazon Corretto JDK 8
 description: Amazon's no-cost, production-ready distribution of OpenJDK 8 LTS
 version: "8.0.502"
 category: sdk
+kind: sdk
 homepage: https://aws.amazon.com/corretto/
 license: GPL-2.0-with-classpath-exception
 provides: jdk

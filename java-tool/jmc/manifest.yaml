@@ -3,6 +3,7 @@ name: Java Mission Control
 description: JVM production-time profiling and diagnostics tool
 version: "9.1.2"
 category: java-tool
+kind: app
 homepage: https://github.com/openjdk/jmc
 license: UPL-1.0
 

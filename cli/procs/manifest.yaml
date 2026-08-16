@@ -3,6 +3,7 @@ name: procs
 description: A modern replacement for ps
 version: "0.14.12"
 category: cli
+kind: cli
 homepage: https://github.com/dalance/procs
 license: MIT
 sources:

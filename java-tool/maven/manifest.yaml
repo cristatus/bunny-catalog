@@ -3,6 +3,7 @@ name: Apache Maven
 description: Build automation and project management tool for Java projects
 version: "3.9.16"
 category: java-tool
+kind: sdk
 homepage: https://maven.apache.org/
 license: Apache-2.0
 requires: [jdk]
