@@ -23,10 +23,3 @@ prepare:
     - "mv gradle-{version}/* {pkg}/"
 bin:
     - {name: gradle, path: "{app}/bin/gradle"}
-env:
-    # Redirect Gradle's user dir (~/.gradle by default — caches, daemon, init
-    # scripts, wrapper distributions) into bunny's per-app data so it does not
-    # leak to $HOME.
-    GRADLE_USER_HOME: "{data}/gradle"
-dirs:
-    - "{data}/gradle"

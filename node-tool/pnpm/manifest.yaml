@@ -19,11 +19,3 @@ prepare:
     - "tar xf pnpm-{version}.tar.gz -C {pkg}"
 bin:
     - {name: pnpm, path: "{app}/pnpm"}
-env:
-    PNPM_HOME: "{data}/bin"
-    npm_config_store_dir: "{data}/store"
-dirs:
-    - "{data}/bin"
-    - "{data}/store"
-global-bins:
-    - "{data}/bin"

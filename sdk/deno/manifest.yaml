@@ -19,9 +19,3 @@ prepare:
     - "unzip -q deno-{version}.zip -d {pkg}"
 bin:
     - {name: deno, path: "{app}/deno"}
-env:
-    DENO_DIR: "{data}/deno"
-    DENO_INSTALL_ROOT: "{data}/deno/bin"
-dirs:
-    - "{data}/deno"
-    - "{data}/deno/bin"

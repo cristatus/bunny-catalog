@@ -27,12 +27,7 @@ bin:
   - { name: mvnd, path: "{app}/bin/mvnd" }
 
 env:
-  MAVEN_ARGS: "-Dmaven.repo.local={data}/repository --toolchains {data}/toolchains.xml"
-  MVND_OPTS: "-Dmvnd.daemonStorage={data}/daemon"
-
-dirs:
-  - "{data}/repository"
-  - "{data}/daemon"
+  MAVEN_ARGS: "--toolchains {data}/toolchains.xml"
 
 completions:
   bash: "{app}/bin/mvnd-bash-completion.bash"

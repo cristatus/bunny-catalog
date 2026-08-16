@@ -32,23 +32,7 @@ bin:
     - {name: pnpx, path: "{app}/bin/pnpx"}
     - {name: yarn, path: "{app}/bin/yarn"}
     - {name: yarnpkg, path: "{app}/bin/yarnpkg"}
-env:
-    NPM_CONFIG_PREFIX: "{data}/npm-global"
-    NPM_CONFIG_CACHE: "{data}/npm-cache"
-    COREPACK_HOME: "{data}/corepack"
-    PNPM_HOME: "{data}/pnpm-global"
-    PNPM_STORE_DIR: "{data}/pnpm-cache"
-    PNPM_STATE_DIR: "{data}/pnpm-state"
-    YARN_CACHE_FOLDER: "{data}/yarn/cache"
-    YARN_GLOBAL_FOLDER: "{data}/yarn/global"
 global-bins:
-    - "{data}/npm-global/bin"
-    - "{data}/pnpm-global"
-dirs:
-    - "{data}/npm-global"
-    - "{data}/npm-cache"
-    - "{data}/corepack"
-    - "{data}/pnpm-global"
-    - "{data}/pnpm-cache"
-    - "{data}/pnpm-state"
-    - "{data}/yarn"
+    # npm's default prefix is node's own prefix, so `npm -g` installs into the
+    # version's install tree. Caches (~/.npm, ~/.cache/node) stay on the host.
+    - "{app}/bin"

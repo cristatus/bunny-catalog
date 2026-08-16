@@ -22,7 +22,3 @@ prepare:
 bin:
     - {name: bun, path: "{app}/bun"}
     - {name: bunx, path: "{app}/bunx"}
-env:
-    BUN_INSTALL: "{data}/bun"
-dirs:
-    - "{data}/bun"

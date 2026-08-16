@@ -21,10 +21,7 @@ prepare:
 bin:
     - {name: mvn, path: "{app}/bin/mvn"}
 env:
-    # Redirect Maven's local repository (~/.m2/repository by default) into the
-    # per-app data dir so 'mvn install' doesn't pollute $HOME. MAVEN_ARGS lands
-    # before user-supplied flags so a project that explicitly overrides
-    # -Dmaven.repo.local still wins.
-    MAVEN_ARGS: "-Dmaven.repo.local={data}/repository --toolchains {data}/toolchains.xml"
-dirs:
-    - "{data}/repository"
+    # Point Maven at the toolchains.xml bunny generates from the installed JDKs.
+    # The local repository is left alone: it stays at ~/.m2/repository unless
+    # the user redirects it in ~/.bunny/config.yaml.
+    MAVEN_ARGS: "--toolchains {data}/toolchains.xml"

@@ -21,11 +21,3 @@ prepare:
 bin:
     - {name: sbt, path: "{app}/bin/sbt"}
     - {name: sbtn, path: "{app}/bin/sbtn-x86_64-pc-linux"}
-env:
-    SBT_OPTS: "-Dsbt.global.base={data}/sbt -Dsbt.boot.directory={data}/boot -Dsbt.ivy.home={data}/ivy"
-    COURSIER_CACHE: "{data}/coursier"
-dirs:
-    - "{data}/sbt"
-    - "{data}/boot"
-    - "{data}/ivy"
-    - "{data}/coursier"
