@@ -14,13 +14,14 @@ We curate:
 - **JavaScript runtimes.** Node LTS lines, Bun, and Deno.
 - **Node ecosystem tools.** pnpm's standalone executable. Yarn remains available through Corepack on Node releases that bundle it.
 - **Editors and IDEs that target the above.** JetBrains IDEs (via the Toolbox app), Eclipse, NetBeans, VS Code, Cursor, Zed, Neovim.
+- **AI coding agents.** The terminal agents (Claude Code, Codex CLI, opencode, pi, Antigravity) and the desktop apps that drive them (Claude Desktop, ChatGPT, GitHub Copilot, Antigravity). They earn a slot on the same grounds an editor gets one: a tool pointed at the project, not a chat client that happens to be installed. Several also publish an npm package; we take the official standalone binary instead, per the rule of thumb above.
 - **General-purpose CLI tools that show up in nearly every dev workflow.** ripgrep, fd, bat, fzf, jq, yq, gh, glab, lazygit, delta, difftastic, eza, zoxide, starship, atuin, zellij, broot, dust, duf, bottom, procs, sd, hyperfine, just, tealdeer, ShellCheck, shfmt.
 
 We do **not** accept:
 
 - **npm-installed JS tooling.** Prettier, ESLint, TypeScript, Biome, Vite, webpack, etc. These are project dependencies; pin them in `package.json` and run via `npx` or a script.
 - **Yarn.** Modern setups use Corepack (which ships with Node).
-- Browsers, chat apps, media players, productivity software (use Flatpak or your distro).
+- Browsers, media players, productivity software, and chat apps that aren't a coding assistant (use Flatpak or your distro).
 - Compiled-from-source language toolchains outside the JVM/Node families (use mise/asdf).
 - System-level packages (use `apt`/`dnf`/`pacman`).
 - Forks, beta channels, or one-off vendor builds (fork the catalog instead, see "Forking" below).

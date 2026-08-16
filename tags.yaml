@@ -27,3 +27,4 @@ scripting: run source files directly
 cli: general-purpose command-line tool
 editor: text editor
 ide: integrated development environment
+ai: AI coding assistant
