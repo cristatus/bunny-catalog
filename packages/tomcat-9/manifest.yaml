@@ -1,0 +1,40 @@
+id: tomcat-9
+name: Apache Tomcat 9
+description: Servlet container implementing the Java EE 8 web specifications, for javax.* applications
+version: "9.0.120"
+kind: sdk
+tags: [java, server]
+homepage: https://tomcat.apache.org/
+license: Apache-2.0
+provides: tomcat
+requires: ["jdk>=8"]
+sources:
+    - url: "https://dlcdn.apache.org/tomcat/tomcat-9/v{version}/bin/apache-tomcat-{version}.tar.gz"
+      file: "tomcat-{version}.tar.gz"
+      sha512: "07eb6d9639c3e69af81171a16ccff1c19b7fd5b2e87e3646851f0a3f42a4ce3c1bf128fbe40fc978a08935ba4f0400ef3b43ded3e470b9aaf23b97a9e1fa0858"
+      size: 13154363
+      update:
+        type: html
+        url: "https://dlcdn.apache.org/tomcat/tomcat-9/"
+        version-pattern: 'href="v(9\.[0-9.]+)/"'
+        url-template: "https://dlcdn.apache.org/tomcat/tomcat-9/v{version}/bin/apache-tomcat-{version}.tar.gz"
+        hash-url: "https://dlcdn.apache.org/tomcat/tomcat-9/v{version}/bin/apache-tomcat-{version}.tar.gz.sha512"
+prepare:
+    - "tar xf tomcat-{version}.tar.gz --strip-components=1 -C {pkg}"
+    # Tomcat writes to CATALINA_BASE, so the instance lives in {data} and the
+    # install tree stays the read-only half an upgrade may replace. A base
+    # needs a conf/ of its own, seeded here; the seed fills in what is missing,
+    # so an edited server.xml or tomcat-users.xml carries across an upgrade.
+    - "mkdir -p {data}/conf && cp -R {pkg}/conf/. {data}/conf/"
+bin:
+    - {name: catalina, path: "{app}/bin/catalina.sh"}
+env:
+    CATALINA_HOME: "{app}"
+    CATALINA_BASE: "{data}"
+dirs:
+    # The rest of the instance. webapps starts empty: drop a WAR in, or copy
+    # one of the bundled apps out of {app}/webapps (manager included).
+    - "{data}/logs"
+    - "{data}/temp"
+    - "{data}/webapps"
+    - "{data}/work"

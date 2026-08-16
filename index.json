@@ -847,6 +847,51 @@
       ],
       "version": "1.8.1"
     },
+    "tomcat-10": {
+      "description": "Servlet container implementing the Jakarta EE 10 web specifications",
+      "kind": "sdk",
+      "name": "Apache Tomcat 10.1",
+      "path": "packages/tomcat-10",
+      "provides": "tomcat",
+      "requires": [
+        "jdk>=11"
+      ],
+      "tags": [
+        "java",
+        "server"
+      ],
+      "version": "10.1.57"
+    },
+    "tomcat-11": {
+      "description": "Servlet container implementing the Jakarta EE 11 web specifications",
+      "kind": "sdk",
+      "name": "Apache Tomcat 11",
+      "path": "packages/tomcat-11",
+      "provides": "tomcat",
+      "requires": [
+        "jdk>=17"
+      ],
+      "tags": [
+        "java",
+        "server"
+      ],
+      "version": "11.0.24"
+    },
+    "tomcat-9": {
+      "description": "Servlet container implementing the Java EE 8 web specifications, for javax.* applications",
+      "kind": "sdk",
+      "name": "Apache Tomcat 9",
+      "path": "packages/tomcat-9",
+      "provides": "tomcat",
+      "requires": [
+        "jdk>=8"
+      ],
+      "tags": [
+        "java",
+        "server"
+      ],
+      "version": "9.0.120"
+    },
     "visualvm": {
       "description": "All-in-one Java troubleshooting tool — monitoring, profiling, heap dumps",
       "kind": "app",
@@ -962,6 +1007,6 @@
       "version": "8.0.502+7"
     }
   },
-  "updated": "2026-08-13T02:01:46Z",
+  "updated": "2026-08-16T16:08:53Z",
   "version": 1
 }

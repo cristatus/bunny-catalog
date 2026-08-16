@@ -1,0 +1,40 @@
+id: tomcat-10
+name: Apache Tomcat 10.1
+description: Servlet container implementing the Jakarta EE 10 web specifications
+version: "10.1.57"
+kind: sdk
+tags: [java, server]
+homepage: https://tomcat.apache.org/
+license: Apache-2.0
+provides: tomcat
+requires: ["jdk>=11"]
+sources:
+    - url: "https://dlcdn.apache.org/tomcat/tomcat-10/v{version}/bin/apache-tomcat-{version}.tar.gz"
+      file: "tomcat-{version}.tar.gz"
+      sha512: "2fa1866ec647d4222b07ea937a4cc266adee219a1a8870107e72fc2349248dd1e32b157fa18108451f4c6e3b162f0fdfbdd11dd7855d4e49a2f0f609004a77f3"
+      size: 14400273
+      update:
+        type: html
+        url: "https://dlcdn.apache.org/tomcat/tomcat-10/"
+        version-pattern: 'href="v(10\.[0-9.]+)/"'
+        url-template: "https://dlcdn.apache.org/tomcat/tomcat-10/v{version}/bin/apache-tomcat-{version}.tar.gz"
+        hash-url: "https://dlcdn.apache.org/tomcat/tomcat-10/v{version}/bin/apache-tomcat-{version}.tar.gz.sha512"
+prepare:
+    - "tar xf tomcat-{version}.tar.gz --strip-components=1 -C {pkg}"
+    # Tomcat writes to CATALINA_BASE, so the instance lives in {data} and the
+    # install tree stays the read-only half an upgrade may replace. A base
+    # needs a conf/ of its own, seeded here; the seed fills in what is missing,
+    # so an edited server.xml or tomcat-users.xml carries across an upgrade.
+    - "mkdir -p {data}/conf && cp -R {pkg}/conf/. {data}/conf/"
+bin:
+    - {name: catalina, path: "{app}/bin/catalina.sh"}
+env:
+    CATALINA_HOME: "{app}"
+    CATALINA_BASE: "{data}"
+dirs:
+    # The rest of the instance. webapps starts empty: drop a WAR in, or copy
+    # one of the bundled apps out of {app}/webapps (manager included).
+    - "{data}/logs"
+    - "{data}/temp"
+    - "{data}/webapps"
+    - "{data}/work"

@@ -20,6 +20,7 @@ language: compiler or language toolchain
 build-tool: builds and dependency management
 package-manager: installs project dependencies
 framework: application framework tooling
+server: servlet container or application server
 profiler: performance measurement
 diagnostics: runtime inspection and troubleshooting
 scripting: run source files directly
