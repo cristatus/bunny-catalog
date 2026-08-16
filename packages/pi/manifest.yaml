@@ -1,0 +1,26 @@
+id: pi
+name: pi
+description: AI agent toolkit with a coding agent CLI, TUI, and unified LLM API
+version: "0.84.2"
+kind: cli
+tags: [ai]
+homepage: https://github.com/earendil-works/pi
+license: MIT
+
+sources:
+    - url: "https://github.com/earendil-works/pi/releases/download/v{version}/pi-linux-x64.tar.gz"
+      file: "pi-{version}.tar.gz"
+      sha256: "906fbe787fd225c4ac624fe7ebd5b1d55a60e0f5c7ef51795d231564f9ee1c13"
+      size: 43081947
+      update:
+        type: github
+        repo: earendil-works/pi
+        asset: "^pi-linux-x64\\.tar\\.gz$"
+
+prepare:
+    # Unlike the other agent CLIs this ships a directory, not a bare binary:
+    # the executable sits beside a wasm module and its theme files.
+    - "tar xf pi-{version}.tar.gz --strip-components=1 -C {pkg}"
+
+bin:
+    - {name: pi, path: "{app}/pi"}

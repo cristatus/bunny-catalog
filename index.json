@@ -14,6 +14,16 @@
       ],
       "version": "1.10.17"
     },
+    "antigravity-cli": {
+      "description": "Google's Antigravity coding agent for the terminal",
+      "kind": "cli",
+      "name": "Antigravity CLI",
+      "path": "packages/antigravity-cli",
+      "tags": [
+        "ai"
+      ],
+      "version": "1.1.13"
+    },
     "arthas": {
       "description": "Interactive diagnostics and troubleshooting tool for live Java applications",
       "kind": "sdk",
@@ -93,6 +103,16 @@
       ],
       "version": "1.3.14"
     },
+    "claude": {
+      "description": "Anthropic's coding agent for the terminal",
+      "kind": "cli",
+      "name": "Claude Code",
+      "path": "packages/claude",
+      "tags": [
+        "ai"
+      ],
+      "version": "2.1.233"
+    },
     "code": {
       "description": "Code editor from Microsoft",
       "kind": "app",
@@ -102,6 +122,16 @@
         "editor"
       ],
       "version": "1.133.0"
+    },
+    "codex": {
+      "description": "OpenAI's coding agent for the terminal",
+      "kind": "cli",
+      "name": "Codex CLI",
+      "path": "packages/codex",
+      "tags": [
+        "ai"
+      ],
+      "version": "0.147.0"
     },
     "corretto-11": {
       "description": "Amazon's no-cost, production-ready distribution of OpenJDK 11 LTS",
@@ -650,6 +680,26 @@
       ],
       "version": "24.19.0"
     },
+    "opencode": {
+      "description": "Open-source coding agent for the terminal, with a provider-agnostic model backend",
+      "kind": "cli",
+      "name": "opencode",
+      "path": "packages/opencode",
+      "tags": [
+        "ai"
+      ],
+      "version": "1.18.18"
+    },
+    "pi": {
+      "description": "AI agent toolkit with a coding agent CLI, TUI, and unified LLM API",
+      "kind": "cli",
+      "name": "pi",
+      "path": "packages/pi",
+      "tags": [
+        "ai"
+      ],
+      "version": "0.84.2"
+    },
     "pnpm": {
       "description": "Fast, disk-efficient package manager for JavaScript projects",
       "kind": "sdk",
@@ -1007,6 +1057,6 @@
       "version": "8.0.502+7"
     }
   },
-  "updated": "2026-08-16T16:15:56Z",
+  "updated": "2026-08-16T18:39:44Z",
   "version": 1
 }
