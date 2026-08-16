@@ -1,7 +1,7 @@
 id: quarkus
 name: Quarkus CLI
 description: Command-line tool for creating and managing Quarkus projects
-version: "3.38.1"
+version: "3.38.2"
 kind: sdk
 tags: [framework, java]
 homepage: https://quarkus.io/
@@ -10,7 +10,7 @@ requires: [jdk]
 sources:
     - url: "https://github.com/quarkusio/quarkus/releases/download/{version}/quarkus-cli-{version}.zip"
       file: "quarkus-cli-{version}.zip"
-      sha256: "63b22774c6f3362a776844ad071a2b88f194104af6af52aa9d62daaeca2a05ab"
+      sha256: "695942983e58b09d88f9fb78d888ba067ff4a75a0ab7c38d933328fa6493cb86"
       update:
         type: github
         repo: quarkusio/quarkus

@@ -26,7 +26,7 @@
         "diagnostics",
         "java"
       ],
-      "version": "4.3.3"
+      "version": "4.3.4"
     },
     "async-profiler": {
       "description": "Low-overhead sampling profiler for Java using AsyncGetCallTrace and perf_events",
@@ -70,7 +70,7 @@
       "tags": [
         "cli"
       ],
-      "version": "0.14.7"
+      "version": "0.14.8"
     },
     "broot": {
       "description": "Interactive tree view, fuzzy search, and file navigator",
@@ -171,7 +171,7 @@
       "tags": [
         "editor"
       ],
-      "version": "3.15.6-1785983008"
+      "version": "3.16.17-1786674287"
     },
     "delta": {
       "description": "Syntax-highlighting pager for git, diff, and grep output",
@@ -659,7 +659,7 @@
         "node",
         "package-manager"
       ],
-      "version": "11.21.0"
+      "version": "11.22.0"
     },
     "procs": {
       "description": "A modern replacement for ps",
@@ -683,7 +683,7 @@
         "framework",
         "java"
       ],
-      "version": "3.38.1"
+      "version": "3.38.2"
     },
     "ripgrep": {
       "description": "Fast recursive grep alternative written in Rust",
@@ -1007,6 +1007,6 @@
       "version": "8.0.502+7"
     }
   },
-  "updated": "2026-08-16T16:08:53Z",
+  "updated": "2026-08-16T16:15:56Z",
   "version": 1
 }
