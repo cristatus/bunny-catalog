@@ -1,0 +1,61 @@
+id: chatgpt
+name: ChatGPT
+description: OpenAI's desktop app for ChatGPT and Codex
+version: "26.810.52044"
+kind: app
+tags: [ai]
+homepage: https://developers.openai.com/codex/app
+license: LicenseRef-OpenAI-Terms-of-Use
+
+sources:
+    # OpenAI's documented download is a floating latest/ blob with no version in
+    # the path. The apt repo its postinst registers carries the same builds
+    # under versioned, immutable pool paths, so pin against that instead.
+    - url: "https://persistent.oaistatic.com/codex-app-prod/linux/deb/pool/main/c/chatgpt/chatgpt_{version}_amd64.deb"
+      file: "chatgpt-{version}.deb"
+      sha256: "708a15a1bb76e2bb7f0e376e5145391fa277ad3a64057c1d32537bdc2a1b4e6e"
+      size: 391801406
+      update:
+        type: debian
+        root: https://persistent.oaistatic.com/codex-app-prod/linux/deb
+        dist: stable
+        component: main
+        package-name: chatgpt
+
+prepare:
+    - "ar x chatgpt-{version}.deb"
+    - "tar xf data.tar.xz"
+    # Self-contained Electron bundle: move it wholesale so the binary keeps its
+    # sibling resources (*.pak, locales, libs, the bundled Node for Codex).
+    - "mv usr/lib/chatgpt/* {pkg}/"
+    - "cp usr/share/pixmaps/chatgpt.png {pkg}/chatgpt.png"
+
+bin:
+    # codex-launcher is what upstream symlinks /usr/bin/chatgpt to: a one-line
+    # sh script that resolves its own directory and execs the ChatGPT binary.
+    - { name: chatgpt, path: "{app}/codex-launcher" }
+
+icons:
+    # hicolor's largest declared apps bucket is 512x512.
+    - { src: "{app}/chatgpt.png", name: "chatgpt", size: "512x512" }
+
+desktop:
+    - id: chatgpt.desktop
+      name: ChatGPT
+      genericName: AI assistant
+      comment: ChatGPT by OpenAI
+      exec: "chatgpt %U"
+      icon: chatgpt
+      type: Application
+      startupNotify: true
+      categories: [Utility, Development]
+      keywords: [AI, Chat, Assistant, ChatGPT, Codex, OpenAI, LLM]
+      mimeType:
+        - x-scheme-handler/codex
+        - text/csv
+        - text/tab-separated-values
+        - application/vnd.ms-excel
+        - application/vnd.ms-excel.sheet.macroEnabled.12
+        - application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+        - application/vnd.openxmlformats-officedocument.wordprocessingml.document
+        - application/vnd.openxmlformats-officedocument.presentationml.presentation

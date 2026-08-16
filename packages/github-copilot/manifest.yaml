@@ -1,0 +1,53 @@
+id: github-copilot
+name: GitHub Copilot
+description: GitHub's desktop app for running Copilot coding agents on local and remote work
+version: "1.1.10"
+kind: app
+tags: [ai]
+homepage: https://github.com/github/app
+license: LicenseRef-GitHub-Terms
+
+sources:
+    # Tauri app: the .deb and .rpm link the *system* WebKitGTK, so neither is
+    # portable off Debian. The AppImage bundles the whole webkit/GTK/gstreamer
+    # stack, so take that and unpack it. The github checker reads the sha256
+    # digest GitHub publishes for each release asset.
+    - url: "https://github.com/github/app/releases/download/v{version}/GitHub-Copilot-linux-x64.AppImage"
+      file: "github-copilot-{version}.AppImage"
+      sha256: "d8d192cf0c7df529139eaa5f3b9fd7aae1828ac4e561d070124662bfb1e65de9"
+      size: 493033976
+      update:
+        type: github
+        repo: github/app
+        asset: GitHub-Copilot-linux-x64.AppImage
+
+prepare:
+    - "chmod +x github-copilot-{version}.AppImage"
+    - "./github-copilot-{version}.AppImage --appimage-extract"
+    - "mv squashfs-root/* {pkg}/"
+    - "cp {pkg}/usr/share/icons/hicolor/256x256@2/apps/github.png {pkg}/github-copilot.png"
+
+bin:
+    # AppRun, not usr/bin/github: the linuxdeploy launcher sources the GTK and
+    # gstreamer hooks that point the bundled webkit at its own libraries.
+    - { name: github, path: "{app}/AppRun" }
+
+icons:
+    - { src: "{app}/github-copilot.png", name: "github-copilot", size: "256x256" }
+
+desktop:
+    - id: github-copilot.desktop
+      name: GitHub Copilot
+      genericName: AI Assistant
+      comment: Tauri Copilot Application
+      exec: "github %u"
+      icon: github-copilot
+      type: Application
+      startupNotify: true
+      startupWMClass: github
+      categories: [Development]
+      keywords: [AI, Agent, Copilot, GitHub, LLM]
+      mimeType:
+        - x-scheme-handler/github-app
+        - x-scheme-handler/ghapp
+        - x-scheme-handler/gh

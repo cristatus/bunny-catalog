@@ -1,0 +1,54 @@
+id: antigravity
+name: Antigravity
+description: Google's agentic desktop app for running coding agents against a local checkout
+version: "2.8.1-6512087774658560"
+kind: app
+tags: [ai]
+homepage: https://antigravity.google
+license: LicenseRef-Google-Antigravity-Terms
+sources:
+    # The hub app, not the Antigravity IDE, which ships from a separate
+    # edgedl.me.gvt1.com path. The download page advertises only the tarball,
+    # but the .deb sits beside it and is the one carrying the icon and desktop
+    # entry, so unpack that instead.
+    #
+    # Nothing next to the artifact states a checksum. The feed the app's own
+    # updater reads does, for both the version and the digest, so point the
+    # checker at that. Its channel name comes from the app: updater.js sets
+    # `latest-${process.arch}` and electron-updater appends the OS. The version
+    # pattern reads the build id out of the deb's url line, because the path
+    # carries one and `version:` on its own cannot rebuild it.
+    - url: "https://storage.googleapis.com/antigravity-public/antigravity-hub/{version}/linux-x64/Antigravity.deb"
+      file: "antigravity-{version}.deb"
+      sha512: "4364e144267f06ce94540ba333ecf2c8d4727e38c17f398cfe3da77b99873c5c1792df52973bd326c61da13fbb1e3fa2c9f9974f398c86930b4b504bbf5404f8"
+      size: 122979528
+      update:
+        type: html
+        url: "https://antigravity-hub-auto-updater-974169037036.us-central1.run.app/manifest/latest-x64-linux.yml"
+        version-pattern: "antigravity-hub/([0-9]+\\.[0-9]+\\.[0-9]+-[0-9]+)/linux-x64/Antigravity\\.deb"
+        hash-url: "https://antigravity-hub-auto-updater-974169037036.us-central1.run.app/manifest/latest-x64-linux.yml"
+        hash-pattern: "Antigravity\\.deb\\s+sha512: (\\S+)"
+prepare:
+    - "ar x antigravity-{version}.deb"
+    - "tar xf data.tar.xz"
+    # Self-contained Electron bundle: move it wholesale so the binary keeps its
+    # sibling resources (*.pak, locales, libs, the bundled language server).
+    - "mv opt/Antigravity/* {pkg}/"
+    - "cp usr/share/icons/hicolor/512x512/apps/antigravity.png {pkg}/antigravity.png"
+bin:
+    - {name: antigravity, path: "{app}/antigravity"}
+icons:
+    - {src: "{app}/antigravity.png", name: "antigravity", size: "512x512"}
+desktop:
+    - id: antigravity.desktop
+      name: Antigravity
+      genericName: AI Assistant
+      comment: Antigravity - Agentic Desktop Application
+      exec: "antigravity %U"
+      icon: antigravity
+      type: Application
+      startupNotify: true
+      startupWMClass: Antigravity
+      categories: [Development]
+      keywords: [AI, Agent, Antigravity, Gemini, Google, LLM]
+      mimeType: [x-scheme-handler/antigravity]
