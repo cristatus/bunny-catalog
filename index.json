@@ -2,6 +2,7 @@
   "packages": {
     "ant": {
       "description": "Java build tool for declarative, task-based build scripts",
+      "kind": "sdk",
       "name": "Apache Ant",
       "path": "packages/ant",
       "requires": [
@@ -15,6 +16,7 @@
     },
     "arthas": {
       "description": "Interactive diagnostics and troubleshooting tool for live Java applications",
+      "kind": "sdk",
       "name": "Arthas",
       "path": "packages/arthas",
       "requires": [
@@ -28,6 +30,7 @@
     },
     "async-profiler": {
       "description": "Low-overhead sampling profiler for Java using AsyncGetCallTrace and perf_events",
+      "kind": "sdk",
       "name": "async-profiler",
       "path": "packages/async-profiler",
       "requires": [
@@ -40,7 +43,8 @@
       "version": "4.5"
     },
     "atuin": {
-      "description": "Magical shell history \u2014 sync, search, and stats across machines",
+      "description": "Magical shell history — sync, search, and stats across machines",
+      "kind": "cli",
       "name": "atuin",
       "path": "packages/atuin",
       "tags": [
@@ -50,6 +54,7 @@
     },
     "bat": {
       "description": "A cat clone with syntax highlighting and Git integration",
+      "kind": "cli",
       "name": "bat",
       "path": "packages/bat",
       "tags": [
@@ -59,6 +64,7 @@
     },
     "bottom": {
       "description": "Cross-platform graphical process/system monitor, a top/htop alternative",
+      "kind": "cli",
       "name": "bottom",
       "path": "packages/bottom",
       "tags": [
@@ -68,6 +74,7 @@
     },
     "broot": {
       "description": "Interactive tree view, fuzzy search, and file navigator",
+      "kind": "cli",
       "name": "broot",
       "path": "packages/broot",
       "tags": [
@@ -77,6 +84,7 @@
     },
     "bun": {
       "description": "Fast all-in-one JavaScript runtime, bundler, test runner, and package manager",
+      "kind": "sdk",
       "name": "Bun",
       "path": "packages/bun",
       "tags": [
@@ -87,6 +95,7 @@
     },
     "code": {
       "description": "Code editor from Microsoft",
+      "kind": "app",
       "name": "Visual Studio Code",
       "path": "packages/code",
       "tags": [
@@ -96,6 +105,7 @@
     },
     "corretto-11": {
       "description": "Amazon's no-cost, production-ready distribution of OpenJDK 11 LTS",
+      "kind": "sdk",
       "name": "Amazon Corretto JDK 11",
       "path": "packages/corretto-11",
       "provides": "jdk",
@@ -107,6 +117,7 @@
     },
     "corretto-17": {
       "description": "Amazon's no-cost, production-ready distribution of OpenJDK 17 LTS",
+      "kind": "sdk",
       "name": "Amazon Corretto JDK 17",
       "path": "packages/corretto-17",
       "provides": "jdk",
@@ -118,6 +129,7 @@
     },
     "corretto-21": {
       "description": "Amazon's no-cost, production-ready distribution of OpenJDK 21 LTS",
+      "kind": "sdk",
       "name": "Amazon Corretto JDK 21",
       "path": "packages/corretto-21",
       "provides": "jdk",
@@ -129,6 +141,7 @@
     },
     "corretto-25": {
       "description": "Amazon's no-cost, production-ready distribution of OpenJDK 25 LTS",
+      "kind": "sdk",
       "name": "Amazon Corretto JDK 25",
       "path": "packages/corretto-25",
       "provides": "jdk",
@@ -140,6 +153,7 @@
     },
     "corretto-8": {
       "description": "Amazon's no-cost, production-ready distribution of OpenJDK 8 LTS",
+      "kind": "sdk",
       "name": "Amazon Corretto JDK 8",
       "path": "packages/corretto-8",
       "provides": "jdk",
@@ -151,6 +165,7 @@
     },
     "cursor": {
       "description": "The AI Code Editor (VS Code fork by Anysphere)",
+      "kind": "app",
       "name": "Cursor",
       "path": "packages/cursor",
       "tags": [
@@ -160,6 +175,7 @@
     },
     "delta": {
       "description": "Syntax-highlighting pager for git, diff, and grep output",
+      "kind": "cli",
       "name": "delta",
       "path": "packages/delta",
       "tags": [
@@ -169,6 +185,7 @@
     },
     "deno": {
       "description": "Secure runtime for JavaScript and TypeScript with built-in tooling",
+      "kind": "sdk",
       "name": "Deno",
       "path": "packages/deno",
       "tags": [
@@ -179,6 +196,7 @@
     },
     "difftastic": {
       "description": "A structural diff that understands syntax",
+      "kind": "cli",
       "name": "difftastic",
       "path": "packages/difftastic",
       "tags": [
@@ -188,6 +206,7 @@
     },
     "duf": {
       "description": "Disk Usage/Free Utility, a better df alternative",
+      "kind": "cli",
       "name": "duf",
       "path": "packages/duf",
       "tags": [
@@ -197,6 +216,7 @@
     },
     "dust": {
       "description": "A more intuitive version of du in Rust",
+      "kind": "cli",
       "name": "dust",
       "path": "packages/dust",
       "tags": [
@@ -205,7 +225,8 @@
       "version": "1.2.4"
     },
     "eclipse": {
-      "description": "The essential tools for Java developers \u2014 IDE, Git, Maven, Gradle, XML Editor",
+      "description": "The essential tools for Java developers — IDE, Git, Maven, Gradle, XML Editor",
+      "kind": "app",
       "name": "Eclipse IDE for Java Developers",
       "path": "packages/eclipse",
       "requires": [
@@ -218,6 +239,7 @@
     },
     "eza": {
       "description": "A modern, maintained replacement for ls",
+      "kind": "cli",
       "name": "eza",
       "path": "packages/eza",
       "tags": [
@@ -227,6 +249,7 @@
     },
     "fd": {
       "description": "Simple, fast, user-friendly alternative to find",
+      "kind": "cli",
       "name": "fd",
       "path": "packages/fd",
       "tags": [
@@ -236,6 +259,7 @@
     },
     "fzf": {
       "description": "A command-line fuzzy finder",
+      "kind": "cli",
       "name": "fzf",
       "path": "packages/fzf",
       "tags": [
@@ -245,6 +269,7 @@
     },
     "gh": {
       "description": "GitHub's official command-line tool for repos, PRs, issues, and more",
+      "kind": "cli",
       "name": "GitHub CLI",
       "path": "packages/gh",
       "tags": [
@@ -254,6 +279,7 @@
     },
     "glab": {
       "description": "GitLab's official command-line tool for repos, merge requests, issues, and CI/CD pipelines",
+      "kind": "cli",
       "name": "GitLab CLI",
       "path": "packages/glab",
       "tags": [
@@ -263,6 +289,7 @@
     },
     "graalvm-21": {
       "description": "GraalVM Community Edition with JDK 21 and native-image",
+      "kind": "sdk",
       "name": "GraalVM Community 21",
       "path": "packages/graalvm-21",
       "provides": "jdk",
@@ -274,6 +301,7 @@
     },
     "graalvm-25": {
       "description": "GraalVM Community Edition with JDK 25 and native-image",
+      "kind": "sdk",
       "name": "GraalVM Community 25",
       "path": "packages/graalvm-25",
       "provides": "jdk",
@@ -285,6 +313,7 @@
     },
     "gradle": {
       "description": "Build automation tool with Groovy/Kotlin DSL for Java, Android, and more",
+      "kind": "sdk",
       "name": "Gradle",
       "path": "packages/gradle",
       "requires": [
@@ -298,6 +327,7 @@
     },
     "hyperfine": {
       "description": "A command-line benchmarking tool",
+      "kind": "cli",
       "name": "hyperfine",
       "path": "packages/hyperfine",
       "tags": [
@@ -306,7 +336,8 @@
       "version": "1.20.0"
     },
     "jbang": {
-      "description": "Run Java (and JVM) source files as scripts \u2014 no build setup",
+      "description": "Run Java (and JVM) source files as scripts — no build setup",
+      "kind": "sdk",
       "name": "JBang",
       "path": "packages/jbang",
       "requires": [
@@ -320,6 +351,7 @@
     },
     "jbr-21": {
       "description": "JetBrains' OpenJDK 21 fork with per-monitor HiDPI scaling and Swing/AWT rendering fixes",
+      "kind": "sdk",
       "name": "JetBrains Runtime 21",
       "path": "packages/jbr-21",
       "provides": "jdk",
@@ -331,6 +363,7 @@
     },
     "jbr-25": {
       "description": "JetBrains' OpenJDK 25 fork with per-monitor HiDPI scaling and Swing/AWT rendering fixes",
+      "kind": "sdk",
       "name": "JetBrains Runtime 25",
       "path": "packages/jbr-25",
       "provides": "jdk",
@@ -342,6 +375,7 @@
     },
     "jdk-11": {
       "description": "Production-ready OpenJDK 11 LTS distribution from Adoptium",
+      "kind": "sdk",
       "name": "Eclipse Temurin JDK 11",
       "path": "packages/jdk-11",
       "provides": "jdk",
@@ -353,6 +387,7 @@
     },
     "jdk-17": {
       "description": "Production-ready OpenJDK 17 LTS distribution from Adoptium",
+      "kind": "sdk",
       "name": "Eclipse Temurin JDK 17",
       "path": "packages/jdk-17",
       "provides": "jdk",
@@ -364,6 +399,7 @@
     },
     "jdk-21": {
       "description": "Production-ready OpenJDK 21 LTS distribution from Adoptium",
+      "kind": "sdk",
       "name": "Eclipse Temurin JDK 21",
       "path": "packages/jdk-21",
       "provides": "jdk",
@@ -375,6 +411,7 @@
     },
     "jdk-25": {
       "description": "Production-ready OpenJDK 25 LTS distribution from Adoptium",
+      "kind": "sdk",
       "name": "Eclipse Temurin JDK 25",
       "path": "packages/jdk-25",
       "provides": "jdk",
@@ -386,6 +423,7 @@
     },
     "jdk-8": {
       "description": "Production-ready OpenJDK 8 LTS distribution from Adoptium",
+      "kind": "sdk",
       "name": "Eclipse Temurin JDK 8",
       "path": "packages/jdk-8",
       "provides": "jdk",
@@ -396,7 +434,8 @@
       "version": "8.0.502+7"
     },
     "jetbrains-toolbox": {
-      "description": "Install, update, and roll back JetBrains IDEs (IntelliJ IDEA, PyCharm, \u2026) from one app",
+      "description": "Install, update, and roll back JetBrains IDEs (IntelliJ IDEA, PyCharm, …) from one app",
+      "kind": "app",
       "name": "JetBrains Toolbox",
       "path": "packages/jetbrains-toolbox",
       "tags": [
@@ -406,6 +445,7 @@
     },
     "jmc": {
       "description": "JVM production-time profiling and diagnostics tool",
+      "kind": "app",
       "name": "Java Mission Control",
       "path": "packages/jmc",
       "requires": [
@@ -419,6 +459,7 @@
     },
     "jq": {
       "description": "Command-line JSON processor",
+      "kind": "cli",
       "name": "jq",
       "path": "packages/jq",
       "tags": [
@@ -428,6 +469,7 @@
     },
     "just": {
       "description": "A handy command runner, a simpler alternative to make",
+      "kind": "cli",
       "name": "just",
       "path": "packages/just",
       "tags": [
@@ -437,6 +479,7 @@
     },
     "kotlin": {
       "description": "The Kotlin command-line compiler (kotlinc) and runner",
+      "kind": "sdk",
       "name": "Kotlin",
       "path": "packages/kotlin",
       "requires": [
@@ -450,6 +493,7 @@
     },
     "lazygit": {
       "description": "A simple terminal UI for git commands",
+      "kind": "cli",
       "name": "lazygit",
       "path": "packages/lazygit",
       "tags": [
@@ -459,6 +503,7 @@
     },
     "liberica-11": {
       "description": "Production-ready OpenJDK 11 LTS distribution from BellSoft",
+      "kind": "sdk",
       "name": "BellSoft Liberica JDK 11",
       "path": "packages/liberica-11",
       "provides": "jdk",
@@ -470,6 +515,7 @@
     },
     "liberica-17": {
       "description": "Production-ready OpenJDK 17 LTS distribution from BellSoft",
+      "kind": "sdk",
       "name": "BellSoft Liberica JDK 17",
       "path": "packages/liberica-17",
       "provides": "jdk",
@@ -481,6 +527,7 @@
     },
     "liberica-21": {
       "description": "Production-ready OpenJDK 21 LTS distribution from BellSoft",
+      "kind": "sdk",
       "name": "BellSoft Liberica JDK 21",
       "path": "packages/liberica-21",
       "provides": "jdk",
@@ -492,6 +539,7 @@
     },
     "liberica-25": {
       "description": "Production-ready OpenJDK 25 LTS distribution from BellSoft",
+      "kind": "sdk",
       "name": "BellSoft Liberica JDK 25",
       "path": "packages/liberica-25",
       "provides": "jdk",
@@ -503,6 +551,7 @@
     },
     "liberica-8": {
       "description": "Production-ready OpenJDK 8 LTS distribution from BellSoft",
+      "kind": "sdk",
       "name": "BellSoft Liberica JDK 8",
       "path": "packages/liberica-8",
       "provides": "jdk",
@@ -514,6 +563,7 @@
     },
     "maven": {
       "description": "Build automation and project management tool for Java projects",
+      "kind": "sdk",
       "name": "Apache Maven",
       "path": "packages/maven",
       "requires": [
@@ -527,6 +577,7 @@
     },
     "micronaut": {
       "description": "The `mn` command-line tool for creating Micronaut applications",
+      "kind": "sdk",
       "name": "Micronaut CLI",
       "path": "packages/micronaut",
       "requires": [
@@ -540,6 +591,7 @@
     },
     "mvnd": {
       "description": "Fast Maven build client backed by long-lived daemon processes",
+      "kind": "sdk",
       "name": "Maven Daemon",
       "path": "packages/mvnd",
       "requires": [
@@ -553,6 +605,7 @@
     },
     "neovim": {
       "description": "Hyperextensible Vim-based text editor",
+      "kind": "app",
       "name": "Neovim",
       "path": "packages/neovim",
       "tags": [
@@ -562,6 +615,7 @@
     },
     "netbeans": {
       "description": "Open-source IDE for Java and other languages from the Apache Software Foundation",
+      "kind": "app",
       "name": "Apache NetBeans",
       "path": "packages/netbeans",
       "requires": [
@@ -573,7 +627,8 @@
       "version": "31"
     },
     "node-22": {
-      "description": "JavaScript runtime built on V8 (Maintenance LTS \u2014 Jod)",
+      "description": "JavaScript runtime built on V8 (Maintenance LTS — Jod)",
+      "kind": "sdk",
       "name": "Node.js 22 LTS",
       "path": "packages/node-22",
       "provides": "node",
@@ -584,7 +639,8 @@
       "version": "22.23.2"
     },
     "node-24": {
-      "description": "JavaScript runtime built on V8 (Active LTS \u2014 Krypton)",
+      "description": "JavaScript runtime built on V8 (Active LTS — Krypton)",
+      "kind": "sdk",
       "name": "Node.js 24 LTS",
       "path": "packages/node-24",
       "provides": "node",
@@ -596,6 +652,7 @@
     },
     "pnpm": {
       "description": "Fast, disk-efficient package manager for JavaScript projects",
+      "kind": "sdk",
       "name": "pnpm",
       "path": "packages/pnpm",
       "tags": [
@@ -606,6 +663,7 @@
     },
     "procs": {
       "description": "A modern replacement for ps",
+      "kind": "cli",
       "name": "procs",
       "path": "packages/procs",
       "tags": [
@@ -615,6 +673,7 @@
     },
     "quarkus": {
       "description": "Command-line tool for creating and managing Quarkus projects",
+      "kind": "sdk",
       "name": "Quarkus CLI",
       "path": "packages/quarkus",
       "requires": [
@@ -628,6 +687,7 @@
     },
     "ripgrep": {
       "description": "Fast recursive grep alternative written in Rust",
+      "kind": "cli",
       "name": "ripgrep",
       "path": "packages/ripgrep",
       "tags": [
@@ -637,6 +697,7 @@
     },
     "sbt": {
       "description": "Interactive build tool for Scala and Java projects",
+      "kind": "sdk",
       "name": "sbt",
       "path": "packages/sbt",
       "requires": [
@@ -650,6 +711,7 @@
     },
     "scala": {
       "description": "Scala 3 compiler, runner, and documentation generator",
+      "kind": "sdk",
       "name": "Scala 3",
       "path": "packages/scala",
       "requires": [
@@ -663,6 +725,7 @@
     },
     "sd": {
       "description": "Intuitive find & replace, a sed alternative",
+      "kind": "cli",
       "name": "sd",
       "path": "packages/sd",
       "tags": [
@@ -672,6 +735,7 @@
     },
     "semeru-11": {
       "description": "OpenJDK 11 LTS distribution from IBM with the Eclipse OpenJ9 JVM",
+      "kind": "sdk",
       "name": "IBM Semeru Runtime Open Edition 11",
       "path": "packages/semeru-11",
       "provides": "jdk",
@@ -683,6 +747,7 @@
     },
     "semeru-17": {
       "description": "OpenJDK 17 LTS distribution from IBM with the Eclipse OpenJ9 JVM",
+      "kind": "sdk",
       "name": "IBM Semeru Runtime Open Edition 17",
       "path": "packages/semeru-17",
       "provides": "jdk",
@@ -694,6 +759,7 @@
     },
     "semeru-21": {
       "description": "OpenJDK 21 LTS distribution from IBM with the Eclipse OpenJ9 JVM",
+      "kind": "sdk",
       "name": "IBM Semeru Runtime Open Edition 21",
       "path": "packages/semeru-21",
       "provides": "jdk",
@@ -705,6 +771,7 @@
     },
     "semeru-25": {
       "description": "OpenJDK 25 LTS distribution from IBM with the Eclipse OpenJ9 JVM",
+      "kind": "sdk",
       "name": "IBM Semeru Runtime Open Edition 25",
       "path": "packages/semeru-25",
       "provides": "jdk",
@@ -716,6 +783,7 @@
     },
     "semeru-8": {
       "description": "OpenJDK 8 LTS distribution from IBM with the Eclipse OpenJ9 JVM",
+      "kind": "sdk",
       "name": "IBM Semeru Runtime Open Edition 8",
       "path": "packages/semeru-8",
       "provides": "jdk",
@@ -727,6 +795,7 @@
     },
     "shellcheck": {
       "description": "Static analysis tool for shell scripts",
+      "kind": "cli",
       "name": "ShellCheck",
       "path": "packages/shellcheck",
       "tags": [
@@ -736,6 +805,7 @@
     },
     "shfmt": {
       "description": "Formatter and parser for shell programs",
+      "kind": "cli",
       "name": "shfmt",
       "path": "packages/shfmt",
       "tags": [
@@ -745,6 +815,7 @@
     },
     "spring-boot": {
       "description": "Command-line tool for quickly prototyping with Spring Boot",
+      "kind": "sdk",
       "name": "Spring Boot CLI",
       "path": "packages/spring-boot",
       "requires": [
@@ -758,6 +829,7 @@
     },
     "starship": {
       "description": "Minimal, fast, customizable prompt for any shell",
+      "kind": "cli",
       "name": "starship",
       "path": "packages/starship",
       "tags": [
@@ -767,6 +839,7 @@
     },
     "tealdeer": {
       "description": "A very fast implementation of tldr in Rust",
+      "kind": "cli",
       "name": "tealdeer",
       "path": "packages/tealdeer",
       "tags": [
@@ -775,7 +848,8 @@
       "version": "1.8.1"
     },
     "visualvm": {
-      "description": "All-in-one Java troubleshooting tool \u2014 monitoring, profiling, heap dumps",
+      "description": "All-in-one Java troubleshooting tool — monitoring, profiling, heap dumps",
+      "kind": "app",
       "name": "VisualVM",
       "path": "packages/visualvm",
       "requires": [
@@ -789,6 +863,7 @@
     },
     "yq": {
       "description": "Portable command-line YAML, JSON, XML, CSV, TOML, and properties processor",
+      "kind": "cli",
       "name": "yq",
       "path": "packages/yq",
       "tags": [
@@ -798,6 +873,7 @@
     },
     "zed": {
       "description": "High-performance, multiplayer code editor",
+      "kind": "app",
       "name": "Zed",
       "path": "packages/zed",
       "tags": [
@@ -807,6 +883,7 @@
     },
     "zellij": {
       "description": "Terminal workspace and multiplexer with batteries included",
+      "kind": "cli",
       "name": "zellij",
       "path": "packages/zellij",
       "tags": [
@@ -816,6 +893,7 @@
     },
     "zoxide": {
       "description": "A smarter cd that learns your habits",
+      "kind": "cli",
       "name": "zoxide",
       "path": "packages/zoxide",
       "tags": [
@@ -825,6 +903,7 @@
     },
     "zulu-11": {
       "description": "Azul's free, TCK-tested build of OpenJDK 11 LTS",
+      "kind": "sdk",
       "name": "Azul Zulu JDK 11",
       "path": "packages/zulu-11",
       "provides": "jdk",
@@ -836,6 +915,7 @@
     },
     "zulu-17": {
       "description": "Azul's free, TCK-tested build of OpenJDK 17 LTS",
+      "kind": "sdk",
       "name": "Azul Zulu JDK 17",
       "path": "packages/zulu-17",
       "provides": "jdk",
@@ -847,6 +927,7 @@
     },
     "zulu-21": {
       "description": "Azul's free, TCK-tested build of OpenJDK 21 LTS",
+      "kind": "sdk",
       "name": "Azul Zulu JDK 21",
       "path": "packages/zulu-21",
       "provides": "jdk",
@@ -858,6 +939,7 @@
     },
     "zulu-25": {
       "description": "Azul's free, TCK-tested build of OpenJDK 25 LTS",
+      "kind": "sdk",
       "name": "Azul Zulu JDK 25",
       "path": "packages/zulu-25",
       "provides": "jdk",
@@ -869,6 +951,7 @@
     },
     "zulu-8": {
       "description": "Azul's free, TCK-tested build of OpenJDK 8 LTS",
+      "kind": "sdk",
       "name": "Azul Zulu JDK 8",
       "path": "packages/zulu-8",
       "provides": "jdk",
