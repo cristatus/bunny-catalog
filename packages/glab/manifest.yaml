@@ -1,0 +1,33 @@
+id: glab
+name: GitLab CLI
+description: GitLab's official command-line tool for repos, merge requests, issues, and CI/CD pipelines
+version: "1.113.0"
+kind: cli
+tags: [cli]
+homepage: https://gitlab.com/gitlab-org/cli
+license: MIT
+sources:
+    - url: "https://gitlab.com/gitlab-org/cli/-/releases/v{version}/downloads/glab_{version}_linux_amd64.tar.gz"
+      file: "glab-{version}.tar.gz"
+      sha256: "c265589fb2018f310b6a27df9356efee42991f858e7e3a5fa232228a13b47467"
+      size: 18204938
+      update:
+        type: json
+        url: "https://gitlab.com/api/v4/projects/gitlab-org%2Fcli/releases?per_page=1"
+        version-query: "[0].tag_name"
+        tag-pattern: "v?([0-9.]+)"
+        url-template: "https://gitlab.com/gitlab-org/cli/-/releases/v{version}/downloads/glab_{version}_linux_amd64.tar.gz"
+        hash-url: "https://gitlab.com/gitlab-org/cli/-/releases/v{version}/downloads/checksums.txt"
+prepare:
+    - "tar xf glab-{version}.tar.gz -C {pkg}"
+    # glab ships no completion files; generate them from the binary itself.
+    - "mkdir -p {pkg}/completions"
+    - "{pkg}/bin/glab completion -s bash > {pkg}/completions/glab"
+    - "{pkg}/bin/glab completion -s zsh  > {pkg}/completions/_glab"
+    - "{pkg}/bin/glab completion -s fish > {pkg}/completions/glab.fish"
+bin:
+    - {name: glab, path: "{app}/bin/glab"}
+completions:
+    bash: "{app}/completions/glab"
+    zsh: "{app}/completions/_glab"
+    fish: "{app}/completions/glab.fish"

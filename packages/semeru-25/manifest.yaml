@@ -1,0 +1,33 @@
+id: semeru-25
+name: IBM Semeru Runtime Open Edition 25
+description: OpenJDK 25 LTS distribution from IBM with the Eclipse OpenJ9 JVM
+version: "25.0.4"
+kind: sdk
+tags: [java, jdk]
+homepage: https://developer.ibm.com/languages/java/semeru-runtimes/
+license: GPL-2.0-with-classpath-exception
+provides: jdk
+sources:
+    - url: "https://github.com/ibmruntimes/semeru25-binaries/releases/download/jdk-25.0.4.0/ibm-semeru-open-jdk_x64_linux_25.0.4.0.tar.gz"
+      file: "semeru-jdk-{version}.tar.gz"
+      sha256: "780a44566a626d3961aaf93a1c81b2d6265029c1350a467eb5e9a3b1cafe68bd"
+      size: 248528292
+      update:
+        type: github
+        repo: ibmruntimes/semeru25-binaries
+        asset: '^ibm-semeru-open-jdk_x64_linux_.*\.tar\.gz$'
+        tag-pattern: '^jdk-([0-9]+\.[0-9]+\.[0-9]+)\.0$'
+prepare:
+    - "tar xf semeru-jdk-{version}.tar.gz --strip-components=1 -C {pkg}"
+bin:
+    - {name: java, path: "{app}/bin/java"}
+    - {name: javac, path: "{app}/bin/javac"}
+    - {name: jar, path: "{app}/bin/jar"}
+    - {name: javadoc, path: "{app}/bin/javadoc"}
+    - {name: jshell, path: "{app}/bin/jshell"}
+    - {name: jlink, path: "{app}/bin/jlink"}
+    - {name: jpackage, path: "{app}/bin/jpackage"}
+    - {name: jdeps, path: "{app}/bin/jdeps"}
+    - {name: keytool, path: "{app}/bin/keytool"}
+env:
+    JAVA_HOME: "{app}"

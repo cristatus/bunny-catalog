@@ -1,0 +1,28 @@
+# Tag vocabulary for this catalog.
+#
+# `bunny dev validate` rejects any manifest using a tag that is not declared
+# here, which keeps the vocabulary from drifting into js/javascript/node. A
+# fork is free to declare its own set: bunny enforces that tags are declared,
+# never which ones exist.
+
+# Ecosystems
+java: JVM ecosystem
+kotlin: Kotlin language and tooling
+scala: Scala language and tooling
+node: Node.js ecosystem
+deno: Deno runtime and tooling
+bun: Bun runtime and tooling
+
+# What a package is
+runtime: language runtime or SDK
+jdk: Java Development Kit distribution
+language: compiler or language toolchain
+build-tool: builds and dependency management
+package-manager: installs project dependencies
+framework: application framework tooling
+profiler: performance measurement
+diagnostics: runtime inspection and troubleshooting
+scripting: run source files directly
+cli: general-purpose command-line tool
+editor: text editor
+ide: integrated development environment

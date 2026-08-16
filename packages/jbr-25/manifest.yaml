@@ -1,0 +1,31 @@
+id: jbr-25
+name: JetBrains Runtime 25
+description: JetBrains' OpenJDK 25 fork with per-monitor HiDPI scaling and Swing/AWT rendering fixes
+version: "25.0.4+329128"
+kind: sdk
+tags: [java, jdk]
+homepage: https://github.com/JetBrains/JetBrainsRuntime
+license: GPL-2.0-with-classpath-exception
+provides: jdk
+sources:
+    - url: "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.4-linux-x64-b329.128.tar.gz"
+      file: "jbrsdk-jcef-{version}.tar.gz"
+      sha512: "e3601f71f023082a88f586bad08beb535dccf41a656edf0d90f4bcf6fd780a5708662b28b299aaca16190fafeed6160a1c548b8927397c0aa17eb6b18270bb92"
+      size: 534174428
+      update:
+        type: foojay
+        distribution: jetbrains
+prepare:
+    - "tar xf jbrsdk-jcef-{version}.tar.gz --strip-components=1 -C {pkg}"
+bin:
+    - {name: java, path: "{app}/bin/java"}
+    - {name: javac, path: "{app}/bin/javac"}
+    - {name: jar, path: "{app}/bin/jar"}
+    - {name: javadoc, path: "{app}/bin/javadoc"}
+    - {name: jshell, path: "{app}/bin/jshell"}
+    - {name: jlink, path: "{app}/bin/jlink"}
+    - {name: jpackage, path: "{app}/bin/jpackage"}
+    - {name: jdeps, path: "{app}/bin/jdeps"}
+    - {name: keytool, path: "{app}/bin/keytool"}
+env:
+    JAVA_HOME: "{app}"

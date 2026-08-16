@@ -1,0 +1,36 @@
+id: semeru-8
+name: IBM Semeru Runtime Open Edition 8
+description: OpenJDK 8 LTS distribution from IBM with the Eclipse OpenJ9 JVM
+version: "8u482-b08.1"
+kind: sdk
+tags: [java, jdk]
+homepage: https://developer.ibm.com/languages/java/semeru-runtimes/
+license: GPL-2.0-with-classpath-exception
+
+provides: jdk
+
+sources:
+  - url: "https://github.com/ibmruntimes/semeru8-binaries/releases/download/jdk8u482-b08.1_openj9-0.57.0/ibm-semeru-open-jdk_x64_linux_8.0.482.1.tar.gz"
+    file: "semeru-jdk-{version}.tar.gz"
+    sha256: "50e9c3cf50d291f195c4660accfe06577a6796ce27661b78d3be6b766893d8d3"
+    size: 119439544
+    update:
+      type: github
+      repo: ibmruntimes/semeru8-binaries
+      asset: '^ibm-semeru-open-jdk_x64_linux_.*\.tar\.gz$'
+      tag-pattern: '^jdk(8u[0-9]+-b[0-9.]+)_openj9-'
+
+prepare:
+  - "tar xf semeru-jdk-{version}.tar.gz --strip-components=1 -C {pkg}"
+
+bin:
+  - { name: java, path: "{app}/bin/java" }
+  - { name: javac, path: "{app}/bin/javac" }
+  - { name: jar, path: "{app}/bin/jar" }
+  - { name: javadoc, path: "{app}/bin/javadoc" }
+  - { name: jdeps, path: "{app}/bin/jdeps" }
+  - { name: keytool, path: "{app}/bin/keytool" }
+
+env:
+  JAVA_HOME: "{app}"
+

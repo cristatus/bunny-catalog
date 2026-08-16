@@ -1,0 +1,31 @@
+id: ant
+name: Apache Ant
+description: Java build tool for declarative, task-based build scripts
+version: "1.10.17"
+kind: sdk
+tags: [build-tool, java]
+homepage: https://ant.apache.org/
+license: Apache-2.0
+
+requires: [jdk]
+
+sources:
+  - url: "https://dlcdn.apache.org/ant/binaries/apache-ant-{version}-bin.tar.gz"
+    file: "ant-{version}.tar.gz"
+    sha512: "a96ca6455ec9af5e702df7d1ed5a2ec1cfb381eac3e9a767ecb6be1706e826941045e8fd7ca663ba101bc47bfa18351f540dd27e9e7af57908ac78e65268eee7"
+    size: 6898805
+    update:
+      type: html
+      url: "https://ant.apache.org/bindownload"
+      version-pattern: "Apache Ant ([0-9.]+) is the latest released version"
+      url-template: "https://dlcdn.apache.org/ant/binaries/apache-ant-{version}-bin.tar.gz"
+      hash-url: "https://dlcdn.apache.org/ant/binaries/apache-ant-{version}-bin.tar.gz.sha512"
+
+prepare:
+  - "tar xf ant-{version}.tar.gz --strip-components=1 -C {pkg}"
+
+bin:
+  - { name: ant, path: "{app}/bin/ant" }
+
+env:
+  ANT_HOME: "{app}"

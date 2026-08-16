@@ -1,0 +1,24 @@
+id: hyperfine
+name: hyperfine
+description: A command-line benchmarking tool
+version: "1.20.0"
+kind: cli
+tags: [cli]
+homepage: https://github.com/sharkdp/hyperfine
+license: Apache-2.0 OR MIT
+sources:
+    - url: "https://github.com/sharkdp/hyperfine/releases/download/v{version}/hyperfine-v{version}-x86_64-unknown-linux-musl.tar.gz"
+      sha256: "3285ec7959285288137043dd81dce0dde056227018a8277532d9a364b4f03c2b"
+      size: 710161
+      update:
+        type: github
+        repo: sharkdp/hyperfine
+        asset: "hyperfine-v.*-x86_64-unknown-linux-musl\\.tar\\.gz$"
+prepare:
+    - "tar xf hyperfine-v{version}-x86_64-unknown-linux-musl.tar.gz --strip-components=1 -C {pkg}"
+bin:
+    - {name: hyperfine, path: "{app}/hyperfine"}
+completions:
+    bash: "{app}/autocomplete/hyperfine.bash"
+    zsh: "{app}/autocomplete/_hyperfine"
+    fish: "{app}/autocomplete/hyperfine.fish"

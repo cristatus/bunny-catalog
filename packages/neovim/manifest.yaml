@@ -1,0 +1,36 @@
+id: neovim
+name: Neovim
+description: Hyperextensible Vim-based text editor
+version: "0.12.4"
+kind: app
+tags: [editor]
+homepage: https://neovim.io/
+license: Apache-2.0
+sources:
+    - url: "https://github.com/neovim/neovim/releases/download/v{version}/nvim-linux-x86_64.tar.gz"
+      file: "nvim-{version}.tar.gz"
+      sha256: "012bf3fcac5ade43914df3f174668bf64d05e049a4f032a388c027b1ebd78628"
+      size: 11404178
+      update:
+        type: github
+        repo: neovim/neovim
+        asset: "nvim-linux-x86_64\\.tar\\.gz$"
+        tag-pattern: "v([0-9.]+)"
+prepare:
+    - "tar xf nvim-{version}.tar.gz --strip-components=1 -C {pkg}"
+bin:
+    - {name: nvim, path: "{app}/bin/nvim"}
+icons:
+    - {src: "{app}/share/icons/hicolor/128x128/apps/nvim.png", name: "nvim", size: "128x128"}
+desktop:
+    - id: nvim.desktop
+      name: Neovim
+      genericName: Text Editor
+      comment: Edit text files
+      exec: "nvim %F"
+      icon: nvim
+      type: Application
+      terminal: true
+      categories: [Utility, TextEditor, Development]
+      mimeType: [text/plain, text/x-c, text/x-c++, text/x-chdr, text/x-c++hdr, text/x-csrc, text/x-c++src, text/x-java, text/x-tex, application/x-shellscript]
+      keywords: [nvim, vim, editor]

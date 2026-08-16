@@ -1,0 +1,26 @@
+id: gradle
+name: Gradle
+description: Build automation tool with Groovy/Kotlin DSL for Java, Android, and more
+version: "9.7.0"
+kind: sdk
+tags: [build-tool, java]
+homepage: https://gradle.org/
+license: Apache-2.0
+requires: ["jdk>=17"]
+toolchains: gradle
+sources:
+    - url: "https://services.gradle.org/distributions/gradle-{version}-bin.zip"
+      file: "gradle-{version}.zip"
+      sha256: "84fbba45c7f4c64abc77460e1c00f541e9f960e3c7ed2538f1ede19eacd873ae"
+      size: 150308896
+      update:
+        type: json
+        url: "https://services.gradle.org/versions/current"
+        version-query: "version"
+        url-query: "downloadUrl"
+        hash-query: "checksum"
+prepare:
+    - "unzip -q gradle-{version}.zip"
+    - "mv gradle-{version}/* {pkg}/"
+bin:
+    - {name: gradle, path: "{app}/bin/gradle"}

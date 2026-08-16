@@ -1,0 +1,51 @@
+id: visualvm
+name: VisualVM
+description: All-in-one Java troubleshooting tool — monitoring, profiling, heap dumps
+version: "2.2.1"
+kind: app
+tags: [java, profiler]
+homepage: https://visualvm.github.io/
+license: GPL-2.0-with-classpath-exception
+
+requires: [jdk]
+
+sources:
+  - url: "https://github.com/oracle/visualvm/releases/download/{version}/visualvm_221.zip"
+    file: "visualvm-{version}.zip"
+    sha256: "6884c908c9e10a959dea8e7b168b496515c0310d6b86a35ce96b8197231f4ef3"
+    size: 23247561
+    update:
+      type: github
+      repo: oracle/visualvm
+      asset: "visualvm_[0-9]+\\.zip$"
+      tag-pattern: "([0-9.]+)"
+  # Linux icon: upstream zip ships only a macOS .icns, so vendor an SVG from
+  # the Papirus icon theme (LGPL-3.0). Pinned by sha256 so installs don't
+  # depend on Papirus' raw URL staying stable.
+  - url: "https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/raw/master/Papirus/64x64/apps/visualvm.svg"
+    file: "visualvm.svg"
+    sha256: "d95619a69aecd2d358a4e87b4b85ce8b1e25fbc9876e8cd2db89b16b2cfb1fe7"
+    size: 3225
+
+prepare:
+  - "unzip -q visualvm-{version}.zip"
+  - "mv visualvm_*/* {pkg}/"
+  - "cp visualvm.svg {pkg}/visualvm.svg"
+
+bin:
+  - name: visualvm
+    path: "{app}/bin/visualvm"
+
+icons:
+  - { src: "{app}/visualvm.svg", name: "visualvm", size: "scalable" }
+
+desktop:
+  - id: visualvm.desktop
+    name: VisualVM
+    genericName: Java Profiler
+    comment: All-in-one Java troubleshooting tool
+    exec: "visualvm"
+    icon: visualvm
+    type: Application
+    categories: [Development, Profiling, Java]
+    keywords: [visualvm, java, profiler, monitoring]
