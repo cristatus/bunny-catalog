@@ -1,27 +1,25 @@
 id: claude-desktop
 name: Claude Desktop
 description: Anthropic's desktop app for Claude, with Claude Code sessions built in
-version: "1.30096.1"
+version: "1.32885.1"
 kind: app
 tags: [ai]
 homepage: https://claude.ai/download
 license: LicenseRef-Anthropic-Consumer-Terms
-
 sources:
     # Anthropic publishes only an apt repo, no portable tarball, so take the
     # .deb from the pool and unpack it on any distro (the Cursor approach).
     # Pool files are versioned and immutable, so the pin stays valid.
     - url: "https://downloads.claude.ai/claude-desktop/apt/stable/pool/main/c/claude-desktop/claude-desktop_{version}_amd64.deb"
       file: "claude-desktop-{version}.deb"
-      sha256: "09e41a20a5b47ea0e5bc226d4fffa77af43ad450c7cbf5e66e56d6e4fd4ad2e9"
-      size: 172617692
+      sha256: "f8a5ddea7c8cbe769589cf19c2e1832d5d532ab19bf8202621ba957c9351a2fc"
+      size: 171376132
       update:
         type: debian
         root: https://downloads.claude.ai/claude-desktop/apt/stable
         dist: stable
         component: main
         package-name: claude-desktop
-
 prepare:
     - "ar x claude-desktop-{version}.deb"
     - "tar xf data.tar.xz"
@@ -29,13 +27,10 @@ prepare:
     # sibling resources (chrome-sandbox, *.pak, locales, libs).
     - "mv usr/lib/claude-desktop/* {pkg}/"
     - "cp usr/share/icons/hicolor/256x256/apps/claude-desktop.png {pkg}/claude-desktop.png"
-
 bin:
-    - { name: claude-desktop, path: "{app}/claude-desktop" }
-
+    - {name: claude-desktop, path: "{app}/claude-desktop"}
 icons:
-    - { src: "{app}/claude-desktop.png", name: "claude-desktop", size: "256x256" }
-
+    - {src: "{app}/claude-desktop.png", name: "claude-desktop", size: "256x256"}
 desktop:
     - id: claude-desktop.desktop
       name: Claude
@@ -52,5 +47,5 @@ desktop:
       keywords: [AI, Chat, Assistant, Claude, Code, LLM]
       mimeType: [x-scheme-handler/claude]
       actions:
-        - { id: new-chat, name: "New chat", exec: "claude-desktop claude://claude.ai/new" }
-        - { id: new-code, name: "New Claude Code session", exec: "claude-desktop claude://code/new" }
+        - {id: new-chat, name: "New chat", exec: "claude-desktop claude://claude.ai/new"}
+        - {id: new-code, name: "New Claude Code session", exec: "claude-desktop claude://code/new"}

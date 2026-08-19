@@ -1,7 +1,7 @@
 id: zed
 name: Zed
 description: High-performance, multiplayer code editor
-version: "1.15.0"
+version: "1.15.1"
 kind: app
 tags: [editor]
 homepage: https://zed.dev/
@@ -9,8 +9,8 @@ license: GPL-3.0-or-later
 sources:
     - url: "https://github.com/zed-industries/zed/releases/download/v{version}/zed-linux-x86_64.tar.gz"
       file: "zed-{version}.tar.gz"
-      sha256: "abf751395da92fcac783e1ec59e9812ac4c4ebb33a27f7f51059edde1aee99f9"
-      size: 159834222
+      sha256: "b9a8a080e707487111436665270a0c961b21a06b86f194375a0c940067cb1a17"
+      size: 159865088
       update:
         type: github
         repo: zed-industries/zed

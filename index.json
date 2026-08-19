@@ -32,7 +32,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.1.13"
+      "version": "1.1.14"
     },
     "arthas": {
       "description": "Interactive diagnostics and troubleshooting tool for live Java applications",
@@ -121,7 +121,7 @@
       "tags": [
         "ai"
       ],
-      "version": "26.810.52044"
+      "version": "26.814.41957"
     },
     "claude": {
       "description": "Anthropic's coding agent for the terminal",
@@ -131,7 +131,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.1.233"
+      "version": "2.1.235"
     },
     "claude-desktop": {
       "description": "Anthropic's desktop app for Claude, with Claude Code sessions built in",
@@ -141,7 +141,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.30096.1"
+      "version": "1.32885.1"
     },
     "code": {
       "description": "Code editor from Microsoft",
@@ -161,7 +161,7 @@
       "tags": [
         "ai"
       ],
-      "version": "0.147.0"
+      "version": "0.148.0"
     },
     "corretto-11": {
       "description": "Amazon's no-cost, production-ready distribution of OpenJDK 11 LTS",
@@ -231,7 +231,7 @@
       "tags": [
         "editor"
       ],
-      "version": "3.16.17-1786674287"
+      "version": "3.16.29-1787019013"
     },
     "delta": {
       "description": "Syntax-highlighting pager for git, diff, and grep output",
@@ -325,7 +325,7 @@
       "tags": [
         "cli"
       ],
-      "version": "0.74.2"
+      "version": "0.74.3"
     },
     "gh": {
       "description": "GitHub's official command-line tool for repos, PRs, issues, and more",
@@ -355,7 +355,7 @@
       "tags": [
         "cli"
       ],
-      "version": "1.113.0"
+      "version": "1.114.0"
     },
     "graalvm-21": {
       "description": "GraalVM Community Edition with JDK 21 and native-image",
@@ -511,7 +511,7 @@
       "tags": [
         "ide"
       ],
-      "version": "3.6.4.86641"
+      "version": "3.7.0.87111"
     },
     "jmc": {
       "description": "JVM production-time profiling and diagnostics tool",
@@ -657,7 +657,7 @@
         "framework",
         "java"
       ],
-      "version": "5.1.0"
+      "version": "5.1.1"
     },
     "mvnd": {
       "description": "Fast Maven build client backed by long-lived daemon processes",
@@ -965,7 +965,7 @@
         "java",
         "server"
       ],
-      "version": "11.0.24"
+      "version": "11.0.25"
     },
     "tomcat-9": {
       "description": "Servlet container implementing the Java EE 8 web specifications, for javax.* applications",
@@ -1014,7 +1014,7 @@
       "tags": [
         "editor"
       ],
-      "version": "1.15.0"
+      "version": "1.15.1"
     },
     "zellij": {
       "description": "Terminal workspace and multiplexer with batteries included",
@@ -1097,6 +1097,6 @@
       "version": "8.0.502+7"
     }
   },
-  "updated": "2026-08-16T18:39:44Z",
+  "updated": "2026-08-19T01:17:53Z",
   "version": 1
 }
