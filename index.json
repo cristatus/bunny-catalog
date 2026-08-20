@@ -32,7 +32,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.1.14"
+      "version": "1.1.15"
     },
     "arthas": {
       "description": "Interactive diagnostics and troubleshooting tool for live Java applications",
@@ -131,7 +131,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.1.235"
+      "version": "2.1.237"
     },
     "claude-desktop": {
       "description": "Anthropic's desktop app for Claude, with Claude Code sessions built in",
@@ -151,7 +151,7 @@
       "tags": [
         "editor"
       ],
-      "version": "1.133.0"
+      "version": "1.134.0"
     },
     "codex": {
       "description": "OpenAI's coding agent for the terminal",
@@ -221,7 +221,7 @@
         "java",
         "jdk"
       ],
-      "version": "8.0.502"
+      "version": "8.0.504"
     },
     "cursor": {
       "description": "The AI Code Editor (VS Code fork by Anysphere)",
@@ -282,7 +282,7 @@
       "tags": [
         "cli"
       ],
-      "version": "1.2.4"
+      "version": "1.2.5"
     },
     "eclipse": {
       "description": "The essential tools for Java developers — IDE, Git, Maven, Gradle, XML Editor",
@@ -393,7 +393,7 @@
         "build-tool",
         "java"
       ],
-      "version": "9.7.0"
+      "version": "9.7.1"
     },
     "hyperfine": {
       "description": "A command-line benchmarking tool",
@@ -581,7 +581,7 @@
         "java",
         "jdk"
       ],
-      "version": "11.0.32+11"
+      "version": "11.0.32.1+1"
     },
     "liberica-17": {
       "description": "Production-ready OpenJDK 17 LTS distribution from BellSoft",
@@ -593,7 +593,7 @@
         "java",
         "jdk"
       ],
-      "version": "17.0.20+10"
+      "version": "17.0.20.1+1"
     },
     "liberica-21": {
       "description": "Production-ready OpenJDK 21 LTS distribution from BellSoft",
@@ -605,7 +605,7 @@
         "java",
         "jdk"
       ],
-      "version": "21.0.12+10"
+      "version": "21.0.12.1+1"
     },
     "liberica-25": {
       "description": "Production-ready OpenJDK 25 LTS distribution from BellSoft",
@@ -617,7 +617,7 @@
         "java",
         "jdk"
       ],
-      "version": "25.0.4+9"
+      "version": "25.0.4.1+1"
     },
     "liberica-8": {
       "description": "Production-ready OpenJDK 8 LTS distribution from BellSoft",
@@ -629,7 +629,7 @@
         "java",
         "jdk"
       ],
-      "version": "8.0.502+9"
+      "version": "8.0.504+1"
     },
     "maven": {
       "description": "Build automation and project management tool for Java projects",
@@ -773,7 +773,7 @@
         "framework",
         "java"
       ],
-      "version": "3.38.2"
+      "version": "3.38.3"
     },
     "ripgrep": {
       "description": "Fast recursive grep alternative written in Rust",
@@ -1004,7 +1004,7 @@
       "tags": [
         "cli"
       ],
-      "version": "4.53.3"
+      "version": "4.53.4"
     },
     "zed": {
       "description": "High-performance, multiplayer code editor",
@@ -1014,7 +1014,7 @@
       "tags": [
         "editor"
       ],
-      "version": "1.15.1"
+      "version": "1.16.1"
     },
     "zellij": {
       "description": "Terminal workspace and multiplexer with batteries included",
@@ -1046,7 +1046,7 @@
         "java",
         "jdk"
       ],
-      "version": "11.0.32+9"
+      "version": "11.0.32.1+1"
     },
     "zulu-17": {
       "description": "Azul's free, TCK-tested build of OpenJDK 17 LTS",
@@ -1058,7 +1058,7 @@
         "java",
         "jdk"
       ],
-      "version": "17.0.20+8"
+      "version": "17.0.20.1+1"
     },
     "zulu-21": {
       "description": "Azul's free, TCK-tested build of OpenJDK 21 LTS",
@@ -1070,7 +1070,7 @@
         "java",
         "jdk"
       ],
-      "version": "21.0.12+8"
+      "version": "21.0.12.1+1"
     },
     "zulu-25": {
       "description": "Azul's free, TCK-tested build of OpenJDK 25 LTS",
@@ -1082,7 +1082,7 @@
         "java",
         "jdk"
       ],
-      "version": "25.0.4+7"
+      "version": "25.0.4.1+1"
     },
     "zulu-8": {
       "description": "Azul's free, TCK-tested build of OpenJDK 8 LTS",
@@ -1094,9 +1094,9 @@
         "java",
         "jdk"
       ],
-      "version": "8.0.502+7"
+      "version": "8.0.504+1"
     }
   },
-  "updated": "2026-08-19T01:17:53Z",
+  "updated": "2026-08-20T01:15:26Z",
   "version": 1
 }

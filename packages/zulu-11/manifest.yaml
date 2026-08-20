@@ -1,17 +1,17 @@
 id: zulu-11
 name: Azul Zulu JDK 11
 description: Azul's free, TCK-tested build of OpenJDK 11 LTS
-version: "11.0.32+9"
+version: "11.0.32.1+1"
 kind: sdk
 tags: [java, jdk]
 homepage: https://www.azul.com/downloads/?package=jdk
 license: GPL-2.0-with-classpath-exception
 provides: jdk
 sources:
-    - url: "https://cdn.azul.com/zulu/bin/zulu11.90.19-ca-jdk11.0.32-linux_x64.tar.gz"
+    - url: "https://cdn.azul.com/zulu/bin/zulu11.90.205-ca-jdk11.0.32.1-linux_x64.tar.gz"
       file: "zulu-jdk-{version}.tar.gz"
-      sha256: "d4832d97886444346ed75fd1059c68c5e38795098e3273e4a0929fe2eb2abf76"
-      size: 199500362
+      sha256: "cb9ca98d2bf067b4cdbd616c21dba1f2c77174ea716d1378fb7fdcb6927223d5"
+      size: 199519116
       update:
         type: foojay
         distribution: zulu

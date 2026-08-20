@@ -1,17 +1,17 @@
 id: liberica-21
 name: BellSoft Liberica JDK 21
 description: Production-ready OpenJDK 21 LTS distribution from BellSoft
-version: "21.0.12+10"
+version: "21.0.12.1+1"
 kind: sdk
 tags: [java, jdk]
 homepage: https://bell-sw.com/libericajdk/
 license: GPL-2.0-with-classpath-exception
 provides: jdk
 sources:
-    - url: "https://github.com/bell-sw/Liberica/releases/download/21.0.12+10/bellsoft-jdk21.0.12+10-linux-amd64.tar.gz"
+    - url: "https://github.com/bell-sw/Liberica/releases/download/21.0.12.1+1/bellsoft-jdk21.0.12.1+1-linux-amd64.tar.gz"
       file: "liberica-jdk-{version}.tar.gz"
-      sha256: "23b48e59f47099597f84378c0a765c83588dcad7f6987eb2fef0d08e7ee19f96"
-      size: 231186568
+      sha256: "94ae18a66527a54ebaf4490279e03631fcc47dbf262863f099ac9c8f5f525a49"
+      size: 231180907
       update:
         type: foojay
         distribution: liberica

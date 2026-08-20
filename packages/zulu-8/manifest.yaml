@@ -1,17 +1,17 @@
 id: zulu-8
 name: Azul Zulu JDK 8
 description: Azul's free, TCK-tested build of OpenJDK 8 LTS
-version: "8.0.502+7"
+version: "8.0.504+1"
 kind: sdk
 tags: [java, jdk]
 homepage: https://www.azul.com/downloads/?package=jdk
 license: GPL-2.0-with-classpath-exception
 provides: jdk
 sources:
-    - url: "https://cdn.azul.com/zulu/bin/zulu8.96.0.19-ca-jdk8.0.502-linux_x64.tar.gz"
+    - url: "https://cdn.azul.com/zulu/bin/zulu8.96.0.205-ca-jdk8.0.504-linux_x64.tar.gz"
       file: "zulu-jdk-{version}.tar.gz"
-      sha256: "5923daaf12fd0b87e60e437aaae7b2e5b257846cdb8ac15065258fb59a1da70a"
-      size: 106703823
+      sha256: "fdb93d3789f740c62b85c57a1c55db9960eb8bf6d7966ca8becd2a6be89bfcbf"
+      size: 106674581
       update:
         type: foojay
         distribution: zulu
