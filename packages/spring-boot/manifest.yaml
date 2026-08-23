@@ -1,7 +1,7 @@
 id: spring-boot
 name: Spring Boot CLI
 description: Command-line tool for quickly prototyping with Spring Boot
-version: "4.1.0"
+version: "4.1.1"
 kind: sdk
 tags: [framework, java]
 homepage: https://spring.io/projects/spring-boot
@@ -10,8 +10,8 @@ requires: [jdk]
 sources:
     - url: "https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-cli/{version}/spring-boot-cli-{version}-bin.tar.gz"
       file: "spring-boot-cli-{version}.tar.gz"
-      sha256: "48f2db51b0a482adee0e6faadec431ec9d0185f449ceb90bc2d07c2dbc2841e6"
-      size: 7366961
+      sha256: "1b2bf6991e5540728b862f49721241d3d52acb9d48e48ce5ea0d24d75978dfc4"
+      size: 7374975
       update:
         type: html
         url: "https://repo1.maven.org/maven2/org/springframework/boot/spring-boot-cli/maven-metadata.xml"

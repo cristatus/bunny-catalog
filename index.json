@@ -749,7 +749,7 @@
         "node",
         "package-manager"
       ],
-      "version": "11.22.0"
+      "version": "11.23.0"
     },
     "procs": {
       "description": "A modern replacement for ps",
@@ -915,7 +915,7 @@
         "framework",
         "java"
       ],
-      "version": "4.1.0"
+      "version": "4.1.1"
     },
     "starship": {
       "description": "Minimal, fast, customizable prompt for any shell",
@@ -1097,6 +1097,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-08-23T06:32:45Z",
+  "updated": "2026-08-23T15:30:33Z",
   "version": 1
 }
