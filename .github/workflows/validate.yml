@@ -30,5 +30,11 @@ jobs:
         run: |
           export BUNNY_HOME="$RUNNER_TEMP/bunny-home"
           mkdir -p "$BUNNY_HOME"
-          ln -s "$GITHUB_WORKSPACE" "$BUNNY_HOME/catalog"
+          # 'bunny dev' acts on a checkout listed under catalogs:, and the
+          # list is exhaustive, so name this one and nothing else.
+          cat > "$BUNNY_HOME/config.yaml" <<YAML
+          catalogs:
+            - name: bunny
+              local: $GITHUB_WORKSPACE
+          YAML
           bunny dev validate
