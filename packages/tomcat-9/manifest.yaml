@@ -1,7 +1,7 @@
 id: tomcat-9
 name: Apache Tomcat 9
 description: Servlet container implementing the Java EE 8 web specifications, for javax.* applications
-version: "9.0.120"
+version: "9.0.121"
 kind: sdk
 tags: [java, server]
 homepage: https://tomcat.apache.org/
@@ -11,8 +11,8 @@ requires: ["jdk>=8"]
 sources:
     - url: "https://dlcdn.apache.org/tomcat/tomcat-9/v{version}/bin/apache-tomcat-{version}.tar.gz"
       file: "tomcat-{version}.tar.gz"
-      sha512: "07eb6d9639c3e69af81171a16ccff1c19b7fd5b2e87e3646851f0a3f42a4ce3c1bf128fbe40fc978a08935ba4f0400ef3b43ded3e470b9aaf23b97a9e1fa0858"
-      size: 13154363
+      sha512: "16494dd4745f808d3c506807b5275521fd71044d976f441d18eeeab0f5a38bc1b5344ca395292f6f26eb7612cd8c8e746d01ccdfb29893d394052d9f4b1f4c11"
+      size: 13178703
       update:
         type: html
         url: "https://dlcdn.apache.org/tomcat/tomcat-9/"

@@ -1,7 +1,7 @@
 id: antigravity-cli
 name: Antigravity CLI
 description: Google's Antigravity coding agent for the terminal
-version: "1.1.15"
+version: "1.1.19"
 kind: cli
 tags: [ai]
 homepage: https://antigravity.google
@@ -11,10 +11,10 @@ sources:
     # cannot be templated from {version}. The json checker reads the version,
     # the whole URL, and a sha512 out of the same manifest upstream's install
     # script verifies against, and rewrites this url on each bump.
-    - url: "https://storage.googleapis.com/antigravity-public/antigravity-cli/1.1.15-5350383476932608/linux-x64/cli_linux_x64.tar.gz"
+    - url: "https://storage.googleapis.com/antigravity-public/antigravity-cli/1.1.19-4894004681244672/linux-x64/cli_linux_x64.tar.gz"
       file: "antigravity-cli-{version}.tar.gz"
-      sha512: "7d6020caff2e06a5ddf2553f2d9d5b428e3becc69727d11032f10e40609b938db428578ccd5c72694bab5e4da483de9ad3121578cc172adf174aa5263ce51dcc"
-      size: 55556510
+      sha512: "7c3b310c80685adcba714994207eb870fb4817403975da46555b7d9fade446487da3d8f897aa220dfbc30f602ab461a0147a6f7b3c8228fdebd35951e3f250fd"
+      size: 55763391
       update:
         type: json
         url: "https://antigravity-cli-auto-updater-974169037036.us-central1.run.app/manifests/linux_amd64.json"

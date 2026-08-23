@@ -22,7 +22,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.8.1-6512087774658560"
+      "version": "2.9.1-4871453687021568"
     },
     "antigravity-cli": {
       "description": "Google's Antigravity coding agent for the terminal",
@@ -32,7 +32,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.1.15"
+      "version": "1.1.19"
     },
     "arthas": {
       "description": "Interactive diagnostics and troubleshooting tool for live Java applications",
@@ -100,7 +100,7 @@
       "tags": [
         "cli"
       ],
-      "version": "1.58.0"
+      "version": "1.59.0"
     },
     "bun": {
       "description": "Fast all-in-one JavaScript runtime, bundler, test runner, and package manager",
@@ -111,7 +111,7 @@
         "bun",
         "runtime"
       ],
-      "version": "1.3.14"
+      "version": "1.4.0"
     },
     "chatgpt": {
       "description": "OpenAI's desktop app for ChatGPT and Codex",
@@ -121,7 +121,7 @@
       "tags": [
         "ai"
       ],
-      "version": "26.814.41957"
+      "version": "26.818.41705"
     },
     "claude": {
       "description": "Anthropic's coding agent for the terminal",
@@ -131,7 +131,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.1.237"
+      "version": "2.1.241"
     },
     "claude-desktop": {
       "description": "Anthropic's desktop app for Claude, with Claude Code sessions built in",
@@ -141,7 +141,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.32885.1"
+      "version": "1.34493.1"
     },
     "code": {
       "description": "Code editor from Microsoft",
@@ -161,7 +161,7 @@
       "tags": [
         "ai"
       ],
-      "version": "0.148.0"
+      "version": "0.149.0"
     },
     "corretto-11": {
       "description": "Amazon's no-cost, production-ready distribution of OpenJDK 11 LTS",
@@ -231,7 +231,7 @@
       "tags": [
         "editor"
       ],
-      "version": "3.16.29-1787019013"
+      "version": "3.17.8-1787195533"
     },
     "delta": {
       "description": "Syntax-highlighting pager for git, diff, and grep output",
@@ -335,7 +335,7 @@
       "tags": [
         "cli"
       ],
-      "version": "2.97.0"
+      "version": "2.98.0"
     },
     "github-copilot": {
       "description": "GitHub's desktop app for running Copilot coding agents on local and remote work",
@@ -345,7 +345,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.1.10"
+      "version": "1.1.12"
     },
     "glab": {
       "description": "GitLab's official command-line tool for repos, merge requests, issues, and CI/CD pipelines",
@@ -465,7 +465,7 @@
         "java",
         "jdk"
       ],
-      "version": "17.0.20+8"
+      "version": "17.0.20.1+1"
     },
     "jdk-21": {
       "description": "Production-ready OpenJDK 21 LTS distribution from Adoptium",
@@ -477,7 +477,7 @@
         "java",
         "jdk"
       ],
-      "version": "21.0.12+8"
+      "version": "21.0.12.1+1"
     },
     "jdk-25": {
       "description": "Production-ready OpenJDK 25 LTS distribution from Adoptium",
@@ -489,7 +489,7 @@
         "java",
         "jdk"
       ],
-      "version": "25.0.4+7"
+      "version": "25.0.4.1+1"
     },
     "jdk-8": {
       "description": "Production-ready OpenJDK 8 LTS distribution from Adoptium",
@@ -511,7 +511,7 @@
       "tags": [
         "ide"
       ],
-      "version": "3.7.0.87111"
+      "version": "3.7.2.87231"
     },
     "jmc": {
       "description": "JVM production-time profiling and diagnostics tool",
@@ -728,7 +728,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.18.18"
+      "version": "1.18.21"
     },
     "pi": {
       "description": "AI agent toolkit with a coding agent CLI, TUI, and unified LLM API",
@@ -797,7 +797,7 @@
         "build-tool",
         "scala"
       ],
-      "version": "2.0.6"
+      "version": "2.0.7"
     },
     "scala": {
       "description": "Scala 3 compiler, runner, and documentation generator",
@@ -950,7 +950,7 @@
         "java",
         "server"
       ],
-      "version": "10.1.57"
+      "version": "10.1.59"
     },
     "tomcat-11": {
       "description": "Servlet container implementing the Jakarta EE 11 web specifications",
@@ -980,7 +980,7 @@
         "java",
         "server"
       ],
-      "version": "9.0.120"
+      "version": "9.0.121"
     },
     "visualvm": {
       "description": "All-in-one Java troubleshooting tool — monitoring, profiling, heap dumps",
@@ -1004,7 +1004,7 @@
       "tags": [
         "cli"
       ],
-      "version": "4.53.4"
+      "version": "4.53.6"
     },
     "zed": {
       "description": "High-performance, multiplayer code editor",
@@ -1024,7 +1024,7 @@
       "tags": [
         "cli"
       ],
-      "version": "0.44.3"
+      "version": "0.45.0"
     },
     "zoxide": {
       "description": "A smarter cd that learns your habits",
@@ -1097,6 +1097,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-08-20T01:15:26Z",
+  "updated": "2026-08-23T06:32:45Z",
   "version": 1
 }

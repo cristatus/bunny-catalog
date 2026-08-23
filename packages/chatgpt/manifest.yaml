@@ -1,7 +1,7 @@
 id: chatgpt
 name: ChatGPT
 description: OpenAI's desktop app for ChatGPT and Codex
-version: "26.814.41957"
+version: "26.818.41705"
 kind: app
 tags: [ai]
 homepage: https://developers.openai.com/codex/app
@@ -12,8 +12,8 @@ sources:
     # under versioned, immutable pool paths, so pin against that instead.
     - url: "https://persistent.oaistatic.com/codex-app-prod/linux/deb/pool/main/c/chatgpt/chatgpt_{version}_amd64.deb"
       file: "chatgpt-{version}.deb"
-      sha256: "4778b26a7abd08647214d5b05c17bd3ebe2d9688d146dabf017c1a2faf93ac7d"
-      size: 385510290
+      sha256: "c927c985577bde5baccecc77f02e14b311d94e6230156621faf92579ac036a55"
+      size: 388602710
       update:
         type: debian
         root: https://persistent.oaistatic.com/codex-app-prod/linux/deb

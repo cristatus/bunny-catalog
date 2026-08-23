@@ -1,7 +1,7 @@
 id: sbt
 name: sbt
 description: Interactive build tool for Scala and Java projects
-version: "2.0.6"
+version: "2.0.7"
 kind: sdk
 tags: [build-tool, scala]
 homepage: https://www.scala-sbt.org/
@@ -10,8 +10,8 @@ requires: ["jdk>=17"]
 sources:
     - url: "https://github.com/sbt/sbt/releases/download/v{version}/sbt-{version}.tgz"
       file: "sbt-{version}.tgz"
-      sha256: "60ce78a50b726b5b332a5277e363d67c028f16a3a15157f78a416c0b2949bc6d"
-      size: 57658130
+      sha256: "439451520724253bbf22f3a34b0bad9379f18effb65a11755cd8bf705b7c202f"
+      size: 57687399
       update:
         type: github
         repo: sbt/sbt

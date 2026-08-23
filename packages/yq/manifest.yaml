@@ -1,7 +1,7 @@
 id: yq
 name: yq
 description: Portable command-line YAML, JSON, XML, CSV, TOML, and properties processor
-version: "4.53.4"
+version: "4.53.6"
 kind: cli
 tags: [cli]
 homepage: https://mikefarah.gitbook.io/yq/
@@ -9,8 +9,8 @@ license: MIT
 sources:
     - url: "https://github.com/mikefarah/yq/releases/download/v{version}/yq_linux_amd64"
       file: "yq-{version}"
-      sha256: "f67d8a6a2dc2308c961f83d5ba8707fd4c7c44ad77902fef87eb3a4646cdfa2a"
-      size: 13799586
+      sha256: "c5f056448f973ae7d39b5401949648a78f2dc1947d6a8eb65be60d5c504b9385"
+      size: 14180512
       update:
         type: github
         repo: mikefarah/yq
