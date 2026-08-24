@@ -1,7 +1,7 @@
 id: neovim
 name: Neovim
 description: Hyperextensible Vim-based text editor
-version: "0.12.4"
+version: "0.12.5"
 kind: app
 tags: [editor]
 homepage: https://neovim.io/
@@ -9,8 +9,8 @@ license: Apache-2.0
 sources:
     - url: "https://github.com/neovim/neovim/releases/download/v{version}/nvim-linux-x86_64.tar.gz"
       file: "nvim-{version}.tar.gz"
-      sha256: "012bf3fcac5ade43914df3f174668bf64d05e049a4f032a388c027b1ebd78628"
-      size: 11404178
+      sha256: "bce0f56eda1f1b1db6eee8f4133d7a38813ea07933837dd1777411ca384c6875"
+      size: 11401951
       update:
         type: github
         repo: neovim/neovim

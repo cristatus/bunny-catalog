@@ -161,7 +161,7 @@
       "tags": [
         "ai"
       ],
-      "version": "0.149.0"
+      "version": "0.149.1"
     },
     "corretto-11": {
       "description": "Amazon's no-cost, production-ready distribution of OpenJDK 11 LTS",
@@ -681,7 +681,7 @@
       "tags": [
         "editor"
       ],
-      "version": "0.12.4"
+      "version": "0.12.5"
     },
     "netbeans": {
       "description": "Open-source IDE for Java and other languages from the Apache Software Foundation",
@@ -1097,6 +1097,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-08-23T15:30:33Z",
+  "updated": "2026-08-24T01:19:03Z",
   "version": 1
 }
