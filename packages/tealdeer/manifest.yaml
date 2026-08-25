@@ -1,7 +1,7 @@
 id: tealdeer
 name: tealdeer
 description: A very fast implementation of tldr in Rust
-version: "1.8.1"
+version: "1.9.0"
 kind: cli
 tags: [cli]
 homepage: https://github.com/tealdeer-rs/tealdeer
@@ -9,8 +9,8 @@ license: MIT OR Apache-2.0
 sources:
     - url: "https://github.com/tealdeer-rs/tealdeer/releases/download/v{version}/tealdeer-linux-x86_64-musl"
       file: "tealdeer-{version}"
-      sha256: "6f2fad4435e0110484d3f25cdc4bf20129dae03238f32d06ebdd00bdc50ae2ed"
-      size: 3564384
+      sha256: "dc7263b550e90c0689ea2cb434e3144469805d5dddecbb1f7fc534e1185b7408"
+      size: 3572672
       update:
         type: github
         repo: tealdeer-rs/tealdeer

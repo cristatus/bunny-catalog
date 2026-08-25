@@ -22,7 +22,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.9.1-4871453687021568"
+      "version": "2.10.0-4996573600546816"
     },
     "antigravity-cli": {
       "description": "Google's Antigravity coding agent for the terminal",
@@ -121,7 +121,7 @@
       "tags": [
         "ai"
       ],
-      "version": "26.818.41705"
+      "version": "26.818.61809"
     },
     "claude": {
       "description": "Anthropic's coding agent for the terminal",
@@ -131,7 +131,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.1.241"
+      "version": "2.1.243"
     },
     "claude-desktop": {
       "description": "Anthropic's desktop app for Claude, with Claude Code sessions built in",
@@ -231,7 +231,7 @@
       "tags": [
         "editor"
       ],
-      "version": "3.17.8-1787195533"
+      "version": "3.17.19-1787556760"
     },
     "delta": {
       "description": "Syntax-highlighting pager for git, diff, and grep output",
@@ -441,7 +441,7 @@
         "java",
         "jdk"
       ],
-      "version": "25.0.4+329128"
+      "version": "25.0.4.1+58348"
     },
     "jdk-11": {
       "description": "Production-ready OpenJDK 11 LTS distribution from Adoptium",
@@ -657,7 +657,7 @@
         "framework",
         "java"
       ],
-      "version": "5.1.1"
+      "version": "5.1.2"
     },
     "mvnd": {
       "description": "Fast Maven build client backed by long-lived daemon processes",
@@ -728,7 +728,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.18.21"
+      "version": "1.18.22"
     },
     "pi": {
       "description": "AI agent toolkit with a coding agent CLI, TUI, and unified LLM API",
@@ -738,7 +738,7 @@
       "tags": [
         "ai"
       ],
-      "version": "0.84.2"
+      "version": "0.84.3"
     },
     "pnpm": {
       "description": "Fast, disk-efficient package manager for JavaScript projects",
@@ -749,7 +749,7 @@
         "node",
         "package-manager"
       ],
-      "version": "11.23.0"
+      "version": "11.24.0"
     },
     "procs": {
       "description": "A modern replacement for ps",
@@ -935,7 +935,7 @@
       "tags": [
         "cli"
       ],
-      "version": "1.8.1"
+      "version": "1.9.0"
     },
     "tomcat-10": {
       "description": "Servlet container implementing the Jakarta EE 10 web specifications",
@@ -1014,7 +1014,7 @@
       "tags": [
         "editor"
       ],
-      "version": "1.16.1"
+      "version": "1.16.2"
     },
     "zellij": {
       "description": "Terminal workspace and multiplexer with batteries included",
@@ -1097,6 +1097,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-08-24T01:19:03Z",
+  "updated": "2026-08-25T01:17:44Z",
   "version": 1
 }
