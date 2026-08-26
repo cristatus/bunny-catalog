@@ -32,7 +32,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.1.19"
+      "version": "1.1.20"
     },
     "arthas": {
       "description": "Interactive diagnostics and troubleshooting tool for live Java applications",
@@ -70,7 +70,7 @@
       "tags": [
         "cli"
       ],
-      "version": "18.19.0"
+      "version": "18.20.0"
     },
     "bat": {
       "description": "A cat clone with syntax highlighting and Git integration",
@@ -121,7 +121,7 @@
       "tags": [
         "ai"
       ],
-      "version": "26.818.61809"
+      "version": "26.820.60940"
     },
     "claude": {
       "description": "Anthropic's coding agent for the terminal",
@@ -131,7 +131,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.1.243"
+      "version": "2.1.246"
     },
     "claude-desktop": {
       "description": "Anthropic's desktop app for Claude, with Claude Code sessions built in",
@@ -141,7 +141,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.34493.1"
+      "version": "1.37937.0"
     },
     "code": {
       "description": "Code editor from Microsoft",
@@ -345,7 +345,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.1.12"
+      "version": "1.1.14"
     },
     "glab": {
       "description": "GitLab's official command-line tool for repos, merge requests, issues, and CI/CD pipelines",
@@ -355,7 +355,7 @@
       "tags": [
         "cli"
       ],
-      "version": "1.114.0"
+      "version": "1.115.0"
     },
     "graalvm-21": {
       "description": "GraalVM Community Edition with JDK 21 and native-image",
@@ -379,7 +379,7 @@
         "java",
         "jdk"
       ],
-      "version": "25.2.4"
+      "version": "25.3.4.1"
     },
     "gradle": {
       "description": "Build automation tool with Groovy/Kotlin DSL for Java, Android, and more",
@@ -453,7 +453,7 @@
         "java",
         "jdk"
       ],
-      "version": "11.0.32+9"
+      "version": "11.0.32.1+1"
     },
     "jdk-17": {
       "description": "Production-ready OpenJDK 17 LTS distribution from Adoptium",
@@ -728,7 +728,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.18.22"
+      "version": "1.18.23"
     },
     "pi": {
       "description": "AI agent toolkit with a coding agent CLI, TUI, and unified LLM API",
@@ -1097,6 +1097,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-08-25T01:17:44Z",
+  "updated": "2026-08-26T01:20:06Z",
   "version": 1
 }
