@@ -22,7 +22,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.10.0-4996573600546816"
+      "version": "2.11.0-6376446768316416"
     },
     "antigravity-cli": {
       "description": "Google's Antigravity coding agent for the terminal",
@@ -32,7 +32,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.1.20"
+      "version": "1.1.22"
     },
     "arthas": {
       "description": "Interactive diagnostics and troubleshooting tool for live Java applications",
@@ -70,7 +70,7 @@
       "tags": [
         "cli"
       ],
-      "version": "18.20.0"
+      "version": "18.20.1"
     },
     "bat": {
       "description": "A cat clone with syntax highlighting and Git integration",
@@ -121,7 +121,7 @@
       "tags": [
         "ai"
       ],
-      "version": "26.820.60940"
+      "version": "26.820.71523"
     },
     "claude": {
       "description": "Anthropic's coding agent for the terminal",
@@ -131,7 +131,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.1.246"
+      "version": "2.1.247"
     },
     "claude-desktop": {
       "description": "Anthropic's desktop app for Claude, with Claude Code sessions built in",
@@ -141,7 +141,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.37937.0"
+      "version": "1.37937.3"
     },
     "code": {
       "description": "Code editor from Microsoft",
@@ -151,7 +151,7 @@
       "tags": [
         "editor"
       ],
-      "version": "1.134.0"
+      "version": "1.135.0"
     },
     "codex": {
       "description": "OpenAI's coding agent for the terminal",
@@ -161,7 +161,7 @@
       "tags": [
         "ai"
       ],
-      "version": "0.149.1"
+      "version": "0.150.1"
     },
     "corretto-11": {
       "description": "Amazon's no-cost, production-ready distribution of OpenJDK 11 LTS",
@@ -231,7 +231,7 @@
       "tags": [
         "editor"
       ],
-      "version": "3.17.19-1787556760"
+      "version": "3.17.21-1787622916"
     },
     "delta": {
       "description": "Syntax-highlighting pager for git, diff, and grep output",
@@ -315,7 +315,7 @@
       "tags": [
         "cli"
       ],
-      "version": "10.4.2"
+      "version": "10.5.0"
     },
     "fzf": {
       "description": "A command-line fuzzy finder",
@@ -501,7 +501,7 @@
         "java",
         "jdk"
       ],
-      "version": "8.0.502+7"
+      "version": "8.0.504+1"
     },
     "jetbrains-toolbox": {
       "description": "Install, update, and roll back JetBrains IDEs (IntelliJ IDEA, PyCharm, …) from one app",
@@ -718,7 +718,7 @@
         "node",
         "runtime"
       ],
-      "version": "24.19.0"
+      "version": "24.20.0"
     },
     "opencode": {
       "description": "Open-source coding agent for the terminal, with a provider-agnostic model backend",
@@ -773,7 +773,7 @@
         "framework",
         "java"
       ],
-      "version": "3.38.3"
+      "version": "3.39.1"
     },
     "ripgrep": {
       "description": "Fast recursive grep alternative written in Rust",
@@ -1014,7 +1014,7 @@
       "tags": [
         "editor"
       ],
-      "version": "1.16.2"
+      "version": "1.17.2"
     },
     "zellij": {
       "description": "Terminal workspace and multiplexer with batteries included",
@@ -1097,6 +1097,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-08-26T01:20:06Z",
+  "updated": "2026-08-27T07:55:50Z",
   "version": 1
 }
