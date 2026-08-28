@@ -7,25 +7,35 @@ tags: [ai]
 homepage: https://developers.openai.com/codex/cli
 license: Apache-2.0
 sources:
+    # The package archive, not the bare codex-<target> tarball: codex reads
+    # codex-package.json to locate its siblings, and without them code mode
+    # refuses to start ("install `codex-code-mode-host`"), the sandbox has no
+    # bwrap, and shell tools have no bundled rg or zsh.
+    #
     # Tags in this repo are prefixed (rust-v0.147.0) because the repo also
     # releases other components, so tag-pattern recovers the bare version.
-    - url: "https://github.com/openai/codex/releases/download/rust-v{version}/codex-x86_64-unknown-linux-musl.tar.gz"
+    - url: "https://github.com/openai/codex/releases/download/rust-v{version}/codex-package-x86_64-unknown-linux-musl.tar.gz"
       file: "codex-{version}.tar.gz"
-      sha256: "ab308870bc7fc048c23dc49d03f6b8af9ce7fc99b9da882d6688be7a90155c7a"
-      size: 103098758
+      sha256: "00aba704f029f6dc0d948be407a756e0c97cc840132fd691353b2c6b0a505b17"
+      size: 126175380
       update:
         type: github
         repo: openai/codex
-        asset: "^codex-x86_64-unknown-linux-musl\\.tar\\.gz$"
+        asset: "^codex-package-x86_64-unknown-linux-musl\\.tar\\.gz$"
         tag-pattern: "^rust-v(.+)$"
+        hash-url: "https://github.com/openai/codex/releases/download/rust-v{version}/codex-package_SHA256SUMS"
+
 prepare:
     - "tar xf codex-{version}.tar.gz -C {pkg}"
-    - "mv {pkg}/codex-x86_64-unknown-linux-musl {pkg}/codex"
-    - "mkdir -p {pkg}/shell-completions/bash {pkg}/shell-completions/zsh"
-    - "{pkg}/codex completion bash > {pkg}/shell-completions/bash/codex"
-    - "{pkg}/codex completion zsh > {pkg}/shell-completions/zsh/_codex"
+    - "mkdir -p {pkg}/shell-completions/bash {pkg}/shell-completions/zsh {pkg}/shell-completions/fish"
+    - "{pkg}/bin/codex completion bash > {pkg}/shell-completions/bash/codex"
+    - "{pkg}/bin/codex completion zsh > {pkg}/shell-completions/zsh/_codex"
+    - "{pkg}/bin/codex completion fish > {pkg}/shell-completions/fish/codex.fish"
+
 bin:
-    - {name: codex, path: "{app}/codex"}
+    - {name: codex, path: "{app}/bin/codex"}
+
 completions:
     bash: "{app}/shell-completions/bash/codex"
     zsh: "{app}/shell-completions/zsh/_codex"
+    fish: "{app}/shell-completions/fish/codex.fish"
