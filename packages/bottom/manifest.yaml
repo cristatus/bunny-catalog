@@ -1,15 +1,15 @@
 id: bottom
 name: bottom
 description: Cross-platform graphical process/system monitor, a top/htop alternative
-version: "0.14.8"
+version: "0.14.9"
 kind: cli
 tags: [cli]
 homepage: https://github.com/ClementTsang/bottom
 license: MIT
 sources:
     - url: "https://github.com/ClementTsang/bottom/releases/download/{version}/bottom_x86_64-unknown-linux-musl.tar.gz"
-      sha256: "9d071c11a5b5bf266f05aa6519a43ad353330155d3d5627a750572d85ed19f54"
-      size: 2125079
+      sha256: "b4bee5b193e7d3f6e090ac14f0ca15acec2e7fe4ef64988e0bfc492e16c28c9a"
+      size: 2126967
       update:
         type: github
         repo: ClementTsang/bottom
