@@ -22,8 +22,14 @@ sources:
 prepare:
     - "unzip -q netbeans-{version}-bin.zip -d {pkg}"
 bin:
+    # bunny owns updates. plugin.manager.check.interval is a real, current
+    # system property (org.netbeans.modules.autoupdate.ui.Utilities,
+    # confirmed against apache/netbeans main) that seeds the periodic
+    # plugin-update-check schedule; "NEVER" only takes effect while no
+    # preference has been saved yet, so a later in-app change still wins.
     - name: netbeans
       path: "{app}/netbeans/bin/netbeans"
+      args: ["-J-Dplugin.manager.check.interval=NEVER"]
 icons:
     - {src: "{app}/nb/netbeans.png", name: "apache-netbeans", size: "48x48"}
 desktop:
