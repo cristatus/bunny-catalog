@@ -20,3 +20,7 @@ prepare:
     - "unzip -q deno-{version}.zip -d {pkg}"
 bin:
     - {name: deno, path: "{app}/deno"}
+env:
+    # bunny owns updates; this only silences deno's own periodic "new release
+    # available" notice. deno never self-updates without `deno upgrade`.
+    DENO_NO_UPDATE_CHECK: "1"
