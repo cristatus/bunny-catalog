@@ -28,3 +28,7 @@ prepare:
     - "mv {pkg}/antigravity {pkg}/agy"
 bin:
     - {name: agy, path: "{app}/agy"}
+env:
+    # bunny owns updates; agy's own background updater would otherwise
+    # overwrite this pinned install.
+    AGY_CLI_DISABLE_AUTO_UPDATE: "true"

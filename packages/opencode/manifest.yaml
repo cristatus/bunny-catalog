@@ -19,3 +19,9 @@ prepare:
     - "tar xf opencode-{version}.tar.gz -C {pkg}"
 bin:
     - {name: opencode, path: "{app}/opencode"}
+env:
+    # bunny owns updates; opencode otherwise downloads and applies updates on
+    # startup. The equivalent opencode.json "autoupdate": false key is
+    # currently ignored (anomalyco/opencode#3412), so this is the reliable
+    # path.
+    OPENCODE_DISABLE_AUTOUPDATE: "true"

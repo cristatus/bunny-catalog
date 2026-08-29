@@ -20,6 +20,10 @@ prepare:
     - "tar xf gh-{version}.tar.gz --strip-components=1 -C {pkg}"
 bin:
     - {name: gh, path: "{app}/bin/gh"}
+env:
+    # gh only nags about new releases, it never rewrites its own binary, but
+    # bunny already owns that decision.
+    GH_NO_UPDATE_NOTIFIER: "1"
 completions:
     bash: "{app}/share/bash-completion/completions/gh"
     zsh: "{app}/share/zsh/site-functions/_gh"

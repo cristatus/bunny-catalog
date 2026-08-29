@@ -22,3 +22,11 @@ prepare:
     - "tar xf claude-{version}.tar.gz -C {pkg}"
 bin:
     - {name: claude, path: "{app}/claude"}
+env:
+    # bunny owns updates and this install's location; DISABLE_UPDATES is the
+    # stricter of the two update flags, blocking `claude update`/`claude
+    # install` too, not just the background check. DISABLE_INSTALLATION_CHECKS
+    # silences warnings that assume the native installer's own layout, which
+    # this manually-managed install doesn't follow.
+    DISABLE_UPDATES: "1"
+    DISABLE_INSTALLATION_CHECKS: "1"

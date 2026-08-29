@@ -27,6 +27,10 @@ prepare:
     - "{pkg}/bin/glab completion -s fish > {pkg}/completions/glab.fish"
 bin:
     - {name: glab, path: "{app}/bin/glab"}
+env:
+    # glab only nags about new releases, it never rewrites its own binary, but
+    # bunny already owns that decision.
+    GLAB_CHECK_UPDATE: "false"
 completions:
     bash: "{app}/completions/glab"
     zsh: "{app}/completions/_glab"

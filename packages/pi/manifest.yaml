@@ -21,3 +21,7 @@ prepare:
     - "tar xf pi-{version}.tar.gz --strip-components=1 -C {pkg}"
 bin:
     - {name: pi, path: "{app}/pi"}
+env:
+    # bunny owns updates; this only skips pi's own startup version check, not
+    # its other network calls (unlike the broader PI_OFFLINE).
+    PI_SKIP_VERSION_CHECK: "1"
