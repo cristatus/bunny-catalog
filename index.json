@@ -121,7 +121,7 @@
       "tags": [
         "ai"
       ],
-      "version": "26.825.31414"
+      "version": "26.825.41651"
     },
     "claude": {
       "description": "Anthropic's coding agent for the terminal",
@@ -131,7 +131,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.1.250"
+      "version": "2.1.251"
     },
     "claude-desktop": {
       "description": "Anthropic's desktop app for Claude, with Claude Code sessions built in",
@@ -141,7 +141,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.37937.3"
+      "version": "1.40609.0"
     },
     "code": {
       "description": "Code editor from Microsoft",
@@ -231,7 +231,7 @@
       "tags": [
         "editor"
       ],
-      "version": "3.17.21-1787622916"
+      "version": "3.18.9-1787797867"
     },
     "delta": {
       "description": "Syntax-highlighting pager for git, diff, and grep output",
@@ -738,7 +738,7 @@
       "tags": [
         "ai"
       ],
-      "version": "0.84.3"
+      "version": "0.84.4"
     },
     "pnpm": {
       "description": "Fast, disk-efficient package manager for JavaScript projects",
@@ -901,7 +901,7 @@
       "tags": [
         "cli"
       ],
-      "version": "3.13.1"
+      "version": "3.14.0"
     },
     "spring-boot": {
       "description": "Command-line tool for quickly prototyping with Spring Boot",
@@ -1097,6 +1097,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-08-28T09:59:47Z",
+  "updated": "2026-08-29T05:58:33Z",
   "version": 1
 }

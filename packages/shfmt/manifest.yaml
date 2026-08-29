@@ -1,26 +1,23 @@
 id: shfmt
 name: shfmt
 description: Formatter and parser for shell programs
-version: "3.13.1"
+version: "3.14.0"
 kind: cli
 tags: [cli]
 homepage: https://github.com/mvdan/sh
 license: BSD-3-Clause
-
 sources:
-  - url: "https://github.com/mvdan/sh/releases/download/v{version}/shfmt_v{version}_linux_amd64"
-    file: "shfmt-{version}"
-    sha256: "fb096c5d1ac6beabbdbaa2874d025badb03ee07929f0c9ff67563ce8c75398b1"
-    size: 3117218
-    update:
-      type: github
-      repo: mvdan/sh
-      asset: "^shfmt_v{version}_linux_amd64$"
-      tag-pattern: "^v([0-9.]+)$"
-
+    - url: "https://github.com/mvdan/sh/releases/download/v{version}/shfmt_v{version}_linux_amd64"
+      file: "shfmt-{version}"
+      sha256: "fe42021c7272ef2d67ea36cbc3031683c625d0badec733ef3a57b567246a0b66"
+      size: 3567776
+      update:
+        type: github
+        repo: mvdan/sh
+        asset: "^shfmt_v{version}_linux_amd64$"
+        tag-pattern: "^v([0-9.]+)$"
 prepare:
-  - "mv shfmt-{version} {pkg}/shfmt"
-  - "chmod +x {pkg}/shfmt"
-
+    - "mv shfmt-{version} {pkg}/shfmt"
+    - "chmod +x {pkg}/shfmt"
 bin:
-  - { name: shfmt, path: "{app}/shfmt" }
+    - {name: shfmt, path: "{app}/shfmt"}
