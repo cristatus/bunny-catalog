@@ -21,6 +21,12 @@ prepare:
     - "cp {pkg}/share/icons/hicolor/512x512/apps/zed.png {pkg}/zed.png"
 bin:
     - {name: zed, path: "{app}/bin/zed"}
+env:
+    # bunny owns updates. Zed's auto_update crate checks this exact env var
+    # (any value) before polling and, if set, replaces "Check for Updates"
+    # with a dialog showing the value as the explanation — built for
+    # distro/package-manager installs like this one.
+    ZED_UPDATE_EXPLANATION: "This Zed install is managed by bunny. Run `bunny upgrade zed` to update."
 icons:
     - {src: "{app}/zed.png", name: "zed", size: "512x512"}
 desktop:

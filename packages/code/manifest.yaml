@@ -24,8 +24,14 @@ prepare:
     - "cp {pkg}/resources/completions/bash/code {pkg}/shell-completions/bash/"
     - "cp {pkg}/resources/completions/zsh/_code {pkg}/shell-completions/zsh/"
 bin:
+    # bunny owns updates; VS Code's own updater periodically checks and nags
+    # (it opens the download page rather than self-installing, but the check
+    # itself is still noise bunny doesn't want). --disable-updates is a real
+    # electron-main flag (environmentMainService.disableUpdates), not a
+    # settings.json key, so it needs no user config to take effect.
     - name: code
       path: "{app}/bin/code"
+      args: ["--disable-updates"]
 icons:
     - {src: "{app}/code.png", name: "code", size: "128x128"}
 desktop:

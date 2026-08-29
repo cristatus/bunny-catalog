@@ -26,8 +26,13 @@ prepare:
     - "cp usr/share/bash-completion/completions/cursor {pkg}/shell-completions/bash/"
     - "cp usr/share/zsh/vendor-completions/_cursor {pkg}/shell-completions/zsh/"
 bin:
+    # Cursor is a VS Code fork and kept the same --disable-updates electron-main
+    # flag (confirmed in resources/app/out/main.js); its own updateUrl
+    # (api2.cursor.sh) is checked on every launch independently of the apt repo
+    # its postinst would otherwise register.
     - name: cursor
       path: "{app}/cursor"
+      args: ["--disable-updates"]
 icons:
     - {src: "{app}/cursor.png", name: "cursor", size: "128x128"}
 desktop:
