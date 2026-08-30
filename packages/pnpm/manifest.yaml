@@ -1,7 +1,7 @@
 id: pnpm
 name: pnpm
 description: Fast, disk-efficient package manager for JavaScript projects
-version: "11.24.0"
+version: "11.25.0"
 kind: sdk
 tags: [node, package-manager]
 homepage: https://pnpm.io/
@@ -9,8 +9,8 @@ license: MIT
 sources:
     - url: "https://github.com/pnpm/pnpm/releases/download/v{version}/pnpm-linux-x64.tar.gz"
       file: "pnpm-{version}.tar.gz"
-      sha256: "0a9b76dedb5fe8cc5e7f3a9fd70854181cfb08a487ebaf0c9cfb044dc860936c"
-      size: 51252978
+      sha256: "11caeed8b581d460638f836f10f6ead19cbf08d774a5b8e502628b20ebf3ac43"
+      size: 51293579
       update:
         type: github
         repo: pnpm/pnpm

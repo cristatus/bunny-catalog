@@ -121,7 +121,7 @@
       "tags": [
         "ai"
       ],
-      "version": "26.825.41651"
+      "version": "26.825.51511"
     },
     "claude": {
       "description": "Anthropic's coding agent for the terminal",
@@ -161,7 +161,7 @@
       "tags": [
         "ai"
       ],
-      "version": "0.150.1"
+      "version": "0.151.0"
     },
     "corretto-11": {
       "description": "Amazon's no-cost, production-ready distribution of OpenJDK 11 LTS",
@@ -749,7 +749,7 @@
         "node",
         "package-manager"
       ],
-      "version": "11.24.0"
+      "version": "11.25.0"
     },
     "procs": {
       "description": "A modern replacement for ps",
@@ -1097,6 +1097,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-08-29T05:58:33Z",
+  "updated": "2026-08-30T04:03:50Z",
   "version": 1
 }

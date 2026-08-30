@@ -1,7 +1,7 @@
 id: codex
 name: Codex CLI
 description: OpenAI's coding agent for the terminal
-version: "0.150.1"
+version: "0.151.0"
 kind: cli
 tags: [ai]
 homepage: https://developers.openai.com/codex/cli
@@ -16,25 +16,22 @@ sources:
     # releases other components, so tag-pattern recovers the bare version.
     - url: "https://github.com/openai/codex/releases/download/rust-v{version}/codex-package-x86_64-unknown-linux-musl.tar.gz"
       file: "codex-{version}.tar.gz"
-      sha256: "00aba704f029f6dc0d948be407a756e0c97cc840132fd691353b2c6b0a505b17"
-      size: 126175380
+      sha256: "6e35ac60b86c0e8c7f8bcf797be8b92206199f6253200b66ff0547276f8cfa5c"
+      size: 131450621
       update:
         type: github
         repo: openai/codex
         asset: "^codex-package-x86_64-unknown-linux-musl\\.tar\\.gz$"
         tag-pattern: "^rust-v(.+)$"
         hash-url: "https://github.com/openai/codex/releases/download/rust-v{version}/codex-package_SHA256SUMS"
-
 prepare:
     - "tar xf codex-{version}.tar.gz -C {pkg}"
     - "mkdir -p {pkg}/shell-completions/bash {pkg}/shell-completions/zsh {pkg}/shell-completions/fish"
     - "{pkg}/bin/codex completion bash > {pkg}/shell-completions/bash/codex"
     - "{pkg}/bin/codex completion zsh > {pkg}/shell-completions/zsh/_codex"
     - "{pkg}/bin/codex completion fish > {pkg}/shell-completions/fish/codex.fish"
-
 bin:
     - {name: codex, path: "{app}/bin/codex"}
-
 completions:
     bash: "{app}/shell-completions/bash/codex"
     zsh: "{app}/shell-completions/zsh/_codex"
