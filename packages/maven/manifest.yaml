@@ -22,7 +22,12 @@ prepare:
 bin:
     - {name: mvn, path: "{app}/bin/mvn"}
 env:
-    # Point Maven at the toolchains.xml bunny generates from the installed JDKs.
+    # Point Maven at the toolchains.xml bunny generates from the installed JDKs,
+    # via the installation slot rather than the user slot. -t/--toolchains is an
+    # *alternate path for the user file*, so it replaces ~/.m2/toolchains.xml
+    # and hides any toolchain the user declared there. Maven reads the global
+    # and user files both, and merges them, so this adds the generated JDKs
+    # instead of substituting for hand-written entries.
     # The local repository is left alone: it stays at ~/.m2/repository unless
     # the user redirects it in ~/.bunny/config.yaml.
-    MAVEN_ARGS: "--toolchains {data}/toolchains.xml"
+    MAVEN_ARGS: "--global-toolchains {data}/toolchains.xml"
