@@ -1,0 +1,50 @@
+id: idea
+name: IntelliJ IDEA
+description: IDE for Java and Kotlin; one distribution, with the advanced features unlocked by a JetBrains subscription
+version: "2026.2.1"
+kind: app
+tags: [ide]
+homepage: https://www.jetbrains.com/idea/
+license: LicenseRef-JetBrains-IDEA-EULA
+sources:
+    - url: "https://download.jetbrains.com/idea/idea-{version}.tar.gz"
+      file: "idea-{version}.tar.gz"
+      sha256: "dac2021204c8bf3bd8d66567a1ae36a341da0050b6006c32d42006c6577eb29a"
+      size: 1600796874
+      update:
+        type: json
+        url: "https://data.services.jetbrains.com/products/releases?code=IIU&latest=true&type=release"
+        version-query: "IIU[0].downloads.linux.link"
+        tag-pattern: "idea-([0-9.]+)\\.tar\\.gz"
+        url-query: "IIU[0].downloads.linux.link"
+        hash-url: "https://download.jetbrains.com/idea/idea-{version}.tar.gz.sha256"
+prepare:
+    - "tar xf idea-{version}.tar.gz --strip-components=1 -C {pkg}"
+    # bunny owns updates. ide.no.platform.update is the marker JetBrains' own
+    # launcher passes as -D for an externally managed install (XPlatLauncher,
+    # remote_dev.rs); UpdateChecker returns PlatformUpdates.Empty whenever
+    # ExternalUpdateManager.ACTUAL is set, so the platform check never runs.
+    # PathManager.loadProperties reads bin/idea.properties into system
+    # properties, which makes the file equivalent to the -D and independent of
+    # the user's own vmoptions. Plugin updates are unaffected.
+    - |
+      cat >> {pkg}/bin/idea.properties <<EOF
+
+      ide.no.platform.update=true
+      EOF
+bin:
+    - {name: idea, path: "{app}/bin/idea"}
+icons:
+    - {src: "{app}/bin/idea.png", name: "intellij-idea", size: "128x128"}
+desktop:
+    - id: idea.desktop
+      name: IntelliJ IDEA
+      genericName: Java IDE
+      comment: The IDE for pro Java and Kotlin development
+      exec: "idea %f"
+      icon: intellij-idea
+      type: Application
+      startupWMClass: jetbrains-idea
+      categories: [Development, IDE]
+      mimeType: [text/x-java, text/x-kotlin, text/x-maven+xml, text/x-gradle]
+      keywords: [intellij, idea, jetbrains, java, kotlin, ide]

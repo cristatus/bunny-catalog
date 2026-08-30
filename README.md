@@ -13,7 +13,7 @@ We curate:
 - **JVM ecosystem.** JDK distros (Temurin, Corretto, GraalVM, Liberica, Zulu, OpenJ9/Semeru, JetBrains Runtime), build tools (Maven, Maven Daemon, Gradle, sbt, Ant, JBang), language compilers (Kotlin, Scala), framework CLIs (Micronaut, Quarkus, Spring Boot), servlet containers (Tomcat), and diagnostics tools (JMC, VisualVM, async-profiler, Arthas).
 - **JavaScript runtimes.** Node LTS lines, Bun, and Deno.
 - **Node ecosystem tools.** pnpm's standalone executable. Yarn remains available through Corepack on Node releases that bundle it.
-- **Editors and IDEs that target the above.** JetBrains IDEs (via the Toolbox app), Eclipse, NetBeans, VS Code, Cursor, Zed, Neovim.
+- **Editors and IDEs that target the above.** IntelliJ IDEA, Eclipse, NetBeans, VS Code, Cursor, Zed, Neovim.
 - **AI coding agents.** The terminal agents (Claude Code, Codex CLI, opencode, pi, Antigravity) and the desktop apps that drive them (Claude Desktop, ChatGPT, GitHub Copilot, Antigravity). They earn a slot on the same grounds an editor gets one: a tool pointed at the project, not a chat client that happens to be installed. Several also publish an npm package; we take the official standalone binary instead, per the rule of thumb above.
 - **General-purpose CLI tools that show up in nearly every dev workflow.** ripgrep, fd, bat, fzf, jq, yq, gh, glab, lazygit, delta, difftastic, eza, zoxide, starship, atuin, zellij, broot, dust, duf, bottom, procs, sd, hyperfine, just, tealdeer, ShellCheck, shfmt.
 
