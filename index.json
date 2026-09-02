@@ -32,7 +32,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.1.22"
+      "version": "1.1.24"
     },
     "arthas": {
       "description": "Interactive diagnostics and troubleshooting tool for live Java applications",
@@ -121,7 +121,7 @@
       "tags": [
         "ai"
       ],
-      "version": "26.825.51511"
+      "version": "26.831.20005"
     },
     "claude": {
       "description": "Anthropic's coding agent for the terminal",
@@ -131,7 +131,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.1.252"
+      "version": "2.1.258"
     },
     "claude-desktop": {
       "description": "Anthropic's desktop app for Claude, with Claude Code sessions built in",
@@ -141,7 +141,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.40609.0"
+      "version": "1.40609.1"
     },
     "code": {
       "description": "Code editor from Microsoft",
@@ -161,7 +161,7 @@
       "tags": [
         "ai"
       ],
-      "version": "0.152.0"
+      "version": "0.152.1"
     },
     "corretto-11": {
       "description": "Amazon's no-cost, production-ready distribution of OpenJDK 11 LTS",
@@ -231,7 +231,7 @@
       "tags": [
         "editor"
       ],
-      "version": "3.18.9-1787797867"
+      "version": "3.18.25-1788220737"
     },
     "delta": {
       "description": "Syntax-highlighting pager for git, diff, and grep output",
@@ -335,7 +335,7 @@
       "tags": [
         "cli"
       ],
-      "version": "2.98.0"
+      "version": "2.99.0"
     },
     "github-copilot": {
       "description": "GitHub's desktop app for running Copilot coding agents on local and remote work",
@@ -355,7 +355,7 @@
       "tags": [
         "cli"
       ],
-      "version": "1.115.0"
+      "version": "1.116.0"
     },
     "graalvm-21": {
       "description": "GraalVM Community Edition with JDK 21 and native-image",
@@ -728,7 +728,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.18.25"
+      "version": "1.18.26"
     },
     "pi": {
       "description": "AI agent toolkit with a coding agent CLI, TUI, and unified LLM API",
@@ -1097,6 +1097,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-09-01T03:57:00Z",
+  "updated": "2026-09-02T03:17:15Z",
   "version": 1
 }

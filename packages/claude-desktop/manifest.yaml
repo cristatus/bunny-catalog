@@ -1,7 +1,7 @@
 id: claude-desktop
 name: Claude Desktop
 description: Anthropic's desktop app for Claude, with Claude Code sessions built in
-version: "1.40609.0"
+version: "1.40609.1"
 kind: app
 tags: [ai]
 homepage: https://claude.ai/download
@@ -12,8 +12,8 @@ sources:
     # Pool files are versioned and immutable, so the pin stays valid.
     - url: "https://downloads.claude.ai/claude-desktop/apt/stable/pool/main/c/claude-desktop/claude-desktop_{version}_amd64.deb"
       file: "claude-desktop-{version}.deb"
-      sha256: "a96e96ff8eb4d4d7ffa785aba7fc23f8684b12ac83ed2ef4060f0f09f4177a98"
-      size: 166561632
+      sha256: "80182e8511c6bbee6de26c7ee225fbd2a9aba2274ef1405a1d89cd8fe7a380dc"
+      size: 166589364
       update:
         type: debian
         root: https://downloads.claude.ai/claude-desktop/apt/stable

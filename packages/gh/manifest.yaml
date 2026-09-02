@@ -1,7 +1,7 @@
 id: gh
 name: GitHub CLI
 description: GitHub's official command-line tool for repos, PRs, issues, and more
-version: "2.98.0"
+version: "2.99.0"
 kind: cli
 tags: [cli]
 homepage: https://github.com/cli/cli
@@ -9,8 +9,8 @@ license: MIT
 sources:
     - url: "https://github.com/cli/cli/releases/download/v{version}/gh_{version}_linux_amd64.tar.gz"
       file: "gh-{version}.tar.gz"
-      sha256: "3b8ac6b30336802fc1a858d7c084e11cdf24ac1a761ca90b68022d7d729208de"
-      size: 14863663
+      sha256: "ed4960225d2833e04a61590d9fa2b5773d147f3aa375459e5466a40c102f3832"
+      size: 14930607
       update:
         type: github
         repo: cli/cli
