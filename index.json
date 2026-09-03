@@ -22,7 +22,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.11.0-6376446768316416"
+      "version": "2.12.0-5051501534642176"
     },
     "antigravity-cli": {
       "description": "Google's Antigravity coding agent for the terminal",
@@ -32,7 +32,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.1.24"
+      "version": "1.1.25"
     },
     "arthas": {
       "description": "Interactive diagnostics and troubleshooting tool for live Java applications",
@@ -121,7 +121,7 @@
       "tags": [
         "ai"
       ],
-      "version": "26.831.20005"
+      "version": "26.901.20858"
     },
     "claude": {
       "description": "Anthropic's coding agent for the terminal",
@@ -131,7 +131,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.1.258"
+      "version": "2.1.259"
     },
     "claude-desktop": {
       "description": "Anthropic's desktop app for Claude, with Claude Code sessions built in",
@@ -151,7 +151,7 @@
       "tags": [
         "editor"
       ],
-      "version": "1.135.0"
+      "version": "1.136.0"
     },
     "codex": {
       "description": "OpenAI's coding agent for the terminal",
@@ -161,7 +161,7 @@
       "tags": [
         "ai"
       ],
-      "version": "0.152.1"
+      "version": "0.153.0"
     },
     "corretto-11": {
       "description": "Amazon's no-cost, production-ready distribution of OpenJDK 11 LTS",
@@ -413,7 +413,7 @@
       "tags": [
         "ide"
       ],
-      "version": "2026.2.1"
+      "version": "2026.2.2"
     },
     "jbang": {
       "description": "Run Java (and JVM) source files as scripts — no build setup",
@@ -728,7 +728,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.18.26"
+      "version": "1.18.27"
     },
     "pi": {
       "description": "AI agent toolkit with a coding agent CLI, TUI, and unified LLM API",
@@ -1014,7 +1014,7 @@
       "tags": [
         "editor"
       ],
-      "version": "1.17.2"
+      "version": "1.18.0"
     },
     "zellij": {
       "description": "Terminal workspace and multiplexer with batteries included",
@@ -1097,6 +1097,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-09-02T03:17:15Z",
+  "updated": "2026-09-03T03:19:09Z",
   "version": 1
 }
