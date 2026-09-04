@@ -21,19 +21,17 @@ sources:
         hash-url: "https://nodejs.org/dist/{tag}/SHASUMS256.txt"
 prepare:
     - "tar xf node-{version}.tar.xz --strip-components=1 -C {pkg}"
-    # Invoke node directly so corepack's `#!/usr/bin/env node` shebang doesn't
-    # need to find node on PATH inside the install-time sandbox.
-    - "{pkg}/bin/node {pkg}/bin/corepack enable --install-directory {pkg}/bin pnpm yarn"
 bin:
     - {name: node, path: "{app}/bin/node"}
     - {name: npm, path: "{app}/bin/npm"}
     - {name: npx, path: "{app}/bin/npx"}
     - {name: corepack, path: "{app}/bin/corepack"}
-    - {name: pnpm, path: "{app}/bin/pnpm"}
-    - {name: pnpx, path: "{app}/bin/pnpx"}
-    - {name: yarn, path: "{app}/bin/yarn"}
-    - {name: yarnpkg, path: "{app}/bin/yarnpkg"}
 global-bins:
     # npm's default prefix is node's own prefix, so `npm -g` installs into the
     # version's install tree. Caches (~/.npm, ~/.cache/node) stay on the host.
+    #
+    # Also where corepack drops pnpm/yarn shims: run `corepack enable pnpm
+    # yarn` (or `corepack use pnpm@<version>`) then `bunny reshim` to expose
+    # them. A standalone `bunny install pnpm`/`yarn` package always takes
+    # precedence over corepack's if both are present.
     - "{app}/bin"
