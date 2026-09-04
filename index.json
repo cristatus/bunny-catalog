@@ -22,7 +22,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.12.0-5051501534642176"
+      "version": "2.12.2-6298742303883264"
     },
     "antigravity-cli": {
       "description": "Google's Antigravity coding agent for the terminal",
@@ -131,7 +131,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.1.259"
+      "version": "2.1.260"
     },
     "claude-desktop": {
       "description": "Anthropic's desktop app for Claude, with Claude Code sessions built in",
@@ -151,7 +151,7 @@
       "tags": [
         "editor"
       ],
-      "version": "1.136.0"
+      "version": "1.136.1"
     },
     "codex": {
       "description": "OpenAI's coding agent for the terminal",
@@ -161,7 +161,7 @@
       "tags": [
         "ai"
       ],
-      "version": "0.153.0"
+      "version": "0.153.2"
     },
     "corretto-11": {
       "description": "Amazon's no-cost, production-ready distribution of OpenJDK 11 LTS",
@@ -231,7 +231,7 @@
       "tags": [
         "editor"
       ],
-      "version": "3.18.25-1788220737"
+      "version": "3.19.7-1788393004"
     },
     "delta": {
       "description": "Syntax-highlighting pager for git, diff, and grep output",
@@ -335,7 +335,7 @@
       "tags": [
         "cli"
       ],
-      "version": "2.99.0"
+      "version": "2.100.0"
     },
     "github-copilot": {
       "description": "GitHub's desktop app for running Copilot coding agents on local and remote work",
@@ -773,7 +773,7 @@
         "framework",
         "java"
       ],
-      "version": "3.39.1"
+      "version": "3.39.2"
     },
     "ripgrep": {
       "description": "Fast recursive grep alternative written in Rust",
@@ -811,7 +811,7 @@
         "language",
         "scala"
       ],
-      "version": "3.3.8"
+      "version": "3.9.0"
     },
     "sd": {
       "description": "Intuitive find & replace, a sed alternative",
@@ -1097,6 +1097,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-09-03T03:19:09Z",
+  "updated": "2026-09-04T03:17:40Z",
   "version": 1
 }
