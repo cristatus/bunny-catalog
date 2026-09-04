@@ -46,7 +46,8 @@ Where a manifest sits does not decide where the package lands on disk: `kind:` d
 1. Confirm it fits the scope above.
 2. Create `packages/{id}/manifest.yaml`. Copy the closest existing manifest as a template.
 3. Append a corresponding entry to `index.json`, and declare any tag it uses in `tags.yaml`.
-4. Point `catalog.local` at your checkout and run `bunny dev validate`.
+4. Point a `catalogs:` entry's `local:` at your checkout and run
+   `bunny dev validate`.
 5. Open a PR. CI runs the same check: the manifest schema, the tag vocabulary, and that `index.json` matches the on-disk manifests.
 
 ## Manifest shape
@@ -120,8 +121,9 @@ If you need packages outside the scope above (internal tools, your team's vendor
 
 ```yaml
 # ~/.bunny/config.yaml
-catalog:
-  remote: https://raw.githubusercontent.com/your-org/bunny-catalog/main
+catalogs:
+  - name: your-org
+    remote: https://raw.githubusercontent.com/your-org/bunny-catalog/main
 ```
 
 See [team deployment](https://github.com/cristatus/bunny/blob/main/docs/teams.md) in the bunny repo for the full pattern.
