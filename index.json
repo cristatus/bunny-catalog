@@ -121,7 +121,7 @@
       "tags": [
         "ai"
       ],
-      "version": "26.901.41123"
+      "version": "26.901.41600"
     },
     "claude": {
       "description": "Anthropic's coding agent for the terminal",
@@ -1097,6 +1097,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-09-04T23:48:31Z",
+  "updated": "2026-09-05T03:20:31Z",
   "version": 1
 }
