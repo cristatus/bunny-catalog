@@ -1,7 +1,7 @@
 id: bun
 name: Bun
 description: Fast all-in-one JavaScript runtime, bundler, test runner, and package manager
-version: "1.4.1"
+version: "1.4.2"
 kind: sdk
 tags: [bun, runtime]
 homepage: https://bun.sh/
@@ -9,8 +9,8 @@ license: MIT
 sources:
     - url: "https://github.com/oven-sh/bun/releases/download/bun-v{version}/bun-linux-x64.zip"
       file: "bun-{version}.zip"
-      sha256: "74c1c3bee7cd998500c8f969cd8972355ac6a07207e94a39eece1999b56ffabf"
-      size: 36659492
+      sha256: "36368faef7527875d5ffa52e53cd48021741f2a83eb6208a8dd64068d422a913"
+      size: 36646985
       update:
         type: github
         repo: oven-sh/bun
