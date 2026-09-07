@@ -1,7 +1,7 @@
 id: shfmt
 name: shfmt
 description: Formatter and parser for shell programs
-version: "3.14.0"
+version: "3.14.1"
 kind: cli
 tags: [cli]
 homepage: https://github.com/mvdan/sh
@@ -9,8 +9,8 @@ license: BSD-3-Clause
 sources:
     - url: "https://github.com/mvdan/sh/releases/download/v{version}/shfmt_v{version}_linux_amd64"
       file: "shfmt-{version}"
-      sha256: "fe42021c7272ef2d67ea36cbc3031683c625d0badec733ef3a57b567246a0b66"
-      size: 3567776
+      sha256: "76e77641faa025814b77f153b29796b8e6fa2fca03e0c76a691608b86c7ea7bf"
+      size: 3571872
       update:
         type: github
         repo: mvdan/sh
