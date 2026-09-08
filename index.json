@@ -295,7 +295,7 @@
       "tags": [
         "ide"
       ],
-      "version": "2026-06"
+      "version": "2026-09"
     },
     "eza": {
       "description": "A modern, maintained replacement for ls",
@@ -559,7 +559,7 @@
         "kotlin",
         "language"
       ],
-      "version": "2.4.10"
+      "version": "2.4.20"
     },
     "lazygit": {
       "description": "A simple terminal UI for git commands",
@@ -1097,6 +1097,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-09-07T03:19:09Z",
+  "updated": "2026-09-08T03:25:52Z",
   "version": 1
 }

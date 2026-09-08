@@ -1,7 +1,7 @@
 id: eclipse
 name: Eclipse IDE for Java Developers
 description: The essential tools for Java developers — IDE, Git, Maven, Gradle, XML Editor
-version: "2026-06"
+version: "2026-09"
 kind: app
 tags: [ide]
 homepage: https://www.eclipse.org/
@@ -10,8 +10,8 @@ requires: [jdk]
 sources:
     - url: "https://download.eclipse.org/technology/epp/downloads/release/{version}/R/eclipse-java-{version}-R-linux-gtk-x86_64.tar.gz"
       file: "eclipse-{version}.tar.gz"
-      sha512: "7e30aeaf1227068d00deabe45f397a9cb82a251f77c4df760e471f0811b9de4d5b5fcdfbe2ab750f0c9db68d3de763e32ae739ef4dc03617f7892f2accd3f344"
-      size: 369976872
+      sha512: "483af23506520a37e96857dbafc74e36194152b10471c558b1c2a31b34053f5f20af4a5d88509acb7cfa38bd2aff3fa7e6e45159ff827260cdf8838c46bd73a4"
+      size: 379356792
       update:
         type: html
         url: "https://download.eclipse.org/technology/epp/downloads/release/release.xml"

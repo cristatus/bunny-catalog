@@ -1,7 +1,7 @@
 id: kotlin
 name: Kotlin
 description: The Kotlin command-line compiler (kotlinc) and runner
-version: "2.4.10"
+version: "2.4.20"
 kind: sdk
 tags: [kotlin, language]
 homepage: https://kotlinlang.org/
@@ -10,7 +10,7 @@ requires: [jdk]
 sources:
     - url: "https://github.com/JetBrains/kotlin/releases/download/v{version}/kotlin-compiler-{version}.zip"
       file: "kotlin-compiler-{version}.zip"
-      sha256: "473dd66c7a3ef4b182065b3da670466c1bf2773a9dbb0ed8b33a39fe9d4f876d"
+      sha256: "59e9ca74c7904ef2c122b12114937673ccce68de820a663f0ed66ccf8799e0b7"
       update:
         type: github
         repo: JetBrains/kotlin
