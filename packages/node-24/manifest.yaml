@@ -1,7 +1,7 @@
 id: node-24
 name: Node.js 24 LTS
 description: JavaScript runtime built on V8 (Active LTS — Krypton)
-version: "24.20.0"
+version: "24.21.0"
 kind: sdk
 tags: [node, runtime]
 homepage: https://nodejs.org/
@@ -10,8 +10,8 @@ provides: node
 sources:
     - url: "https://nodejs.org/dist/v{version}/node-v{version}-linux-x64.tar.xz"
       file: "node-{version}.tar.xz"
-      sha256: "2f2c0da162318f0de47665410c7c8c2ed3d36c8f3105de4bbc61176c70a7cbf2"
-      size: 31838904
+      sha256: "fd8e59d5a511510f6a298afb548f18c7d2b1be404d8b4a27d94fbe49f56cb2d6"
+      size: 31890184
       update:
         type: json
         url: "https://nodejs.org/dist/index.json"
