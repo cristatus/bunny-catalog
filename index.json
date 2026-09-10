@@ -32,7 +32,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.1.28"
+      "version": "1.2.0"
     },
     "arthas": {
       "description": "Interactive diagnostics and troubleshooting tool for live Java applications",
@@ -70,7 +70,7 @@
       "tags": [
         "cli"
       ],
-      "version": "18.21.0"
+      "version": "18.22.0"
     },
     "bat": {
       "description": "A cat clone with syntax highlighting and Git integration",
@@ -131,7 +131,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.1.266"
+      "version": "2.1.267"
     },
     "claude-desktop": {
       "description": "Anthropic's desktop app for Claude, with Claude Code sessions built in",
@@ -151,7 +151,7 @@
       "tags": [
         "editor"
       ],
-      "version": "1.136.2"
+      "version": "1.137.0"
     },
     "codex": {
       "description": "OpenAI's coding agent for the terminal",
@@ -161,7 +161,7 @@
       "tags": [
         "ai"
       ],
-      "version": "0.153.4"
+      "version": "0.154.0"
     },
     "corretto-11": {
       "description": "Amazon's no-cost, production-ready distribution of OpenJDK 11 LTS",
@@ -231,7 +231,7 @@
       "tags": [
         "editor"
       ],
-      "version": "3.19.13-1788547236"
+      "version": "3.19.19-1788887598"
     },
     "delta": {
       "description": "Syntax-highlighting pager for git, diff, and grep output",
@@ -345,7 +345,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.1.16"
+      "version": "1.1.17"
     },
     "glab": {
       "description": "GitLab's official command-line tool for repos, merge requests, issues, and CI/CD pipelines",
@@ -728,7 +728,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.18.29"
+      "version": "1.18.30"
     },
     "pi": {
       "description": "AI agent toolkit with a coding agent CLI, TUI, and unified LLM API",
@@ -1014,7 +1014,7 @@
       "tags": [
         "editor"
       ],
-      "version": "1.18.1"
+      "version": "1.19.2"
     },
     "zellij": {
       "description": "Terminal workspace and multiplexer with batteries included",
@@ -1097,6 +1097,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-09-09T03:29:32Z",
+  "updated": "2026-09-10T03:27:38Z",
   "version": 1
 }
