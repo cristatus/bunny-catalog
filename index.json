@@ -121,7 +121,7 @@
       "tags": [
         "ai"
       ],
-      "version": "26.903.61454"
+      "version": "26.903.71938"
     },
     "claude": {
       "description": "Anthropic's coding agent for the terminal",
@@ -131,7 +131,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.1.267"
+      "version": "2.1.268"
     },
     "claude-desktop": {
       "description": "Anthropic's desktop app for Claude, with Claude Code sessions built in",
@@ -231,7 +231,7 @@
       "tags": [
         "editor"
       ],
-      "version": "3.19.19-1788887598"
+      "version": "3.20.10-1789077235"
     },
     "delta": {
       "description": "Syntax-highlighting pager for git, diff, and grep output",
@@ -345,7 +345,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.1.17"
+      "version": "1.1.19"
     },
     "glab": {
       "description": "GitLab's official command-line tool for repos, merge requests, issues, and CI/CD pipelines",
@@ -773,7 +773,7 @@
         "framework",
         "java"
       ],
-      "version": "3.39.2"
+      "version": "3.39.3"
     },
     "ripgrep": {
       "description": "Fast recursive grep alternative written in Rust",
@@ -1097,6 +1097,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-09-10T03:27:38Z",
+  "updated": "2026-09-11T03:24:46Z",
   "version": 1
 }
