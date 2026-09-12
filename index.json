@@ -22,7 +22,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.12.2-6298742303883264"
+      "version": "2.13.0-6362815968182272"
     },
     "antigravity-cli": {
       "description": "Google's Antigravity coding agent for the terminal",
@@ -32,7 +32,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.2.0"
+      "version": "1.2.1"
     },
     "arthas": {
       "description": "Interactive diagnostics and troubleshooting tool for live Java applications",
@@ -121,7 +121,7 @@
       "tags": [
         "ai"
       ],
-      "version": "26.903.71938"
+      "version": "26.908.40834"
     },
     "claude": {
       "description": "Anthropic's coding agent for the terminal",
@@ -131,7 +131,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.1.268"
+      "version": "2.1.269"
     },
     "claude-desktop": {
       "description": "Anthropic's desktop app for Claude, with Claude Code sessions built in",
@@ -141,7 +141,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.49585.0"
+      "version": "1.52386.3"
     },
     "code": {
       "description": "Code editor from Microsoft",
@@ -231,7 +231,7 @@
       "tags": [
         "editor"
       ],
-      "version": "3.20.10-1789077235"
+      "version": "3.20.14-1789165945"
     },
     "delta": {
       "description": "Syntax-highlighting pager for git, diff, and grep output",
@@ -325,7 +325,7 @@
       "tags": [
         "cli"
       ],
-      "version": "0.74.3"
+      "version": "0.74.4"
     },
     "gh": {
       "description": "GitHub's official command-line tool for repos, PRs, issues, and more",
@@ -657,7 +657,7 @@
         "framework",
         "java"
       ],
-      "version": "5.1.3"
+      "version": "5.1.5"
     },
     "mvnd": {
       "description": "Fast Maven build client backed by long-lived daemon processes",
@@ -749,7 +749,7 @@
         "node",
         "package-manager"
       ],
-      "version": "12.3.4"
+      "version": "12.4.1"
     },
     "procs": {
       "description": "A modern replacement for ps",
@@ -1097,6 +1097,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-09-11T03:24:46Z",
+  "updated": "2026-09-12T03:31:38Z",
   "version": 1
 }
