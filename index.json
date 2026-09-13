@@ -32,7 +32,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.2.1"
+      "version": "1.2.2"
     },
     "arthas": {
       "description": "Interactive diagnostics and troubleshooting tool for live Java applications",
@@ -131,7 +131,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.1.269"
+      "version": "2.1.270"
     },
     "claude-desktop": {
       "description": "Anthropic's desktop app for Claude, with Claude Code sessions built in",
@@ -231,7 +231,7 @@
       "tags": [
         "editor"
       ],
-      "version": "3.20.14-1789165945"
+      "version": "3.20.17-1789185857"
     },
     "delta": {
       "description": "Syntax-highlighting pager for git, diff, and grep output",
@@ -345,7 +345,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.1.19"
+      "version": "1.1.20"
     },
     "glab": {
       "description": "GitLab's official command-line tool for repos, merge requests, issues, and CI/CD pipelines",
@@ -1097,6 +1097,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-09-12T03:31:38Z",
+  "updated": "2026-09-13T03:37:46Z",
   "version": 1
 }
