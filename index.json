@@ -121,7 +121,7 @@
       "tags": [
         "ai"
       ],
-      "version": "26.908.40834"
+      "version": "26.908.70816"
     },
     "claude": {
       "description": "Anthropic's coding agent for the terminal",
@@ -231,7 +231,7 @@
       "tags": [
         "editor"
       ],
-      "version": "3.20.17-1789185857"
+      "version": "3.20.21-1789329270"
     },
     "delta": {
       "description": "Syntax-highlighting pager for git, diff, and grep output",
@@ -571,16 +571,6 @@
       ],
       "version": "0.65.1"
     },
-    "lima": {
-      "description": "Linux virtual machines with automatic file sharing and port forwarding, for isolated test environments",
-      "kind": "cli",
-      "name": "Lima",
-      "path": "packages/lima",
-      "tags": [
-        "cli"
-      ],
-      "version": "2.2.0"
-    },
     "liberica-11": {
       "description": "Production-ready OpenJDK 11 LTS distribution from BellSoft",
       "kind": "sdk",
@@ -640,6 +630,16 @@
         "jdk"
       ],
       "version": "8.0.504+1"
+    },
+    "lima": {
+      "description": "Linux virtual machines with automatic file sharing and port forwarding, for isolated test environments",
+      "kind": "cli",
+      "name": "Lima",
+      "path": "packages/lima",
+      "tags": [
+        "cli"
+      ],
+      "version": "2.2.0"
     },
     "maven": {
       "description": "Build automation and project management tool for Java projects",
@@ -738,7 +738,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.18.30"
+      "version": "1.18.31"
     },
     "pi": {
       "description": "AI agent toolkit with a coding agent CLI, TUI, and unified LLM API",
@@ -807,7 +807,7 @@
         "build-tool",
         "scala"
       ],
-      "version": "2.0.8"
+      "version": "2.0.9"
     },
     "scala": {
       "description": "Scala 3 compiler, runner, and documentation generator",
@@ -1107,6 +1107,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-09-14T03:46:12Z",
+  "updated": "2026-09-14T20:39:47Z",
   "version": 1
 }
