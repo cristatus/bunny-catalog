@@ -141,7 +141,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.52386.3"
+      "version": "1.52386.6"
     },
     "code": {
       "description": "Code editor from Microsoft",
@@ -569,7 +569,7 @@
       "tags": [
         "cli"
       ],
-      "version": "0.65.0"
+      "version": "0.65.1"
     },
     "liberica-11": {
       "description": "Production-ready OpenJDK 11 LTS distribution from BellSoft",
@@ -1097,6 +1097,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-09-13T03:37:46Z",
+  "updated": "2026-09-14T03:46:12Z",
   "version": 1
 }
