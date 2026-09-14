@@ -16,7 +16,22 @@ sources:
         repo: eza-community/eza
         asset: "eza_x86_64-unknown-linux-musl\\.tar\\.gz$"
         tag-pattern: "v([0-9.]+)"
+    - url: "https://github.com/eza-community/eza/releases/download/v{version}/completions-{version}.tar.gz"
+      file: "eza-completions-{version}.tar.gz"
+      sha256: "8ca5a250d28c3c7ebd0077aca203701a17d1ea7c92621d9e274b93965e3c9291"
+      size: 7566
+      update:
+        type: github
+        repo: eza-community/eza
+        asset: "completions-.*\\.tar\\.gz$"
+        tag-pattern: "v([0-9.]+)"
 prepare:
     - "tar xf eza-{version}.tar.gz -C {pkg}"
+    - "mkdir -p {pkg}/completions"
+    - "tar xf eza-completions-{version}.tar.gz --strip-components=3 -C {pkg}/completions"
 bin:
     - {name: eza, path: "{app}/eza"}
+completions:
+    bash: "{app}/completions/eza"
+    zsh: "{app}/completions/_eza"
+    fish: "{app}/completions/eza.fish"

@@ -17,8 +17,13 @@ sources:
         asset: "^opencode-linux-x64\\.tar\\.gz$"
 prepare:
     - "tar xf opencode-{version}.tar.gz -C {pkg}"
+    # opencode's completion generator only emits a zsh script (no bash/fish).
+    - "mkdir -p {pkg}/completions"
+    - "{pkg}/opencode completion > {pkg}/completions/_opencode"
 bin:
     - {name: opencode, path: "{app}/opencode"}
+completions:
+    zsh: "{app}/completions/_opencode"
 env:
     # bunny owns updates; opencode otherwise downloads and applies updates on
     # startup. The equivalent opencode.json "autoupdate": false key is

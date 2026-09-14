@@ -16,5 +16,14 @@ sources:
         asset: "^starship-x86_64-unknown-linux-musl\\.tar\\.gz$"
 prepare:
     - "tar xf starship-x86_64-unknown-linux-musl.tar.gz -C {pkg}"
+    # starship ships no completion files; generate them from the binary itself.
+    - "mkdir -p {pkg}/completions"
+    - "{pkg}/starship completions bash > {pkg}/completions/starship.bash"
+    - "{pkg}/starship completions zsh  > {pkg}/completions/_starship"
+    - "{pkg}/starship completions fish > {pkg}/completions/starship.fish"
 bin:
     - {name: starship, path: "{app}/starship"}
+completions:
+    bash: "{app}/completions/starship.bash"
+    zsh: "{app}/completions/_starship"
+    fish: "{app}/completions/starship.fish"

@@ -16,5 +16,14 @@ sources:
         asset: "^zellij-x86_64-unknown-linux-musl\\.tar\\.gz$"
 prepare:
     - "tar xf zellij-x86_64-unknown-linux-musl.tar.gz -C {pkg}"
+    # zellij ships no completion files; generate them from the binary itself.
+    - "mkdir -p {pkg}/completions"
+    - "{pkg}/zellij setup --generate-completion bash > {pkg}/completions/zellij.bash"
+    - "{pkg}/zellij setup --generate-completion zsh  > {pkg}/completions/_zellij"
+    - "{pkg}/zellij setup --generate-completion fish > {pkg}/completions/zellij.fish"
 bin:
     - {name: zellij, path: "{app}/zellij"}
+completions:
+    bash: "{app}/completions/zellij.bash"
+    zsh: "{app}/completions/_zellij"
+    fish: "{app}/completions/zellij.fish"

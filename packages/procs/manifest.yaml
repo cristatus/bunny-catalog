@@ -17,5 +17,14 @@ sources:
 prepare:
     - "unzip -q procs-v{version}-x86_64-linux.zip -d {pkg}"
     - "chmod +x {pkg}/procs"
+    # procs ships no completion files; generate them from the binary itself.
+    - "mkdir -p {pkg}/completions"
+    - "{pkg}/procs --gen-completion-out bash > {pkg}/completions/procs.bash"
+    - "{pkg}/procs --gen-completion-out zsh  > {pkg}/completions/_procs"
+    - "{pkg}/procs --gen-completion-out fish > {pkg}/completions/procs.fish"
 bin:
     - {name: procs, path: "{app}/procs"}
+completions:
+    bash: "{app}/completions/procs.bash"
+    zsh: "{app}/completions/_procs"
+    fish: "{app}/completions/procs.fish"

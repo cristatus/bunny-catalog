@@ -18,5 +18,14 @@ sources:
         hash-url: "https://github.com/jesseduffield/lazygit/releases/download/v{version}/checksums.txt"
 prepare:
     - "tar xf lazygit-{version}.tar.gz -C {pkg} lazygit"
+    # lazygit ships no completion files; generate them from the binary itself.
+    - "mkdir -p {pkg}/completions"
+    - "{pkg}/lazygit completion bash > {pkg}/completions/lazygit.bash"
+    - "{pkg}/lazygit completion zsh  > {pkg}/completions/_lazygit"
+    - "{pkg}/lazygit completion fish > {pkg}/completions/lazygit.fish"
 bin:
     - {name: lazygit, path: "{app}/lazygit"}
+completions:
+    bash: "{app}/completions/lazygit.bash"
+    zsh: "{app}/completions/_lazygit"
+    fish: "{app}/completions/lazygit.fish"
