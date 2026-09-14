@@ -18,6 +18,15 @@ sources:
         tag-pattern: "v([0-9.]+)"
 prepare:
     - "tar xf lima-{version}.tar.gz -C {pkg}"
+    # lima ships no completion files; generate them from the binary itself.
+    - "mkdir -p {pkg}/completions"
+    - "{pkg}/bin/limactl completion bash > {pkg}/completions/limactl"
+    - "{pkg}/bin/limactl completion zsh  > {pkg}/completions/_limactl"
+    - "{pkg}/bin/limactl completion fish > {pkg}/completions/limactl.fish"
 bin:
     - {name: limactl, path: "{app}/bin/limactl"}
     - {name: lima, path: "{app}/bin/lima"}
+completions:
+    bash: "{app}/completions/limactl"
+    zsh: "{app}/completions/_limactl"
+    fish: "{app}/completions/limactl.fish"
