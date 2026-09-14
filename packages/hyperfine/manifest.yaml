@@ -22,3 +22,5 @@ completions:
     bash: "{app}/autocomplete/hyperfine.bash"
     zsh: "{app}/autocomplete/_hyperfine"
     fish: "{app}/autocomplete/hyperfine.fish"
+man:
+    - "{app}/hyperfine.1"

@@ -22,3 +22,5 @@ completions:
     bash: "{app}/completions/zoxide.bash"
     zsh: "{app}/completions/_zoxide"
     fish: "{app}/completions/zoxide.fish"
+man:
+    - "{app}/man/man1"

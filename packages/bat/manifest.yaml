@@ -26,3 +26,6 @@ completions:
   bash: "{app}/autocomplete/bat.bash"
   zsh: "{app}/autocomplete/bat.zsh"
   fish: "{app}/autocomplete/bat.fish"
+
+man:
+  - "{app}/bat.1"

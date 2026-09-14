@@ -22,3 +22,5 @@ completions:
     bash: "{app}/complete/rg.bash"
     zsh: "{app}/complete/_rg"
     fish: "{app}/complete/rg.fish"
+man:
+    - "{app}/doc/rg.1"

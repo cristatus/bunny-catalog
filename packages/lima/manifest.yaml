@@ -30,3 +30,5 @@ completions:
     bash: "{app}/completions/limactl"
     zsh: "{app}/completions/_limactl"
     fish: "{app}/completions/limactl.fish"
+man:
+    - "{app}/share/man/man1"

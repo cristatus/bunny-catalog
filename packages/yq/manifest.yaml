@@ -16,8 +16,20 @@ sources:
         repo: mikefarah/yq
         asset: "^yq_linux_amd64$"
         tag-pattern: "^v([0-9.]+)$"
+    - url: "https://github.com/mikefarah/yq/releases/download/v{version}/yq_man_page_only.tar.gz"
+      file: "yq-man-{version}.tar.gz"
+      sha256: "7673c30043f540d1e2cfa825d29e477688147207708e46762b0dd828e842edf4"
+      size: 48709
+      update:
+        type: github
+        repo: mikefarah/yq
+        asset: "^yq_man_page_only\\.tar\\.gz$"
+        tag-pattern: "^v([0-9.]+)$"
 prepare:
     - "mv yq-{version} {pkg}/yq"
     - "chmod +x {pkg}/yq"
+    - "tar xf yq-man-{version}.tar.gz -C {pkg} yq.1"
 bin:
     - {name: yq, path: "{app}/yq"}
+man:
+    - "{app}/yq.1"

@@ -25,13 +25,26 @@ sources:
         repo: eza-community/eza
         asset: "completions-.*\\.tar\\.gz$"
         tag-pattern: "v([0-9.]+)"
+    - url: "https://github.com/eza-community/eza/releases/download/v{version}/man-{version}.tar.gz"
+      file: "eza-man-{version}.tar.gz"
+      sha256: "cbdae2ad79ae0ef1fd6a06f4644c90cef79a56353bc3bb7cf4663bb2831420f9"
+      size: 10548
+      update:
+        type: github
+        repo: eza-community/eza
+        asset: "^man-.*\\.tar\\.gz$"
+        tag-pattern: "v([0-9.]+)"
 prepare:
     - "tar xf eza-{version}.tar.gz -C {pkg}"
     - "mkdir -p {pkg}/completions"
     - "tar xf eza-completions-{version}.tar.gz --strip-components=3 -C {pkg}/completions"
+    - "mkdir -p {pkg}/man"
+    - "tar xf eza-man-{version}.tar.gz --strip-components=3 -C {pkg}/man"
 bin:
     - {name: eza, path: "{app}/eza"}
 completions:
     bash: "{app}/completions/eza"
     zsh: "{app}/completions/_eza"
     fish: "{app}/completions/eza.fish"
+man:
+    - "{app}/man"

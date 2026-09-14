@@ -22,3 +22,5 @@ completions:
     bash: "{app}/autocomplete/fd.bash"
     zsh: "{app}/autocomplete/_fd"
     fish: "{app}/autocomplete/fd.fish"
+man:
+    - "{app}/fd.1"

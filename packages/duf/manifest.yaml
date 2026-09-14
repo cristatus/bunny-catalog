@@ -18,3 +18,5 @@ prepare:
     - "tar xf duf_{version}_linux_x86_64.tar.gz -C {pkg}"
 bin:
     - {name: duf, path: "{app}/duf"}
+man:
+    - "{app}/duf.1"

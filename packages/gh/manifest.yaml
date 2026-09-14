@@ -18,6 +18,12 @@ sources:
         tag-pattern: "v([0-9.]+)"
 prepare:
     - "tar xf gh-{version}.tar.gz --strip-components=1 -C {pkg}"
+    # gh's tarball no longer ships pre-built completion files (only a man
+    # page describing `gh completion`); generate them from the binary itself.
+    - "mkdir -p {pkg}/completions"
+    - "{pkg}/bin/gh completion -s bash > {pkg}/completions/gh"
+    - "{pkg}/bin/gh completion -s zsh  > {pkg}/completions/_gh"
+    - "{pkg}/bin/gh completion -s fish > {pkg}/completions/gh.fish"
 bin:
     - {name: gh, path: "{app}/bin/gh"}
 env:
@@ -25,6 +31,8 @@ env:
     # bunny already owns that decision.
     GH_NO_UPDATE_NOTIFIER: "1"
 completions:
-    bash: "{app}/share/bash-completion/completions/gh"
-    zsh: "{app}/share/zsh/site-functions/_gh"
-    fish: "{app}/share/fish/vendor_completions.d/gh.fish"
+    bash: "{app}/completions/gh"
+    zsh: "{app}/completions/_gh"
+    fish: "{app}/completions/gh.fish"
+man:
+    - "{app}/share/man/man1"

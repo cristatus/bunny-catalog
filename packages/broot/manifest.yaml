@@ -20,9 +20,12 @@ prepare:
     - "rmdir {pkg}/x86_64-unknown-linux-musl"
     - "chmod +x {pkg}/broot"
     - "unzip -q broot_{version}.zip completion/broot.bash completion/_broot completion/broot.fish -d {pkg}"
+    - "unzip -q broot_{version}.zip broot.1 -d {pkg}"
 bin:
     - {name: broot, path: "{app}/broot"}
 completions:
     bash: "{app}/completion/broot.bash"
     zsh: "{app}/completion/_broot"
     fish: "{app}/completion/broot.fish"
+man:
+    - "{app}/broot.1"

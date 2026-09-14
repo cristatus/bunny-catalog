@@ -22,3 +22,5 @@ completions:
     bash: "{app}/completions/sd.bash"
     zsh: "{app}/completions/_sd"
     fish: "{app}/completions/sd.fish"
+man:
+    - "{app}/sd.1"
