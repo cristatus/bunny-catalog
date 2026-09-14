@@ -20,6 +20,8 @@ prepare:
     - "tar xf nvim-{version}.tar.gz --strip-components=1 -C {pkg}"
 bin:
     - {name: nvim, path: "{app}/bin/nvim"}
+man:
+    - "{app}/share/man/man1/nvim.1"
 icons:
     - {src: "{app}/share/icons/hicolor/128x128/apps/nvim.png", name: "nvim", size: "128x128"}
 desktop:
