@@ -1,0 +1,23 @@
+id: lima
+name: Lima
+description: Linux virtual machines with automatic file sharing and port forwarding, for isolated test environments
+version: "2.2.0"
+kind: cli
+tags: [cli]
+homepage: https://github.com/lima-vm/lima
+license: Apache-2.0
+sources:
+    - url: "https://github.com/lima-vm/lima/releases/download/v{version}/lima-{version}-Linux-x86_64.tar.gz"
+      file: "lima-{version}.tar.gz"
+      sha256: "a0ea1ccf6b7335a900adb5f8d2b8384457965fecb1ba72f09b4e3e46d12f424a"
+      size: 23968157
+      update:
+        type: github
+        repo: lima-vm/lima
+        asset: "^lima-[0-9][0-9.]*-Linux-x86_64\\.tar\\.gz$"
+        tag-pattern: "v([0-9.]+)"
+prepare:
+    - "tar xf lima-{version}.tar.gz -C {pkg}"
+bin:
+    - {name: limactl, path: "{app}/bin/limactl"}
+    - {name: lima, path: "{app}/bin/lima"}

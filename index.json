@@ -571,6 +571,16 @@
       ],
       "version": "0.65.1"
     },
+    "lima": {
+      "description": "Linux virtual machines with automatic file sharing and port forwarding, for isolated test environments",
+      "kind": "cli",
+      "name": "Lima",
+      "path": "packages/lima",
+      "tags": [
+        "cli"
+      ],
+      "version": "2.2.0"
+    },
     "liberica-11": {
       "description": "Production-ready OpenJDK 11 LTS distribution from BellSoft",
       "kind": "sdk",
