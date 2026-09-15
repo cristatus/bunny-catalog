@@ -335,7 +335,7 @@
       "tags": [
         "cli"
       ],
-      "version": "2.100.0"
+      "version": "2.101.0"
     },
     "github-copilot": {
       "description": "GitHub's desktop app for running Copilot coding agents on local and remote work",
@@ -345,7 +345,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.1.20"
+      "version": "1.1.21"
     },
     "glab": {
       "description": "GitLab's official command-line tool for repos, merge requests, issues, and CI/CD pipelines",
@@ -355,7 +355,7 @@
       "tags": [
         "cli"
       ],
-      "version": "1.117.0"
+      "version": "1.118.0"
     },
     "graalvm-21": {
       "description": "GraalVM Community Edition with JDK 21 and native-image",
@@ -759,7 +759,7 @@
         "node",
         "package-manager"
       ],
-      "version": "12.4.1"
+      "version": "12.4.2"
     },
     "procs": {
       "description": "A modern replacement for ps",
@@ -960,7 +960,7 @@
         "java",
         "server"
       ],
-      "version": "10.1.59"
+      "version": "10.1.60"
     },
     "tomcat-11": {
       "description": "Servlet container implementing the Jakarta EE 11 web specifications",
@@ -975,7 +975,7 @@
         "java",
         "server"
       ],
-      "version": "11.0.25"
+      "version": "11.0.26"
     },
     "tomcat-9": {
       "description": "Servlet container implementing the Java EE 8 web specifications, for javax.* applications",
@@ -1107,6 +1107,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-09-15T03:46:36Z",
+  "updated": "2026-09-15T16:36:13Z",
   "version": 1
 }
