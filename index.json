@@ -32,7 +32,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.2.2"
+      "version": "1.2.3"
     },
     "arthas": {
       "description": "Interactive diagnostics and troubleshooting tool for live Java applications",
@@ -131,7 +131,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.1.270"
+      "version": "2.1.272"
     },
     "claude-desktop": {
       "description": "Anthropic's desktop app for Claude, with Claude Code sessions built in",
@@ -1107,6 +1107,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-09-14T20:39:47Z",
+  "updated": "2026-09-15T03:46:36Z",
   "version": 1
 }
