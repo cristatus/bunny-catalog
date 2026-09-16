@@ -32,7 +32,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.2.3"
+      "version": "1.2.4"
     },
     "arthas": {
       "description": "Interactive diagnostics and troubleshooting tool for live Java applications",
@@ -151,7 +151,7 @@
       "tags": [
         "editor"
       ],
-      "version": "1.137.0"
+      "version": "1.138.0"
     },
     "codex": {
       "description": "OpenAI's coding agent for the terminal",
@@ -413,7 +413,7 @@
       "tags": [
         "ide"
       ],
-      "version": "2026.2.2"
+      "version": "2026.2.3"
     },
     "jbang": {
       "description": "Run Java (and JVM) source files as scripts — no build setup",
@@ -1024,7 +1024,7 @@
       "tags": [
         "editor"
       ],
-      "version": "1.19.2"
+      "version": "1.20.1"
     },
     "zellij": {
       "description": "Terminal workspace and multiplexer with batteries included",
@@ -1107,6 +1107,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-09-16T03:43:24Z",
+  "updated": "2026-09-16T19:30:23Z",
   "version": 1
 }
