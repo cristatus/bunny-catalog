@@ -33,6 +33,10 @@ sources:
 prepare:
     - "tar xf eclipse-{version}.tar.gz --strip-components=1 -C {pkg}"
     - "mkdir -p {pkg}/dropins && cp gjf-eclipse-plugin.jar {pkg}/dropins/"
+    # The root icon.xpm is low-res and, on distros without gdk-pixbuf's XPM
+    # loader (e.g. Fedora, which drops it for security reasons), doesn't
+    # render at all. org.eclipse.platform already ships a proper PNG set.
+    - "cp {pkg}/plugins/org.eclipse.platform_*/eclipse256.png {pkg}/eclipse.png"
     # Persist Eclipse's runtime config in bunny's per-app data dir, plus the
     # JDK exports google-java-format needs.
     - |
@@ -50,7 +54,7 @@ bin:
 dirs:
     - "{data}/configuration"
 icons:
-    - {src: "{app}/icon.xpm", name: "eclipse", size: "256x256"}
+    - {src: "{app}/eclipse.png", name: "eclipse", size: "256x256"}
 desktop:
     - id: eclipse.desktop
       name: Eclipse IDE for Java Developers
