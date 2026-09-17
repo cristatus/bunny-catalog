@@ -23,6 +23,15 @@ bin:
     - {name: jar, path: "{app}/bin/jar"}
     - {name: javadoc, path: "{app}/bin/javadoc"}
     - {name: jdeps, path: "{app}/bin/jdeps"}
+    - {name: javap, path: "{app}/bin/javap"}
+    - {name: jarsigner, path: "{app}/bin/jarsigner"}
+    - {name: jps, path: "{app}/bin/jps"}
+    - {name: jstack, path: "{app}/bin/jstack"}
+    - {name: jmap, path: "{app}/bin/jmap"}
+    - {name: jcmd, path: "{app}/bin/jcmd"}
+    - {name: jinfo, path: "{app}/bin/jinfo"}
+    - {name: jstat, path: "{app}/bin/jstat"}
+    - {name: jfr, path: "{app}/bin/jfr"}
     - {name: keytool, path: "{app}/bin/keytool"}
 env:
     JAVA_HOME: "{app}"
