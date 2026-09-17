@@ -1,15 +1,15 @@
 id: dust
 name: dust
 description: A more intuitive version of du in Rust
-version: "1.2.5"
+version: "1.2.6"
 kind: cli
 tags: [cli]
 homepage: https://github.com/bootandy/dust
 license: Apache-2.0
 sources:
     - url: "https://github.com/bootandy/dust/releases/download/v{version}/dust-v{version}-x86_64-unknown-linux-musl.tar.gz"
-      sha256: "79813b5743fab1e04c1d9c34042aab865dbe09efb76719e7c7d260568850fabc"
-      size: 1255296
+      sha256: "cbf2cb5c9d6227e46fc4b29c03dc43b8632020dfc5cf269d263d6e29c399e044"
+      size: 1256184
       update:
         type: github
         repo: bootandy/dust

@@ -131,7 +131,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.1.273"
+      "version": "2.1.274"
     },
     "claude-desktop": {
       "description": "Anthropic's desktop app for Claude, with Claude Code sessions built in",
@@ -282,7 +282,7 @@
       "tags": [
         "cli"
       ],
-      "version": "1.2.5"
+      "version": "1.2.6"
     },
     "eclipse": {
       "description": "The essential tools for Java developers — IDE, Git, Maven, Gradle, XML Editor",
@@ -345,7 +345,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.1.21"
+      "version": "1.1.22"
     },
     "glab": {
       "description": "GitLab's official command-line tool for repos, merge requests, issues, and CI/CD pipelines",
@@ -1107,6 +1107,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-09-16T19:30:23Z",
+  "updated": "2026-09-17T03:48:15Z",
   "version": 1
 }
