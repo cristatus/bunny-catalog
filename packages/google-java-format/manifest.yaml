@@ -1,0 +1,22 @@
+id: google-java-format
+name: google-java-format
+description: Reformats Java source code to the Google Java Style
+version: "1.36.1"
+kind: cli
+tags: [java, cli]
+homepage: https://github.com/google/google-java-format
+license: Apache-2.0
+sources:
+    - url: "https://github.com/google/google-java-format/releases/download/v{version}/google-java-format_linux-x86-64"
+      file: "google-java-format-{version}"
+      sha256: "8dc71663a6c9cb17b02ba9709bfab5c4de59de6f4ac133fd7a1d5a4394b1193b"
+      size: 33425672
+      update:
+        type: github
+        repo: google/google-java-format
+        asset: "^google-java-format_linux-x86-64$"
+prepare:
+    - "mv google-java-format-{version} {pkg}/google-java-format"
+    - "chmod +x {pkg}/google-java-format"
+bin:
+    - {name: google-java-format, path: "{app}/google-java-format"}
