@@ -1,0 +1,23 @@
+id: flyway
+name: Flyway
+description: Database schema versioning and migration tool
+version: "13.7.0"
+kind: sdk
+tags: [database, java]
+homepage: https://flywaydb.org/
+license: Apache-2.0
+requires: [jdk]
+sources:
+    - url: "https://github.com/flyway/flyway/releases/download/flyway-{version}/flyway-commandline-{version}.tar.gz"
+      file: "flyway-{version}.tar.gz"
+      sha256: "2b73bda15888765421101336cbfbd9d78a4e2d07e7090bd53f53ad319786e060"
+      size: 323754068
+      update:
+        type: github
+        repo: flyway/flyway
+        asset: "^flyway-commandline-[0-9.]+\\.tar\\.gz$"
+        tag-pattern: "^flyway-([0-9.]+)$"
+prepare:
+    - "tar xf flyway-{version}.tar.gz --strip-components=1 -C {pkg}"
+bin:
+    - {name: flyway, path: "{app}/flyway"}

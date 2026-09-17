@@ -317,6 +317,20 @@
       ],
       "version": "10.5.0"
     },
+    "flyway": {
+      "description": "Database schema versioning and migration tool",
+      "kind": "sdk",
+      "name": "Flyway",
+      "path": "packages/flyway",
+      "requires": [
+        "jdk"
+      ],
+      "tags": [
+        "database",
+        "java"
+      ],
+      "version": "13.7.0"
+    },
     "fzf": {
       "description": "A command-line fuzzy finder",
       "kind": "cli",
@@ -394,6 +408,20 @@
         "java"
       ],
       "version": "9.7.1"
+    },
+    "groovy": {
+      "description": "Dynamic, optionally-typed language for the JVM with Java-like syntax",
+      "kind": "sdk",
+      "name": "Apache Groovy",
+      "path": "packages/groovy",
+      "requires": [
+        "jdk"
+      ],
+      "tags": [
+        "groovy",
+        "language"
+      ],
+      "version": "5.1.2"
     },
     "hyperfine": {
       "description": "A command-line benchmarking tool",
@@ -527,6 +555,20 @@
       ],
       "version": "9.1.2"
     },
+    "jmeter": {
+      "description": "Load testing and performance measurement tool for applications and services",
+      "kind": "sdk",
+      "name": "Apache JMeter",
+      "path": "packages/jmeter",
+      "requires": [
+        "jdk"
+      ],
+      "tags": [
+        "cli",
+        "java"
+      ],
+      "version": "5.6.3"
+    },
     "jq": {
       "description": "Command-line JSON processor",
       "kind": "cli",
@@ -640,6 +682,20 @@
         "cli"
       ],
       "version": "2.2.0"
+    },
+    "liquibase": {
+      "description": "Database schema change management and migration tool",
+      "kind": "sdk",
+      "name": "Liquibase",
+      "path": "packages/liquibase",
+      "requires": [
+        "jdk"
+      ],
+      "tags": [
+        "database",
+        "java"
+      ],
+      "version": "5.0.4"
     },
     "maven": {
       "description": "Build automation and project management tool for Java projects",

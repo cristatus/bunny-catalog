@@ -1,0 +1,23 @@
+id: liquibase
+name: Liquibase
+description: Database schema change management and migration tool
+version: "5.0.4"
+kind: sdk
+tags: [database, java]
+homepage: https://www.liquibase.org/
+license: Apache-2.0
+requires: [jdk]
+sources:
+    - url: "https://github.com/liquibase/liquibase/releases/download/v{version}/liquibase-{version}.tar.gz"
+      file: "liquibase-{version}.tar.gz"
+      sha256: "bb08638d70dddd6af8cca6e033148576f8214b5996831b1f8864eb3528f4cfce"
+      size: 8773410
+      update:
+        type: github
+        repo: liquibase/liquibase
+        asset: "^liquibase-[0-9.]+\\.tar\\.gz$"
+        tag-pattern: "^v([0-9.]+)$"
+prepare:
+    - "tar xf liquibase-{version}.tar.gz -C {pkg}"
+bin:
+    - {name: liquibase, path: "{app}/liquibase"}

@@ -1,0 +1,26 @@
+id: groovy
+name: Apache Groovy
+description: Dynamic, optionally-typed language for the JVM with Java-like syntax
+version: "5.1.2"
+kind: sdk
+tags: [groovy, language]
+homepage: https://groovy.apache.org/
+license: Apache-2.0
+requires: [jdk]
+sources:
+    - url: "https://dlcdn.apache.org/groovy/{version}/distribution/apache-groovy-binary-{version}.zip"
+      file: "groovy-{version}.zip"
+      sha256: "19cd28c23c34f8b52f1bb602da9186792b7464e35dd8300d84f6735b8ad3965f"
+      size: 34841204
+      update:
+        type: html
+        url: "https://dlcdn.apache.org/groovy/"
+        version-pattern: 'href="([0-9.]+)/"'
+prepare:
+    - "unzip -q groovy-{version}.zip"
+    - "mv groovy-{version}/* {pkg}/"
+bin:
+    - {name: groovy, path: "{app}/bin/groovy"}
+    - {name: groovyc, path: "{app}/bin/groovyc"}
+    - {name: groovysh, path: "{app}/bin/groovysh"}
+    - {name: groovydoc, path: "{app}/bin/groovydoc"}

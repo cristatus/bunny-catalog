@@ -1,0 +1,22 @@
+id: jmeter
+name: Apache JMeter
+description: Load testing and performance measurement tool for applications and services
+version: "5.6.3"
+kind: sdk
+tags: [cli, java]
+homepage: https://jmeter.apache.org/
+license: Apache-2.0
+requires: [jdk]
+sources:
+    - url: "https://dlcdn.apache.org/jmeter/binaries/apache-jmeter-{version}.tgz"
+      file: "jmeter-{version}.tar.gz"
+      sha512: "5978a1a35edb5a7d428e270564ff49d2b1b257a65e17a759d259a9283fc17093e522fe46f474a043864aea6910683486340706d745fcdf3db1505fd71e689083"
+      size: 87414762
+      update:
+        type: html
+        url: "https://dlcdn.apache.org/jmeter/binaries/"
+        version-pattern: 'apache-jmeter-([0-9.]+)\.tgz'
+prepare:
+    - "tar xf jmeter-{version}.tar.gz --strip-components=1 -C {pkg}"
+bin:
+    - {name: jmeter, path: "{app}/bin/jmeter"}
