@@ -32,7 +32,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.2.4"
+      "version": "1.2.5"
     },
     "arthas": {
       "description": "Interactive diagnostics and troubleshooting tool for live Java applications",
@@ -121,7 +121,7 @@
       "tags": [
         "ai"
       ],
-      "version": "26.908.70816"
+      "version": "26.911.61220"
     },
     "claude": {
       "description": "Anthropic's coding agent for the terminal",
@@ -141,7 +141,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.110.0"
+      "version": "2.110.1"
     },
     "code": {
       "description": "Code editor from Microsoft",
@@ -231,7 +231,7 @@
       "tags": [
         "editor"
       ],
-      "version": "3.20.21-1789329270"
+      "version": "3.21.9-1789614338"
     },
     "delta": {
       "description": "Syntax-highlighting pager for git, diff, and grep output",
@@ -252,7 +252,7 @@
         "deno",
         "runtime"
       ],
-      "version": "2.9.6"
+      "version": "2.9.7"
     },
     "difftastic": {
       "description": "A structural diff that understands syntax",
@@ -839,7 +839,7 @@
         "framework",
         "java"
       ],
-      "version": "3.39.3"
+      "version": "3.39.4"
     },
     "ripgrep": {
       "description": "Fast recursive grep alternative written in Rust",
@@ -1080,7 +1080,7 @@
       "tags": [
         "editor"
       ],
-      "version": "1.20.1"
+      "version": "1.20.2"
     },
     "zellij": {
       "description": "Terminal workspace and multiplexer with batteries included",
@@ -1163,6 +1163,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-09-17T03:48:15Z",
+  "updated": "2026-09-17T21:10:33Z",
   "version": 1
 }

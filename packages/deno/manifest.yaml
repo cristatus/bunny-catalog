@@ -1,7 +1,7 @@
 id: deno
 name: Deno
 description: Secure runtime for JavaScript and TypeScript with built-in tooling
-version: "2.9.6"
+version: "2.9.7"
 kind: sdk
 tags: [deno, runtime]
 homepage: https://deno.com/
@@ -9,8 +9,8 @@ license: MIT
 sources:
     - url: "https://github.com/denoland/deno/releases/download/v{version}/deno-x86_64-unknown-linux-gnu.zip"
       file: "deno-{version}.zip"
-      sha256: "394f07f4da2bebe6ce6f1e7ce0fa16429b29b08c35e3fac3fe25972676dff4b2"
-      size: 41582794
+      sha256: "c6527f24f4b16031d3ae4fa9f658d5f11534c8d84ce7dc8502420280919c3490"
+      size: 41596794
       update:
         type: github
         repo: denoland/deno
