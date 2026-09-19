@@ -1,7 +1,7 @@
 id: codex
 name: Codex CLI
 description: OpenAI's coding agent for the terminal
-version: "0.155.0"
+version: "0.155.1"
 kind: cli
 tags: [ai]
 homepage: https://developers.openai.com/codex/cli
@@ -16,8 +16,8 @@ sources:
     # releases other components, so tag-pattern recovers the bare version.
     - url: "https://github.com/openai/codex/releases/download/rust-v{version}/codex-package-x86_64-unknown-linux-musl.tar.gz"
       file: "codex-{version}.tar.gz"
-      sha256: "135bfe1af2d8d5954c12f03bee2cf8b40dffb06f76bb0ec3bd6105de5357e009"
-      size: 138857285
+      sha256: "a65b895c6ac1a73629bbe4b864640c86133e94a43b4d67b3103044e1a306d5a2"
+      size: 138838055
       update:
         type: github
         repo: openai/codex

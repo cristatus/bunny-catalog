@@ -22,7 +22,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.14.0-5449404535144448"
+      "version": "2.15.0-6576870427328512"
     },
     "antigravity-cli": {
       "description": "Google's Antigravity coding agent for the terminal",
@@ -32,7 +32,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.2.5"
+      "version": "1.2.7"
     },
     "arthas": {
       "description": "Interactive diagnostics and troubleshooting tool for live Java applications",
@@ -121,7 +121,7 @@
       "tags": [
         "ai"
       ],
-      "version": "26.915.31029"
+      "version": "26.915.31945"
     },
     "claude": {
       "description": "Anthropic's coding agent for the terminal",
@@ -131,7 +131,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.1.276"
+      "version": "2.1.278"
     },
     "claude-desktop": {
       "description": "Anthropic's desktop app for Claude, with Claude Code sessions built in",
@@ -141,7 +141,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.2553.0"
+      "version": "2.2553.1"
     },
     "code": {
       "description": "Code editor from Microsoft",
@@ -161,7 +161,7 @@
       "tags": [
         "ai"
       ],
-      "version": "0.155.0"
+      "version": "0.155.1"
     },
     "corretto-11": {
       "description": "Amazon's no-cost, production-ready distribution of OpenJDK 11 LTS",
@@ -231,7 +231,7 @@
       "tags": [
         "editor"
       ],
-      "version": "3.21.9-1789614338"
+      "version": "3.21.13-1789716832"
     },
     "delta": {
       "description": "Syntax-highlighting pager for git, diff, and grep output",
@@ -1174,6 +1174,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-09-18T03:34:40Z",
+  "updated": "2026-09-19T03:31:59Z",
   "version": 1
 }
