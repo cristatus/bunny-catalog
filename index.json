@@ -231,7 +231,7 @@
       "tags": [
         "editor"
       ],
-      "version": "3.21.13-1789716832"
+      "version": "3.21.16-1789803172"
     },
     "delta": {
       "description": "Syntax-highlighting pager for git, diff, and grep output",
@@ -815,7 +815,7 @@
       "tags": [
         "ai"
       ],
-      "version": "0.85.1"
+      "version": "0.86.0"
     },
     "pnpm": {
       "description": "Fast, disk-efficient package manager for JavaScript projects",
@@ -826,7 +826,7 @@
         "node",
         "package-manager"
       ],
-      "version": "12.4.2"
+      "version": "12.5.1"
     },
     "procs": {
       "description": "A modern replacement for ps",
@@ -1174,6 +1174,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-09-19T03:31:59Z",
+  "updated": "2026-09-20T03:48:24Z",
   "version": 1
 }
