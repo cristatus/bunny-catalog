@@ -262,7 +262,7 @@
       "tags": [
         "cli"
       ],
-      "version": "0.70.0"
+      "version": "0.71.0"
     },
     "duf": {
       "description": "Disk Usage/Free Utility, a better df alternative",
@@ -1174,6 +1174,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-09-20T03:48:24Z",
+  "updated": "2026-09-20T09:55:14Z",
   "version": 1
 }
