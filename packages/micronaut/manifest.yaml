@@ -8,7 +8,7 @@ homepage: https://micronaut.io/
 license: Apache-2.0
 requires: ["jdk>=25"]
 sources:
-    - url: "https://github.com/micronaut-projects/micronaut-starter/releases/download/v{version}/micronaut-cli-{version}.zip"
+    - url: "https://github.com/micronaut-projects/micronaut-starter/releases/download/v5.1.5/micronaut-cli-5.1.5.zip"
       file: "micronaut-cli-{version}.zip"
       sha256: "94ca3a70e14a4c01dc7c31015424fa82db54dbce408f0e64ed858df98c8ce0dc"
       update:

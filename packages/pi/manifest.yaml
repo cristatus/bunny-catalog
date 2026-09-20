@@ -7,7 +7,7 @@ tags: [ai]
 homepage: https://github.com/earendil-works/pi
 license: MIT
 sources:
-    - url: "https://github.com/earendil-works/pi/releases/download/v{version}/pi-linux-x64.tar.gz"
+    - url: "https://github.com/earendil-works/pi/releases/download/v0.86.0/pi-linux-x64.tar.gz"
       file: "pi-{version}.tar.gz"
       sha256: "afc6979293b95062c63fadee18b46b83089b244d67e1cb215cdca37ef9527caa"
       size: 41999542

@@ -10,7 +10,7 @@ license: UPL-1.0
 requires: [jdk]
 
 sources:
-  - url: "https://github.com/adoptium/jmc-build/releases/download/{version}/org.openjdk.jmc-{version}-linux.gtk.x86_64.tar.gz"
+  - url: "https://github.com/adoptium/jmc-build/releases/download/9.1.2/org.openjdk.jmc-9.1.2-linux.gtk.x86_64.tar.gz"
     file: "jmc-{version}.tar.gz"
     sha256: "3085244b8f32bbd0646c8109a9f65f7089497e07e1d6bbc62f64da942d27d748"
     size: 99339234

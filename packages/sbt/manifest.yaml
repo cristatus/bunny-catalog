@@ -8,7 +8,7 @@ homepage: https://www.scala-sbt.org/
 license: Apache-2.0
 requires: ["jdk>=17"]
 sources:
-    - url: "https://github.com/sbt/sbt/releases/download/v{version}/sbt-{version}.tgz"
+    - url: "https://github.com/sbt/sbt/releases/download/v2.0.9/sbt-2.0.9.tgz"
       file: "sbt-{version}.tgz"
       sha256: "351087fb5ad0d8b271f21b4c6f8e4912c8f6dbf81e1d06fe215bb165f14668b3"
       size: 58461072

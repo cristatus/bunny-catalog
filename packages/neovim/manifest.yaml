@@ -7,7 +7,7 @@ tags: [editor]
 homepage: https://neovim.io/
 license: Apache-2.0
 sources:
-    - url: "https://github.com/neovim/neovim/releases/download/v{version}/nvim-linux-x86_64.tar.gz"
+    - url: "https://github.com/neovim/neovim/releases/download/v0.12.5/nvim-linux-x86_64.tar.gz"
       file: "nvim-{version}.tar.gz"
       sha256: "bce0f56eda1f1b1db6eee8f4133d7a38813ea07933837dd1777411ca384c6875"
       size: 11401951

@@ -7,7 +7,7 @@ tags: [cli]
 homepage: https://github.com/cli/cli
 license: MIT
 sources:
-    - url: "https://github.com/cli/cli/releases/download/v{version}/gh_{version}_linux_amd64.tar.gz"
+    - url: "https://github.com/cli/cli/releases/download/v2.101.0/gh_2.101.0_linux_amd64.tar.gz"
       file: "gh-{version}.tar.gz"
       sha256: "9bca2d1c16825f109907a23307628a2f0698fbf99662b73a5cf0b020293072b8"
       size: 15282175

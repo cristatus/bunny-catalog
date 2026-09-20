@@ -8,7 +8,7 @@ homepage: https://github.com/async-profiler/async-profiler
 license: Apache-2.0
 requires: [jdk]
 sources:
-    - url: "https://github.com/async-profiler/async-profiler/releases/download/v{version}/async-profiler-{version}-linux-x64.tar.gz"
+    - url: "https://github.com/async-profiler/async-profiler/releases/download/v4.5/async-profiler-4.5-linux-x64.tar.gz"
       file: "async-profiler-{version}.tar.gz"
       sha256: "89546fbb9ee0fc5496c7edd4099b0709489bc78b0d8057ccbb4b801f6b032b62"
       size: 447164

@@ -7,7 +7,7 @@ tags: [cli]
 homepage: https://github.com/tealdeer-rs/tealdeer
 license: MIT OR Apache-2.0
 sources:
-    - url: "https://github.com/tealdeer-rs/tealdeer/releases/download/v{version}/tealdeer-linux-x86_64-musl"
+    - url: "https://github.com/tealdeer-rs/tealdeer/releases/download/v1.9.0/tealdeer-linux-x86_64-musl"
       file: "tealdeer-{version}"
       sha256: "dc7263b550e90c0689ea2cb434e3144469805d5dddecbb1f7fc534e1185b7408"
       size: 3572672
@@ -15,7 +15,7 @@ sources:
         type: github
         repo: tealdeer-rs/tealdeer
         asset: "^tealdeer-linux-x86_64-musl$"
-    - url: "https://github.com/tealdeer-rs/tealdeer/releases/download/v{version}/completions_bash"
+    - url: "https://github.com/tealdeer-rs/tealdeer/releases/download/v1.9.0/completions_bash"
       file: "tealdeer-{version}-completions_bash"
       sha256: "3a14c45f758ce95ba088c79cd2c0a5b6890a8255d51af22028d4f3ebe977a656"
       size: 800
@@ -23,7 +23,7 @@ sources:
         type: github
         repo: tealdeer-rs/tealdeer
         asset: "^completions_bash$"
-    - url: "https://github.com/tealdeer-rs/tealdeer/releases/download/v{version}/completions_zsh"
+    - url: "https://github.com/tealdeer-rs/tealdeer/releases/download/v1.9.0/completions_zsh"
       file: "tealdeer-{version}-completions_zsh"
       sha256: "3ece1ec1b2ac801f38e403c2587c65935131549546ec229292b49de8cd35cb7c"
       size: 2079
@@ -31,7 +31,7 @@ sources:
         type: github
         repo: tealdeer-rs/tealdeer
         asset: "^completions_zsh$"
-    - url: "https://github.com/tealdeer-rs/tealdeer/releases/download/v{version}/completions_fish"
+    - url: "https://github.com/tealdeer-rs/tealdeer/releases/download/v1.9.0/completions_fish"
       file: "tealdeer-{version}-completions_fish"
       sha256: "0a60756306afe412ee5fb604482e9edb14be7d38244ca067715404e2133fdc4c"
       size: 2204

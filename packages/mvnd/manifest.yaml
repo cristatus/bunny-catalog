@@ -11,7 +11,7 @@ requires: ["jdk>=17"]
 toolchains: maven
 
 sources:
-  - url: "https://github.com/apache/maven-mvnd/releases/download/{version}/maven-mvnd-{version}-linux-amd64.tar.gz"
+  - url: "https://github.com/apache/maven-mvnd/releases/download/1.0.6/maven-mvnd-1.0.6-linux-amd64.tar.gz"
     file: "mvnd-{version}.tar.gz"
     sha256: "88fd474fd3f21b33ec1e6a75950f6abbe493d63a5e2b429475f5230b3ee6cb24"
     size: 24295403

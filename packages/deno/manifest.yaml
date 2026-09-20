@@ -7,7 +7,7 @@ tags: [deno, runtime]
 homepage: https://deno.com/
 license: MIT
 sources:
-    - url: "https://github.com/denoland/deno/releases/download/v{version}/deno-x86_64-unknown-linux-gnu.zip"
+    - url: "https://github.com/denoland/deno/releases/download/v2.9.7/deno-x86_64-unknown-linux-gnu.zip"
       file: "deno-{version}.zip"
       sha256: "c6527f24f4b16031d3ae4fa9f658d5f11534c8d84ce7dc8502420280919c3490"
       size: 41596794

@@ -7,7 +7,7 @@ tags: [cli]
 homepage: https://github.com/bootandy/dust
 license: Apache-2.0
 sources:
-    - url: "https://github.com/bootandy/dust/releases/download/v{version}/dust-v{version}-x86_64-unknown-linux-musl.tar.gz"
+    - url: "https://github.com/bootandy/dust/releases/download/v1.2.6/dust-v1.2.6-x86_64-unknown-linux-musl.tar.gz"
       sha256: "cbf2cb5c9d6227e46fc4b29c03dc43b8632020dfc5cf269d263d6e29c399e044"
       size: 1256184
       update:

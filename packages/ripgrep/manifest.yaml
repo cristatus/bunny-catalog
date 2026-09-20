@@ -7,7 +7,7 @@ tags: [cli]
 homepage: https://github.com/BurntSushi/ripgrep
 license: Unlicense OR MIT
 sources:
-    - url: "https://github.com/BurntSushi/ripgrep/releases/download/{version}/ripgrep-{version}-x86_64-unknown-linux-musl.tar.gz"
+    - url: "https://github.com/BurntSushi/ripgrep/releases/download/15.2.0/ripgrep-15.2.0-x86_64-unknown-linux-musl.tar.gz"
       sha256: "33e15bcf1624b25cdd2a55813a47a2f95dbe126268203e76aa6a585d1e7b149c"
       size: 2265718
       update:

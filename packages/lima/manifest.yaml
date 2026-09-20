@@ -7,7 +7,7 @@ tags: [cli]
 homepage: https://github.com/lima-vm/lima
 license: Apache-2.0
 sources:
-    - url: "https://github.com/lima-vm/lima/releases/download/v{version}/lima-{version}-Linux-x86_64.tar.gz"
+    - url: "https://github.com/lima-vm/lima/releases/download/v2.2.0/lima-2.2.0-Linux-x86_64.tar.gz"
       file: "lima-{version}.tar.gz"
       sha256: "a0ea1ccf6b7335a900adb5f8d2b8384457965fecb1ba72f09b4e3e46d12f424a"
       size: 23968157

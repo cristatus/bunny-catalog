@@ -7,7 +7,7 @@ tags: [bun, runtime]
 homepage: https://bun.sh/
 license: MIT
 sources:
-    - url: "https://github.com/oven-sh/bun/releases/download/bun-v{version}/bun-linux-x64.zip"
+    - url: "https://github.com/oven-sh/bun/releases/download/bun-v1.4.2/bun-linux-x64.zip"
       file: "bun-{version}.zip"
       sha256: "36368faef7527875d5ffa52e53cd48021741f2a83eb6208a8dd64068d422a913"
       size: 36646985

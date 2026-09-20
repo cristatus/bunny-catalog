@@ -8,7 +8,7 @@ homepage: https://netbeans.apache.org/
 license: Apache-2.0
 requires: [jdk>=21]
 sources:
-    - url: "https://dlcdn.apache.org/netbeans/netbeans/{version}/netbeans-{version}-bin.zip"
+    - url: "https://dlcdn.apache.org/netbeans/netbeans/31/netbeans-31-bin.zip"
       file: "netbeans-{version}-bin.zip"
       sha512: "108edccc78075b0bc87e3e055170fd03c17442cd1748b68297b49ebe003f8fa5cc7cb265c2fbbe2d5c802d0b29fe5654b89a78a8fd92b784147a7a982f1a42df"
       size: 521032868

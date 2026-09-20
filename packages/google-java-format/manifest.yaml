@@ -7,7 +7,7 @@ tags: [java, cli]
 homepage: https://github.com/google/google-java-format
 license: Apache-2.0
 sources:
-    - url: "https://github.com/google/google-java-format/releases/download/v{version}/google-java-format_linux-x86-64"
+    - url: "https://github.com/google/google-java-format/releases/download/v1.36.1/google-java-format_linux-x86-64"
       file: "google-java-format-{version}"
       sha256: "8dc71663a6c9cb17b02ba9709bfab5c4de59de6f4ac133fd7a1d5a4394b1193b"
       size: 33425672

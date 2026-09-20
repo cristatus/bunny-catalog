@@ -8,7 +8,7 @@ homepage: https://arthas.aliyun.com/
 license: Apache-2.0
 requires: [jdk]
 sources:
-    - url: "https://github.com/alibaba/arthas/releases/download/arthas-all-{version}/arthas-bin.zip"
+    - url: "https://github.com/alibaba/arthas/releases/download/arthas-all-4.3.5/arthas-bin.zip"
       file: "arthas-{version}.zip"
       sha256: "f4ea8e4ab4bb20a9925c21780bfb91331e73968eae881fd89b855cccaad21f1c"
       size: 17150150

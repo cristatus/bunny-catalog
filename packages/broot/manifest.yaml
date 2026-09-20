@@ -7,7 +7,7 @@ tags: [cli]
 homepage: https://dystroy.org/broot/
 license: MIT
 sources:
-    - url: "https://github.com/Canop/broot/releases/download/v{version}/broot_{version}.zip"
+    - url: "https://github.com/Canop/broot/releases/download/v1.60.1/broot_1.60.1.zip"
       sha256: "de4a054424ac01ef73fb30c3b3fac0cda437e7426388085d7467b5e0aaa1cb55"
       size: 68720905
       update:

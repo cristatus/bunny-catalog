@@ -7,7 +7,7 @@ tags: [cli]
 homepage: https://github.com/junegunn/fzf
 license: MIT
 sources:
-    - url: "https://github.com/junegunn/fzf/releases/download/v{version}/fzf-{version}-linux_amd64.tar.gz"
+    - url: "https://github.com/junegunn/fzf/releases/download/v0.74.4/fzf-0.74.4-linux_amd64.tar.gz"
       file: "fzf-{version}.tar.gz"
       sha256: "05e6813a337cc722c3ed07e54a764b75cc5d671e2e60459db0ba696ee5fa7504"
       size: 2286563

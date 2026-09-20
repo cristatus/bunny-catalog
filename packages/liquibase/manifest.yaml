@@ -8,7 +8,7 @@ homepage: https://www.liquibase.org/
 license: Apache-2.0
 requires: [jdk]
 sources:
-    - url: "https://github.com/liquibase/liquibase/releases/download/v{version}/liquibase-{version}.tar.gz"
+    - url: "https://github.com/liquibase/liquibase/releases/download/v5.0.4/liquibase-5.0.4.tar.gz"
       file: "liquibase-{version}.tar.gz"
       sha256: "bb08638d70dddd6af8cca6e033148576f8214b5996831b1f8864eb3528f4cfce"
       size: 8773410
