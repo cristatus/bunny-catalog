@@ -2,8 +2,8 @@ id: jmeter
 name: Apache JMeter
 description: Load testing and performance measurement tool for applications and services
 version: "5.6.3"
-kind: sdk
-tags: [cli, java]
+kind: app
+tags: [java, profiler]
 homepage: https://jmeter.apache.org/
 license: Apache-2.0
 requires: [jdk]
@@ -16,7 +16,27 @@ sources:
         type: html
         url: "https://dlcdn.apache.org/jmeter/binaries/"
         version-pattern: 'apache-jmeter-([0-9.]+)\.tgz'
+    # The binary tarball ships no icon at all. Vendor the project's own square
+    # logo from its source repo (Apache-2.0, same as jmeter itself), pinned by
+    # sha256 so installs don't depend on the raw URL staying put.
+    - url: "https://raw.githubusercontent.com/apache/jmeter/master/xdocs/images/jmeter_square.png"
+      file: "jmeter.png"
+      sha256: "71dd7828fd367ff67d33baeb2ed01cf1014e9b821216c8734c6e00964297b081"
+      size: 7027
 prepare:
     - "tar xf jmeter-{version}.tar.gz --strip-components=1 -C {pkg}"
+    - "cp jmeter.png {pkg}/jmeter.png"
 bin:
     - {name: jmeter, path: "{app}/bin/jmeter"}
+icons:
+    - {src: "{app}/jmeter.png", name: "jmeter", size: "256x256"}
+desktop:
+    - id: jmeter.desktop
+      name: Apache JMeter
+      genericName: Load Testing Tool
+      comment: Load testing and performance measurement tool for applications and services
+      exec: "jmeter"
+      icon: jmeter
+      type: Application
+      categories: [Development, Profiling, Java]
+      keywords: [jmeter, java, load-testing, performance-testing]

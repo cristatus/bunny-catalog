@@ -568,15 +568,15 @@
     },
     "jmeter": {
       "description": "Load testing and performance measurement tool for applications and services",
-      "kind": "sdk",
+      "kind": "app",
       "name": "Apache JMeter",
       "path": "packages/jmeter",
       "requires": [
         "jdk"
       ],
       "tags": [
-        "cli",
-        "java"
+        "java",
+        "profiler"
       ],
       "version": "5.6.3"
     },
