@@ -22,7 +22,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.15.0-6576870427328512"
+      "version": "2.15.1-5880727900913664"
     },
     "antigravity-cli": {
       "description": "Google's Antigravity coding agent for the terminal",
@@ -490,7 +490,7 @@
         "java",
         "jdk"
       ],
-      "version": "25.0.4.1+58348"
+      "version": "25.0.4.1+61067"
     },
     "jdk-11": {
       "description": "Production-ready OpenJDK 11 LTS distribution from Adoptium",
@@ -1174,6 +1174,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-09-20T12:24:32Z",
+  "updated": "2026-09-21T03:44:12Z",
   "version": 1
 }
