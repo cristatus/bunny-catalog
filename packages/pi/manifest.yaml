@@ -1,16 +1,16 @@
 id: pi
 name: pi
 description: AI agent toolkit with a coding agent CLI, TUI, and unified LLM API
-version: "0.86.1"
+version: "0.87.0"
 kind: cli
 tags: [ai]
 homepage: https://github.com/earendil-works/pi
 license: MIT
 sources:
-    - url: "https://github.com/earendil-works/pi/releases/download/v0.86.1/pi-linux-x64.tar.gz"
+    - url: "https://github.com/earendil-works/pi/releases/download/v0.87.0/pi-linux-x64.tar.gz"
       file: "pi-{version}.tar.gz"
-      sha256: "2494f5587a8774a10296d00a7e504e7ad05596ca93e057cb89372c8b1a7f46a9"
-      size: 42000154
+      sha256: "f55d02652175cd3f22e6db8223c93ef97a087382abb51dc9ce130fc04de8f746"
+      size: 42017246
       update:
         type: github
         repo: earendil-works/pi

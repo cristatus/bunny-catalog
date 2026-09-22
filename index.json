@@ -70,7 +70,7 @@
       "tags": [
         "cli"
       ],
-      "version": "18.22.0"
+      "version": "18.23.0"
     },
     "bat": {
       "description": "A cat clone with syntax highlighting and Git integration",
@@ -359,7 +359,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.1.22"
+      "version": "1.1.23"
     },
     "glab": {
       "description": "GitLab's official command-line tool for repos, merge requests, issues, and CI/CD pipelines",
@@ -805,7 +805,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.18.31"
+      "version": "1.18.32"
     },
     "pi": {
       "description": "AI agent toolkit with a coding agent CLI, TUI, and unified LLM API",
@@ -815,7 +815,7 @@
       "tags": [
         "ai"
       ],
-      "version": "0.86.1"
+      "version": "0.87.0"
     },
     "pnpm": {
       "description": "Fast, disk-efficient package manager for JavaScript projects",
@@ -1174,6 +1174,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-09-21T03:44:12Z",
+  "updated": "2026-09-22T03:42:55Z",
   "version": 1
 }
