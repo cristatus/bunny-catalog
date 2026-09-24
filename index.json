@@ -22,7 +22,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.16.0-4917332007583744"
+      "version": "2.17.0-5217732355031040"
     },
     "antigravity-cli": {
       "description": "Google's Antigravity coding agent for the terminal",
@@ -32,7 +32,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.2.9"
+      "version": "1.2.10"
     },
     "arthas": {
       "description": "Interactive diagnostics and troubleshooting tool for live Java applications",
@@ -151,7 +151,7 @@
       "tags": [
         "editor"
       ],
-      "version": "1.138.0"
+      "version": "1.139.0"
     },
     "codex": {
       "description": "OpenAI's coding agent for the terminal",
@@ -826,7 +826,7 @@
         "node",
         "package-manager"
       ],
-      "version": "12.5.1"
+      "version": "12.6.0"
     },
     "procs": {
       "description": "A modern replacement for ps",
@@ -1174,6 +1174,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-09-24T03:32:21Z",
+  "updated": "2026-09-24T08:44:15Z",
   "version": 1
 }
