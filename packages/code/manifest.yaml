@@ -7,7 +7,7 @@ tags: [editor]
 homepage: https://code.visualstudio.com/
 license: MIT
 sources:
-    - url: "https://update.code.visualstudio.com/{version}/linux-x64/stable"
+    - url: "https://vscode.download.prss.microsoft.com/dbazure/download/stable/7debcd0e2acdea1c52de81bf9ee1620444407dda/code-stable-x64-1789458585.tar.gz"
       file: "code-{version}.tar.gz"
       sha256: "59fb0f88eab2fe2e3a053ac020e18fcb2b5c113d255e41c82d26302b675d580c"
       size: 344482658
