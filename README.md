@@ -56,7 +56,7 @@ Where a manifest sits does not decide where the package lands on disk: `kind:` d
 id: jdk-21
 name: Eclipse Temurin JDK 21
 description: Production-ready OpenJDK 21 LTS distribution
-version: "21.0.5+11"
+version: "21.0.12.1+1"
 kind: sdk
 homepage: https://adoptium.net/
 license: GPL-2.0-with-classpath-exception
@@ -64,7 +64,7 @@ license: GPL-2.0-with-classpath-exception
 provides: jdk
 
 sources:
-    - url: "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-{version}/OpenJDK21U-jdk_x64_linux_hotspot.tar.gz"
+    - url: "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.12.1%2B1/OpenJDK21U-jdk_x64_linux_hotspot_21.0.12.1_1.tar.gz"
       file: jdk.tar.gz
       sha256: "..."
       update:
@@ -90,6 +90,7 @@ Key fields:
 - `provides:`: the capability slot. Multiple packages can `provides: jdk` (Temurin, Corretto, GraalVM); `bunny use` and `.bunny-version` operate on the capability.
 - `requires:`: capabilities this package needs at install + run time. A bare capability (`jdk`) needs any provider; a constraint (`jdk>=17`) needs a provider of at least that major. Satisfied providers' `env:` is merged into this package's launch.
 - `sources[*].update`: per-source update backend (`github`, `html`, `json`, `foojay`, `debian`). Drives the daily auto-update cron. `sources[0]` is primary; bumping it bumps `version:`. JDKs use `foojay` with a `distribution:` (e.g. `temurin`, `corretto`, `zulu`, `graalvm_community`).
+- `sources[*].url`: a literal url when the backend takes the download url from upstream (`github`, `debian`, `foojay`, `json` with `url-query`); the updater rewrites it on every bump. Only `html` and `json` with `url-template` render `{version}` into the url themselves.
 - `sources[*].update.hash-url`: an upstream checksum document. For nonstandard documents, `hash-pattern` is a regular expression whose first capture group must be a SHA-256 or SHA-512 digest.
 - `prepare:`: install-time shell commands run inside an `--unshare-all` bwrap whose writable area is the staging root: `{src}` (download cache, and the working directory) and `{pkg}` (the tree that becomes `{app}`). `{data}` is writable there too, shadowed from staging and merged into the real data dir once the install commits, copying only what is not already there. That is how a package seeds a default config the user then owns: Tomcat lays down `{data}/conf` this way, and an edited `server.xml` survives the next upgrade.
 - `dirs:`: directories created before launch, for what a package needs to exist but does not create itself (`{data}/logs`, `{data}/work`).
