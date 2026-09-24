@@ -22,7 +22,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.15.1-5880727900913664"
+      "version": "2.16.0-4917332007583744"
     },
     "antigravity-cli": {
       "description": "Google's Antigravity coding agent for the terminal",
@@ -32,7 +32,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.2.8"
+      "version": "1.2.9"
     },
     "arthas": {
       "description": "Interactive diagnostics and troubleshooting tool for live Java applications",
@@ -121,7 +121,7 @@
       "tags": [
         "ai"
       ],
-      "version": "26.917.61114"
+      "version": "26.917.71314"
     },
     "claude": {
       "description": "Anthropic's coding agent for the terminal",
@@ -131,7 +131,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.1.280"
+      "version": "2.1.281"
     },
     "claude-desktop": {
       "description": "Anthropic's desktop app for Claude, with Claude Code sessions built in",
@@ -141,7 +141,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.2553.13"
+      "version": "2.7032.0"
     },
     "code": {
       "description": "Code editor from Microsoft",
@@ -783,7 +783,7 @@
         "node",
         "runtime"
       ],
-      "version": "22.23.2"
+      "version": "22.23.3"
     },
     "node-24": {
       "description": "JavaScript runtime built on V8 (Active LTS — Krypton)",
@@ -850,7 +850,7 @@
         "framework",
         "java"
       ],
-      "version": "3.39.4"
+      "version": "3.39.5"
     },
     "ripgrep": {
       "description": "Fast recursive grep alternative written in Rust",
@@ -1091,7 +1091,7 @@
       "tags": [
         "editor"
       ],
-      "version": "1.20.2"
+      "version": "1.21.0"
     },
     "zellij": {
       "description": "Terminal workspace and multiplexer with batteries included",
@@ -1174,6 +1174,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-09-23T03:41:02Z",
+  "updated": "2026-09-24T03:32:21Z",
   "version": 1
 }
