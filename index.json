@@ -131,7 +131,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.1.281"
+      "version": "2.1.282"
     },
     "claude-desktop": {
       "description": "Anthropic's desktop app for Claude, with Claude Code sessions built in",
@@ -161,7 +161,7 @@
       "tags": [
         "ai"
       ],
-      "version": "0.156.1"
+      "version": "0.157.0"
     },
     "corretto-11": {
       "description": "Amazon's no-cost, production-ready distribution of OpenJDK 11 LTS",
@@ -231,7 +231,7 @@
       "tags": [
         "editor"
       ],
-      "version": "3.21.18-1790045713"
+      "version": "3.22.7-1790228161"
     },
     "delta": {
       "description": "Syntax-highlighting pager for git, diff, and grep output",
@@ -329,7 +329,7 @@
         "database",
         "java"
       ],
-      "version": "13.7.0"
+      "version": "13.8.0"
     },
     "fzf": {
       "description": "A command-line fuzzy finder",
@@ -418,7 +418,7 @@
         "build-tool",
         "java"
       ],
-      "version": "9.7.1"
+      "version": "9.8.0"
     },
     "groovy": {
       "description": "Dynamic, optionally-typed language for the JVM with Java-like syntax",
@@ -1174,6 +1174,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-09-24T08:44:15Z",
+  "updated": "2026-09-25T03:49:05Z",
   "version": 1
 }
