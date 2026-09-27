@@ -100,7 +100,7 @@
       "tags": [
         "cli"
       ],
-      "version": "1.60.1"
+      "version": "1.60.2"
     },
     "bun": {
       "description": "Fast all-in-one JavaScript runtime, bundler, test runner, and package manager",
@@ -121,7 +121,7 @@
       "tags": [
         "ai"
       ],
-      "version": "26.924.20706"
+      "version": "26.924.22138"
     },
     "claude": {
       "description": "Anthropic's coding agent for the terminal",
@@ -1174,6 +1174,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-09-26T03:55:01Z",
+  "updated": "2026-09-27T04:04:50Z",
   "version": 1
 }
