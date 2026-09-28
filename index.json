@@ -32,7 +32,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.2.11"
+      "version": "1.2.12"
     },
     "arthas": {
       "description": "Interactive diagnostics and troubleshooting tool for live Java applications",
@@ -734,7 +734,7 @@
         "framework",
         "java"
       ],
-      "version": "5.1.5"
+      "version": "5.2.0"
     },
     "mvnd": {
       "description": "Fast Maven build client backed by long-lived daemon processes",
@@ -1174,6 +1174,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-09-27T04:04:50Z",
+  "updated": "2026-09-28T04:06:42Z",
   "version": 1
 }
