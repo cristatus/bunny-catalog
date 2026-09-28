@@ -1,16 +1,16 @@
 id: opencode
 name: opencode
 description: Open-source coding agent for the terminal, with a provider-agnostic model backend
-version: "1.18.32"
+version: "1.18.33"
 kind: cli
 tags: [ai]
 homepage: https://opencode.ai
 license: MIT
 sources:
-    - url: "https://github.com/anomalyco/opencode/releases/download/v1.18.32/opencode-linux-x64.tar.gz"
+    - url: "https://github.com/anomalyco/opencode/releases/download/v1.18.33/opencode-linux-x64.tar.gz"
       file: "opencode-{version}.tar.gz"
-      sha256: "3046e0404fdc60fb80307e7a47824ba07477364178a4d09baa8548496dd6d43b"
-      size: 60608353
+      sha256: "e546123213ae47909a4268692aa4b94950d011afe9cac9938753a2194f1c16d5"
+      size: 60628669
       update:
         type: github
         repo: anomalyco/opencode
