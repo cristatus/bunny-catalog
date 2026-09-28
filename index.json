@@ -141,7 +141,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.7032.0"
+      "version": "2.9939.4"
     },
     "code": {
       "description": "Code editor from Microsoft",
@@ -1174,6 +1174,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-09-28T18:42:25Z",
+  "updated": "2026-09-28T19:13:38Z",
   "version": 1
 }
