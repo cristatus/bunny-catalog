@@ -1,7 +1,7 @@
 id: claude
 name: Claude Code
 description: Anthropic's coding agent for the terminal
-version: "2.1.284"
+version: "2.1.285"
 kind: cli
 tags: [ai]
 homepage: https://github.com/anthropics/claude-code
@@ -10,10 +10,10 @@ sources:
     # The glibc build, which is what upstream's own installer picks on a
     # mainstream distro; a -musl variant sits beside it for systems without
     # glibc.
-    - url: "https://github.com/anthropics/claude-code/releases/download/v2.1.284/claude-linux-x64.tar.gz"
+    - url: "https://github.com/anthropics/claude-code/releases/download/v2.1.285/claude-linux-x64.tar.gz"
       file: "claude-{version}.tar.gz"
-      sha256: "3e143fd5753fda1d150dd081ff7c584d0eb5b85cc259729e5429957ed9de202e"
-      size: 107433290
+      sha256: "0cde844749a50c0f717a2b123d5771629d5c9a270c9203c81ac120a716444b36"
+      size: 106234365
       update:
         type: github
         repo: anthropics/claude-code
