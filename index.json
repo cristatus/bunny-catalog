@@ -329,7 +329,7 @@
         "database",
         "java"
       ],
-      "version": "13.8.0"
+      "version": "13.8.1"
     },
     "fzf": {
       "description": "A command-line fuzzy finder",
@@ -369,7 +369,7 @@
       "tags": [
         "cli"
       ],
-      "version": "1.119.0"
+      "version": "1.120.0"
     },
     "google-java-format": {
       "description": "Reformats Java source code to the Google Java Style",
@@ -815,7 +815,7 @@
       "tags": [
         "ai"
       ],
-      "version": "0.87.1"
+      "version": "0.99.0"
     },
     "pnpm": {
       "description": "Fast, disk-efficient package manager for JavaScript projects",
@@ -826,7 +826,7 @@
         "node",
         "package-manager"
       ],
-      "version": "12.6.0"
+      "version": "12.8.1"
     },
     "procs": {
       "description": "A modern replacement for ps",
@@ -1174,6 +1174,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-09-29T09:26:20Z",
+  "updated": "2026-09-29T17:31:05Z",
   "version": 1
 }
