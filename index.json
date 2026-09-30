@@ -161,7 +161,7 @@
       "tags": [
         "ai"
       ],
-      "version": "0.159.1"
+      "version": "0.159.2"
     },
     "corretto-11": {
       "description": "Amazon's no-cost, production-ready distribution of OpenJDK 11 LTS",
@@ -349,7 +349,7 @@
       "tags": [
         "cli"
       ],
-      "version": "2.101.0"
+      "version": "2.102.0"
     },
     "github-copilot": {
       "description": "GitHub's desktop app for running Copilot coding agents on local and remote work",
@@ -1174,6 +1174,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-09-29T21:34:46Z",
+  "updated": "2026-09-30T03:39:58Z",
   "version": 1
 }
