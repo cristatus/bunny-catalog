@@ -32,7 +32,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.2.13"
+      "version": "1.2.14"
     },
     "arthas": {
       "description": "Interactive diagnostics and troubleshooting tool for live Java applications",
@@ -121,7 +121,7 @@
       "tags": [
         "ai"
       ],
-      "version": "26.928.20755"
+      "version": "26.928.21956"
     },
     "claude": {
       "description": "Anthropic's coding agent for the terminal",
@@ -359,7 +359,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.1.23"
+      "version": "1.1.24"
     },
     "glab": {
       "description": "GitLab's official command-line tool for repos, merge requests, issues, and CI/CD pipelines",
@@ -850,7 +850,7 @@
         "framework",
         "java"
       ],
-      "version": "3.39.5"
+      "version": "3.40.1"
     },
     "ripgrep": {
       "description": "Fast recursive grep alternative written in Rust",
@@ -1174,6 +1174,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-09-30T03:39:58Z",
+  "updated": "2026-09-30T11:49:01Z",
   "version": 1
 }
