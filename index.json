@@ -151,7 +151,7 @@
       "tags": [
         "editor"
       ],
-      "version": "1.139.1"
+      "version": "1.140.0"
     },
     "codex": {
       "description": "OpenAI's coding agent for the terminal",
@@ -1091,7 +1091,7 @@
       "tags": [
         "editor"
       ],
-      "version": "1.21.0"
+      "version": "1.22.0"
     },
     "zellij": {
       "description": "Terminal workspace and multiplexer with batteries included",
@@ -1174,6 +1174,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-09-30T11:49:01Z",
+  "updated": "2026-09-30T17:29:19Z",
   "version": 1
 }
