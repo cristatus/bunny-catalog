@@ -131,7 +131,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.1.285"
+      "version": "2.1.286"
     },
     "claude-desktop": {
       "description": "Anthropic's desktop app for Claude, with Claude Code sessions built in",
@@ -815,7 +815,7 @@
       "tags": [
         "ai"
       ],
-      "version": "0.99.1"
+      "version": "0.99.2"
     },
     "pnpm": {
       "description": "Fast, disk-efficient package manager for JavaScript projects",
@@ -1174,6 +1174,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-09-30T17:29:19Z",
+  "updated": "2026-09-30T21:48:39Z",
   "version": 1
 }
