@@ -121,7 +121,7 @@
       "tags": [
         "ai"
       ],
-      "version": "26.928.21956"
+      "version": "26.928.31416"
     },
     "claude": {
       "description": "Anthropic's coding agent for the terminal",
@@ -161,7 +161,7 @@
       "tags": [
         "ai"
       ],
-      "version": "0.159.2"
+      "version": "0.159.3"
     },
     "corretto-11": {
       "description": "Amazon's no-cost, production-ready distribution of OpenJDK 11 LTS",
@@ -359,7 +359,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.1.24"
+      "version": "1.1.25"
     },
     "glab": {
       "description": "GitLab's official command-line tool for repos, merge requests, issues, and CI/CD pipelines",
@@ -805,7 +805,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.18.33"
+      "version": "1.18.34"
     },
     "pi": {
       "description": "AI agent toolkit with a coding agent CLI, TUI, and unified LLM API",
@@ -1174,6 +1174,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-09-30T21:48:39Z",
+  "updated": "2026-10-01T03:46:11Z",
   "version": 1
 }
