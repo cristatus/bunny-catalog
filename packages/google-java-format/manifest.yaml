@@ -1,16 +1,16 @@
 id: google-java-format
 name: google-java-format
 description: Reformats Java source code to the Google Java Style
-version: "1.36.1"
+version: "1.37.0"
 kind: cli
 tags: [java, cli]
 homepage: https://github.com/google/google-java-format
 license: Apache-2.0
 sources:
-    - url: "https://github.com/google/google-java-format/releases/download/v1.36.1/google-java-format_linux-x86-64"
+    - url: "https://github.com/google/google-java-format/releases/download/v1.37.0/google-java-format_linux-x86-64"
       file: "google-java-format-{version}"
-      sha256: "8dc71663a6c9cb17b02ba9709bfab5c4de59de6f4ac133fd7a1d5a4394b1193b"
-      size: 33425672
+      sha256: "881821ffd1a52b175886c4ebeeacce2ba5b5d7326b52d32a18d384d8a783bd77"
+      size: 33294600
       update:
         type: github
         repo: google/google-java-format

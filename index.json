@@ -329,7 +329,7 @@
         "database",
         "java"
       ],
-      "version": "13.8.1"
+      "version": "13.9.0"
     },
     "fzf": {
       "description": "A command-line fuzzy finder",
@@ -380,7 +380,7 @@
         "java",
         "cli"
       ],
-      "version": "1.36.1"
+      "version": "1.37.0"
     },
     "graalvm-21": {
       "description": "GraalVM Community Edition with JDK 21 and native-image",
@@ -720,7 +720,7 @@
         "build-tool",
         "java"
       ],
-      "version": "3.9.16"
+      "version": "3.10.0"
     },
     "micronaut": {
       "description": "The `mn` command-line tool for creating Micronaut applications",
@@ -1174,6 +1174,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-10-01T03:46:11Z",
+  "updated": "2026-10-01T12:18:35Z",
   "version": 1
 }
