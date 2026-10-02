@@ -131,7 +131,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.1.287"
+      "version": "2.1.288"
     },
     "claude-desktop": {
       "description": "Anthropic's desktop app for Claude, with Claude Code sessions built in",
@@ -874,7 +874,7 @@
         "build-tool",
         "scala"
       ],
-      "version": "2.0.9"
+      "version": "2.0.10"
     },
     "scala": {
       "description": "Scala 3 compiler, runner, and documentation generator",
@@ -1174,6 +1174,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-10-02T17:19:33Z",
+  "updated": "2026-10-02T21:45:04Z",
   "version": 1
 }
