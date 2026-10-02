@@ -161,7 +161,7 @@
       "tags": [
         "ai"
       ],
-      "version": "0.159.3"
+      "version": "0.160.0"
     },
     "corretto-11": {
       "description": "Amazon's no-cost, production-ready distribution of OpenJDK 11 LTS",
@@ -231,7 +231,7 @@
       "tags": [
         "editor"
       ],
-      "version": "3.22.12-1790400601"
+      "version": "3.23.12-1790831722"
     },
     "delta": {
       "description": "Syntax-highlighting pager for git, diff, and grep output",
@@ -359,7 +359,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.1.25"
+      "version": "1.1.26"
     },
     "glab": {
       "description": "GitLab's official command-line tool for repos, merge requests, issues, and CI/CD pipelines",
@@ -1174,6 +1174,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-10-01T20:04:32Z",
+  "updated": "2026-10-02T00:28:44Z",
   "version": 1
 }
