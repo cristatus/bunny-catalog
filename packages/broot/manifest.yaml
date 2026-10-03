@@ -1,15 +1,15 @@
 id: broot
 name: broot
 description: Interactive tree view, fuzzy search, and file navigator
-version: "1.60.2"
+version: "1.61.0"
 kind: cli
 tags: [cli]
 homepage: https://dystroy.org/broot/
 license: MIT
 sources:
-    - url: "https://github.com/Canop/broot/releases/download/v1.60.2/broot_1.60.2.zip"
-      sha256: "e238e610ee1fa2cd52353efeb60b43ece470d047529e9b9071c0714c46ced545"
-      size: 67807248
+    - url: "https://github.com/Canop/broot/releases/download/v1.61.0/broot_1.61.0.zip"
+      sha256: "6cafe8e993fb8e5684eb25549703a4fb9dec61ac6a8f1947cbed6566cb4e58e5"
+      size: 67984014
       update:
         type: github
         repo: Canop/broot

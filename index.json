@@ -100,7 +100,7 @@
       "tags": [
         "cli"
       ],
-      "version": "1.60.2"
+      "version": "1.61.0"
     },
     "bun": {
       "description": "Fast all-in-one JavaScript runtime, bundler, test runner, and package manager",
@@ -692,7 +692,7 @@
       "tags": [
         "cli"
       ],
-      "version": "2.2.0"
+      "version": "2.2.1"
     },
     "liquibase": {
       "description": "Database schema change management and migration tool",
@@ -1174,6 +1174,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-10-03T11:00:13Z",
+  "updated": "2026-10-03T15:36:53Z",
   "version": 1
 }
