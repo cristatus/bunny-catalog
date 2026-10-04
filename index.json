@@ -241,7 +241,7 @@
       "tags": [
         "cli"
       ],
-      "version": "0.19.2"
+      "version": "0.20.0"
     },
     "deno": {
       "description": "Secure runtime for JavaScript and TypeScript with built-in tooling",
@@ -1174,6 +1174,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-10-04T03:57:01Z",
+  "updated": "2026-10-04T16:20:46Z",
   "version": 1
 }
