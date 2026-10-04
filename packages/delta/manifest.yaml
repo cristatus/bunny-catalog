@@ -1,16 +1,16 @@
 id: delta
 name: delta
 description: Syntax-highlighting pager for git, diff, and grep output
-version: "0.20.0"
+version: "0.20.1"
 kind: cli
 tags: [cli]
 homepage: https://github.com/dandavison/delta
 license: MIT
 sources:
-    - url: "https://github.com/dandavison/delta/releases/download/0.20.0/delta-0.20.0-x86_64-unknown-linux-musl.tar.gz"
+    - url: "https://github.com/dandavison/delta/releases/download/0.20.1/delta-0.20.1-x86_64-unknown-linux-musl.tar.gz"
       file: "delta-{version}.tar.gz"
-      sha256: "6566c4ca33558f0b63ead06febdc4e50ed05fba3becd70d35329c5120fb698d3"
-      size: 3403607
+      sha256: "69dcb4043f55c29118f408c6efd30115e0a4e0a6709253343b8c8fa814ab4a31"
+      size: 3403612
       update:
         type: github
         repo: dandavison/delta
