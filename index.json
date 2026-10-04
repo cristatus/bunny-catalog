@@ -815,7 +815,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.0.1"
+      "version": "1.0.2"
     },
     "pnpm": {
       "description": "Fast, disk-efficient package manager for JavaScript projects",
@@ -1174,6 +1174,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-10-03T23:29:21Z",
+  "updated": "2026-10-04T03:57:01Z",
   "version": 1
 }
