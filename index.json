@@ -161,7 +161,7 @@
       "tags": [
         "ai"
       ],
-      "version": "0.160.0"
+      "version": "0.160.1"
     },
     "corretto-11": {
       "description": "Amazon's no-cost, production-ready distribution of OpenJDK 11 LTS",
@@ -442,7 +442,7 @@
       "tags": [
         "cli"
       ],
-      "version": "1.20.0"
+      "version": "1.21.0"
     },
     "idea": {
       "description": "IDE for Java and Kotlin; one distribution, with the advanced features unlocked by a JetBrains subscription",
@@ -622,7 +622,7 @@
       "tags": [
         "cli"
       ],
-      "version": "0.65.1"
+      "version": "0.66.0"
     },
     "liberica-11": {
       "description": "Production-ready OpenJDK 11 LTS distribution from BellSoft",
@@ -1174,6 +1174,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-10-05T13:24:53Z",
+  "updated": "2026-10-05T21:47:44Z",
   "version": 1
 }
