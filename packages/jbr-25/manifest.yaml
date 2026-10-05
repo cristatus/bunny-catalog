@@ -1,17 +1,17 @@
 id: jbr-25
 name: JetBrains Runtime 25
 description: JetBrains' OpenJDK 25 fork with per-monitor HiDPI scaling and Swing/AWT rendering fixes
-version: "25.0.4.1+62369"
+version: "25.0.4.1+63570"
 kind: sdk
 tags: [java, jdk]
 homepage: https://github.com/JetBrains/JetBrainsRuntime
 license: GPL-2.0-with-classpath-exception
 provides: jdk
 sources:
-    - url: "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.4.1-linux-x64-b623.69.tar.gz"
+    - url: "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-25.0.4.1-linux-x64-b635.70.tar.gz"
       file: "jbrsdk-jcef-{version}.tar.gz"
-      sha512: "611b586274a7e691cd7e974d65eda6e253f32091b4e5d1f55458ac3913a4a27b5ef6283864ccad25eb22eb818711866c493730e036be648a39af835044b38c33"
-      size: 562202549
+      sha512: "c9df8179c4b95aef3b3f1bc4ba20f68438ec5ec1f2b0a9291ef2af1193cfa943c81d6d861a07aa4791ae4bbb7fa1a3761d0db53ac4405e9a6bd40ff7d0a6c92c"
+      size: 562195721
       update:
         type: foojay
         distribution: jetbrains

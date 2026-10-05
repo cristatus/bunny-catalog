@@ -32,7 +32,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.2.16"
+      "version": "1.2.17"
     },
     "arthas": {
       "description": "Interactive diagnostics and troubleshooting tool for live Java applications",
@@ -490,7 +490,7 @@
         "java",
         "jdk"
       ],
-      "version": "25.0.4.1+62369"
+      "version": "25.0.4.1+63570"
     },
     "jdk-11": {
       "description": "Production-ready OpenJDK 11 LTS distribution from Adoptium",
@@ -815,7 +815,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.0.2"
+      "version": "1.0.3"
     },
     "pnpm": {
       "description": "Fast, disk-efficient package manager for JavaScript projects",
@@ -1174,6 +1174,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-10-04T23:48:08Z",
+  "updated": "2026-10-05T13:24:53Z",
   "version": 1
 }
