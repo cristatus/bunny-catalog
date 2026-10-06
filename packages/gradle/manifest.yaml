@@ -3,6 +3,7 @@ name: Gradle
 description: Build automation tool with Groovy/Kotlin DSL for Java, Android, and more
 version: "9.8.1"
 kind: sdk
+provides: gradle
 tags: [build-tool, java]
 homepage: https://gradle.org/
 license: Apache-2.0

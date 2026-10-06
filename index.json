@@ -418,7 +418,8 @@
         "build-tool",
         "java"
       ],
-      "version": "9.8.1"
+      "version": "9.8.1",
+      "provides": "gradle"
     },
     "groovy": {
       "description": "Dynamic, optionally-typed language for the JVM with Java-like syntax",
@@ -720,7 +721,8 @@
         "build-tool",
         "java"
       ],
-      "version": "3.10.0"
+      "version": "3.10.0",
+      "provides": "maven"
     },
     "micronaut": {
       "description": "The `mn` command-line tool for creating Micronaut applications",
