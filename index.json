@@ -22,7 +22,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.19.1-6046815158665216"
+      "version": "2.21.0-6494382996717568"
     },
     "antigravity-cli": {
       "description": "Google's Antigravity coding agent for the terminal",
@@ -131,7 +131,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.1.292"
+      "version": "2.1.293"
     },
     "claude-desktop": {
       "description": "Anthropic's desktop app for Claude, with Claude Code sessions built in",
@@ -141,7 +141,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.26454.0"
+      "version": "2.26454.2"
     },
     "code": {
       "description": "Code editor from Microsoft",
@@ -151,7 +151,7 @@
       "tags": [
         "editor"
       ],
-      "version": "1.140.0"
+      "version": "1.141.0"
     },
     "codex": {
       "description": "OpenAI's coding agent for the terminal",
@@ -161,7 +161,7 @@
       "tags": [
         "ai"
       ],
-      "version": "0.160.1"
+      "version": "0.161.0"
     },
     "corretto-11": {
       "description": "Amazon's no-cost, production-ready distribution of OpenJDK 11 LTS",
@@ -418,7 +418,7 @@
         "build-tool",
         "java"
       ],
-      "version": "9.8.0"
+      "version": "9.8.1"
     },
     "groovy": {
       "description": "Dynamic, optionally-typed language for the JVM with Java-like syntax",
@@ -1174,6 +1174,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-10-07T09:41:30Z",
+  "updated": "2026-10-07T18:20:21Z",
   "version": 1
 }
