@@ -131,7 +131,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.1.293"
+      "version": "2.1.294"
     },
     "claude-desktop": {
       "description": "Anthropic's desktop app for Claude, with Claude Code sessions built in",
@@ -329,7 +329,7 @@
         "database",
         "java"
       ],
-      "version": "13.9.0"
+      "version": "13.10.0"
     },
     "fzf": {
       "description": "A command-line fuzzy finder",
@@ -612,7 +612,7 @@
         "kotlin",
         "language"
       ],
-      "version": "2.4.20"
+      "version": "2.4.21"
     },
     "lazygit": {
       "description": "A simple terminal UI for git commands",
@@ -1174,6 +1174,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-10-08T00:41:02Z",
+  "updated": "2026-10-08T09:52:05Z",
   "version": 1
 }
