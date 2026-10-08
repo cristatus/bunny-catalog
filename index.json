@@ -22,7 +22,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.21.0-6494382996717568"
+      "version": "2.21.1-5614635819335680"
     },
     "antigravity-cli": {
       "description": "Google's Antigravity coding agent for the terminal",
@@ -442,7 +442,7 @@
       "tags": [
         "cli"
       ],
-      "version": "1.21.0"
+      "version": "2.0.0"
     },
     "idea": {
       "description": "IDE for Java and Kotlin; one distribution, with the advanced features unlocked by a JetBrains subscription",
@@ -815,7 +815,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.0.4"
+      "version": "1.1.0"
     },
     "pnpm": {
       "description": "Fast, disk-efficient package manager for JavaScript projects",
@@ -826,7 +826,7 @@
         "node",
         "package-manager"
       ],
-      "version": "12.9.1"
+      "version": "12.10.1"
     },
     "procs": {
       "description": "A modern replacement for ps",
@@ -1091,7 +1091,7 @@
       "tags": [
         "editor"
       ],
-      "version": "1.22.0"
+      "version": "1.23.2"
     },
     "zellij": {
       "description": "Terminal workspace and multiplexer with batteries included",
@@ -1174,6 +1174,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-10-07T18:20:21Z",
+  "updated": "2026-10-08T00:41:02Z",
   "version": 1
 }
