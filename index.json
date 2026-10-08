@@ -734,7 +734,7 @@
         "framework",
         "java"
       ],
-      "version": "5.2.1"
+      "version": "5.2.2"
     },
     "mvnd": {
       "description": "Fast Maven build client backed by long-lived daemon processes",
@@ -1174,6 +1174,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-10-08T09:52:05Z",
+  "updated": "2026-10-08T18:20:26Z",
   "version": 1
 }
