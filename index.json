@@ -121,7 +121,7 @@
       "tags": [
         "ai"
       ],
-      "version": "26.1002.52244"
+      "version": "26.1007.21434"
     },
     "claude": {
       "description": "Anthropic's coding agent for the terminal",
@@ -359,7 +359,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.1.27"
+      "version": "1.1.28"
     },
     "glab": {
       "description": "GitLab's official command-line tool for repos, merge requests, issues, and CI/CD pipelines",
@@ -369,7 +369,7 @@
       "tags": [
         "cli"
       ],
-      "version": "1.121.0"
+      "version": "1.122.0"
     },
     "google-java-format": {
       "description": "Reformats Java source code to the Google Java Style",
@@ -1174,6 +1174,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-10-09T00:56:45Z",
+  "updated": "2026-10-09T09:56:07Z",
   "version": 1
 }
