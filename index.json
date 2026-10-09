@@ -32,7 +32,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.3.1"
+      "version": "1.3.2"
     },
     "arthas": {
       "description": "Interactive diagnostics and troubleshooting tool for live Java applications",
@@ -131,7 +131,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.1.294"
+      "version": "2.1.295"
     },
     "claude-desktop": {
       "description": "Anthropic's desktop app for Claude, with Claude Code sessions built in",
@@ -161,7 +161,7 @@
       "tags": [
         "ai"
       ],
-      "version": "0.161.0"
+      "version": "0.162.0"
     },
     "corretto-11": {
       "description": "Amazon's no-cost, production-ready distribution of OpenJDK 11 LTS",
@@ -231,7 +231,7 @@
       "tags": [
         "editor"
       ],
-      "version": "3.23.23-1791166813"
+      "version": "3.24.9-1791439478"
     },
     "delta": {
       "description": "Syntax-highlighting pager for git, diff, and grep output",
@@ -1174,6 +1174,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-10-08T18:20:26Z",
+  "updated": "2026-10-09T00:56:45Z",
   "version": 1
 }
