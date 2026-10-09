@@ -141,7 +141,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.26454.2"
+      "version": "2.31226.0"
     },
     "code": {
       "description": "Code editor from Microsoft",
@@ -758,7 +758,7 @@
       "tags": [
         "editor"
       ],
-      "version": "0.12.5"
+      "version": "0.12.6"
     },
     "netbeans": {
       "description": "Open-source IDE for Java and other languages from the Apache Software Foundation",
@@ -1174,6 +1174,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-10-09T09:56:07Z",
+  "updated": "2026-10-09T17:53:47Z",
   "version": 1
 }
