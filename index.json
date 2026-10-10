@@ -111,7 +111,7 @@
         "bun",
         "runtime"
       ],
-      "version": "1.4.2"
+      "version": "1.4.3"
     },
     "chatgpt": {
       "description": "OpenAI's desktop app for ChatGPT and Codex",
@@ -1174,6 +1174,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-10-10T03:59:51Z",
+  "updated": "2026-10-10T11:47:45Z",
   "version": 1
 }
