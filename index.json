@@ -339,7 +339,7 @@
       "tags": [
         "cli"
       ],
-      "version": "0.74.4"
+      "version": "0.74.5"
     },
     "gh": {
       "description": "GitHub's official command-line tool for repos, PRs, issues, and more",
@@ -805,7 +805,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.18.35"
+      "version": "1.19.0"
     },
     "pi": {
       "description": "AI agent toolkit with a coding agent CLI, TUI, and unified LLM API",
@@ -1174,6 +1174,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-10-10T16:50:44Z",
+  "updated": "2026-10-11T03:34:43Z",
   "version": 1
 }
