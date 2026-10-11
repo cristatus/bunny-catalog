@@ -622,7 +622,7 @@
       "tags": [
         "cli"
       ],
-      "version": "0.66.0"
+      "version": "0.66.1"
     },
     "liberica-11": {
       "description": "Production-ready OpenJDK 11 LTS distribution from BellSoft",
@@ -1174,6 +1174,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-10-11T03:34:43Z",
+  "updated": "2026-10-11T12:00:05Z",
   "version": 1
 }
