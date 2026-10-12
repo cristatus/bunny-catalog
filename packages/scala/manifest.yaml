@@ -1,17 +1,17 @@
 id: scala
 name: Scala 3
 description: Scala 3 compiler, runner, and documentation generator
-version: "3.9.0"
+version: "3.10.0"
 kind: sdk
 tags: [language, scala]
 homepage: https://www.scala-lang.org/
 license: Apache-2.0
 requires: [jdk]
 sources:
-    - url: "https://github.com/scala/scala3/releases/download/3.9.0/scala3-3.9.0.tar.gz"
+    - url: "https://github.com/scala/scala3/releases/download/3.10.0/scala3-3.10.0.tar.gz"
       file: "scala-{version}.tar.gz"
-      sha256: "8ecddee33ecda620256e4b744b928d3ad6de64653bd41e4b6a308992b3b6bb31"
-      size: 177348336
+      sha256: "1ff07ebf32e52d608dda2bd7de875383cff9662da41d3c5952d119283f763314"
+      size: 176640330
       update:
         type: github
         repo: scala/scala3
