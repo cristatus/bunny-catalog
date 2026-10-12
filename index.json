@@ -490,7 +490,7 @@
         "java",
         "jdk"
       ],
-      "version": "25.0.4.1+63570"
+      "version": "25.0.4.1+63572"
     },
     "jdk-11": {
       "description": "Production-ready OpenJDK 11 LTS distribution from Adoptium",
@@ -1091,7 +1091,7 @@
       "tags": [
         "editor"
       ],
-      "version": "1.23.2"
+      "version": "1.23.3"
     },
     "zellij": {
       "description": "Terminal workspace and multiplexer with batteries included",
@@ -1174,6 +1174,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-10-12T14:14:32Z",
+  "updated": "2026-10-12T22:22:32Z",
   "version": 1
 }
