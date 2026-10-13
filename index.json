@@ -32,7 +32,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.3.3"
+      "version": "1.3.4"
     },
     "arthas": {
       "description": "Interactive diagnostics and troubleshooting tool for live Java applications",
@@ -369,7 +369,7 @@
       "tags": [
         "cli"
       ],
-      "version": "1.122.0"
+      "version": "1.123.0"
     },
     "google-java-format": {
       "description": "Reformats Java source code to the Google Java Style",
@@ -1174,6 +1174,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-10-13T05:08:20Z",
+  "updated": "2026-10-13T13:24:27Z",
   "version": 1
 }
