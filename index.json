@@ -32,7 +32,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.3.5"
+      "version": "1.3.6"
     },
     "arthas": {
       "description": "Interactive diagnostics and troubleshooting tool for live Java applications",
@@ -141,7 +141,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.37337.1"
+      "version": "2.42304.0"
     },
     "code": {
       "description": "Code editor from Microsoft",
@@ -329,7 +329,7 @@
         "database",
         "java"
       ],
-      "version": "13.10.0"
+      "version": "13.10.3"
     },
     "fzf": {
       "description": "A command-line fuzzy finder",
@@ -1174,6 +1174,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-10-15T07:57:20Z",
+  "updated": "2026-10-15T18:51:25Z",
   "version": 1
 }
