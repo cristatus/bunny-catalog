@@ -1,16 +1,16 @@
 id: code
 name: Visual Studio Code
 description: Code editor from Microsoft
-version: "1.141.2"
+version: "1.142.0"
 kind: app
 tags: [editor]
 homepage: https://code.visualstudio.com/
 license: MIT
 sources:
-    - url: "https://vscode.download.prss.microsoft.com/dbazure/download/stable/16507d91be0dc1ce4f94c04d4d0430210b8685d9/code-stable-x64-1791980416.tar.gz"
+    - url: "https://vscode.download.prss.microsoft.com/dbazure/download/stable/6d62b1d5dace93a33b3a6d3eca1317bd5e15bcb1/code-stable-x64-1792034917.tar.gz"
       file: "code-{version}.tar.gz"
-      sha256: "e4128203adfe936e57b0f53b4abdde4a006b0e15ccf0ea35cf8f1201b3afde6c"
-      size: 360497227
+      sha256: "fcc1ccb435685adcc748287bbde524589569deedb6b4ad5560071583cbe00ae0"
+      size: 345727690
       update:
         type: json
         url: "https://update.code.visualstudio.com/api/update/linux-x64/stable/latest"

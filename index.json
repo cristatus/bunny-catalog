@@ -151,7 +151,7 @@
       "tags": [
         "editor"
       ],
-      "version": "1.141.2"
+      "version": "1.142.0"
     },
     "codex": {
       "description": "OpenAI's coding agent for the terminal",
@@ -598,7 +598,7 @@
       "tags": [
         "cli"
       ],
-      "version": "1.58.0"
+      "version": "1.59.0"
     },
     "kotlin": {
       "description": "The Kotlin command-line compiler (kotlinc) and runner",
@@ -1174,6 +1174,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-10-14T19:08:53Z",
+  "updated": "2026-10-15T07:57:20Z",
   "version": 1
 }
