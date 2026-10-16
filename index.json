@@ -622,7 +622,7 @@
       "tags": [
         "cli"
       ],
-      "version": "0.66.1"
+      "version": "0.66.2"
     },
     "liberica-11": {
       "description": "Production-ready OpenJDK 11 LTS distribution from BellSoft",
@@ -805,7 +805,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.19.2"
+      "version": "1.19.3"
     },
     "pi": {
       "description": "AI agent toolkit with a coding agent CLI, TUI, and unified LLM API",
@@ -1174,6 +1174,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-10-16T07:50:34Z",
+  "updated": "2026-10-16T13:43:03Z",
   "version": 1
 }
