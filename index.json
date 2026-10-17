@@ -1002,7 +1002,7 @@
       "tags": [
         "cli"
       ],
-      "version": "1.26.0"
+      "version": "1.27.0"
     },
     "tealdeer": {
       "description": "A very fast implementation of tldr in Rust",
@@ -1174,6 +1174,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-10-17T02:42:26Z",
+  "updated": "2026-10-17T12:39:15Z",
   "version": 1
 }
