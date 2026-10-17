@@ -32,7 +32,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.4.0"
+      "version": "1.4.1"
     },
     "arthas": {
       "description": "Interactive diagnostics and troubleshooting tool for live Java applications",
@@ -1174,6 +1174,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-10-17T12:39:15Z",
+  "updated": "2026-10-17T22:50:36Z",
   "version": 1
 }
