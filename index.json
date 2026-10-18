@@ -874,7 +874,7 @@
         "build-tool",
         "scala"
       ],
-      "version": "2.0.10"
+      "version": "2.0.11"
     },
     "scala": {
       "description": "Scala 3 compiler, runner, and documentation generator",
@@ -1174,6 +1174,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-10-18T02:43:55Z",
+  "updated": "2026-10-18T07:43:45Z",
   "version": 1
 }
