@@ -1,32 +1,29 @@
 id: opencode
 name: opencode
 description: Open-source coding agent for the terminal, with a provider-agnostic model backend
-version: "1.19.3"
+version: "2.0.32"
 kind: cli
 tags: [ai]
 homepage: https://opencode.ai
 license: MIT
 sources:
-    - url: "https://github.com/anomalyco/opencode/releases/download/v1.19.3/opencode-linux-x64.tar.gz"
-      file: "opencode-{version}.tar.gz"
-      sha256: "13a8fb2978302071b86f9d7e00da9c8895f9cd846978379c3bdc6a5333536c9b"
-      size: 60716380
+    # v2 ships through npm only; GitHub releases carry the 1.x line.
+    - url: "https://registry.npmjs.org/@opencode/cli-linux-x64/-/cli-linux-x64-2.0.32.tgz"
+      file: "opencode-{version}.tgz"
+      sha512: "439d287c143781dc230fa65086b551f1f5659bc0f6c4f32c872e1dca763a97a6fea8b74a801489f56a68683cab417d585a67f6b3b20de116d79a85d77498ad0c"
+      size: 98152331
       update:
-        type: github
-        repo: anomalyco/opencode
-        asset: "^opencode-linux-x64\\.tar\\.gz$"
+        type: json
+        url: "https://registry.npmjs.org/@opencode/cli-linux-x64/latest"
+        version-query: "version"
+        url-query: "dist.tarball"
+        hash-url: "https://registry.npmjs.org/@opencode/cli-linux-x64/{version}"
+        hash-pattern: '"integrity":"sha512-([A-Za-z0-9+/=]+)"'
 prepare:
-    - "tar xf opencode-{version}.tar.gz -C {pkg}"
-    # opencode's completion generator only emits a zsh script (no bash/fish).
-    - "mkdir -p {pkg}/completions"
-    - "{pkg}/opencode completion > {pkg}/completions/_opencode"
+    - "tar xf opencode-{version}.tgz -C {pkg} --strip-components=2 package/bin/opencode"
 bin:
     - {name: opencode, path: "{app}/opencode"}
-completions:
-    zsh: "{app}/completions/_opencode"
 env:
-    # bunny owns updates; opencode otherwise downloads and applies updates on
-    # startup. The equivalent opencode.json "autoupdate": false key is
-    # currently ignored (anomalyco/opencode#3412), so this is the reliable
-    # path.
+    # bunny owns updates; opencode otherwise checks for and installs them
+    # itself.
     OPENCODE_DISABLE_AUTOUPDATE: "true"

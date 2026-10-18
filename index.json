@@ -796,7 +796,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.19.3"
+      "version": "2.0.32"
     },
     "pi": {
       "description": "AI agent toolkit with a coding agent CLI, TUI, and unified LLM API",
