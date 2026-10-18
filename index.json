@@ -231,7 +231,7 @@
       "tags": [
         "editor"
       ],
-      "version": "3.25.6-1792019953"
+      "version": "3.25.9-1792103067"
     },
     "delta": {
       "description": "Syntax-highlighting pager for git, diff, and grep output",
@@ -1174,6 +1174,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-10-18T07:43:45Z",
+  "updated": "2026-10-18T20:00:07Z",
   "version": 1
 }
