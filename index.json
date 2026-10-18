@@ -243,17 +243,6 @@
       ],
       "version": "0.20.1"
     },
-    "deno": {
-      "description": "Secure runtime for JavaScript and TypeScript with built-in tooling",
-      "kind": "sdk",
-      "name": "Deno",
-      "path": "packages/deno",
-      "tags": [
-        "deno",
-        "runtime"
-      ],
-      "version": "2.9.7"
-    },
     "difftastic": {
       "description": "A structural diff that understands syntax",
       "kind": "cli",

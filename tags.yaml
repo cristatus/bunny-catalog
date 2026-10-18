@@ -11,7 +11,6 @@ kotlin: Kotlin language and tooling
 scala: Scala language and tooling
 groovy: Groovy language and tooling
 node: Node.js ecosystem
-deno: Deno runtime and tooling
 bun: Bun runtime and tooling
 
 # What a package is
