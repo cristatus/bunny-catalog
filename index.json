@@ -131,7 +131,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.1.303"
+      "version": "2.1.304"
     },
     "claude-desktop": {
       "description": "Anthropic's desktop app for Claude, with Claude Code sessions built in",
@@ -408,7 +408,7 @@
         "build-tool",
         "java"
       ],
-      "version": "9.8.1"
+      "version": "9.8.2"
     },
     "groovy": {
       "description": "Dynamic, optionally-typed language for the JVM with Java-like syntax",
@@ -1165,6 +1165,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-10-19T16:08:21Z",
+  "updated": "2026-10-19T21:56:54Z",
   "version": 1
 }
