@@ -29,10 +29,10 @@ jobs:
       - name: Validate catalog via bunny
         run: |
           export BUNNY_HOME="$RUNNER_TEMP/bunny-home"
-          mkdir -p "$BUNNY_HOME"
+          mkdir -p "$BUNNY_HOME/config"
           # 'bunny dev' acts on a checkout listed under catalogs:, and the
           # list is exhaustive, so name this one and nothing else.
-          cat > "$BUNNY_HOME/config.yaml" <<YAML
+          cat > "$BUNNY_HOME/config/config.yaml" <<YAML
           catalogs:
             - name: bunny
               local: $GITHUB_WORKSPACE
