@@ -131,7 +131,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.1.302"
+      "version": "2.1.303"
     },
     "claude-desktop": {
       "description": "Anthropic's desktop app for Claude, with Claude Code sessions built in",
@@ -141,7 +141,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.42304.0"
+      "version": "2.42304.2"
     },
     "code": {
       "description": "Code editor from Microsoft",
@@ -400,6 +400,7 @@
       "kind": "sdk",
       "name": "Gradle",
       "path": "packages/gradle",
+      "provides": "gradle",
       "requires": [
         "jdk>=17"
       ],
@@ -407,8 +408,7 @@
         "build-tool",
         "java"
       ],
-      "version": "9.8.1",
-      "provides": "gradle"
+      "version": "9.8.1"
     },
     "groovy": {
       "description": "Dynamic, optionally-typed language for the JVM with Java-like syntax",
@@ -703,6 +703,7 @@
       "kind": "sdk",
       "name": "Apache Maven",
       "path": "packages/maven",
+      "provides": "maven",
       "requires": [
         "jdk"
       ],
@@ -710,8 +711,7 @@
         "build-tool",
         "java"
       ],
-      "version": "3.10.0",
-      "provides": "maven"
+      "version": "3.10.0"
     },
     "micronaut": {
       "description": "The `mn` command-line tool for creating Micronaut applications",
@@ -1165,6 +1165,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-10-18T20:00:07Z",
+  "updated": "2026-10-19T08:57:10Z",
   "version": 1
 }
