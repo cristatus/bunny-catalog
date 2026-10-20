@@ -60,7 +60,7 @@
         "java",
         "profiler"
       ],
-      "version": "4.5"
+      "version": "4.6"
     },
     "atuin": {
       "description": "Magical shell history — sync, search, and stats across machines",
@@ -1165,6 +1165,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-10-19T21:56:54Z",
+  "updated": "2026-10-20T03:06:53Z",
   "version": 1
 }
