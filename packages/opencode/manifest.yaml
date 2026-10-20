@@ -1,17 +1,17 @@
 id: opencode
 name: opencode
 description: Open-source coding agent for the terminal, with a provider-agnostic model backend
-version: "2.1.0"
+version: "2.1.1"
 kind: cli
 tags: [ai]
 homepage: https://opencode.ai
 license: MIT
 sources:
     # v2 ships through npm only; GitHub releases carry the 1.x line.
-    - url: "https://registry.npmjs.org/@opencode/cli-linux-x64/-/cli-linux-x64-2.1.0.tgz"
+    - url: "https://registry.npmjs.org/@opencode/cli-linux-x64/-/cli-linux-x64-2.1.1.tgz"
       file: "opencode-{version}.tgz"
-      sha512: "98d7b506bef50bef50652f4a621b38b2816eb8aa06e80e9b188df1b1d7014112bc35ce3de020c69e77143cd18b784529f73ce933004c076edd99eb57224c19eb"
-      size: 98915724
+      sha512: "f7944646cd3132acc1b928fce69bd773b310c689171c105cdcd835fc8d041fcddbabbb18aca285c351535c8ee37ba6d942307ef2aefd6f350ea06d63d00d7ddb"
+      size: 98936640
       update:
         type: json
         url: "https://registry.npmjs.org/@opencode/cli-linux-x64/latest"

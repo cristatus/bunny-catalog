@@ -358,7 +358,7 @@
       "tags": [
         "cli"
       ],
-      "version": "1.123.0"
+      "version": "1.124.0"
     },
     "google-java-format": {
       "description": "Reformats Java source code to the Google Java Style",
@@ -796,7 +796,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.1.0"
+      "version": "2.1.1"
     },
     "pi": {
       "description": "AI agent toolkit with a coding agent CLI, TUI, and unified LLM API",
@@ -1165,6 +1165,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-10-20T10:51:00Z",
+  "updated": "2026-10-20T16:16:11Z",
   "version": 1
 }
