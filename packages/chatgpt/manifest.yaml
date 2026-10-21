@@ -1,7 +1,7 @@
 id: chatgpt
 name: ChatGPT
 description: OpenAI's desktop app for ChatGPT and Codex
-version: "26.1013.40934"
+version: "26.1016.51333"
 kind: app
 tags: [ai]
 homepage: https://developers.openai.com/codex/app
@@ -10,10 +10,10 @@ sources:
     # OpenAI's documented download is a floating latest/ blob with no version in
     # the path. The apt repo its postinst registers carries the same builds
     # under versioned, immutable pool paths, so pin against that instead.
-    - url: "https://persistent.oaistatic.com/codex-app-prod/linux/deb/pool/main/c/chatgpt/chatgpt_26.1013.40934_amd64.deb"
+    - url: "https://persistent.oaistatic.com/codex-app-prod/linux/deb/pool/main/c/chatgpt/chatgpt_26.1016.51333_amd64.deb"
       file: "chatgpt-{version}.deb"
-      sha256: "3ca59e7f9a6641b9e2fb9ad680683784b5ab8026ff7418fb212a0ebe5df3a1d7"
-      size: 502087434
+      sha256: "c79f7fd24fd7d8b6439942a97306c5613d8e049903d893f136a05bfed551dc8a"
+      size: 526740530
       update:
         type: debian
         root: https://persistent.oaistatic.com/codex-app-prod/linux/deb
