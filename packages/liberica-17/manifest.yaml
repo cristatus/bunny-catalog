@@ -1,17 +1,17 @@
 id: liberica-17
 name: BellSoft Liberica JDK 17
 description: Production-ready OpenJDK 17 LTS distribution from BellSoft
-version: "17.0.20.1+1"
+version: "17.0.21+11"
 kind: sdk
 tags: [java, jdk]
 homepage: https://bell-sw.com/libericajdk/
 license: GPL-2.0-with-classpath-exception
 provides: jdk
 sources:
-    - url: "https://github.com/bell-sw/Liberica/releases/download/17.0.20.1+1/bellsoft-jdk17.0.20.1+1-linux-amd64.tar.gz"
+    - url: "https://github.com/bell-sw/Liberica/releases/download/17.0.21+11/bellsoft-jdk17.0.21+11-linux-amd64.tar.gz"
       file: "liberica-jdk-{version}.tar.gz"
-      sha256: "8e3ad25feafea86e2c1f9ffe11dca1757a021592cf49f41c6b086d5ca58b979e"
-      size: 214659137
+      sha256: "9f8f78f0fcd63412e260af16e138b6e31bdc4fad7b7752b491cc136b265cf28d"
+      size: 214994818
       update:
         type: foojay
         distribution: liberica

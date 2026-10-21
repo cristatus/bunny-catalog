@@ -338,7 +338,7 @@
       "tags": [
         "cli"
       ],
-      "version": "2.102.1"
+      "version": "2.103.0"
     },
     "github-copilot": {
       "description": "GitHub's desktop app for running Copilot coding agents on local and remote work",
@@ -624,7 +624,7 @@
         "java",
         "jdk"
       ],
-      "version": "11.0.32.1+1"
+      "version": "11.0.33+11"
     },
     "liberica-17": {
       "description": "Production-ready OpenJDK 17 LTS distribution from BellSoft",
@@ -636,7 +636,7 @@
         "java",
         "jdk"
       ],
-      "version": "17.0.20.1+1"
+      "version": "17.0.21+11"
     },
     "liberica-21": {
       "description": "Production-ready OpenJDK 21 LTS distribution from BellSoft",
@@ -648,7 +648,7 @@
         "java",
         "jdk"
       ],
-      "version": "21.0.12.1+1"
+      "version": "21.0.13+11"
     },
     "liberica-25": {
       "description": "Production-ready OpenJDK 25 LTS distribution from BellSoft",
@@ -660,7 +660,7 @@
         "java",
         "jdk"
       ],
-      "version": "25.0.4.1+1"
+      "version": "25.0.5+11"
     },
     "liberica-8": {
       "description": "Production-ready OpenJDK 8 LTS distribution from BellSoft",
@@ -672,7 +672,7 @@
         "java",
         "jdk"
       ],
-      "version": "8.0.504+1"
+      "version": "8.0.512+11"
     },
     "lima": {
       "description": "Linux virtual machines with automatic file sharing and port forwarding, for isolated test environments",
@@ -1165,6 +1165,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-10-21T11:03:10Z",
+  "updated": "2026-10-21T16:30:50Z",
   "version": 1
 }
