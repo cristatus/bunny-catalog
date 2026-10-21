@@ -22,7 +22,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.24.0-5780333019398144"
+      "version": "2.25.0-6535192714805248"
     },
     "antigravity-cli": {
       "description": "Google's Antigravity coding agent for the terminal",
@@ -141,7 +141,7 @@
       "tags": [
         "ai"
       ],
-      "version": "3.1623.0"
+      "version": "3.1623.1"
     },
     "code": {
       "description": "Code editor from Microsoft",
@@ -231,7 +231,7 @@
       "tags": [
         "editor"
       ],
-      "version": "3.26.13-1792463885"
+      "version": "3.26.16-1792577839"
     },
     "delta": {
       "description": "Syntax-highlighting pager for git, diff, and grep output",
@@ -1082,7 +1082,7 @@
       "tags": [
         "editor"
       ],
-      "version": "1.24.4"
+      "version": "1.25.2"
     },
     "zellij": {
       "description": "Terminal workspace and multiplexer with batteries included",
@@ -1165,6 +1165,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-10-21T16:30:50Z",
+  "updated": "2026-10-21T21:09:49Z",
   "version": 1
 }
