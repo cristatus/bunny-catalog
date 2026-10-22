@@ -1,16 +1,16 @@
 id: cursor
 name: Cursor
 description: The AI Code Editor (VS Code fork by Anysphere)
-version: "3.26.16-1792577839"
+version: "3.27.6-1792578269"
 kind: app
 tags: [editor]
 homepage: https://cursor.com/
 license: LicenseRef-Cursor-EULA
 sources:
-    - url: "https://downloads.cursor.com/aptrepo/pool/stable/c/cu/cursor_3.26.16_amd64.deb"
+    - url: "https://downloads.cursor.com/aptrepo/pool/stable/c/cu/cursor_3.27.6_amd64.deb"
       file: "cursor-{version}.deb"
-      sha256: "c2e8a604e343bb72571d07f6c148e09e124250b3e5333b13f115254272671045"
-      size: 221838492
+      sha256: "cf5f443556a5ac5cbf308eeae8f33e44ea34e5421a6910b1c34f977c2541e67f"
+      size: 222814068
       update:
         type: debian
         root: https://downloads.cursor.com/aptrepo

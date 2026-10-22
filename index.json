@@ -131,7 +131,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.1.308"
+      "version": "2.1.309"
     },
     "claude-desktop": {
       "description": "Anthropic's desktop app for Claude, with Claude Code sessions built in",
@@ -141,7 +141,7 @@
       "tags": [
         "ai"
       ],
-      "version": "3.1623.4"
+      "version": "3.6556.1"
     },
     "code": {
       "description": "Code editor from Microsoft",
@@ -151,7 +151,7 @@
       "tags": [
         "editor"
       ],
-      "version": "1.143.0"
+      "version": "1.143.1"
     },
     "codex": {
       "description": "OpenAI's coding agent for the terminal",
@@ -231,7 +231,7 @@
       "tags": [
         "editor"
       ],
-      "version": "3.26.16-1792577839"
+      "version": "3.27.6-1792578269"
     },
     "delta": {
       "description": "Syntax-highlighting pager for git, diff, and grep output",
@@ -1165,6 +1165,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-10-22T14:19:03Z",
+  "updated": "2026-10-22T23:50:55Z",
   "version": 1
 }
