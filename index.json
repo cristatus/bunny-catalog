@@ -131,7 +131,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.1.309"
+      "version": "2.1.310"
     },
     "claude-desktop": {
       "description": "Anthropic's desktop app for Claude, with Claude Code sessions built in",
@@ -1165,6 +1165,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-10-23T20:55:10Z",
+  "updated": "2026-10-23T23:44:11Z",
   "version": 1
 }
