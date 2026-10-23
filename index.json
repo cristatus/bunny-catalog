@@ -22,7 +22,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.25.0-6535192714805248"
+      "version": "2.26.0-6546645232517120"
     },
     "antigravity-cli": {
       "description": "Google's Antigravity coding agent for the terminal",
@@ -121,7 +121,7 @@
       "tags": [
         "ai"
       ],
-      "version": "26.1016.61520"
+      "version": "26.1021.22027"
     },
     "claude": {
       "description": "Anthropic's coding agent for the terminal",
@@ -231,7 +231,7 @@
       "tags": [
         "editor"
       ],
-      "version": "3.27.6-1792578269"
+      "version": "3.27.12-1792724272"
     },
     "delta": {
       "description": "Syntax-highlighting pager for git, diff, and grep output",
@@ -338,7 +338,7 @@
       "tags": [
         "cli"
       ],
-      "version": "2.103.0"
+      "version": "2.103.2"
     },
     "github-copilot": {
       "description": "GitHub's desktop app for running Copilot coding agents on local and remote work",
@@ -1165,6 +1165,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-10-23T16:21:28Z",
+  "updated": "2026-10-23T20:55:10Z",
   "version": 1
 }
