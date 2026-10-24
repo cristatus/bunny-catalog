@@ -1003,7 +1003,7 @@
       "tags": [
         "cli"
       ],
-      "version": "1.9.0"
+      "version": "1.9.1"
     },
     "tomcat-10": {
       "description": "Servlet container implementing the Jakarta EE 10 web specifications",
@@ -1165,6 +1165,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-10-24T08:01:12Z",
+  "updated": "2026-10-24T22:50:47Z",
   "version": 1
 }
