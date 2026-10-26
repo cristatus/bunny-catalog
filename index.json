@@ -131,7 +131,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.1.310"
+      "version": "2.1.311"
     },
     "claude-desktop": {
       "description": "Anthropic's desktop app for Claude, with Claude Code sessions built in",
@@ -338,7 +338,7 @@
       "tags": [
         "cli"
       ],
-      "version": "2.103.2"
+      "version": "2.103.3"
     },
     "github-copilot": {
       "description": "GitHub's desktop app for running Copilot coding agents on local and remote work",
@@ -1165,6 +1165,6 @@
       "version": "8.0.504+1"
     }
   },
-  "updated": "2026-10-26T15:46:30Z",
+  "updated": "2026-10-26T22:13:13Z",
   "version": 1
 }
