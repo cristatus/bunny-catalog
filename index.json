@@ -121,7 +121,7 @@
       "tags": [
         "ai"
       ],
-      "version": "26.1021.22027"
+      "version": "26.1023.50603"
     },
     "claude": {
       "description": "Anthropic's coding agent for the terminal",
@@ -231,7 +231,7 @@
       "tags": [
         "editor"
       ],
-      "version": "3.27.14-1792793819"
+      "version": "3.27.22-1793067078"
     },
     "delta": {
       "description": "Syntax-highlighting pager for git, diff, and grep output",
@@ -358,7 +358,7 @@
       "tags": [
         "cli"
       ],
-      "version": "1.124.0"
+      "version": "1.125.0"
     },
     "google-java-format": {
       "description": "Reformats Java source code to the Google Java Style",
@@ -480,7 +480,7 @@
         "java",
         "jdk"
       ],
-      "version": "25.0.4.1+63575"
+      "version": "25.0.4.1+329136"
     },
     "jdk-11": {
       "description": "Production-ready OpenJDK 11 LTS distribution from Adoptium",
@@ -672,7 +672,7 @@
         "java",
         "jdk"
       ],
-      "version": "8.0.512+11"
+      "version": "8.0.513+9"
     },
     "lima": {
       "description": "Linux virtual machines with automatic file sharing and port forwarding, for isolated test environments",
@@ -1165,6 +1165,6 @@
       "version": "8.0.512+8"
     }
   },
-  "updated": "2026-10-27T11:29:54Z",
+  "updated": "2026-10-27T17:19:31Z",
   "version": 1
 }
