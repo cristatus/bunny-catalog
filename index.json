@@ -32,7 +32,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.4.7"
+      "version": "1.4.8"
     },
     "arthas": {
       "description": "Interactive diagnostics and troubleshooting tool for live Java applications",
@@ -348,7 +348,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.1.32"
+      "version": "1.1.33"
     },
     "glab": {
       "description": "GitLab's official command-line tool for repos, merge requests, issues, and CI/CD pipelines",
@@ -725,7 +725,7 @@
         "framework",
         "java"
       ],
-      "version": "5.2.3"
+      "version": "5.2.4"
     },
     "mvnd": {
       "description": "Fast Maven build client backed by long-lived daemon processes",
@@ -796,7 +796,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.1.4"
+      "version": "2.2.0"
     },
     "pi": {
       "description": "AI agent toolkit with a coding agent CLI, TUI, and unified LLM API",
@@ -1114,7 +1114,7 @@
         "java",
         "jdk"
       ],
-      "version": "11.0.32.1+1"
+      "version": "11.0.33+9"
     },
     "zulu-17": {
       "description": "Azul's free, TCK-tested build of OpenJDK 17 LTS",
@@ -1126,7 +1126,7 @@
         "java",
         "jdk"
       ],
-      "version": "17.0.20.1+1"
+      "version": "17.0.21+9"
     },
     "zulu-21": {
       "description": "Azul's free, TCK-tested build of OpenJDK 21 LTS",
@@ -1138,7 +1138,7 @@
         "java",
         "jdk"
       ],
-      "version": "21.0.12.1+1"
+      "version": "21.0.13+9"
     },
     "zulu-25": {
       "description": "Azul's free, TCK-tested build of OpenJDK 25 LTS",
@@ -1150,7 +1150,7 @@
         "java",
         "jdk"
       ],
-      "version": "25.0.4.1+1"
+      "version": "25.0.5+8"
     },
     "zulu-8": {
       "description": "Azul's free, TCK-tested build of OpenJDK 8 LTS",
@@ -1162,9 +1162,9 @@
         "java",
         "jdk"
       ],
-      "version": "8.0.504+1"
+      "version": "8.0.512+8"
     }
   },
-  "updated": "2026-10-26T22:13:13Z",
+  "updated": "2026-10-27T11:29:54Z",
   "version": 1
 }

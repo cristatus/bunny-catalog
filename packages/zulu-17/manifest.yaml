@@ -1,17 +1,17 @@
 id: zulu-17
 name: Azul Zulu JDK 17
 description: Azul's free, TCK-tested build of OpenJDK 17 LTS
-version: "17.0.20.1+1"
+version: "17.0.21+9"
 kind: sdk
 tags: [java, jdk]
 homepage: https://www.azul.com/downloads/?package=jdk
 license: GPL-2.0-with-classpath-exception
 provides: jdk
 sources:
-    - url: "https://cdn.azul.com/zulu/bin/zulu17.68.203-ca-jdk17.0.20.1-linux_x64.tar.gz"
+    - url: "https://cdn.azul.com/zulu/bin/zulu17.70.111-ca-jdk17.0.21-linux_x64.tar.gz"
       file: "zulu-jdk-{version}.tar.gz"
-      sha256: "4ef843383724c7cee278b90aabe41c9ae172a3b2584ab0e086857bb536ef060f"
-      size: 198130840
+      sha256: "730ac4f645f601d3005bcdc8736c7e0630d402382e332c11d61ac2494436587f"
+      size: 198588490
       update:
         type: foojay
         distribution: zulu
