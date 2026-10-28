@@ -22,7 +22,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.27.0-4933976025071616"
+      "version": "2.28.0-6410674700681216"
     },
     "antigravity-cli": {
       "description": "Google's Antigravity coding agent for the terminal",
@@ -151,7 +151,7 @@
       "tags": [
         "editor"
       ],
-      "version": "1.143.1"
+      "version": "1.144.0"
     },
     "codex": {
       "description": "OpenAI's coding agent for the terminal",
@@ -173,7 +173,7 @@
         "java",
         "jdk"
       ],
-      "version": "11.0.32"
+      "version": "11.0.33+9"
     },
     "corretto-17": {
       "description": "Amazon's no-cost, production-ready distribution of OpenJDK 17 LTS",
@@ -185,7 +185,7 @@
         "java",
         "jdk"
       ],
-      "version": "17.0.20"
+      "version": "17.0.21+9"
     },
     "corretto-21": {
       "description": "Amazon's no-cost, production-ready distribution of OpenJDK 21 LTS",
@@ -197,7 +197,7 @@
         "java",
         "jdk"
       ],
-      "version": "21.0.12.1+1"
+      "version": "21.0.13+9"
     },
     "corretto-25": {
       "description": "Amazon's no-cost, production-ready distribution of OpenJDK 25 LTS",
@@ -209,7 +209,7 @@
         "java",
         "jdk"
       ],
-      "version": "25.0.4.1+1"
+      "version": "25.0.5+8"
     },
     "corretto-8": {
       "description": "Amazon's no-cost, production-ready distribution of OpenJDK 8 LTS",
@@ -221,7 +221,7 @@
         "java",
         "jdk"
       ],
-      "version": "8.0.504"
+      "version": "8.0.512"
     },
     "cursor": {
       "description": "The AI Code Editor (VS Code fork by Anysphere)",
@@ -468,7 +468,7 @@
         "java",
         "jdk"
       ],
-      "version": "21.0.11+1163116"
+      "version": "21.0.11+1163125"
     },
     "jbr-25": {
       "description": "JetBrains' OpenJDK 25 fork with per-monitor HiDPI scaling and Swing/AWT rendering fixes",
@@ -817,7 +817,7 @@
         "node",
         "package-manager"
       ],
-      "version": "12.15.0"
+      "version": "12.16.1"
     },
     "procs": {
       "description": "A modern replacement for ps",
@@ -925,7 +925,7 @@
         "java",
         "jdk"
       ],
-      "version": "21.0.12"
+      "version": "21.0.13"
     },
     "semeru-25": {
       "description": "OpenJDK 25 LTS distribution from IBM with the Eclipse OpenJ9 JVM",
@@ -937,7 +937,7 @@
         "java",
         "jdk"
       ],
-      "version": "25.0.4"
+      "version": "25.0.5"
     },
     "semeru-8": {
       "description": "OpenJDK 8 LTS distribution from IBM with the Eclipse OpenJ9 JVM",
@@ -1082,7 +1082,7 @@
       "tags": [
         "editor"
       ],
-      "version": "1.25.3"
+      "version": "1.26.2"
     },
     "zellij": {
       "description": "Terminal workspace and multiplexer with batteries included",
@@ -1165,6 +1165,6 @@
       "version": "8.0.512+8"
     }
   },
-  "updated": "2026-10-28T12:00:36Z",
+  "updated": "2026-10-28T18:17:40Z",
   "version": 1
 }

@@ -1,17 +1,17 @@
 id: jbr-21
 name: JetBrains Runtime 21
 description: JetBrains' OpenJDK 21 fork with per-monitor HiDPI scaling and Swing/AWT rendering fixes
-version: "21.0.11+1163116"
+version: "21.0.11+1163125"
 kind: sdk
 tags: [java, jdk]
 homepage: https://github.com/JetBrains/JetBrainsRuntime
 license: GPL-2.0-with-classpath-exception
 provides: jdk
 sources:
-    - url: "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-21.0.11-linux-x64-b1163.116.tar.gz"
+    - url: "https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk_jcef-21.0.11-linux-x64-b1163.125.tar.gz"
       file: "jbrsdk-jcef-{version}.tar.gz"
-      sha512: "6085bd3823ae88719e9920a43b3fed299d5e0454eb3b9755746f0f4833d1746a2b92aadb9608bf3df2da4c71fd88e6697e08000136885b6098fd30f42c29def8"
-      size: 524965409
+      sha512: "19b60f631c34493b64b102c8c309e2cac6194fbe48cc8732ba2fc0182b86797ea07ea389e80c0ff86aca2111c7d521dbb916dbf11f6ad86b37df798ffcaf0f11"
+      size: 524950855
       update:
         type: foojay
         distribution: jetbrains

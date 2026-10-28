@@ -1,17 +1,17 @@
 id: semeru-21
 name: IBM Semeru Runtime Open Edition 21
 description: OpenJDK 21 LTS distribution from IBM with the Eclipse OpenJ9 JVM
-version: "21.0.12"
+version: "21.0.13"
 kind: sdk
 tags: [java, jdk]
 homepage: https://developer.ibm.com/languages/java/semeru-runtimes/
 license: GPL-2.0-with-classpath-exception
 provides: jdk
 sources:
-    - url: "https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.12.0/ibm-semeru-open-jdk_x64_linux_21.0.12.0.tar.gz"
+    - url: "https://github.com/ibmruntimes/semeru21-binaries/releases/download/jdk-21.0.13.0/ibm-semeru-open-jdk_x64_linux_21.0.13.0.tar.gz"
       file: "semeru-jdk-{version}.tar.gz"
-      sha256: "e76357a3d469f7bc80ed20064f20ca773ef07ad140e3d44d39ba4ae640799ca2"
-      size: 240132889
+      sha256: "0c92b61ea02efe73a7b6d346f1d8324efd50fe1fb848bf3a031a577dc1181d45"
+      size: 240668702
       update:
         type: github
         repo: ibmruntimes/semeru21-binaries

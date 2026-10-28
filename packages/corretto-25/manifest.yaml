@@ -1,17 +1,17 @@
 id: corretto-25
 name: Amazon Corretto JDK 25
 description: Amazon's no-cost, production-ready distribution of OpenJDK 25 LTS
-version: "25.0.4.1+1"
+version: "25.0.5+8"
 kind: sdk
 tags: [java, jdk]
 homepage: https://aws.amazon.com/corretto/
 license: GPL-2.0-with-classpath-exception
 provides: jdk
 sources:
-    - url: "https://corretto.aws/downloads/resources/25.0.4.10.1/amazon-corretto-25.0.4.10.1-linux-x64.tar.gz"
+    - url: "https://corretto.aws/downloads/resources/25.0.5.0.10/amazon-corretto-25.0.5.0.10-linux-x64.tar.gz"
       file: "corretto-jdk-{version}.tar.gz"
-      sha256: "a45f1d385da8221fe1225dde5b6afa8e932a6acb93571b55eff4a39a2ebe7378"
-      size: 227557984
+      sha256: "1d89b4194f20ee513f4dd9fc2aadd038de3c713c37fd444d77566b3da7b0ee65"
+      size: 227567058
       update:
         type: foojay
         distribution: corretto
