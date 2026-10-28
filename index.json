@@ -32,7 +32,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.4.8"
+      "version": "1.4.9"
     },
     "arthas": {
       "description": "Interactive diagnostics and troubleshooting tool for live Java applications",
@@ -865,7 +865,7 @@
         "build-tool",
         "scala"
       ],
-      "version": "2.0.11"
+      "version": "2.0.12"
     },
     "scala": {
       "description": "Scala 3 compiler, runner, and documentation generator",
@@ -1165,6 +1165,6 @@
       "version": "8.0.512+8"
     }
   },
-  "updated": "2026-10-28T03:42:00Z",
+  "updated": "2026-10-28T12:00:36Z",
   "version": 1
 }
