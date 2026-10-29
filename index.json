@@ -22,7 +22,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.28.1-6709500728705024"
+      "version": "2.28.2-5937220255875072"
     },
     "antigravity-cli": {
       "description": "Google's Antigravity coding agent for the terminal",
@@ -121,7 +121,7 @@
       "tags": [
         "ai"
       ],
-      "version": "26.1023.51421"
+      "version": "26.1027.30824"
     },
     "claude": {
       "description": "Anthropic's coding agent for the terminal",
@@ -161,7 +161,7 @@
       "tags": [
         "ai"
       ],
-      "version": "0.165.0"
+      "version": "0.166.0"
     },
     "corretto-11": {
       "description": "Amazon's no-cost, production-ready distribution of OpenJDK 11 LTS",
@@ -251,7 +251,7 @@
       "tags": [
         "cli"
       ],
-      "version": "0.71.0"
+      "version": "0.72.0"
     },
     "duf": {
       "description": "Disk Usage/Free Utility, a better df alternative",
@@ -796,7 +796,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.2.1"
+      "version": "2.2.2"
     },
     "pi": {
       "description": "AI agent toolkit with a coding agent CLI, TUI, and unified LLM API",
@@ -1165,6 +1165,6 @@
       "version": "8.0.512+8"
     }
   },
-  "updated": "2026-10-29T17:56:38Z",
+  "updated": "2026-10-29T22:25:59Z",
   "version": 1
 }
