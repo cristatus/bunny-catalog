@@ -358,7 +358,7 @@
       "tags": [
         "cli"
       ],
-      "version": "1.125.0"
+      "version": "1.126.0"
     },
     "google-java-format": {
       "description": "Reformats Java source code to the Google Java Style",
@@ -786,7 +786,7 @@
         "node",
         "runtime"
       ],
-      "version": "24.22.1"
+      "version": "24.22.2"
     },
     "opencode": {
       "description": "Open-source coding agent for the terminal, with a provider-agnostic model backend",
@@ -913,7 +913,7 @@
         "java",
         "jdk"
       ],
-      "version": "17.0.20"
+      "version": "17.0.21"
     },
     "semeru-21": {
       "description": "OpenJDK 21 LTS distribution from IBM with the Eclipse OpenJ9 JVM",
@@ -1165,6 +1165,6 @@
       "version": "8.0.512+8"
     }
   },
-  "updated": "2026-10-28T18:17:40Z",
+  "updated": "2026-10-29T00:34:20Z",
   "version": 1
 }
