@@ -348,7 +348,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.1.33"
+      "version": "1.1.34"
     },
     "glab": {
       "description": "GitLab's official command-line tool for repos, merge requests, issues, and CI/CD pipelines",
@@ -369,7 +369,7 @@
         "java",
         "cli"
       ],
-      "version": "1.37.0"
+      "version": "2.0.0"
     },
     "graalvm-21": {
       "description": "GraalVM Community Edition with JDK 21 and native-image",
@@ -442,7 +442,7 @@
       "tags": [
         "ide"
       ],
-      "version": "2026.2.3"
+      "version": "2026.2.4"
     },
     "jbang": {
       "description": "Run Java (and JVM) source files as scripts — no build setup",
@@ -796,7 +796,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.2.3"
+      "version": "2.2.4"
     },
     "pi": {
       "description": "AI agent toolkit with a coding agent CLI, TUI, and unified LLM API",
@@ -1165,6 +1165,6 @@
       "version": "8.0.512+8"
     }
   },
-  "updated": "2026-10-30T12:01:05Z",
+  "updated": "2026-10-30T19:50:05Z",
   "version": 1
 }
