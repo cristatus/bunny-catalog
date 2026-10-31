@@ -32,7 +32,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.4.11"
+      "version": "1.4.12"
     },
     "arthas": {
       "description": "Interactive diagnostics and troubleshooting tool for live Java applications",
@@ -456,7 +456,7 @@
         "java",
         "scripting"
       ],
-      "version": "0.142.0"
+      "version": "0.143.0"
     },
     "jbr-21": {
       "description": "JetBrains' OpenJDK 21 fork with per-monitor HiDPI scaling and Swing/AWT rendering fixes",
@@ -796,7 +796,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.2.4"
+      "version": "2.2.5"
     },
     "pi": {
       "description": "AI agent toolkit with a coding agent CLI, TUI, and unified LLM API",
@@ -1165,6 +1165,6 @@
       "version": "8.0.512+8"
     }
   },
-  "updated": "2026-10-30T19:50:05Z",
+  "updated": "2026-10-31T00:19:59Z",
   "version": 1
 }
