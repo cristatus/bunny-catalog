@@ -100,7 +100,7 @@
       "tags": [
         "cli"
       ],
-      "version": "1.61.0"
+      "version": "1.62.0"
     },
     "bun": {
       "description": "Fast all-in-one JavaScript runtime, bundler, test runner, and package manager",
@@ -1165,6 +1165,6 @@
       "version": "8.0.512+8"
     }
   },
-  "updated": "2026-11-01T03:56:54Z",
+  "updated": "2026-11-01T19:20:58Z",
   "version": 1
 }
