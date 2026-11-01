@@ -90,7 +90,7 @@
       "tags": [
         "cli"
       ],
-      "version": "0.14.9"
+      "version": "0.15.0"
     },
     "broot": {
       "description": "Interactive tree view, fuzzy search, and file navigator",
@@ -1165,6 +1165,6 @@
       "version": "8.0.512+8"
     }
   },
-  "updated": "2026-10-31T23:55:43Z",
+  "updated": "2026-11-01T03:56:54Z",
   "version": 1
 }
