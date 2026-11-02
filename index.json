@@ -151,7 +151,7 @@
       "tags": [
         "editor"
       ],
-      "version": "1.144.0"
+      "version": "1.144.1"
     },
     "codex": {
       "description": "OpenAI's coding agent for the terminal",
@@ -358,7 +358,7 @@
       "tags": [
         "cli"
       ],
-      "version": "1.126.0"
+      "version": "1.127.0"
     },
     "google-java-format": {
       "description": "Reformats Java source code to the Google Java Style",
@@ -806,7 +806,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.4.0"
+      "version": "1.5.0"
     },
     "pnpm": {
       "description": "Fast, disk-efficient package manager for JavaScript projects",
@@ -1165,6 +1165,6 @@
       "version": "8.0.512+8"
     }
   },
-  "updated": "2026-11-02T00:11:39Z",
+  "updated": "2026-11-02T21:19:16Z",
   "version": 1
 }
