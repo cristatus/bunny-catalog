@@ -271,7 +271,7 @@
       "tags": [
         "cli"
       ],
-      "version": "1.2.6"
+      "version": "1.2.7"
     },
     "eclipse": {
       "description": "The essential tools for Java developers — IDE, Git, Maven, Gradle, XML Editor",
@@ -1165,6 +1165,6 @@
       "version": "8.0.512+8"
     }
   },
-  "updated": "2026-11-01T19:20:58Z",
+  "updated": "2026-11-02T00:11:39Z",
   "version": 1
 }
