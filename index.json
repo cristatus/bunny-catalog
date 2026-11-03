@@ -121,7 +121,7 @@
       "tags": [
         "ai"
       ],
-      "version": "26.1027.51404"
+      "version": "26.1029.61003"
     },
     "claude": {
       "description": "Anthropic's coding agent for the terminal",
@@ -231,7 +231,7 @@
       "tags": [
         "editor"
       ],
-      "version": "3.27.22-1793067078"
+      "version": "3.28.7-1793673029"
     },
     "delta": {
       "description": "Syntax-highlighting pager for git, diff, and grep output",
@@ -1165,6 +1165,6 @@
       "version": "8.0.512+8"
     }
   },
-  "updated": "2026-11-03T13:31:05Z",
+  "updated": "2026-11-03T20:46:00Z",
   "version": 1
 }
