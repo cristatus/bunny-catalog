@@ -32,7 +32,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.4.12"
+      "version": "1.5.0"
     },
     "arthas": {
       "description": "Interactive diagnostics and troubleshooting tool for live Java applications",
@@ -70,7 +70,7 @@
       "tags": [
         "cli"
       ],
-      "version": "18.24.4"
+      "version": "18.24.5"
     },
     "bat": {
       "description": "A cat clone with syntax highlighting and Git integration",
@@ -151,7 +151,7 @@
       "tags": [
         "editor"
       ],
-      "version": "1.144.1"
+      "version": "1.145.0"
     },
     "codex": {
       "description": "OpenAI's coding agent for the terminal",
@@ -304,7 +304,7 @@
       "tags": [
         "cli"
       ],
-      "version": "10.5.0"
+      "version": "10.5.1"
     },
     "flyway": {
       "description": "Database schema versioning and migration tool",
@@ -1165,6 +1165,6 @@
       "version": "8.0.512+8"
     }
   },
-  "updated": "2026-11-04T01:00:50Z",
+  "updated": "2026-11-04T10:21:19Z",
   "version": 1
 }
