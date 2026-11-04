@@ -901,7 +901,7 @@
         "java",
         "jdk"
       ],
-      "version": "11.0.32"
+      "version": "11.0.33"
     },
     "semeru-17": {
       "description": "OpenJDK 17 LTS distribution from IBM with the Eclipse OpenJ9 JVM",
@@ -1082,7 +1082,7 @@
       "tags": [
         "editor"
       ],
-      "version": "1.26.2"
+      "version": "1.27.0"
     },
     "zellij": {
       "description": "Terminal workspace and multiplexer with batteries included",
@@ -1165,6 +1165,6 @@
       "version": "8.0.512+8"
     }
   },
-  "updated": "2026-11-04T10:21:19Z",
+  "updated": "2026-11-04T19:16:56Z",
   "version": 1
 }
