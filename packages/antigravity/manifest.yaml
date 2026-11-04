@@ -1,7 +1,7 @@
 id: antigravity
 name: Antigravity
 description: Google's agentic desktop app for running coding agents against a local checkout
-version: "2.28.2-5937220255875072"
+version: "2.29.0-5723181030440960"
 kind: app
 tags: [ai]
 homepage: https://antigravity.google
@@ -20,8 +20,8 @@ sources:
     # carries one and `version:` on its own cannot rebuild it.
     - url: "https://storage.googleapis.com/antigravity-public/antigravity-hub/{version}/linux-x64/Antigravity.deb"
       file: "antigravity-{version}.deb"
-      sha512: "28092d456f64d7248e870f73ab3121908c5fa6cca6549de4ac5aadcf200e3aeaf5b56bdafc9cca04515bb068a02158d2cbd97f6e5c675819f9f038238cf2df8d"
-      size: 152831956
+      sha512: "59309a259e9f0fc339bc4c732faa5099b9dffc609bf54d3a5013e0f00563adcd2a524c218694bec7525818939093b8b89f7406f39d44a295ece2f3bcaa440677"
+      size: 155040580
       update:
         type: html
         url: "https://antigravity-hub-auto-updater-974169037036.us-central1.run.app/manifest/latest-x64-linux.yml"

@@ -22,7 +22,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.28.2-5937220255875072"
+      "version": "2.29.0-5723181030440960"
     },
     "antigravity-cli": {
       "description": "Google's Antigravity coding agent for the terminal",
@@ -131,7 +131,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.1.317"
+      "version": "2.1.318"
     },
     "claude-desktop": {
       "description": "Anthropic's desktop app for Claude, with Claude Code sessions built in",
@@ -141,7 +141,7 @@
       "tags": [
         "ai"
       ],
-      "version": "4.4212.0"
+      "version": "4.16336.0"
     },
     "code": {
       "description": "Code editor from Microsoft",
@@ -1165,6 +1165,6 @@
       "version": "8.0.512+8"
     }
   },
-  "updated": "2026-11-03T20:46:00Z",
+  "updated": "2026-11-04T01:00:50Z",
   "version": 1
 }
