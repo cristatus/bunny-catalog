@@ -32,7 +32,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.5.0"
+      "version": "1.5.1"
     },
     "arthas": {
       "description": "Interactive diagnostics and troubleshooting tool for live Java applications",
@@ -442,7 +442,7 @@
       "tags": [
         "ide"
       ],
-      "version": "2026.2.4"
+      "version": "2026.3"
     },
     "jbang": {
       "description": "Run Java (and JVM) source files as scripts — no build setup",
@@ -725,7 +725,7 @@
         "framework",
         "java"
       ],
-      "version": "5.2.4"
+      "version": "5.2.5"
     },
     "mvnd": {
       "description": "Fast Maven build client backed by long-lived daemon processes",
@@ -1165,6 +1165,6 @@
       "version": "8.0.512+8"
     }
   },
-  "updated": "2026-11-05T01:15:59Z",
+  "updated": "2026-11-05T10:15:33Z",
   "version": 1
 }
