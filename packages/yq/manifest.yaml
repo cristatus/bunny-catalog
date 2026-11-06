@@ -1,25 +1,25 @@
 id: yq
 name: yq
 description: Portable command-line YAML, JSON, XML, CSV, TOML, and properties processor
-version: "4.54.1"
+version: "4.54.2"
 kind: cli
 tags: [cli]
 homepage: https://mikefarah.gitbook.io/yq/
 license: MIT
 sources:
-    - url: "https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_linux_amd64"
+    - url: "https://github.com/mikefarah/yq/releases/download/v4.54.2/yq_linux_amd64"
       file: "yq-{version}"
-      sha256: "8e34fc298390875de416e6a4afcb8cabeceb25d9aa8506c1a2f9353cf702ea5f"
-      size: 14168224
+      sha256: "44c7759059b4910827a0059a2757b22001e59360cdecdb2ef8dedc4b6c7e9f32"
+      size: 15429792
       update:
         type: github
         repo: mikefarah/yq
         asset: "^yq_linux_amd64$"
         tag-pattern: "^v([0-9.]+)$"
-    - url: "https://github.com/mikefarah/yq/releases/download/v4.54.1/yq_man_page_only.tar.gz"
+    - url: "https://github.com/mikefarah/yq/releases/download/v4.54.2/yq_man_page_only.tar.gz"
       file: "yq-man-{version}.tar.gz"
-      sha256: "2f9db96faeb11a82fa80fe5af35d955f306b04e4d530e25f85b3574b41107414"
-      size: 49910
+      sha256: "f9dca70fe08f2d747bad275062e14daff6cb5d8c8f89c0e678ba1a1ba4660140"
+      size: 50781
       update:
         type: github
         repo: mikefarah/yq
