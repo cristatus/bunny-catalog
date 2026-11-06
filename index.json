@@ -121,7 +121,7 @@
       "tags": [
         "ai"
       ],
-      "version": "26.1103.31037"
+      "version": "26.1103.32239"
     },
     "claude": {
       "description": "Anthropic's coding agent for the terminal",
@@ -131,7 +131,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.1.318"
+      "version": "2.1.319"
     },
     "claude-desktop": {
       "description": "Anthropic's desktop app for Claude, with Claude Code sessions built in",
@@ -408,7 +408,7 @@
         "build-tool",
         "java"
       ],
-      "version": "9.8.2"
+      "version": "9.9.0"
     },
     "groovy": {
       "description": "Dynamic, optionally-typed language for the JVM with Java-like syntax",
@@ -682,7 +682,7 @@
       "tags": [
         "cli"
       ],
-      "version": "2.2.1"
+      "version": "2.3.0"
     },
     "liquibase": {
       "description": "Database schema change management and migration tool",
@@ -1165,6 +1165,6 @@
       "version": "8.0.512+8"
     }
   },
-  "updated": "2026-11-06T10:19:50Z",
+  "updated": "2026-11-06T18:48:16Z",
   "version": 1
 }
