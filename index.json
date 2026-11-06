@@ -121,7 +121,7 @@
       "tags": [
         "ai"
       ],
-      "version": "26.1029.61003"
+      "version": "26.1103.31037"
     },
     "claude": {
       "description": "Anthropic's coding agent for the terminal",
@@ -141,7 +141,7 @@
       "tags": [
         "ai"
       ],
-      "version": "4.16336.0"
+      "version": "4.23118.0"
     },
     "code": {
       "description": "Code editor from Microsoft",
@@ -151,7 +151,7 @@
       "tags": [
         "editor"
       ],
-      "version": "1.145.0"
+      "version": "1.145.1"
     },
     "codex": {
       "description": "OpenAI's coding agent for the terminal",
@@ -231,7 +231,7 @@
       "tags": [
         "editor"
       ],
-      "version": "3.28.7-1793673029"
+      "version": "3.29.9-1793846899"
     },
     "delta": {
       "description": "Syntax-highlighting pager for git, diff, and grep output",
@@ -817,7 +817,7 @@
         "node",
         "package-manager"
       ],
-      "version": "12.16.1"
+      "version": "12.18.0"
     },
     "procs": {
       "description": "A modern replacement for ps",
@@ -1165,6 +1165,6 @@
       "version": "8.0.512+8"
     }
   },
-  "updated": "2026-11-05T19:26:08Z",
+  "updated": "2026-11-06T01:20:59Z",
   "version": 1
 }
