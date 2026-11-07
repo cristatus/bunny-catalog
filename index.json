@@ -32,7 +32,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.5.2"
+      "version": "1.5.3"
     },
     "arthas": {
       "description": "Interactive diagnostics and troubleshooting tool for live Java applications",
@@ -304,7 +304,7 @@
       "tags": [
         "cli"
       ],
-      "version": "10.5.1"
+      "version": "10.5.2"
     },
     "flyway": {
       "description": "Database schema versioning and migration tool",
@@ -1165,6 +1165,6 @@
       "version": "8.0.512+8"
     }
   },
-  "updated": "2026-11-07T00:35:33Z",
+  "updated": "2026-11-07T09:33:14Z",
   "version": 1
 }
