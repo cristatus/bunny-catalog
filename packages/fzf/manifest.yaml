@@ -1,16 +1,16 @@
 id: fzf
 name: fzf
 description: A command-line fuzzy finder
-version: "0.74.5"
+version: "0.75.0"
 kind: cli
 tags: [cli]
 homepage: https://github.com/junegunn/fzf
 license: MIT
 sources:
-    - url: "https://github.com/junegunn/fzf/releases/download/v0.74.5/fzf-0.74.5-linux_amd64.tar.gz"
+    - url: "https://github.com/junegunn/fzf/releases/download/v0.75.0/fzf-0.75.0-linux_amd64.tar.gz"
       file: "fzf-{version}.tar.gz"
-      sha256: "d47d7f882972c7d674dbbba998ffa4116e68379616ffac7695d0671e9a722c5f"
-      size: 2291079
+      sha256: "0d6640f83582d991cf429754baad64b07e3a4e439a6019670f4b91da1314141c"
+      size: 2294235
       update:
         type: github
         repo: junegunn/fzf

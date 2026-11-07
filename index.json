@@ -328,7 +328,7 @@
       "tags": [
         "cli"
       ],
-      "version": "0.74.5"
+      "version": "0.75.0"
     },
     "gh": {
       "description": "GitHub's official command-line tool for repos, PRs, issues, and more",
@@ -1165,6 +1165,6 @@
       "version": "8.0.512+8"
     }
   },
-  "updated": "2026-11-07T09:33:14Z",
+  "updated": "2026-11-07T17:19:54Z",
   "version": 1
 }
