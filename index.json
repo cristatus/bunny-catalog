@@ -480,7 +480,7 @@
         "java",
         "jdk"
       ],
-      "version": "25.0.4.1+329136"
+      "version": "25.0.4.1+329142"
     },
     "jdk-11": {
       "description": "Production-ready OpenJDK 11 LTS distribution from Adoptium",
@@ -492,7 +492,7 @@
         "java",
         "jdk"
       ],
-      "version": "11.0.32.1+1"
+      "version": "11.0.33+10"
     },
     "jdk-17": {
       "description": "Production-ready OpenJDK 17 LTS distribution from Adoptium",
@@ -540,7 +540,7 @@
         "java",
         "jdk"
       ],
-      "version": "8.0.504+1"
+      "version": "8.0.512+9"
     },
     "jmc": {
       "description": "JVM production-time profiling and diagnostics tool",
@@ -1114,7 +1114,7 @@
         "java",
         "jdk"
       ],
-      "version": "11.0.33+9"
+      "version": "11.0.33+10"
     },
     "zulu-17": {
       "description": "Azul's free, TCK-tested build of OpenJDK 17 LTS",
@@ -1162,9 +1162,9 @@
         "java",
         "jdk"
       ],
-      "version": "8.0.512+8"
+      "version": "8.0.512+9"
     }
   },
-  "updated": "2026-11-08T04:00:26Z",
+  "updated": "2026-11-08T12:39:32Z",
   "version": 1
 }
