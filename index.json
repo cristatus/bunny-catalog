@@ -1072,7 +1072,7 @@
       "tags": [
         "cli"
       ],
-      "version": "4.54.2"
+      "version": "4.54.3"
     },
     "zed": {
       "description": "High-performance, multiplayer code editor",
@@ -1165,6 +1165,6 @@
       "version": "8.0.512+9"
     }
   },
-  "updated": "2026-11-08T19:18:34Z",
+  "updated": "2026-11-09T10:50:19Z",
   "version": 1
 }
