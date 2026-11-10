@@ -358,7 +358,7 @@
       "tags": [
         "cli"
       ],
-      "version": "1.128.0"
+      "version": "1.130.0"
     },
     "google-java-format": {
       "description": "Reformats Java source code to the Google Java Style",
@@ -796,7 +796,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.2.6"
+      "version": "2.2.7"
     },
     "pi": {
       "description": "AI agent toolkit with a coding agent CLI, TUI, and unified LLM API",
@@ -806,7 +806,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.5.1"
+      "version": "1.5.2"
     },
     "pnpm": {
       "description": "Fast, disk-efficient package manager for JavaScript projects",
@@ -1165,6 +1165,6 @@
       "version": "8.0.512+9"
     }
   },
-  "updated": "2026-11-10T05:43:13Z",
+  "updated": "2026-11-10T14:11:47Z",
   "version": 1
 }
