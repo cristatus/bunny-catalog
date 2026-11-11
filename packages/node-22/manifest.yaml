@@ -1,7 +1,7 @@
 id: node-22
 name: Node.js 22 LTS
 description: JavaScript runtime built on V8 (Maintenance LTS — Jod)
-version: "22.23.4"
+version: "22.23.5"
 kind: sdk
 tags: [node, runtime]
 homepage: https://nodejs.org/
@@ -10,8 +10,8 @@ provides: node
 sources:
     - url: "https://nodejs.org/dist/v{version}/node-v{version}-linux-x64.tar.xz"
       file: "node-{version}.tar.xz"
-      sha256: "1805bcd35e6815559bd2eb97db438d3fdb0eb3a5e6a977b7c1badca76337e9ce"
-      size: 31029996
+      sha256: "cdeb8670a0c81f51b4dc4ac61919f9b1ad917b304bf8221eb939570663d240f8"
+      size: 31062912
       update:
         type: json
         url: "https://nodejs.org/dist/index.json"
