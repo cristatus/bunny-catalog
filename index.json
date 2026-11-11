@@ -121,7 +121,7 @@
       "tags": [
         "ai"
       ],
-      "version": "26.1103.60933"
+      "version": "26.1106.51428"
     },
     "claude": {
       "description": "Anthropic's coding agent for the terminal",
@@ -141,7 +141,7 @@
       "tags": [
         "ai"
       ],
-      "version": "4.23118.1"
+      "version": "5.1231.0"
     },
     "code": {
       "description": "Code editor from Microsoft",
@@ -161,7 +161,7 @@
       "tags": [
         "ai"
       ],
-      "version": "0.167.0"
+      "version": "0.167.1"
     },
     "corretto-11": {
       "description": "Amazon's no-cost, production-ready distribution of OpenJDK 11 LTS",
@@ -1165,6 +1165,6 @@
       "version": "8.0.512+9"
     }
   },
-  "updated": "2026-11-10T21:10:42Z",
+  "updated": "2026-11-11T04:20:49Z",
   "version": 1
 }
