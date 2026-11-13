@@ -32,7 +32,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.5.7"
+      "version": "1.5.8"
     },
     "arthas": {
       "description": "Interactive diagnostics and troubleshooting tool for live Java applications",
@@ -141,7 +141,7 @@
       "tags": [
         "ai"
       ],
-      "version": "5.11492.0"
+      "version": "5.11492.2"
     },
     "code": {
       "description": "Code editor from Microsoft",
@@ -161,7 +161,7 @@
       "tags": [
         "ai"
       ],
-      "version": "0.168.0"
+      "version": "0.169.0"
     },
     "corretto-11": {
       "description": "Amazon's no-cost, production-ready distribution of OpenJDK 11 LTS",
@@ -796,7 +796,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.2.7"
+      "version": "2.3.0"
     },
     "pi": {
       "description": "AI agent toolkit with a coding agent CLI, TUI, and unified LLM API",
@@ -1033,7 +1033,7 @@
         "java",
         "server"
       ],
-      "version": "11.0.27"
+      "version": "11.0.29"
     },
     "tomcat-9": {
       "description": "Servlet container implementing the Java EE 8 web specifications, for javax.* applications",
@@ -1165,6 +1165,6 @@
       "version": "8.0.512+9"
     }
   },
-  "updated": "2026-11-13T04:45:39Z",
+  "updated": "2026-11-13T13:49:34Z",
   "version": 1
 }
