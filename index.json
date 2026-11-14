@@ -32,7 +32,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.5.8"
+      "version": "1.5.9"
     },
     "arthas": {
       "description": "Interactive diagnostics and troubleshooting tool for live Java applications",
@@ -348,7 +348,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.4.0"
+      "version": "1.4.1"
     },
     "glab": {
       "description": "GitLab's official command-line tool for repos, merge requests, issues, and CI/CD pipelines",
@@ -1165,6 +1165,6 @@
       "version": "8.0.512+9"
     }
   },
-  "updated": "2026-11-14T04:40:14Z",
+  "updated": "2026-11-14T12:53:15Z",
   "version": 1
 }
