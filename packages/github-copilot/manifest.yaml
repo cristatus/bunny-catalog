@@ -1,7 +1,7 @@
 id: github-copilot
 name: GitHub Copilot
 description: GitHub's desktop app for running Copilot coding agents on local and remote work
-version: "1.4.1"
+version: "1.4.2"
 kind: app
 tags: [ai]
 homepage: https://github.com/github/app
@@ -11,10 +11,10 @@ sources:
     # portable off Debian. The AppImage bundles the whole webkit/GTK/gstreamer
     # stack, so take that and unpack it. The github checker reads the sha256
     # digest GitHub publishes for each release asset.
-    - url: "https://github.com/github/app/releases/download/v1.4.1/GitHub-Copilot-linux-x64.AppImage"
+    - url: "https://github.com/github/app/releases/download/v1.4.2/GitHub-Copilot-linux-x64.AppImage"
       file: "github-copilot-{version}.AppImage"
-      sha256: "34425d95de7d3db5d894629ec4b147c11981585cb121ed1731f48e95a5937455"
-      size: 501258744
+      sha256: "491e4963eb792da3db33475ea02a31113c019ee691b16e7d91d640882ccdefc4"
+      size: 501254648
       update:
         type: github
         repo: github/app
