@@ -817,7 +817,7 @@
         "node",
         "package-manager"
       ],
-      "version": "12.18.0"
+      "version": "12.21.0"
     },
     "procs": {
       "description": "A modern replacement for ps",
@@ -1165,6 +1165,6 @@
       "version": "8.0.512+9"
     }
   },
-  "updated": "2026-11-15T00:40:26Z",
+  "updated": "2026-11-16T00:39:59Z",
   "version": 1
 }
