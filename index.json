@@ -762,7 +762,7 @@
       "tags": [
         "ide"
       ],
-      "version": "31"
+      "version": "32"
     },
     "node-22": {
       "description": "JavaScript runtime built on V8 (Maintenance LTS — Jod)",
@@ -1018,7 +1018,7 @@
         "java",
         "server"
       ],
-      "version": "10.1.61"
+      "version": "10.1.62"
     },
     "tomcat-11": {
       "description": "Servlet container implementing the Jakarta EE 11 web specifications",
@@ -1165,6 +1165,6 @@
       "version": "8.0.512+9"
     }
   },
-  "updated": "2026-11-16T10:33:19Z",
+  "updated": "2026-11-16T21:33:23Z",
   "version": 1
 }
