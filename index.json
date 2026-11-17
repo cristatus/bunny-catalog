@@ -358,7 +358,7 @@
       "tags": [
         "cli"
       ],
-      "version": "1.130.0"
+      "version": "1.131.0"
     },
     "google-java-format": {
       "description": "Reformats Java source code to the Google Java Style",
@@ -1165,6 +1165,6 @@
       "version": "8.0.512+9"
     }
   },
-  "updated": "2026-11-17T06:12:57Z",
+  "updated": "2026-11-17T18:05:04Z",
   "version": 1
 }
