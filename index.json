@@ -32,7 +32,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.5.10"
+      "version": "1.5.11"
     },
     "arthas": {
       "description": "Interactive diagnostics and troubleshooting tool for live Java applications",
@@ -151,7 +151,7 @@
       "tags": [
         "editor"
       ],
-      "version": "1.146.0"
+      "version": "1.147.0"
     },
     "codex": {
       "description": "OpenAI's coding agent for the terminal",
@@ -161,7 +161,7 @@
       "tags": [
         "ai"
       ],
-      "version": "0.169.1"
+      "version": "0.170.0"
     },
     "corretto-11": {
       "description": "Amazon's no-cost, production-ready distribution of OpenJDK 11 LTS",
@@ -1165,6 +1165,6 @@
       "version": "8.0.512+9"
     }
   },
-  "updated": "2026-11-18T02:42:21Z",
+  "updated": "2026-11-18T11:00:24Z",
   "version": 1
 }
