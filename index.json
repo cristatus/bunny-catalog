@@ -22,7 +22,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.32.2-4665802025205760"
+      "version": "2.33.0-4731201358004224"
     },
     "antigravity-cli": {
       "description": "Google's Antigravity coding agent for the terminal",
@@ -725,7 +725,7 @@
         "framework",
         "java"
       ],
-      "version": "5.2.6"
+      "version": "5.2.7"
     },
     "mvnd": {
       "description": "Fast Maven build client backed by long-lived daemon processes",
@@ -1082,7 +1082,7 @@
       "tags": [
         "editor"
       ],
-      "version": "1.28.1"
+      "version": "1.29.1"
     },
     "zellij": {
       "description": "Terminal workspace and multiplexer with batteries included",
@@ -1165,6 +1165,6 @@
       "version": "8.0.512+9"
     }
   },
-  "updated": "2026-11-18T11:00:24Z",
+  "updated": "2026-11-18T19:53:15Z",
   "version": 1
 }
