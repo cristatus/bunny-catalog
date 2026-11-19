@@ -241,7 +241,7 @@
       "tags": [
         "cli"
       ],
-      "version": "0.21.1"
+      "version": "0.21.2"
     },
     "difftastic": {
       "description": "A structural diff that understands syntax",
@@ -983,7 +983,7 @@
         "framework",
         "java"
       ],
-      "version": "4.1.2"
+      "version": "4.2.0"
     },
     "starship": {
       "description": "Minimal, fast, customizable prompt for any shell",
@@ -1165,6 +1165,6 @@
       "version": "8.0.512+9"
     }
   },
-  "updated": "2026-11-19T11:02:37Z",
+  "updated": "2026-11-19T19:53:50Z",
   "version": 1
 }
