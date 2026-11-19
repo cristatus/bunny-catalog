@@ -111,7 +111,7 @@
         "bun",
         "runtime"
       ],
-      "version": "1.4.4"
+      "version": "1.4.5"
     },
     "chatgpt": {
       "description": "OpenAI's desktop app for ChatGPT and Codex",
@@ -241,7 +241,7 @@
       "tags": [
         "cli"
       ],
-      "version": "0.20.1"
+      "version": "0.21.1"
     },
     "difftastic": {
       "description": "A structural diff that understands syntax",
@@ -318,7 +318,7 @@
         "database",
         "java"
       ],
-      "version": "13.12.2"
+      "version": "13.13.0"
     },
     "fzf": {
       "description": "A command-line fuzzy finder",
@@ -348,7 +348,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.4.2"
+      "version": "1.4.3"
     },
     "glab": {
       "description": "GitLab's official command-line tool for repos, merge requests, issues, and CI/CD pipelines",
@@ -1165,6 +1165,6 @@
       "version": "8.0.512+9"
     }
   },
-  "updated": "2026-11-19T02:13:06Z",
+  "updated": "2026-11-19T11:02:37Z",
   "version": 1
 }
