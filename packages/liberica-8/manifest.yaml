@@ -1,17 +1,17 @@
 id: liberica-8
 name: BellSoft Liberica JDK 8
 description: Production-ready OpenJDK 8 LTS distribution from BellSoft
-version: "8.0.513+9"
+version: "8.0.514+5"
 kind: sdk
 tags: [java, jdk]
 homepage: https://bell-sw.com/libericajdk/
 license: GPL-2.0-with-classpath-exception
 provides: jdk
 sources:
-    - url: "https://github.com/bell-sw/Liberica/releases/download/8u513+9/bellsoft-jdk8u513+9-linux-amd64.tar.gz"
+    - url: "https://github.com/bell-sw/Liberica/releases/download/8u514+5/bellsoft-jdk8u514+5-linux-amd64.tar.gz"
       file: "liberica-jdk-{version}.tar.gz"
-      sha256: "a9c91a31fc48574af6f6503b8d607ef07f33af418e525c92ecda71763a629c0b"
-      size: 106945586
+      sha256: "cc82f9e6cadb5172fc8d3826de1faef0ad283e2c58ea74b1a047f926d1310ac4"
+      size: 106968211
       update:
         type: foojay
         distribution: liberica

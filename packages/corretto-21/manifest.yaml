@@ -1,16 +1,16 @@
 id: corretto-21
 name: Amazon Corretto JDK 21
 description: Amazon's no-cost, production-ready distribution of OpenJDK 21 LTS
-version: "21.0.13+9"
+version: "21.0.13.1+2"
 kind: sdk
 tags: [java, jdk]
 homepage: https://aws.amazon.com/corretto/
 license: GPL-2.0-with-classpath-exception
 provides: jdk
 sources:
-    - url: "https://corretto.aws/downloads/resources/21.0.13.0.11/amazon-corretto-21.0.13.0.11-linux-x64.tar.gz"
+    - url: "https://corretto.aws/downloads/resources/21.0.13.1.2/amazon-corretto-21.0.13.1.2-linux-x64.tar.gz"
       file: "corretto-jdk-{version}.tar.gz"
-      sha256: "f3330bf440b8f4514b7b279b6145d4b4493dea9dda5f3a702b49c53c41bec1e4"
+      sha256: "2aaa2a9a43143b20ff0b28c8d0da27407b97dc40b160d9a2f60a26965815e948"
       update:
         type: foojay
         distribution: corretto

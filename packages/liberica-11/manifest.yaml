@@ -1,17 +1,17 @@
 id: liberica-11
 name: BellSoft Liberica JDK 11
 description: Production-ready OpenJDK 11 LTS distribution from BellSoft
-version: "11.0.33+11"
+version: "11.0.33.1+5"
 kind: sdk
 tags: [java, jdk]
 homepage: https://bell-sw.com/libericajdk/
 license: GPL-2.0-with-classpath-exception
 provides: jdk
 sources:
-    - url: "https://github.com/bell-sw/Liberica/releases/download/11.0.33+11/bellsoft-jdk11.0.33+11-linux-amd64.tar.gz"
+    - url: "https://github.com/bell-sw/Liberica/releases/download/11.0.33.1+5/bellsoft-jdk11.0.33.1+5-linux-amd64.tar.gz"
       file: "liberica-jdk-{version}.tar.gz"
-      sha256: "e1851b2a4acc375ecbc5886bcc532efa16ed4942e0d51e222955766bdaf033fe"
-      size: 215665631
+      sha256: "ddd826eb8a811befcb9016330f17ae6ec6a64f514e260fa48e3d8b357f94ac70"
+      size: 215698777
       update:
         type: foojay
         distribution: liberica
