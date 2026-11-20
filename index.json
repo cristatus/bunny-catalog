@@ -22,7 +22,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.33.0-4731201358004224"
+      "version": "2.33.1-5402359824777216"
     },
     "antigravity-cli": {
       "description": "Google's Antigravity coding agent for the terminal",
@@ -806,7 +806,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.5.2"
+      "version": "1.6.0"
     },
     "pnpm": {
       "description": "Fast, disk-efficient package manager for JavaScript projects",
@@ -1082,7 +1082,7 @@
       "tags": [
         "editor"
       ],
-      "version": "1.29.2"
+      "version": "1.29.3"
     },
     "zellij": {
       "description": "Terminal workspace and multiplexer with batteries included",
@@ -1165,6 +1165,6 @@
       "version": "8.0.514+1"
     }
   },
-  "updated": "2026-11-20T10:51:28Z",
+  "updated": "2026-11-20T19:32:19Z",
   "version": 1
 }
