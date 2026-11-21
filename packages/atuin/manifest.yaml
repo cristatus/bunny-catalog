@@ -1,15 +1,15 @@
 id: atuin
 name: atuin
 description: Magical shell history — sync, search, and stats across machines
-version: "18.25.0"
+version: "18.25.1"
 kind: cli
 tags: [cli]
 homepage: https://atuin.sh/
 license: MIT
 sources:
-    - url: "https://github.com/atuinsh/atuin/releases/download/v18.25.0/atuin-x86_64-unknown-linux-musl.tar.gz"
-      sha256: "9ebfb49d9f5cc5fb03588315f8f54277fe9e3648bd98de7666a350000670cd19"
-      size: 24480341
+    - url: "https://github.com/atuinsh/atuin/releases/download/v18.25.1/atuin-x86_64-unknown-linux-musl.tar.gz"
+      sha256: "f2bc97588d5aa91f49b992298544e13776df044cb4baf606875c7cc8444e9e00"
+      size: 24757481
       update:
         type: github
         repo: atuinsh/atuin
