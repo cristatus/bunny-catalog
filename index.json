@@ -711,7 +711,7 @@
         "build-tool",
         "java"
       ],
-      "version": "3.10.1"
+      "version": "3.10.2"
     },
     "micronaut": {
       "description": "The `mn` command-line tool for creating Micronaut applications",
@@ -1165,6 +1165,6 @@
       "version": "8.0.514+1"
     }
   },
-  "updated": "2026-11-22T00:53:02Z",
+  "updated": "2026-11-22T18:58:15Z",
   "version": 1
 }
