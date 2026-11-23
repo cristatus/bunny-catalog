@@ -32,7 +32,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.5.14"
+      "version": "1.5.15"
     },
     "arthas": {
       "description": "Interactive diagnostics and troubleshooting tool for live Java applications",
@@ -241,7 +241,7 @@
       "tags": [
         "cli"
       ],
-      "version": "0.21.2"
+      "version": "0.22.0"
     },
     "difftastic": {
       "description": "A structural diff that understands syntax",
@@ -796,7 +796,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.3.2"
+      "version": "2.4.0"
     },
     "pi": {
       "description": "AI agent toolkit with a coding agent CLI, TUI, and unified LLM API",
@@ -865,7 +865,7 @@
         "build-tool",
         "scala"
       ],
-      "version": "2.1.0"
+      "version": "2.1.1"
     },
     "scala": {
       "description": "Scala 3 compiler, runner, and documentation generator",
@@ -1165,6 +1165,6 @@
       "version": "8.0.514+1"
     }
   },
-  "updated": "2026-11-23T01:22:01Z",
+  "updated": "2026-11-23T11:41:38Z",
   "version": 1
 }
