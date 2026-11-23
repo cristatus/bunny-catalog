@@ -851,7 +851,7 @@
       "tags": [
         "cli"
       ],
-      "version": "15.2.0"
+      "version": "16.0.0"
     },
     "sbt": {
       "description": "Interactive build tool for Scala and Java projects",
@@ -1165,6 +1165,6 @@
       "version": "8.0.514+1"
     }
   },
-  "updated": "2026-11-22T18:58:15Z",
+  "updated": "2026-11-23T01:22:01Z",
   "version": 1
 }
