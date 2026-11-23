@@ -131,7 +131,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.1.330"
+      "version": "2.1.331"
     },
     "claude-desktop": {
       "description": "Anthropic's desktop app for Claude, with Claude Code sessions built in",
@@ -348,7 +348,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.4.3"
+      "version": "1.5.0"
     },
     "glab": {
       "description": "GitLab's official command-line tool for repos, merge requests, issues, and CI/CD pipelines",
@@ -796,7 +796,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.4.0"
+      "version": "2.4.1"
     },
     "pi": {
       "description": "AI agent toolkit with a coding agent CLI, TUI, and unified LLM API",
@@ -817,7 +817,7 @@
         "node",
         "package-manager"
       ],
-      "version": "12.21.0"
+      "version": "12.23.0"
     },
     "procs": {
       "description": "A modern replacement for ps",
@@ -1165,6 +1165,6 @@
       "version": "8.0.514+1"
     }
   },
-  "updated": "2026-11-23T11:41:38Z",
+  "updated": "2026-11-23T23:17:04Z",
   "version": 1
 }
