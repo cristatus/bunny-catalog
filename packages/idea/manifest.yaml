@@ -1,16 +1,16 @@
 id: idea
 name: IntelliJ IDEA
 description: IDE for Java and Kotlin; one distribution, with the advanced features unlocked by a JetBrains subscription
-version: "2026.3"
+version: "2026.3.0.1"
 kind: app
 tags: [ide]
 homepage: https://www.jetbrains.com/idea/
 license: LicenseRef-JetBrains-IDEA-EULA
 sources:
-    - url: "https://download.jetbrains.com/idea/idea-2026.3.tar.gz"
+    - url: "https://download.jetbrains.com/idea/idea-2026.3.0.1.tar.gz"
       file: "idea-{version}.tar.gz"
-      sha256: "6a53ff71f4a06add4c97edc4efe86c83119ff82e5b5e9f1db62fc95995bd6b25"
-      size: 1654180306
+      sha256: "def869cc0109273f5a144ac669c739029e9bd5178d137213b8d15298c0055858"
+      size: 1664140391
       update:
         type: json
         url: "https://data.services.jetbrains.com/products/releases?code=IIU&latest=true&type=release"

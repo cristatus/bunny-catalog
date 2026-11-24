@@ -22,7 +22,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.34.0-5887025308631040"
+      "version": "2.35.0-6394266482769920"
     },
     "antigravity-cli": {
       "description": "Google's Antigravity coding agent for the terminal",
@@ -358,7 +358,7 @@
       "tags": [
         "cli"
       ],
-      "version": "1.131.0"
+      "version": "1.132.0"
     },
     "google-java-format": {
       "description": "Reformats Java source code to the Google Java Style",
@@ -442,7 +442,7 @@
       "tags": [
         "ide"
       ],
-      "version": "2026.3"
+      "version": "2026.3.0.1"
     },
     "jbang": {
       "description": "Run Java (and JVM) source files as scripts — no build setup",
@@ -725,7 +725,7 @@
         "framework",
         "java"
       ],
-      "version": "5.2.7"
+      "version": "5.2.8"
     },
     "mvnd": {
       "description": "Fast Maven build client backed by long-lived daemon processes",
@@ -1165,6 +1165,6 @@
       "version": "8.0.514+1"
     }
   },
-  "updated": "2026-11-24T08:03:24Z",
+  "updated": "2026-11-24T19:53:09Z",
   "version": 1
 }
