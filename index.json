@@ -32,7 +32,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.5.15"
+      "version": "1.5.16"
     },
     "arthas": {
       "description": "Interactive diagnostics and troubleshooting tool for live Java applications",
@@ -121,7 +121,7 @@
       "tags": [
         "ai"
       ],
-      "version": "26.1117.41037"
+      "version": "26.1120.41243"
     },
     "claude": {
       "description": "Anthropic's coding agent for the terminal",
@@ -161,7 +161,7 @@
       "tags": [
         "ai"
       ],
-      "version": "0.171.0"
+      "version": "0.172.0"
     },
     "corretto-11": {
       "description": "Amazon's no-cost, production-ready distribution of OpenJDK 11 LTS",
@@ -1092,7 +1092,7 @@
       "tags": [
         "cli"
       ],
-      "version": "0.46.0"
+      "version": "0.46.1"
     },
     "zoxide": {
       "description": "A smarter cd that learns your habits",
@@ -1165,6 +1165,6 @@
       "version": "8.0.514+1"
     }
   },
-  "updated": "2026-11-23T23:17:04Z",
+  "updated": "2026-11-24T08:03:24Z",
   "version": 1
 }
