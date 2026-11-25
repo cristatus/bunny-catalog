@@ -32,7 +32,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.5.16"
+      "version": "1.5.17"
     },
     "arthas": {
       "description": "Interactive diagnostics and troubleshooting tool for live Java applications",
@@ -151,7 +151,7 @@
       "tags": [
         "editor"
       ],
-      "version": "1.147.0"
+      "version": "1.148.0"
     },
     "codex": {
       "description": "OpenAI's coding agent for the terminal",
@@ -271,7 +271,7 @@
       "tags": [
         "cli"
       ],
-      "version": "1.2.7"
+      "version": "1.2.8"
     },
     "eclipse": {
       "description": "The essential tools for Java developers — IDE, Git, Maven, Gradle, XML Editor",
@@ -358,7 +358,7 @@
       "tags": [
         "cli"
       ],
-      "version": "1.132.0"
+      "version": "1.133.0"
     },
     "google-java-format": {
       "description": "Reformats Java source code to the Google Java Style",
@@ -806,7 +806,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.6.0"
+      "version": "1.6.1"
     },
     "pnpm": {
       "description": "Fast, disk-efficient package manager for JavaScript projects",
@@ -1165,6 +1165,6 @@
       "version": "8.0.514+1"
     }
   },
-  "updated": "2026-11-25T03:56:31Z",
+  "updated": "2026-11-25T16:41:51Z",
   "version": 1
 }
