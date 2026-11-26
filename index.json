@@ -22,7 +22,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.35.1-4615540875067392"
+      "version": "2.35.2-4585983447007232"
     },
     "antigravity-cli": {
       "description": "Google's Antigravity coding agent for the terminal",
@@ -338,7 +338,7 @@
       "tags": [
         "cli"
       ],
-      "version": "2.105.0"
+      "version": "2.106.0"
     },
     "github-copilot": {
       "description": "GitHub's desktop app for running Copilot coding agents on local and remote work",
@@ -796,7 +796,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.4.1"
+      "version": "2.4.2"
     },
     "pi": {
       "description": "AI agent toolkit with a coding agent CLI, TUI, and unified LLM API",
@@ -1082,7 +1082,7 @@
       "tags": [
         "editor"
       ],
-      "version": "1.29.3"
+      "version": "1.30.2"
     },
     "zellij": {
       "description": "Terminal workspace and multiplexer with batteries included",
@@ -1165,6 +1165,6 @@
       "version": "8.0.514+1"
     }
   },
-  "updated": "2026-11-25T16:41:51Z",
+  "updated": "2026-11-26T01:28:25Z",
   "version": 1
 }
