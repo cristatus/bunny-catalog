@@ -408,7 +408,7 @@
         "build-tool",
         "java"
       ],
-      "version": "9.9.2"
+      "version": "9.9.3"
     },
     "groovy": {
       "description": "Dynamic, optionally-typed language for the JVM with Java-like syntax",
@@ -480,7 +480,7 @@
         "java",
         "jdk"
       ],
-      "version": "25.0.5+70017"
+      "version": "25.0.5.1+635102"
     },
     "jdk-11": {
       "description": "Production-ready OpenJDK 11 LTS distribution from Adoptium",
@@ -492,7 +492,7 @@
         "java",
         "jdk"
       ],
-      "version": "11.0.33+10"
+      "version": "11.0.33.1+1"
     },
     "jdk-17": {
       "description": "Production-ready OpenJDK 17 LTS distribution from Adoptium",
@@ -1165,6 +1165,6 @@
       "version": "8.0.514+1"
     }
   },
-  "updated": "2026-11-26T11:49:49Z",
+  "updated": "2026-11-27T16:00:30Z",
   "version": 1
 }
