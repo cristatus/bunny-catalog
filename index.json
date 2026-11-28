@@ -22,7 +22,7 @@
       "tags": [
         "ai"
       ],
-      "version": "2.35.2-4585983447007232"
+      "version": "2.36.0-5596661662220288"
     },
     "antigravity-cli": {
       "description": "Google's Antigravity coding agent for the terminal",
@@ -231,7 +231,7 @@
       "tags": [
         "editor"
       ],
-      "version": "3.32.4-1795502857"
+      "version": "3.32.10-1795672801"
     },
     "delta": {
       "description": "Syntax-highlighting pager for git, diff, and grep output",
@@ -806,7 +806,7 @@
       "tags": [
         "ai"
       ],
-      "version": "1.6.1"
+      "version": "1.7.0"
     },
     "pnpm": {
       "description": "Fast, disk-efficient package manager for JavaScript projects",
@@ -1165,6 +1165,6 @@
       "version": "8.0.514+1"
     }
   },
-  "updated": "2026-11-27T16:00:30Z",
+  "updated": "2026-11-28T00:59:13Z",
   "version": 1
 }
